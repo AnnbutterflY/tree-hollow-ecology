@@ -80,6 +80,7 @@
     $('isolateButton').textContent=isolated?'返回当前网络':'仅看关联';
     drawPositions();
   }
+  document.addEventListener('foodweb:record',e=>selectNode('tree:'+e.detail));
   function selectNode(id,fromSearch=false) {
     const n=nodeMap.get(id);if(!n)return;
     if(!contextualGraph.nodes.some(n=>n.id===id)) {resetContext();contextualGraph=graph;}
@@ -278,7 +279,9 @@
   for(const d of [$('infoDialog'),$('mediaDialog')])d.addEventListener('click',event=>{if(event.target===d){const rect=d.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)d.close();}});
   let resizeTimer;
   const resize=()=>{
-    const oldW=width,oldH=height;const rect=svg.getBoundingClientRect();width=rect.width;height=rect.height;
+    const oldW=width,oldH=height;const rect=svg.getBoundingClientRect();
+    if(rect.width<=0||rect.height<=0)return;
+    width=rect.width;height=rect.height;
     svg.setAttribute('viewBox',`0 0 ${width} ${height}`);
     positions.forEach(p=>{p.x*=width/oldW;p.y*=height/oldH;});
     fit();reheat();
