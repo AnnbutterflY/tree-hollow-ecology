@@ -10,7 +10,7 @@
   const labels={tree:'树洞',species:'生物 / 类群',process:'生态过程'};
   const colors={tree:'#ffffff',species:'#4936d2',process:'#8e77df'};
   const evidenceNames={record:'备注记录',weather:'天气记录',trace:'痕迹证据',interpretation:'原记录的解释'};
-  const viewNames={overview:['ECOLOGICAL OVERVIEW','一处树洞，一个微型生态。','有生物记录的树洞 · 天气与环境为属性'],all:['COMPLETE NETWORK',data.records.length+' 处树洞，彼此关联。','全部档案 · 朝向、高度与天气不作为节点'],tree:['HOLLOW × ORGANISM','沿着生命，回到树洞。','树洞与生物的观察关联'],ecology:['ECOLOGICAL RELATIONSHIPS','从微小生命，到生态过程。','虚线为角色推测，非现场证据']};
+  const viewNames={overview:['COMMUNITY OVERVIEW','哪些生命，共享一处树洞？','仅显示生物类群 · 最多24条较强共现关系 · 同一档案出现不等于捕食'],all:['COMPLETE NETWORK',data.records.length+' 处树洞，彼此关联。','全部档案 · 朝向、高度与天气不作为节点'],tree:['HOLLOW × ORGANISM','沿着生命，回到树洞。','树洞与生物的观察关联'],ecology:['ECOLOGICAL RELATIONSHIPS','从微小生命，到生态过程。','虚线为角色推测，非现场证据']};
   const svg=$('network'), scene=$('scene');
   let viewName='overview', types=new Set(Object.keys(labels)), selected=null, isolated=false;
   let criteria={weather:'any',direction:'any',height:'any'}, contextualGraph=graph, contextualRecords=data.records;
@@ -56,14 +56,18 @@
     if(n.concept)content+=section('过程说明来源','BACKGROUND',sourceLink(window.TREE_ROLES.sources.soil));
     return head('ECOLOGICAL PROCESS')+`<div class="archive-body"><p class="subline">生态过程 / 生态角色推测</p><h2>${escape(n.label)}</h2><p>${escape(description)}</p>${content}</div>`;
   }
+  function detailKnowledge(n) {
+    const relations=contextualGraph.links.filter(l=>l.source===n.id||l.target===n.id);
+    return head('ECOLOGICAL KNOWLEDGE')+`<div class="archive-body"><p class="subline">生态知识 · 独立于树洞编号</p><h2>${escape(n.label)}</h2><p>${escape(n.concept)}</p>${sourceLink(n.source)}${section('生态关系','FUNCTIONS & CONNECTIONS',relations.map(l=>{const id=l.source===n.id?l.target:l.source;return `<div class="role-card"><h4>${chip(id,undefined,'inferred')}</h4>${l.label?`<strong>${escape(l.label)}</strong>`:''}<p>${escape(l.explanation??'生态功能关联')}</p>${sourceLink(l.sourceRef)}</div>`}).join(''))}</div>`;
+  }
   function details() {
     if(!selected) {welcome();return;}
     const n=contextualGraph.nodes.find(n=>n.id===selected)??nodeMap.get(selected);
-    $('details').innerHTML=n.type==='tree'?detailTree(n):n.type==='species'?detailSpecies(n):detailOther(n);
+    $('details').innerHTML=n.knowledge?detailKnowledge(n):n.type==='tree'?detailTree(n):n.type==='species'?detailSpecies(n):detailOther(n);
     $('archive').scrollTop=0;
   }
   function updateSelection() {
-    const adjacent=selected?M.neighbors(contextualGraph,selected):null;
+    const adjacent=selected?M.neighbors(visible,selected):null;
     elements.forEach((group,id)=>{
       group.classList.toggle('selected',id===selected);
       group.classList.toggle('dim',!!adjacent&&!adjacent.has(id));
@@ -105,7 +109,7 @@
     if(selected&&!subset.nodes.some(n=>n.id===selected)) {selected=null;isolated=false;welcome();}
     visible=subset;
     if(isolated&&selected) {
-      const related=M.neighbors(contextualGraph,selected);
+      const related=M.neighbors(subset,selected);
       const nodes=subset.nodes.filter(n=>related.has(n.id)),ids=new Set(nodes.map(n=>n.id));
       visible={nodes,links:subset.links.filter(l=>ids.has(l.source)&&ids.has(l.target))};
     }
@@ -113,6 +117,7 @@
     $('viewEnglish').textContent=texts[0];$('viewTitle').textContent=texts[1];$('viewHint').textContent=texts[2];
     document.querySelectorAll('[data-view]').forEach(b=>{const active=b.dataset.view===viewName;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});
     $('graphStatus').textContent=visible.nodes.length+' 节点 / '+visible.links.length+' 关系';
+    document.querySelector('.edge-legend').innerHTML=viewName==='overview'?'<span><i></i>共同档案 · 线越粗，共现档案越多</span>':'<span><i></i>观察 / 字段关联</span><span><i class="trace"></i>痕迹证据</span><span><i class="inferred"></i>生态知识关系</span>';
     const conditionText=['weather','direction','height'].map(key=>$(key+'Filter').selectedOptions[0].textContent);
     $('contextSummary').textContent=contextualRecords.length+' / '+data.records.length+' 份档案 · '+conditionText.join(' / ');
     $('emptyState').hidden=visible.nodes.length!==0;
@@ -126,15 +131,15 @@
       }
       const radius=n.type==='tree'?5.2:Math.min(32,11+Math.sqrt(n.count||1)*3.5);
       const p=positions.get(n.id);p.radius=radius;
-      const group=el('g',{class:'graph-node','data-node':n.id,tabindex:'0',role:'button','aria-label':n.label+'，'+labels[n.type]+'，打开详情'});
+      const group=el('g',{class:'graph-node'+(n.knowledge?' knowledge-node':''),'data-node':n.id,tabindex:'0',role:'button','aria-label':n.label+'，'+(n.knowledge?'生态知识':labels[n.type])+'，打开详情'});
       group.append(el('circle',{r:radius+6,class:'node-halo'}),el('circle',{r:radius,class:'node-core',fill:colors[n.type],stroke:n.type==='tree'?'#6b5cd2':'#7965d5'}));
-      const title=el('title');title.textContent=n.label+(n.type==='species'?' · '+n.count+' 处关联树洞':'');group.append(title);
+      const title=el('title');title.textContent=n.label+(n.knowledge?' · 生态知识':n.type==='species'?' · '+n.count+' 处关联树洞':'');group.append(title);
       const text=el('text',{y:radius+16});text.textContent=n.label;group.append(text);
       group.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();selectNode(n.id);}});
       $('nodes').append(group);elements.set(n.id,group);
     });
     visible.links.forEach(link=>{
-      const line=el('line',{class:'graph-edge '+link.kind});
+      const line=el('line',{class:'graph-edge '+link.kind});if(link.kind==='association'){line.style.strokeWidth=String(1+Math.log2(link.count+1));const tip=el('title');tip.textContent=link.count+' 份共同档案（非捕食关系）';line.append(tip);}
       $('links').append(line);edgeElements.push({element:line,link});
     });
     updateSelection();reheat();

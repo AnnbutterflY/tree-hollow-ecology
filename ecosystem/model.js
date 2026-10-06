@@ -53,16 +53,32 @@
       for(const p of ['木材分解','碎屑利用']) if(nodes.has('process:'+p)) link('process:'+p,'process:腐殖化','inferred',null,{count:1});
       link('process:腐殖化','process:养分循环','inferred',null,{count:1});
     }
+    if(root.FOOD_WEB){
+      const knowledge=root.FOOD_WEB;
+      knowledge.nodes.forEach(k=>{
+        const type=['dead','nutrient'].includes(k.id)?'process':'species';
+        node('knowledge:'+k.id,k.label,type,{knowledge:true,concept:k.text,source:k.ref?{title:knowledge.refs[k.ref][0],url:knowledge.refs[k.ref][1]}:null,roles:[],trees:[],weather:{},evidence:{record:[],trace:[],interpretation:[]}});
+        k.taxa.forEach(taxon=>{if(nodes.has('species:'+taxon))link('species:'+taxon,'knowledge:'+k.id,'inferred',null,{count:1,explanation:'类群与生态功能的对应，不表示发生于某一树洞。'});});
+      });
+      knowledge.edges.forEach(e=>link('knowledge:'+e.from,'knowledge:'+e.to,'inferred',null,{count:1,label:e.label,explanation:e.text,sourceRef:e.ref?{title:knowledge.refs[e.ref][0],url:knowledge.refs[e.ref][1]}:null}));
+    }
     return {nodes:[...nodes.values()],links:[...links.values()]};
   }
   function view(graph,name,types) {
+    if(name==='overview') {
+      const nodes=graph.nodes.filter(n=>n.type==='species'&&!n.knowledge&&types.has('species'));
+      const ids=new Set(nodes.map(n=>n.id)),byTree=new Map(),pairs=new Map();
+      graph.links.forEach(l=>{if(l.source.startsWith('tree:')&&ids.has(l.target)){if(!byTree.has(l.source))byTree.set(l.source,new Set());byTree.get(l.source).add(l.target);}});
+      byTree.forEach((species,tree)=>{const list=[...species].sort();for(let i=0;i<list.length;i++)for(let j=i+1;j<list.length;j++){const key=list[i]+'|'+list[j];if(!pairs.has(key))pairs.set(key,{id:key,source:list[i],target:list[j],kind:'association',records:[],count:0});const pair=pairs.get(key);pair.records.push(tree.slice(5));pair.count++;}});
+      return {nodes,links:[...pairs.values()].sort((a,b)=>b.count-a.count||a.id.localeCompare(b.id)).slice(0,24)};
+    }
     let allowed;
     if(name==='overview') allowed=new Set(['tree','species']);
     else if(name==='tree') allowed=new Set(['tree','species']);
     else if(name==='ecology') allowed=new Set(['species','process']);
     else allowed=new Set(['tree','species','process']);
     const linked=new Set(graph.links.flatMap(l=>[l.source,l.target]));
-    const nodes=graph.nodes.filter(n=>allowed.has(n.type)&&types.has(n.type)&&(name!=='overview'||n.type!=='tree'||linked.has(n.id)));
+    const nodes=graph.nodes.filter(n=>allowed.has(n.type)&&types.has(n.type)&&(name!=='tree'||!n.knowledge));
     const ids=new Set(nodes.map(n=>n.id));
     return {nodes,links:graph.links.filter(l=>ids.has(l.source)&&ids.has(l.target))};
   }
