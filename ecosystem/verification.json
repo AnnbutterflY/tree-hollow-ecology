@@ -1,0 +1,21 @@
+{
+  "records": 180,
+  "mappedPhotos": 180,
+  "mappedRubbings": 76,
+  "allLocalAssetsExist": true,
+  "runtimeNetworkDependencies": 0,
+  "sourceWorkbookSha256": "74a41c1535c8ab66fa4bbcc6499c38cfc3884b16aaa934d54271c2e039b566ea",
+  "browserTests": [
+    "1440x960 desktop layout",
+    "390x844 mobile: no horizontal overflow",
+    "four network views",
+    "negative height: 2 matching records",
+    "rainy weather: 55 matching records",
+    "north: 1 matching record",
+    "north and high combined: 0 matching records; clear restores 180",
+    "D6 retains both height values 571cm and 293cm",
+    "F41 uses spreadsheet row 96 and cropped rubbing; photo label ignored",
+    "no browser console warnings or errors"
+  ],
+  "fileProtocolTest": "Blocked by browser URL policy; local assets and dependency-free source audited instead."
+}

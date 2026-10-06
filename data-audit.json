@@ -52,7 +52,18 @@
       "sourceColumn": 2,
       "file": "images/A1-photos-1.jpg",
       "sourceSha256": "20c6e4b933ce770b460e87fd85b5e9148a23de488f87902b3ada680c0e4a245c",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/A1-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1440
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "A1",
@@ -94,6 +105,22 @@
           3200
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/A1-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/A1.png",
+        "size": [
+          2016,
+          3074
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          456,
+          126,
+          2472,
+          3200
+        ],
+        "lossless": true
       }
     },
     {
@@ -103,7 +130,18 @@
       "sourceColumn": 2,
       "file": "images/A2-photos-1.jpg",
       "sourceSha256": "332290e151cee20ee079144a37109f15414d6d93be5840b194eda6764985221b",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/A2-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "A2",
@@ -145,6 +183,22 @@
           3666
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/A2-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/A2.png",
+        "size": [
+          1563,
+          2856
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          758,
+          810,
+          2321,
+          3666
+        ],
+        "lossless": true
       }
     },
     {
@@ -154,7 +208,18 @@
       "sourceColumn": 2,
       "file": "images/A3-photos-1.jpg",
       "sourceSha256": "bf40896e3fa59f3617b020bf078c55f10b42c307fe0155c23f2c785ebfb6b7e6",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/A3-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1440
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "A3",
@@ -196,6 +261,22 @@
           2024
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/A3-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/A3.png",
+        "size": [
+          527,
+          635
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1318,
+          1389,
+          1845,
+          2024
+        ],
+        "lossless": true
       }
     },
     {
@@ -205,7 +286,18 @@
       "sourceColumn": 2,
       "file": "images/A4-photos-1.jpg",
       "sourceSha256": "9f98cec4bfd72e509eb93be7f1423d9d0fe6d83e6a33f83300a7050c3df79ae6",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/A4-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1440
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "A4",
@@ -239,6 +331,22 @@
           11368
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/A4-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/A4.png",
+        "size": [
+          1781,
+          10368
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          556,
+          1000,
+          2337,
+          11368
+        ],
+        "lossless": true
       }
     },
     {
@@ -248,7 +356,18 @@
       "sourceColumn": 2,
       "file": "images/A5-photos-1.jpg",
       "sourceSha256": "970e5cb1ea70846f143b029f702174225c23799f3aa80d849c4aceb5b8b943f7",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/A5-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1440
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "A6",
@@ -257,7 +376,18 @@
       "sourceColumn": 2,
       "file": "images/A6-photos-1.jpg",
       "sourceSha256": "60fe10e2da54b841e4f08cdd6e4e7bd5f54c6fb1e86540fdf6fc28fc6f8ee1cb",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/A6-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1440
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "A7",
@@ -266,7 +396,18 @@
       "sourceColumn": 2,
       "file": "images/A7-photos-1.jpg",
       "sourceSha256": "9744e76a58974928219889a72991b1d66bd77aceff275dbb7dd72b380b842386",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/A7-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1440
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "A7",
@@ -308,6 +449,22 @@
           2673
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/A7-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/A7.png",
+        "size": [
+          781,
+          1307
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1217,
+          1366,
+          1998,
+          2673
+        ],
+        "lossless": true
       }
     },
     {
@@ -317,7 +474,18 @@
       "sourceColumn": 2,
       "file": "images/A8-photos-1.jpg",
       "sourceSha256": "9f32a3370b284671045b841c22dae5591d6fd441d8b4b75ca8fdc549ce318723",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/A8-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1440
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "A8",
@@ -359,6 +527,22 @@
           3063
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/A8-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/A8.png",
+        "size": [
+          1365,
+          1721
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          849,
+          1342,
+          2214,
+          3063
+        ],
+        "lossless": true
       }
     },
     {
@@ -368,7 +552,18 @@
       "sourceColumn": 2,
       "file": "images/A9-photos-1.jpg",
       "sourceSha256": "14f5ffb49012c41875a152862ca61c77d58dfc56c27ffc95cefb9f20cad05f82",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/A9-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1440
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "A9",
@@ -410,6 +605,22 @@
           3116
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/A9-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/A9.png",
+        "size": [
+          1393,
+          2493
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          728,
+          623,
+          2121,
+          3116
+        ],
+        "lossless": true
       }
     },
     {
@@ -419,7 +630,18 @@
       "sourceColumn": 2,
       "file": "images/A10-photos-1.jpg",
       "sourceSha256": "69ab1c837c3115b053b5616d6b566ca9f9fe08cec4fb8701b118f17336a66399",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/A10-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1440
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "A10",
@@ -467,6 +689,22 @@
           2849
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/A10-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/A10.png",
+        "size": [
+          1104,
+          1989
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          913,
+          860,
+          2017,
+          2849
+        ],
+        "lossless": true
       }
     },
     {
@@ -476,7 +714,18 @@
       "sourceColumn": 2,
       "file": "images/B1-photos-1.jpg",
       "sourceSha256": "5145c8392c8a19bcf57c58ad64d4a902d8292fd6240af74d21c0772387367edb",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/B1-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "B1",
@@ -518,6 +767,22 @@
           2432
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/B1-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/B1.png",
+        "size": [
+          1054,
+          1009
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1026,
+          1423,
+          2080,
+          2432
+        ],
+        "lossless": true
       }
     },
     {
@@ -527,7 +792,18 @@
       "sourceColumn": 2,
       "file": "images/B2-photos-1.jpg",
       "sourceSha256": "cbc2a7c32d5e17b9d8ec7575c8f745636cc489071be2d220f2ecfe8e48707315",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/B2-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "B3",
@@ -536,7 +812,18 @@
       "sourceColumn": 2,
       "file": "images/B3-photos-1.jpg",
       "sourceSha256": "b963b5d205447aa426a3abeb62878bf378587c9c263353c7ad94497584b27749",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/B3-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "B3",
@@ -578,6 +865,22 @@
           3092
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/B3-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/B3.png",
+        "size": [
+          967,
+          1654
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          931,
+          1438,
+          1898,
+          3092
+        ],
+        "lossless": true
       }
     },
     {
@@ -587,7 +890,18 @@
       "sourceColumn": 2,
       "file": "images/B4-photos-1.jpg",
       "sourceSha256": "6e7ec6c1700fcef608bae627d637f68452164c4512e331515696187d5d03d15e",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/B4-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "B5",
@@ -596,7 +910,18 @@
       "sourceColumn": 2,
       "file": "images/B5-photos-1.jpg",
       "sourceSha256": "f2bb375e0547532e0c9ae89bfbe8799b7103d705e59dd9c34f38b0279a53c359",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/B5-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "B5",
@@ -638,6 +963,22 @@
           3094
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/B5-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/B5.png",
+        "size": [
+          1036,
+          1995
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          934,
+          1099,
+          1970,
+          3094
+        ],
+        "lossless": true
       }
     },
     {
@@ -647,7 +988,18 @@
       "sourceColumn": 2,
       "file": "images/B6-photos-1.jpg",
       "sourceSha256": "04a00f8614821752653ba25d99cfe972e4a77cff772f0eba49987a92eae526cb",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/B6-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "B6",
@@ -689,6 +1041,22 @@
           2835
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/B6-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/B6.png",
+        "size": [
+          1622,
+          1792
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          628,
+          1043,
+          2250,
+          2835
+        ],
+        "lossless": true
       }
     },
     {
@@ -698,7 +1066,18 @@
       "sourceColumn": 2,
       "file": "images/B7-photos-1.jpg",
       "sourceSha256": "b26e336851f20c553d24d9f6d745c9708162fc6480a6d72e55cc31b56bb812d9",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/B7-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "B7",
@@ -740,6 +1119,22 @@
           2741
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/B7-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/B7.png",
+        "size": [
+          1388,
+          1458
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          819,
+          1283,
+          2207,
+          2741
+        ],
+        "lossless": true
       }
     },
     {
@@ -749,7 +1144,18 @@
       "sourceColumn": 2,
       "file": "images/B8-photos-1.jpg",
       "sourceSha256": "ca72356957bedfc36e2805b01e160881fc8720b051d86f1f7c0557901e39685e",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/B8-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "B8",
@@ -791,6 +1197,22 @@
           2876
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/B8-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/B8.png",
+        "size": [
+          1119,
+          1702
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          993,
+          1174,
+          2112,
+          2876
+        ],
+        "lossless": true
       }
     },
     {
@@ -800,7 +1222,18 @@
       "sourceColumn": 2,
       "file": "images/B9-photos-1.jpg",
       "sourceSha256": "2ba1732a22ddabf71879e8a2866eaf5feac23e2f872dd45b2d0c17d6e3146062",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/B9-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "B9",
@@ -842,6 +1275,22 @@
           2962
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/B9-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/B9.png",
+        "size": [
+          1465,
+          1949
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          837,
+          1013,
+          2302,
+          2962
+        ],
+        "lossless": true
       }
     },
     {
@@ -851,7 +1300,18 @@
       "sourceColumn": 2,
       "file": "images/B10-photos-1.jpg",
       "sourceSha256": "8eb0982778ca01500245e58f07e92d0f5deded4f69e87748fe2304198c756ac8",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/B10-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "C1",
@@ -860,7 +1320,18 @@
       "sourceColumn": 2,
       "file": "images/C1-photos-1.jpg",
       "sourceSha256": "0f5b9d0d4886463ad93a360b50afddf324305cd5391b13ae78770f32c0aed2f2",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/C1-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "C2",
@@ -869,7 +1340,18 @@
       "sourceColumn": 2,
       "file": "images/C2-photos-1.jpg",
       "sourceSha256": "010c054f3bc96ca257370a0e9f89e7a9f1ef3fd147e2f6a935e7b177f919984d",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/C2-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "C3",
@@ -878,7 +1360,18 @@
       "sourceColumn": 2,
       "file": "images/C3-photos-1.jpg",
       "sourceSha256": "269e0d83c264c3fb66448528e438abdab40b91a30fef35a74a0b99819113eab5",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/C3-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "C3",
@@ -920,6 +1413,22 @@
           6410
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/C3-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/C3.png",
+        "size": [
+          3024,
+          5448
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          0,
+          962,
+          3024,
+          6410
+        ],
+        "lossless": true
       }
     },
     {
@@ -929,7 +1438,18 @@
       "sourceColumn": 2,
       "file": "images/C4-photos-1.jpg",
       "sourceSha256": "b512eac08464fa0d3a08d5948309a98faf0b10e4d63b0e18a5af4dabcf274579",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/C4-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "C4",
@@ -971,6 +1491,22 @@
           2856
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/C4-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/C4.png",
+        "size": [
+          1602,
+          1739
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          694,
+          1117,
+          2296,
+          2856
+        ],
+        "lossless": true
       }
     },
     {
@@ -980,7 +1516,18 @@
       "sourceColumn": 2,
       "file": "images/C5-photos-1.jpg",
       "sourceSha256": "bc51cd1b769c31d161acec72fc9d4554c66359e8c8443e87b20f6b89a9751981",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/C5-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "C6",
@@ -989,7 +1536,18 @@
       "sourceColumn": 2,
       "file": "images/C6-photos-1.jpg",
       "sourceSha256": "e27ce9756508c48c9895a3935e437675204928330927caf5dac7a678ce813d72",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/C6-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "C7",
@@ -998,7 +1556,18 @@
       "sourceColumn": 2,
       "file": "images/C7-photos-1.jpg",
       "sourceSha256": "ca17ae04b26958c6b7ba5fe4c4d44359cec1cf804332d1dd284f84f6b0bbcbd5",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/C7-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "C8",
@@ -1007,7 +1576,18 @@
       "sourceColumn": 2,
       "file": "images/C8-photos-1.jpg",
       "sourceSha256": "8e426fd8ea3b7f98a582a4c4573bd143417dde7719f348b931604fadbec0cd16",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/C8-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "C9",
@@ -1016,7 +1596,18 @@
       "sourceColumn": 2,
       "file": "images/C9-photos-1.jpg",
       "sourceSha256": "5b8ed28afd71ac5a0c72375cb8b1be6aa6fa3621f9a9040bc2203c4a8dc6c331",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/C9-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "C10",
@@ -1025,7 +1616,18 @@
       "sourceColumn": 2,
       "file": "images/C10-photos-1.jpg",
       "sourceSha256": "29190a7707fbd72d87fb7660bdb9b467257f2742f719770a88642fec79b685ca",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/C10-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "C11",
@@ -1034,7 +1636,18 @@
       "sourceColumn": 2,
       "file": "images/C11-photos-1.jpg",
       "sourceSha256": "ff08667e6ac216501f47a784742c086688ccaef7adf5095b26eb625f026c8fab",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/C11-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "C12",
@@ -1043,7 +1656,18 @@
       "sourceColumn": 2,
       "file": "images/C12-photos-1.jpg",
       "sourceSha256": "76b30220086020fe5f80c264e0258669142870624f65df04b7f509acf033537a",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/C12-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "C13",
@@ -1052,7 +1676,18 @@
       "sourceColumn": 2,
       "file": "images/C13-photos-1.jpg",
       "sourceSha256": "5b75eec321f4f0cf3964f50b75e5cda5b3af2da577e9853437961b71b1fa9dba",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/C13-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D1",
@@ -1061,7 +1696,18 @@
       "sourceColumn": 2,
       "file": "images/D1-photos-1.jpg",
       "sourceSha256": "6d7a564d7d6e8abdbe6f9f27e59f2dcbd3e36a1335b6f8d26799f1a3d465e985",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D1-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D1",
@@ -1103,6 +1749,22 @@
           6554
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/D1-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/D1.png",
+        "size": [
+          1871,
+          6554
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          643,
+          0,
+          2514,
+          6554
+        ],
+        "lossless": true
       }
     },
     {
@@ -1112,7 +1774,18 @@
       "sourceColumn": 2,
       "file": "images/D2-photos-1.jpg",
       "sourceSha256": "af79d59bf8aec3a4ce4f4b80f5de440c2bde55f583d6aaaa30f2e696c2893643",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D2-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D3",
@@ -1121,7 +1794,18 @@
       "sourceColumn": 2,
       "file": "images/D3-photos-1.jpg",
       "sourceSha256": "3a4907e54fa127091b871295edfd7ae86c42d2b911d41b138e480d3077936f62",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D3-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D4",
@@ -1130,7 +1814,18 @@
       "sourceColumn": 2,
       "file": "images/D4-photos-1.jpg",
       "sourceSha256": "6cd14be5c0a8fd7a22bdce07f31105f3b58dcc5508c81ac666c148271df467d8",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D4-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D5",
@@ -1139,7 +1834,18 @@
       "sourceColumn": 2,
       "file": "images/D5-photos-1.jpg",
       "sourceSha256": "3f70e2ad0af5192ccebbe62d71bc27279900f3973e91d0d0e9b060684441b676",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D5-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D5",
@@ -1181,6 +1887,22 @@
           2884
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/D5-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/D5.png",
+        "size": [
+          2007,
+          1681
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          578,
+          1203,
+          2585,
+          2884
+        ],
+        "lossless": true
       }
     },
     {
@@ -1190,7 +1912,18 @@
       "sourceColumn": 2,
       "file": "images/D6-photos-1.jpg",
       "sourceSha256": "eb0b4e01d8c661793794281cb549fb42acd7662e4dff7ee6967b59b02e533d59",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D6-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D6",
@@ -1232,6 +1965,22 @@
           3950
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/D6-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/D6.png",
+        "size": [
+          1085,
+          3410
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          825,
+          540,
+          1910,
+          3950
+        ],
+        "lossless": true
       }
     },
     {
@@ -1241,7 +1990,18 @@
       "sourceColumn": 2,
       "file": "images/D7-photos-1.jpg",
       "sourceSha256": "4cf0ecfcc7a88240edcb778591caad8eedeb6ce25522c64cb2bf7fae22f3de5e",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D7-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D7",
@@ -1283,6 +2043,22 @@
           3059
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/D7-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/D7.png",
+        "size": [
+          1086,
+          1489
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          988,
+          1570,
+          2074,
+          3059
+        ],
+        "lossless": true
       }
     },
     {
@@ -1292,7 +2068,18 @@
       "sourceColumn": 2,
       "file": "images/D8-photos-1.jpg",
       "sourceSha256": "22ce54a951f965a29ac80c7c941bf2176b49c7c78a7ee56f4293ea1f870bc2b4",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D8-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D8",
@@ -1334,6 +2121,22 @@
           2582
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/D8-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/D8.png",
+        "size": [
+          1367,
+          1108
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          811,
+          1474,
+          2178,
+          2582
+        ],
+        "lossless": true
       }
     },
     {
@@ -1343,7 +2146,18 @@
       "sourceColumn": 2,
       "file": "images/D9-photos-1.jpg",
       "sourceSha256": "ddd98efcfdb2ec13e20017d24c17cb687b0c48e242e64a4a8a587744987560d5",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D9-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D9",
@@ -1385,6 +2199,22 @@
           2564
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/D9-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/D9.png",
+        "size": [
+          1175,
+          1018
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          965,
+          1546,
+          2140,
+          2564
+        ],
+        "lossless": true
       }
     },
     {
@@ -1394,7 +2224,18 @@
       "sourceColumn": 2,
       "file": "images/D10-photos-1.jpg",
       "sourceSha256": "bc903366124a9e95e7fabf8d82980493a9dbecca1ae14236230e7f31bb79c9e7",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D10-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D11",
@@ -1403,7 +2244,18 @@
       "sourceColumn": 2,
       "file": "images/D11-photos-1.jpg",
       "sourceSha256": "7ea36a26e89a6fc2a0288e4eb156c481b87bd1b91d5130ccb049f57e98eb8321",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D11-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D12",
@@ -1412,7 +2264,18 @@
       "sourceColumn": 2,
       "file": "images/D12-photos-1.jpg",
       "sourceSha256": "eac1c7330b6397c6736f63832dc0552e27947d0fd0c0af601abcdd22015c103a",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D12-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D12",
@@ -1460,6 +2323,22 @@
           2732
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/D12-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/D12.png",
+        "size": [
+          1500,
+          1559
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          774,
+          1173,
+          2274,
+          2732
+        ],
+        "lossless": true
       }
     },
     {
@@ -1469,7 +2348,18 @@
       "sourceColumn": 2,
       "file": "images/D13-photos-1.jpg",
       "sourceSha256": "a9845bec846cdf23b8be4c6b523e8835489dcf86cb4e0922a14c84bf0d14dd2f",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D13-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D13",
@@ -1517,6 +2407,22 @@
           2444
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/D13-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/D13.png",
+        "size": [
+          801,
+          699
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1097,
+          1745,
+          1898,
+          2444
+        ],
+        "lossless": true
       }
     },
     {
@@ -1526,7 +2432,18 @@
       "sourceColumn": 2,
       "file": "images/D14-photos-1.jpg",
       "sourceSha256": "432c554732fc8c7b538e75e803a7a5a658c2762f89f6ef4c5e41528f7a38ae93",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D14-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D15",
@@ -1535,7 +2452,18 @@
       "sourceColumn": 2,
       "file": "images/D15-photos-1.jpg",
       "sourceSha256": "432c554732fc8c7b538e75e803a7a5a658c2762f89f6ef4c5e41528f7a38ae93",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D15-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "D16",
@@ -1544,7 +2472,18 @@
       "sourceColumn": 2,
       "file": "images/D16-photos-1.jpg",
       "sourceSha256": "8c83e6dadb908551f7abe58848d15b76095d1246e830e97419fbf9e34ab56a1f",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/D16-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "E1",
@@ -1553,7 +2492,18 @@
       "sourceColumn": 2,
       "file": "images/E1-photos-1.jpg",
       "sourceSha256": "cf336ba1e57e73f6cf5905f9ab4f668109699c691de281dd445f724ac0ad1b8e",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/E1-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1280,
+          1707
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "E2",
@@ -1562,7 +2512,18 @@
       "sourceColumn": 2,
       "file": "images/E2-photos-1.jpg",
       "sourceSha256": "dbf3141da074380e9b3a4c77386e1b23cec9e3786feca67da96132fbf86df268",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/E2-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "E3",
@@ -1571,7 +2532,18 @@
       "sourceColumn": 2,
       "file": "images/E3-photos-1.jpg",
       "sourceSha256": "ebc20047e44704533ca323777de39b9256dc0b8fceb6f0b38a0451ad54e5e230",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/E3-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "E4",
@@ -1580,7 +2552,18 @@
       "sourceColumn": 2,
       "file": "images/E4-photos-1.jpg",
       "sourceSha256": "50eee3566af1629eeb3351084444064f5e4f4c6115e5650d67eb6a3d6376f232",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/E4-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "E5",
@@ -1589,7 +2572,18 @@
       "sourceColumn": 2,
       "file": "images/E5-photos-1.jpg",
       "sourceSha256": "8a592c4161857bbc4c6eb10622b39fb33128ee957aa1437fa78dae988fe82b67",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/E5-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "E5",
@@ -1631,6 +2625,22 @@
           2306
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/E5-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/E5.png",
+        "size": [
+          590,
+          567
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1201,
+          1739,
+          1791,
+          2306
+        ],
+        "lossless": true
       }
     },
     {
@@ -1640,7 +2650,18 @@
       "sourceColumn": 2,
       "file": "images/F1-photos-1.jpg",
       "sourceSha256": "869cbc109804a84690914eb9ee97a14764bdff89f06e58dde6aa15309fa53512",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F1-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F2",
@@ -1649,7 +2670,18 @@
       "sourceColumn": 2,
       "file": "images/F2-photos-1.jpg",
       "sourceSha256": "782db68ff3cd588cb1284fd876803c58f3f7e4d45991ff9cf03f2e7f0d485a30",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F2-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F2",
@@ -1691,6 +2723,22 @@
           3405
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/F2-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/F2.png",
+        "size": [
+          1732,
+          2902
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          875,
+          503,
+          2607,
+          3405
+        ],
+        "lossless": true
       }
     },
     {
@@ -1700,7 +2748,18 @@
       "sourceColumn": 2,
       "file": "images/F3-photos-1.jpg",
       "sourceSha256": "130602f48f23610f1cbe3ae0c3adb842d1eed85308407d19b0ba0aa91d7ab363",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F3-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1919
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F3",
@@ -1742,6 +2801,22 @@
           3422
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/F3-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/F3.png",
+        "size": [
+          2200,
+          3023
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          530,
+          399,
+          2730,
+          3422
+        ],
+        "lossless": true
       }
     },
     {
@@ -1751,7 +2826,18 @@
       "sourceColumn": 2,
       "file": "images/F4-photos-1.jpg",
       "sourceSha256": "07f002c32f02f6596efe27e1ce2a9a9815401247ef1c29518153cfe28a43434d",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F4-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F5",
@@ -1760,7 +2846,18 @@
       "sourceColumn": 2,
       "file": "images/F5-photos-1.jpg",
       "sourceSha256": "4fa5636164c0e429dbe8bc91e3a33e9531ea75bf5b4fe9941990bd325d1529ff",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F5-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F5",
@@ -1802,6 +2899,22 @@
           3695
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/F5-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/F5.png",
+        "size": [
+          1970,
+          3303
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          674,
+          392,
+          2644,
+          3695
+        ],
+        "lossless": true
       }
     },
     {
@@ -1811,7 +2924,18 @@
       "sourceColumn": 2,
       "file": "images/F6-photos-1.jpg",
       "sourceSha256": "c2c146b90bd1ec8bbe4f0dd98f7ceddad73d0c752a760125218278c1c7eb6520",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F6-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F6",
@@ -1853,6 +2977,22 @@
           3539
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/F6-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/F6.png",
+        "size": [
+          2204,
+          2837
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          521,
+          702,
+          2725,
+          3539
+        ],
+        "lossless": true
       }
     },
     {
@@ -1862,7 +3002,18 @@
       "sourceColumn": 2,
       "file": "images/F7-photos-1.jpg",
       "sourceSha256": "58384cd4647cdec6ebb3177ffae5905e324b2c6fe172f4b8d2e1ff7ce66b29fc",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F7-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F8",
@@ -1871,7 +3022,18 @@
       "sourceColumn": 2,
       "file": "images/F8-photos-1.jpg",
       "sourceSha256": "e9ec2b3f0a4e8c1b02c0fd1dc224ba7af375d179f3366e681025b4aab2147a04",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F8-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F8",
@@ -1919,6 +3081,22 @@
           4024
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/F8-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/F8.png",
+        "size": [
+          926,
+          2844
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          872,
+          1180,
+          1798,
+          4024
+        ],
+        "lossless": true
       }
     },
     {
@@ -1928,7 +3106,18 @@
       "sourceColumn": 2,
       "file": "images/F9-photos-1.jpg",
       "sourceSha256": "8968f80d722b28f42902188536e335570ad7a3305eb7df798b92792a5651ef1c",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F9-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F10",
@@ -1937,7 +3126,18 @@
       "sourceColumn": 2,
       "file": "images/F10-photos-1.jpg",
       "sourceSha256": "6e873c3fd024fae4cc81a0954dcd940e28e55f93649cd28684b04afc3d57cc3f",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F10-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F11",
@@ -1946,7 +3146,18 @@
       "sourceColumn": 2,
       "file": "images/F11-photos-1.jpg",
       "sourceSha256": "2f567fe472e7c2633c83f4db78e74052bcce38cb7bcba7a8304fd9339931a139",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F11-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F12",
@@ -1955,7 +3166,18 @@
       "sourceColumn": 2,
       "file": "images/F12-photos-1.jpg",
       "sourceSha256": "574b1b2f24a6e7333b555a878c67274e7d5e1563f130a8c706357961f921e951",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F12-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F13",
@@ -1964,7 +3186,18 @@
       "sourceColumn": 2,
       "file": "images/F13-photos-1.jpg",
       "sourceSha256": "d3fa644499972438e69ba148a1850824df67e5128fc1782b33cf9ca17577afd3",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F13-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1280,
+          1707
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F14",
@@ -1973,7 +3206,18 @@
       "sourceColumn": 2,
       "file": "images/F14-photos-1.jpg",
       "sourceSha256": "afbaec9a9d71594c421de1618a73c8a2fcdd92679fd254645a67582cdc139a2a",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F14-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F15",
@@ -1982,7 +3226,18 @@
       "sourceColumn": 2,
       "file": "images/F15-photos-1.jpg",
       "sourceSha256": "27544b9c8cd97bed1aa54b1008f101d5b15632345d41b2fc8af2867e97d815e5",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F15-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F15",
@@ -2030,6 +3285,22 @@
           3591
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/F15-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/F15.png",
+        "size": [
+          1053,
+          3232
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1062,
+          359,
+          2115,
+          3591
+        ],
+        "lossless": true
       }
     },
     {
@@ -2039,7 +3310,18 @@
       "sourceColumn": 2,
       "file": "images/F16-photos-1.jpg",
       "sourceSha256": "9463279a3668434513dd23df915aec45952bdbd8a3ed3fc2eb989d071d362b0f",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F16-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F17",
@@ -2048,7 +3330,18 @@
       "sourceColumn": 2,
       "file": "images/F17-photos-1.jpg",
       "sourceSha256": "07631ecabdfc2e0259119ff6b3458948df6c9c1bfa921c1a8aaf50d94ccf093b",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F17-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F18",
@@ -2057,7 +3350,18 @@
       "sourceColumn": 2,
       "file": "images/F18-photos-1.jpg",
       "sourceSha256": "dfe402ce03ba0b58b90ed0b9eb888d66dac9675f63cf6e3dd63ec68a6f526cb9",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F18-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F19",
@@ -2066,7 +3370,18 @@
       "sourceColumn": 2,
       "file": "images/F19-photos-1.jpg",
       "sourceSha256": "2da08af41bdaac218d69906fabd1681bedf2a61ee803f862d9be6ee6bd2c6ec2",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F19-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F20",
@@ -2075,7 +3390,18 @@
       "sourceColumn": 2,
       "file": "images/F20-photos-1.jpg",
       "sourceSha256": "eda858e65a3cc9d0ed13d7f19e3d9aee9303ca87fa64da889f9aa9b96ab1c7d4",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F20-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F21",
@@ -2084,7 +3410,18 @@
       "sourceColumn": 2,
       "file": "images/F21-photos-1.jpg",
       "sourceSha256": "62c65c862f2fa57f3302b3338f40226a7c0981d351f1838a29bf4df27d750879",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F21-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F22",
@@ -2093,7 +3430,18 @@
       "sourceColumn": 2,
       "file": "images/F22-photos-1.jpg",
       "sourceSha256": "dd9f4a40d7a97e74aa3c5990cc2afef4fe183c9bd857ab901e4bf79908072fc5",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F22-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F23",
@@ -2102,7 +3450,18 @@
       "sourceColumn": 2,
       "file": "images/F23-photos-1.jpg",
       "sourceSha256": "74827c4e607855e5f1ce2181c0ef98d494c008e29bfd5ae8d87049d034e978fc",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F23-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F24",
@@ -2111,7 +3470,18 @@
       "sourceColumn": 2,
       "file": "images/F24-photos-1.jpg",
       "sourceSha256": "bbd6192d5d81d9b91e5c040d7903a3e7072401df37b9ff5a055b2e55ab03e71b",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F24-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F24",
@@ -2159,6 +3529,22 @@
           1943
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/F24-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/F24.png",
+        "size": [
+          432,
+          522
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1320,
+          1421,
+          1752,
+          1943
+        ],
+        "lossless": true
       }
     },
     {
@@ -2168,7 +3554,18 @@
       "sourceColumn": 2,
       "file": "images/F25-photos-1.jpg",
       "sourceSha256": "d39177adcbabe33f9393ad7aa750bd2e66e931631529cf13decf8b29a1d4982c",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F25-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F25",
@@ -2216,6 +3613,22 @@
           3846
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/F25-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/F25.png",
+        "size": [
+          1106,
+          3803
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1086,
+          43,
+          2192,
+          3846
+        ],
+        "lossless": true
       }
     },
     {
@@ -2225,7 +3638,18 @@
       "sourceColumn": 2,
       "file": "images/F26-photos-1.jpg",
       "sourceSha256": "2abab1076155fad25a93e4a8b047381b4197d74f622e180ef273d7dad6e9ae87",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F26-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F26",
@@ -2273,6 +3697,22 @@
           2267
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/F26-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/F26.png",
+        "size": [
+          1380,
+          852
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          938,
+          1415,
+          2318,
+          2267
+        ],
+        "lossless": true
       }
     },
     {
@@ -2282,7 +3722,18 @@
       "sourceColumn": 2,
       "file": "images/F27-photos-1.jpg",
       "sourceSha256": "d444dc9687ed3a974dd02c1190270d16e8f66a72caa5d7806cedec2dc3b5563c",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F27-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F28",
@@ -2291,7 +3742,18 @@
       "sourceColumn": 2,
       "file": "images/F28-photos-1.jpg",
       "sourceSha256": "25e6aee9b8326ab7fd94de1d9e11cc22f3ab5ea22df45485dcc364fd6ea7e5ff",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F28-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F29",
@@ -2300,7 +3762,18 @@
       "sourceColumn": 2,
       "file": "images/F29-photos-1.jpg",
       "sourceSha256": "7ce975e6cf47ef8cbd1e7571a2f2cfe4630d5ca59572fd63b22f14fb2af7c291",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F29-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F29",
@@ -2348,6 +3821,22 @@
           2909
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/F29-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/F29.png",
+        "size": [
+          1587,
+          2069
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          918,
+          840,
+          2505,
+          2909
+        ],
+        "lossless": true
       }
     },
     {
@@ -2357,7 +3846,18 @@
       "sourceColumn": 2,
       "file": "images/F30-photos-1.jpg",
       "sourceSha256": "00febbe2a893e53b2b7f6465750c551279ffbb8f113aa8678bf944e46c5411c2",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F30-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F31",
@@ -2366,7 +3866,18 @@
       "sourceColumn": 2,
       "file": "images/F31-photos-1.jpg",
       "sourceSha256": "bbdb6c2ee944bd8295432106c52c1799b002ad63122176baf0e5809af889b5a7",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F31-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F32",
@@ -2375,7 +3886,18 @@
       "sourceColumn": 2,
       "file": "images/F32-photos-1.jpg",
       "sourceSha256": "6f41e2bdcd492f145fcc0e1ed25318913d0acc14906874966efe172431aec8b7",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F32-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F33",
@@ -2384,7 +3906,18 @@
       "sourceColumn": 2,
       "file": "images/F33-photos-1.jpg",
       "sourceSha256": "d82824bdc9cc76eef4659e8703d80cdc3e8500654caf3e3c7d9fdaaed0024138",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F33-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F34",
@@ -2393,7 +3926,18 @@
       "sourceColumn": 2,
       "file": "images/F34-photos-1.jpg",
       "sourceSha256": "f155720193f41c308f848e845e57e27d00d7fd32133b8d1709ff4e57b2798258",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F34-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F35",
@@ -2402,7 +3946,18 @@
       "sourceColumn": 2,
       "file": "images/F35-photos-1.jpg",
       "sourceSha256": "d9fa994f6c12b5bef7a91bce92c042b19070c098b0055a9a155fe7df6b23db54",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F35-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F36",
@@ -2411,7 +3966,18 @@
       "sourceColumn": 2,
       "file": "images/F36-photos-1.jpg",
       "sourceSha256": "c732dd89cde140aa1fd6abac424fd1bf6e7af220cace2095a6c3f167a4e478f0",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F36-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F37",
@@ -2420,7 +3986,18 @@
       "sourceColumn": 2,
       "file": "images/F37-photos-1.jpg",
       "sourceSha256": "682db4ed8cb19b7f751d49b1f7daf95148f763a4398464711492872a9921ae77",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F37-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F38",
@@ -2429,7 +4006,18 @@
       "sourceColumn": 2,
       "file": "images/F38-photos-1.jpg",
       "sourceSha256": "fee8a7a669240fa184a80c8096d7148caa0cfc1cf86008ee1f5515aa706f500d",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F38-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F39",
@@ -2438,7 +4026,18 @@
       "sourceColumn": 2,
       "file": "images/F39-photos-1.jpg",
       "sourceSha256": "0c7c80654a65e757b1a317ff34bd248a78b616b45f45b1dce72e49b1e403e2a8",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F39-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F40",
@@ -2447,7 +4046,18 @@
       "sourceColumn": 2,
       "file": "images/F40-photos-1.jpg",
       "sourceSha256": "cb8b0d875dc45e7dcda86e2bafd06f10864dbaeb859442ac6029c59700d4ef4e",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F40-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F41",
@@ -2456,7 +4066,18 @@
       "sourceColumn": 2,
       "file": "images/F41-photos-1.jpg",
       "sourceSha256": "ffc52c6224e86e065d7c73069bde6e769032dc4bb247ce8473f216ed62ada9b9",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F41-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F41",
@@ -2504,6 +4125,22 @@
           2761
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/F41-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/F42.png",
+        "size": [
+          966,
+          1801
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1162,
+          960,
+          2128,
+          2761
+        ],
+        "lossless": true
       }
     },
     {
@@ -2513,7 +4150,18 @@
       "sourceColumn": 2,
       "file": "images/F42-photos-1.jpg",
       "sourceSha256": "b3c2059a18cb8fb131afb0feb9bc85c3d30629ddec8677ec25dd8033bff2a5ea",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F42-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "F42",
@@ -2567,6 +4215,22 @@
           4032
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/F42-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/F44.png",
+        "size": [
+          939,
+          2757
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1082,
+          1275,
+          2021,
+          4032
+        ],
+        "lossless": true
       }
     },
     {
@@ -2576,7 +4240,18 @@
       "sourceColumn": 2,
       "file": "images/F43-photos-1.jpg",
       "sourceSha256": "6972b39b3d2fe5ce1ba740706f8fd196cd291a32b43698538f7e629b833cb2cb",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/F43-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1920
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G1",
@@ -2585,7 +4260,18 @@
       "sourceColumn": 2,
       "file": "images/G1-photos-1.jpg",
       "sourceSha256": "a8f512b6476170aab1406d9ce785ae5197447410a40b79e5da938cb2131ca62a",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G1-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1279,
+          1706
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G1",
@@ -2627,6 +4313,22 @@
           2425
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/G1-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/G1.png",
+        "size": [
+          1310,
+          1690
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          942,
+          735,
+          2252,
+          2425
+        ],
+        "lossless": true
       }
     },
     {
@@ -2636,7 +4338,18 @@
       "sourceColumn": 2,
       "file": "images/G2-photos-1.jpg",
       "sourceSha256": "bc742ce76f4af066d79732a876802dd133bcfa3c62a635f1ad011df371e331e2",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G2-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1279,
+          1706
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G3",
@@ -2645,7 +4358,18 @@
       "sourceColumn": 2,
       "file": "images/G3-photos-1.jpg",
       "sourceSha256": "694cffc0a31d28aa2cc15faee17b7ee61b4fff5e32493e34f5ba684c44dade12",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G3-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1280,
+          1706
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G3",
@@ -2687,6 +4411,22 @@
           1588
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/G3-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/G3.png",
+        "size": [
+          712,
+          481
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1422,
+          1107,
+          2134,
+          1588
+        ],
+        "lossless": true
       }
     },
     {
@@ -2696,7 +4436,18 @@
       "sourceColumn": 2,
       "file": "images/G4-photos-1.jpg",
       "sourceSha256": "7d727fec1c0adef97e9c4a66875ca25f0a6d7a57d50b5f4efe29e8f3d95946d2",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G4-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1280,
+          1706
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G4",
@@ -2738,6 +4489,22 @@
           2151
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/G4-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/G4.png",
+        "size": [
+          694,
+          642
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1202,
+          1509,
+          1896,
+          2151
+        ],
+        "lossless": true
       }
     },
     {
@@ -2747,7 +4514,18 @@
       "sourceColumn": 2,
       "file": "images/G5-photos-1.jpg",
       "sourceSha256": "4bd98ad3fd83e4f05c80f24434a1973beeb2178272c79e399e56b430ca975e3f",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G5-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G5",
@@ -2789,6 +4567,22 @@
           1699
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/G5-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/G5.png",
+        "size": [
+          1368,
+          1140
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          853,
+          559,
+          2221,
+          1699
+        ],
+        "lossless": true
       }
     },
     {
@@ -2798,7 +4592,18 @@
       "sourceColumn": 2,
       "file": "images/G6-photos-1.jpg",
       "sourceSha256": "b4690272f885db305239e6370aa141bc2a6f3fe58a739fd125a64434f6172561",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G6-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1200,
+          1600
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G7",
@@ -2807,7 +4612,18 @@
       "sourceColumn": 2,
       "file": "images/G7-photos-1.jpg",
       "sourceSha256": "f87429c914750950f0849ef0870381482b87f3a157cae7df357409ccbf55a5e6",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G7-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1280,
+          1706
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G8",
@@ -2816,7 +4632,18 @@
       "sourceColumn": 2,
       "file": "images/G8-photos-1.jpg",
       "sourceSha256": "9b0810e0f6d9462a54b53806dc72295683354f77a7fda7abd7bba9eb62092b15",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G8-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1280,
+          1706
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G9",
@@ -2825,7 +4652,18 @@
       "sourceColumn": 2,
       "file": "images/G9-photos-1.jpg",
       "sourceSha256": "7e58c2bc7770db5e07117bc9c514e50abe51c770e8abb58fa13c2181133182da",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G9-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1279,
+          1706
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G9",
@@ -2873,6 +4711,22 @@
           1824
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/G9-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/G10.png",
+        "size": [
+          357,
+          497
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1413,
+          1327,
+          1770,
+          1824
+        ],
+        "lossless": true
       }
     },
     {
@@ -2882,7 +4736,18 @@
       "sourceColumn": 2,
       "file": "images/G10-photos-1.jpg",
       "sourceSha256": "9a21098a61c24b194e32745f42b5769b01e2289b41bca1b16b8ea39a317c67a7",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G10-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1279,
+          1706
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G11",
@@ -2891,7 +4756,18 @@
       "sourceColumn": 2,
       "file": "images/G11-photos-1.jpg",
       "sourceSha256": "a46d3b8eebc231595857773fc41f34a3553905b5d6bae4fa302e18aa2e2c80fc",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G11-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1919
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G12",
@@ -2900,7 +4776,18 @@
       "sourceColumn": 2,
       "file": "images/G12-photos-1.jpg",
       "sourceSha256": "2fcfc74c76a4712e611db8e7681714f5cdc3ef3bbed9da31d3ccef37eccd9af2",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G12-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1919
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G13",
@@ -2909,7 +4796,18 @@
       "sourceColumn": 2,
       "file": "images/G13-photos-1.jpg",
       "sourceSha256": "67948289f9cf3e93b12628baf9c0c5afbf2b32d0ed094267fc53030d43a02960",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G13-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1919
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G14",
@@ -2918,7 +4816,23 @@
       "sourceColumn": 2,
       "file": "images/G14-photos-1.jpg",
       "sourceSha256": "953963d308d8b590f6ce5115a30e0faf94c817f0487ce60d68a26784037ba919",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G14-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          959,
+          1279
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          373,
+          0,
+          1332,
+          1279
+        ],
+        "lossless": false
+      }
     },
     {
       "record": "G14",
@@ -2966,6 +4880,22 @@
           1937
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/G14-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/G24.png",
+        "size": [
+          586,
+          1365
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1224,
+          572,
+          1810,
+          1937
+        ],
+        "lossless": true
       }
     },
     {
@@ -2975,7 +4905,18 @@
       "sourceColumn": 2,
       "file": "images/G15-photos-1.jpg",
       "sourceSha256": "508e82dd9d626e6320e267e1f4840f48bee6b651824188538c3479ade71624c3",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G15-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1919
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G15",
@@ -3023,6 +4964,22 @@
           2425
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/G15-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/G26.png",
+        "size": [
+          902,
+          1621
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1406,
+          804,
+          2308,
+          2425
+        ],
+        "lossless": true
       }
     },
     {
@@ -3032,7 +4989,18 @@
       "sourceColumn": 2,
       "file": "images/G16-photos-1.jpg",
       "sourceSha256": "d93f55923dd0ae3084260d4fbf5ad9e86a2987ddb9e3a1c82b6a212fb9214699",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G16-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1919
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G16",
@@ -3080,6 +5048,22 @@
           2234
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/G16-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/G27.png",
+        "size": [
+          750,
+          981
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1073,
+          1253,
+          1823,
+          2234
+        ],
+        "lossless": true
       }
     },
     {
@@ -3089,7 +5073,18 @@
       "sourceColumn": 2,
       "file": "images/G17-photos-1.jpg",
       "sourceSha256": "f4f424ad92020072d11d5de61caf37185ef466edfb44a98c673829347a748a86",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G17-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1919
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G18",
@@ -3098,7 +5093,18 @@
       "sourceColumn": 2,
       "file": "images/G18-photos-1.jpg",
       "sourceSha256": "eea73db05c8bd57a61bccbbbc1f782f40246bcf4c3138a340456ce006506705b",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G18-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1919
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G19",
@@ -3107,7 +5113,18 @@
       "sourceColumn": 2,
       "file": "images/G19-photos-1.jpg",
       "sourceSha256": "45d90d45359d74f2cff5594981cf85fdf339fb64f3496813fe968191551c3f31",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G19-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1919
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G19",
@@ -3155,6 +5172,22 @@
           3178
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/G19-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/G28.png",
+        "size": [
+          612,
+          1528
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1147,
+          1650,
+          1759,
+          3178
+        ],
+        "lossless": true
       }
     },
     {
@@ -3164,7 +5197,18 @@
       "sourceColumn": 2,
       "file": "images/G20-photos-1.jpg",
       "sourceSha256": "5722f942ced3bc4fa5d8c5c5f14fab9e359b379f2530bae3f31d49cec35a157e",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G20-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1919
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G21",
@@ -3173,7 +5217,18 @@
       "sourceColumn": 2,
       "file": "images/G21-photos-1.jpg",
       "sourceSha256": "d7a9d83ffc275007e85b64241a4305bfa3642f54489ff0d3bf4d04b46079897c",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G21-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1080,
+          1919
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "G22",
@@ -3182,7 +5237,18 @@
       "sourceColumn": 2,
       "file": "images/G22-photos-1.jpg",
       "sourceSha256": "0597a85c06f1110812badeb8ad48d7a11941f43e37df4c99918a73ac7820f512",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/G22-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J1",
@@ -3191,7 +5257,18 @@
       "sourceColumn": 2,
       "file": "images/J1-photos-1.jpg",
       "sourceSha256": "eb3bfca860470ddffb568ec9bcfa69166242012756f008fe56b8b7fda3328231",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J1-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1200,
+          1600
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J2",
@@ -3200,7 +5277,18 @@
       "sourceColumn": 2,
       "file": "images/J2-photos-1.jpg",
       "sourceSha256": "cfce3315947c4b19ece84159c9ab26472038acffd84432bd17ba12a3c53f3648",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J2-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J3",
@@ -3209,7 +5297,18 @@
       "sourceColumn": 2,
       "file": "images/J3-photos-1.jpg",
       "sourceSha256": "5f3ae1f5dd27305650c5904843574411d4d91fdd2f8d2e5dcf882275a46ba59c",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J3-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J4",
@@ -3218,7 +5317,18 @@
       "sourceColumn": 2,
       "file": "images/J4-photos-1.jpg",
       "sourceSha256": "97ade91b0111be9d2c561ee2fed57e43d75e8faf95591f1f4f1e83d9a64d5352",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J4-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J5",
@@ -3227,7 +5337,18 @@
       "sourceColumn": 2,
       "file": "images/J5-photos-1.jpg",
       "sourceSha256": "29a2ae0645fe24ce9729c936b03bb288924461ea8e262d42a58e3df2ccc29335",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J5-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J5",
@@ -3269,6 +5390,22 @@
           1780
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J5-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J5.png",
+        "size": [
+          399,
+          483
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1702,
+          1297,
+          2101,
+          1780
+        ],
+        "lossless": true
       }
     },
     {
@@ -3278,7 +5415,18 @@
       "sourceColumn": 2,
       "file": "images/J6-photos-1.jpg",
       "sourceSha256": "e860b5d3929f72dcc8eea47233c5f1b7da745562025b0f96b728208c9e92588a",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J6-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J6",
@@ -3320,6 +5468,22 @@
           3218
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J6-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J4.png",
+        "size": [
+          564,
+          2535
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1260,
+          683,
+          1824,
+          3218
+        ],
+        "lossless": true
       }
     },
     {
@@ -3329,7 +5493,18 @@
       "sourceColumn": 2,
       "file": "images/J7-photos-1.jpg",
       "sourceSha256": "0ff1a2ad10e5734821b82a257c18107c519030050db1c6a165a804eba28854b6",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J7-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J7",
@@ -3371,6 +5546,22 @@
           1780
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J7-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J5.png",
+        "size": [
+          399,
+          483
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1702,
+          1297,
+          2101,
+          1780
+        ],
+        "lossless": true
       }
     },
     {
@@ -3380,7 +5571,18 @@
       "sourceColumn": 2,
       "file": "images/J8-photos-1.jpg",
       "sourceSha256": "f9fbc7b02c24b380131df12f4a52c791cf3bbc12dc743a830e49b3497b43d570",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J8-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J9",
@@ -3389,7 +5591,18 @@
       "sourceColumn": 2,
       "file": "images/J9-photos-1.jpg",
       "sourceSha256": "2c690cb3324675a78e79108b2a08733da07f289e4222a450ee6db7d3fd8625f8",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J9-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J10",
@@ -3398,7 +5611,18 @@
       "sourceColumn": 2,
       "file": "images/J10-photos-1.jpg",
       "sourceSha256": "f8a9738fd2c7d955b5844a3a1e262c15154bfc4626d7d92008bea880441ede85",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J10-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J11",
@@ -3407,7 +5631,18 @@
       "sourceColumn": 2,
       "file": "images/J11-photos-1.jpg",
       "sourceSha256": "2e05d70752d559f790a886cbb41458783d78c39459912665b2674334b473e6a3",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J11-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J11",
@@ -3455,6 +5690,22 @@
           1748
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J11-rubbings-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          366,
+          371
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1350,
+          1377,
+          1716,
+          1748
+        ],
+        "lossless": true
       }
     },
     {
@@ -3464,7 +5715,18 @@
       "sourceColumn": 2,
       "file": "images/J12-photos-1.jpg",
       "sourceSha256": "8e357f099a3764775d2d7280d8ee1992e17a498214ede41bccaaf07d2715bfae",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J12-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J12",
@@ -3512,6 +5774,22 @@
           2218
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J12-rubbings-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          496,
+          405
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1263,
+          1813,
+          1759,
+          2218
+        ],
+        "lossless": true
       }
     },
     {
@@ -3521,7 +5799,18 @@
       "sourceColumn": 2,
       "file": "images/J13-photos-1.jpg",
       "sourceSha256": "34fe826f1eb1dd0d3a684a2d71a23126d2e54ccbab39ef3fbeaf6a4452fb4e07",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J13-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J14",
@@ -3530,7 +5819,18 @@
       "sourceColumn": 2,
       "file": "images/J14-photos-1.jpg",
       "sourceSha256": "ec5d66bf701f49b9f97a7a34f8eb2e5ccccfba2ee879d110589d7254563f0fc4",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J14-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J14",
@@ -3578,6 +5878,22 @@
           2099
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J14-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J11.png",
+        "size": [
+          569,
+          476
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1201,
+          1623,
+          1770,
+          2099
+        ],
+        "lossless": true
       }
     },
     {
@@ -3587,7 +5903,18 @@
       "sourceColumn": 2,
       "file": "images/J15-photos-1.jpg",
       "sourceSha256": "edb21fbf73decd7ffad9583ec1e43f56ca1aa5b4e057906abdd3515c05ea3b6e",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J15-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J15",
@@ -3635,6 +5962,22 @@
           3272
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J15-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J15.png",
+        "size": [
+          1245,
+          2921
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1047,
+          351,
+          2292,
+          3272
+        ],
+        "lossless": true
       }
     },
     {
@@ -3644,7 +5987,18 @@
       "sourceColumn": 2,
       "file": "images/J16-photos-1.jpg",
       "sourceSha256": "50e764b2f234a65ff16d036b3904cff4f4d83e97912306dec3fba8b9fc0ec517",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J16-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J17",
@@ -3653,7 +6007,18 @@
       "sourceColumn": 2,
       "file": "images/J17-photos-1.jpg",
       "sourceSha256": "6c6fa56cde4e8b1861212beadf9255249a57a43a5e9cef1aa8af51683d038a3e",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J17-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J17",
@@ -3701,6 +6066,22 @@
           2449
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J17-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J18.png",
+        "size": [
+          809,
+          1798
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1051,
+          651,
+          1860,
+          2449
+        ],
+        "lossless": true
       }
     },
     {
@@ -3710,7 +6091,18 @@
       "sourceColumn": 2,
       "file": "images/J18-photos-1.jpg",
       "sourceSha256": "430eec143c12d719f7fdaab5097cdc4f7109131f616b7a24784fabc501fd1ce1",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J18-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J18",
@@ -3758,6 +6150,22 @@
           1748
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J18-rubbings-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          366,
+          371
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1350,
+          1377,
+          1716,
+          1748
+        ],
+        "lossless": true
       }
     },
     {
@@ -3767,7 +6175,18 @@
       "sourceColumn": 2,
       "file": "images/J19-photos-1.jpg",
       "sourceSha256": "f33f8964f8a538eaaaeb4fa2b93f0217b4cd90e1291a84560733647927d2ca93",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J19-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J20",
@@ -3776,7 +6195,18 @@
       "sourceColumn": 2,
       "file": "images/J20-photos-1.jpg",
       "sourceSha256": "9742d450470c53a4e2b490734a39e3aa6250e9df0524f151c6b99134fb4ab6aa",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J20-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J21",
@@ -3785,7 +6215,18 @@
       "sourceColumn": 2,
       "file": "images/J21-photos-1.jpg",
       "sourceSha256": "0312b858c60a8d45a442b45a78c05cc52bb8e17b6f4d50046ef2d406199baa13",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J21-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J22",
@@ -3794,7 +6235,18 @@
       "sourceColumn": 2,
       "file": "images/J22-photos-1.jpg",
       "sourceSha256": "088a3ce4f9b6ac9aa585b8dcc891a269f73ca0c3f04a53770710d2a20ee4545b",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J22-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J22",
@@ -3842,6 +6294,22 @@
           2250
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J22-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J21.png",
+        "size": [
+          969,
+          1075
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1126,
+          1175,
+          2095,
+          2250
+        ],
+        "lossless": true
       }
     },
     {
@@ -3851,7 +6319,18 @@
       "sourceColumn": 2,
       "file": "images/J23-photos-1.jpg",
       "sourceSha256": "b2f01fdbeaa758fe9b3d12fbf417256b50fc2dcba44441851b5011998c141581",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J23-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J23",
@@ -3899,6 +6378,22 @@
           2848
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J23-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J22.png",
+        "size": [
+          1502,
+          2344
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          630,
+          504,
+          2132,
+          2848
+        ],
+        "lossless": true
       }
     },
     {
@@ -3908,7 +6403,18 @@
       "sourceColumn": 2,
       "file": "images/J24-photos-1.jpg",
       "sourceSha256": "afbee519dc587a6ddd7133660cbcae9c3e6ec5bef1e5fcd30f1bc5f5decee766",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J24-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J24",
@@ -3956,6 +6462,22 @@
           2288
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J24-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J24.png",
+        "size": [
+          898,
+          929
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1144,
+          1359,
+          2042,
+          2288
+        ],
+        "lossless": true
       }
     },
     {
@@ -3965,7 +6487,18 @@
       "sourceColumn": 2,
       "file": "images/J25-photos-1.jpg",
       "sourceSha256": "2084f1fb02a7571547ce056ab5644168aadc05d15598c54904b6d79a9e8027e9",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J25-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J26",
@@ -3974,7 +6507,18 @@
       "sourceColumn": 2,
       "file": "images/J26-photos-1.jpg",
       "sourceSha256": "3733a452b4da1c4f3db16d6f23eef557943195738a5ac83547fb7cbfdcce9a7f",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J26-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J27",
@@ -3983,7 +6527,18 @@
       "sourceColumn": 2,
       "file": "images/J27-photos-1.jpg",
       "sourceSha256": "a3cf7465f2e90ec822017e3792ef36f6bd16650edcdefc569881ee15c70e9be3",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J27-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J28",
@@ -3992,7 +6547,18 @@
       "sourceColumn": 2,
       "file": "images/J28-photos-1.jpg",
       "sourceSha256": "28092796c5b24b575e53a2b4b219689f56549d620625cf93c32f7abbe78a79b1",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J28-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J29",
@@ -4001,7 +6567,18 @@
       "sourceColumn": 2,
       "file": "images/J29-photos-1.jpg",
       "sourceSha256": "59fc8aaa384c170a685758fb87501012f4c2981d3a59446e8fdd15ea5d4c9d67",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J29-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J30",
@@ -4010,7 +6587,18 @@
       "sourceColumn": 2,
       "file": "images/J30-photos-1.jpg",
       "sourceSha256": "e5f0beaa82cef549ba4d22306892b7ade110cffc7b82ca9bef2624534d502315",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J30-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J31",
@@ -4019,7 +6607,18 @@
       "sourceColumn": 2,
       "file": "images/J31-photos-1.jpg",
       "sourceSha256": "60b39c4909c42ba41bdd51d402cecbf27979f7bccfef7eddf421607c7571a67e",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J31-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J31",
@@ -4067,6 +6666,22 @@
           1786
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J31-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J29.png",
+        "size": [
+          1448,
+          1651
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          267,
+          135,
+          1715,
+          1786
+        ],
+        "lossless": true
       }
     },
     {
@@ -4076,7 +6691,18 @@
       "sourceColumn": 2,
       "file": "images/J32-photos-1.jpg",
       "sourceSha256": "1acf8722eabd73c3e69070fee8eb76f45792f5835a3477432cd378ef7bcf0e0b",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J32-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J33",
@@ -4085,7 +6711,18 @@
       "sourceColumn": 2,
       "file": "images/J33-photos-1.jpg",
       "sourceSha256": "e5e0e006150cd62a68a020baaf1b902a9dad5aef6ecba48f61e12effe7c14602",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J33-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J34",
@@ -4094,7 +6731,18 @@
       "sourceColumn": 2,
       "file": "images/J34-photos-1.jpg",
       "sourceSha256": "9accd619506bec89b4daba2f5ad088cf5a95efed057c0966399bdf09cbf07926",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J34-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J35",
@@ -4103,7 +6751,18 @@
       "sourceColumn": 2,
       "file": "images/J35-photos-1.jpg",
       "sourceSha256": "9c3f08d2cef6ca432a57fc28cc76c7bc06b8a6eed02ac98e424b7317c6613656",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J35-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J36",
@@ -4112,7 +6771,18 @@
       "sourceColumn": 2,
       "file": "images/J36-photos-1.jpg",
       "sourceSha256": "4e1528dfa76a930798d0093d324c4f2884f811c8dfe20eededdaca7838dcc829",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J36-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J36",
@@ -4160,6 +6830,22 @@
           1758
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J36-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J35.png",
+        "size": [
+          1351,
+          1012
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1200,
+          746,
+          2551,
+          1758
+        ],
+        "lossless": true
       }
     },
     {
@@ -4169,7 +6855,18 @@
       "sourceColumn": 2,
       "file": "images/J37-photos-1.jpg",
       "sourceSha256": "bf1747c8796be542ce47ad51f63c762bb6ae30ef850c0351d3272ff7d54726b6",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J37-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J38",
@@ -4178,7 +6875,18 @@
       "sourceColumn": 2,
       "file": "images/J38-photos-1.jpg",
       "sourceSha256": "b6b964fd2ddfde4f8c1eb1768b92ba8915b3773130b3d244e3ab3ceeace4e1f6",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J38-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J39",
@@ -4187,7 +6895,18 @@
       "sourceColumn": 2,
       "file": "images/J39-photos-1.jpg",
       "sourceSha256": "e893668ff713da9f7063dfcffdbca228349aebcf4c8b77198e985f6c91453d72",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J39-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J40",
@@ -4196,7 +6915,18 @@
       "sourceColumn": 2,
       "file": "images/J40-photos-1.jpg",
       "sourceSha256": "46ee4d7eb675f6c7ef5e989924c079bb8d8622331396e79d2526054523380580",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J40-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J41",
@@ -4205,7 +6935,18 @@
       "sourceColumn": 2,
       "file": "images/J41-photos-1.jpg",
       "sourceSha256": "020f1bbbe06086a45f103d4cd8bdd780a86b5a13b7ed35dc7cec24d646b16d53",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J41-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J42",
@@ -4214,7 +6955,18 @@
       "sourceColumn": 2,
       "file": "images/J42-photos-1.jpg",
       "sourceSha256": "a441b8e52247fa84e0f38a8404a7963fc0b123b333e7e7e357835e9ba6d74423",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J42-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J43",
@@ -4223,7 +6975,18 @@
       "sourceColumn": 2,
       "file": "images/J43-photos-1.jpg",
       "sourceSha256": "eabe3dc9853cbe6147f99ad6e77543c600256cc0537ea822edeaa554ac5c932f",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J43-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J43",
@@ -4271,6 +7034,22 @@
           1846
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J43-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J40.png",
+        "size": [
+          398,
+          371
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1433,
+          1475,
+          1831,
+          1846
+        ],
+        "lossless": true
       }
     },
     {
@@ -4280,7 +7059,18 @@
       "sourceColumn": 2,
       "file": "images/J44-photos-1.jpg",
       "sourceSha256": "8aaeddcf0c6d48d6e94f36f848c76d23dbf9ef314be9664d828bd5f101154ec1",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J44-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J44",
@@ -4328,6 +7118,22 @@
           2074
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J44-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J41.png",
+        "size": [
+          1172,
+          1493
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          941,
+          581,
+          2113,
+          2074
+        ],
+        "lossless": true
       }
     },
     {
@@ -4337,7 +7143,18 @@
       "sourceColumn": 2,
       "file": "images/J45-photos-1.jpg",
       "sourceSha256": "1f8f5aa273b4708cf4f417fad81ac5779296dfe075fa0ff9f3ab1b444133caaf",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J45-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J45",
@@ -4391,6 +7208,22 @@
           2896
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J45-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J42.png",
+        "size": [
+          765,
+          1678
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1082,
+          1218,
+          1847,
+          2896
+        ],
+        "lossless": true
       }
     },
     {
@@ -4400,7 +7233,18 @@
       "sourceColumn": 2,
       "file": "images/J46-photos-1.jpg",
       "sourceSha256": "5241c88f05f16e047bd0f8055ff063027bb64e760c80e2a931ea9055be86fecb",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J46-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J46",
@@ -4448,6 +7292,22 @@
           3781
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J46-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J43.png",
+        "size": [
+          674,
+          485
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1070,
+          3296,
+          1744,
+          3781
+        ],
+        "lossless": true
       }
     },
     {
@@ -4457,7 +7317,18 @@
       "sourceColumn": 2,
       "file": "images/J47-photos-1.jpg",
       "sourceSha256": "748f57a292533b70a50ddedb6b455b7810fc66f0e2bd4f3d7184204e3c3eae3b",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/J47-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "J47",
@@ -4505,6 +7376,22 @@
           2261
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/J47-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/J44.png",
+        "size": [
+          367,
+          409
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1435,
+          1852,
+          1802,
+          2261
+        ],
+        "lossless": true
       }
     },
     {
@@ -4514,7 +7401,18 @@
       "sourceColumn": 2,
       "file": "images/H1-photos-1.jpg",
       "sourceSha256": "8a7823b235562227b6d2d25008b161bfe5271f823c3028a801c86440d5288df6",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/H1-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "H1",
@@ -4556,6 +7454,22 @@
           3226
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/H1-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/H1.png",
+        "size": [
+          2055,
+          3147
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          624,
+          79,
+          2679,
+          3226
+        ],
+        "lossless": true
       }
     },
     {
@@ -4565,7 +7479,18 @@
       "sourceColumn": 2,
       "file": "images/H2-photos-1.jpg",
       "sourceSha256": "a634bfaef7eb6b7418d91ab8b8934efa8e8aa042aba7734977b91d10ceb9d6c9",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/H2-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "I1",
@@ -4574,7 +7499,18 @@
       "sourceColumn": 2,
       "file": "images/I1-photos-1.jpg",
       "sourceSha256": "55528adb0af0a270c57416cfa131475067cc9f27383617196da9b6fda059ebb9",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/I1-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "I2",
@@ -4583,7 +7519,18 @@
       "sourceColumn": 2,
       "file": "images/I2-photos-1.jpg",
       "sourceSha256": "7d30b0f8f5550a909c1dde6e07fe396c2afdff58412a30fd32905424127a1c01",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/I2-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "I2",
@@ -4625,6 +7572,22 @@
           3281
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/I2-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/I2.png",
+        "size": [
+          1023,
+          631
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          993,
+          2650,
+          2016,
+          3281
+        ],
+        "lossless": true
       }
     },
     {
@@ -4634,7 +7597,18 @@
       "sourceColumn": 2,
       "file": "images/I3-photos-1.jpg",
       "sourceSha256": "7f45b7355d7d6110d30930082fc4842847e36058d6ec6d4e9d8f86a8a4b10a97",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/I3-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "I3",
@@ -4676,6 +7650,22 @@
           2216
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/I3-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/I3.png",
+        "size": [
+          285,
+          354
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1339,
+          1862,
+          1624,
+          2216
+        ],
+        "lossless": true
       }
     },
     {
@@ -4685,7 +7675,18 @@
       "sourceColumn": 2,
       "file": "images/I4-photos-1.jpg",
       "sourceSha256": "d199e4d1a986970c02293ae300f8be0913a9895962d760281fac15cf9f03a033",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/I4-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "I4",
@@ -4727,6 +7728,22 @@
           2565
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/I4-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/I4.png",
+        "size": [
+          794,
+          708
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1096,
+          1857,
+          1890,
+          2565
+        ],
+        "lossless": true
       }
     },
     {
@@ -4736,7 +7753,18 @@
       "sourceColumn": 2,
       "file": "images/I5-photos-1.jpg",
       "sourceSha256": "d27cf15af089e9cd7d38b782f30d858427bfe174a0e97488767310bc3ddbe623",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/I5-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "I6",
@@ -4745,7 +7773,18 @@
       "sourceColumn": 2,
       "file": "images/I6-photos-1.jpg",
       "sourceSha256": "00b9b9f52426ea499654368a76a4f2ea5d898a56ab7c3e72988973df13894fb0",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/I6-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "I7",
@@ -4754,7 +7793,18 @@
       "sourceColumn": 2,
       "file": "images/I7-photos-1.jpg",
       "sourceSha256": "4d7b8355779e82410ac0e7dbce622bb34f45558a09736c585749d06e6fdf62cc",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/I7-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "I7",
@@ -4796,6 +7846,22 @@
           2197
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/I7-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/I7.png",
+        "size": [
+          371,
+          521
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1350,
+          1676,
+          1721,
+          2197
+        ],
+        "lossless": true
       }
     },
     {
@@ -4805,7 +7871,18 @@
       "sourceColumn": 2,
       "file": "images/I8-photos-1.jpg",
       "sourceSha256": "9fffd5cbae4f8132cdd2c299c0b0ea4fcc30cba0cadf95bd483d7e5156f4e914",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/I8-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "I8",
@@ -4847,6 +7924,22 @@
           2449
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/I8-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/I8.png",
+        "size": [
+          1078,
+          845
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1111,
+          1604,
+          2189,
+          2449
+        ],
+        "lossless": true
       }
     },
     {
@@ -4856,7 +7949,18 @@
       "sourceColumn": 2,
       "file": "images/I9-photos-1.jpg",
       "sourceSha256": "f30be9844e9be0d02b1ee714a5d632707ee58ff071e5e3c0aaa3d0a64d407ea6",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/I9-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "I9",
@@ -4898,6 +8002,22 @@
           2080
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/I9-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/I9.png",
+        "size": [
+          1255,
+          657
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1036,
+          1423,
+          2291,
+          2080
+        ],
+        "lossless": true
       }
     },
     {
@@ -4907,7 +8027,18 @@
       "sourceColumn": 2,
       "file": "images/I10-photos-1.jpg",
       "sourceSha256": "4c0095127e03bf917b12258857e5a879d0cc60c800bbe09cc25c54b41ee3fdff",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/I10-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "I10",
@@ -4955,6 +8086,22 @@
           1518
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/I10-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/I10.png",
+        "size": [
+          1122,
+          418
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          840,
+          1100,
+          1962,
+          1518
+        ],
+        "lossless": true
       }
     },
     {
@@ -4964,7 +8111,18 @@
       "sourceColumn": 2,
       "file": "images/I11-photos-1.jpg",
       "sourceSha256": "f9fef86d062afaeb4322efcac77a5b043dac3ac2c9bfa65ce3ec1c7945420d2b",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/I11-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "I11",
@@ -5012,6 +8170,22 @@
           1495
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/I11-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/I11.png",
+        "size": [
+          377,
+          343
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          1344,
+          1152,
+          1721,
+          1495
+        ],
+        "lossless": true
       }
     },
     {
@@ -5021,7 +8195,18 @@
       "sourceColumn": 2,
       "file": "images/I12-photos-1.jpg",
       "sourceSha256": "5ce500ffb707fc400d1ed63d0e56aeccf2d25aa708e566d1b4e26861fe26e961",
-      "crop": null
+      "crop": null,
+      "displayFile": "assets/I12-photos-1.webp",
+      "revision2": {
+        "source": "workbook",
+        "size": [
+          1800,
+          2400
+        ],
+        "rotationClockwise": 90,
+        "displayCrop": null,
+        "lossless": false
+      }
     },
     {
       "record": "I12",
@@ -5069,7 +8254,2202 @@
           3856
         ],
         "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      },
+      "displayFile": "assets/I12-rubbings-1.webp",
+      "revision2": {
+        "source": "树洞合集/I12.png",
+        "size": [
+          1058,
+          3125
+        ],
+        "rotationClockwise": 0,
+        "displayCrop": [
+          908,
+          731,
+          1966,
+          3856
+        ],
+        "lossless": true
       }
     }
-  ]
+  ],
+  "registration": {
+    "scale": 0.2280000000000001,
+    "offsetX": 298,
+    "offsetY": 240
+  },
+  "positions": {
+    "A1": {
+      "x": 0.3228038,
+      "y": 0.3452923,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        743.07,
+        592.05
+      ],
+      "sourceDot": 45,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "A2": {
+      "x": 0.3253972,
+      "y": 0.3383662,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        759.54,
+        559.06
+      ],
+      "sourceDot": 42,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "A3": {
+      "x": 0.3276362,
+      "y": 0.3321602,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        773.76,
+        529.5
+      ],
+      "sourceDot": 39,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "A4": {
+      "x": 0.3304138,
+      "y": 0.3250599,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        791.4,
+        495.68
+      ],
+      "sourceDot": 35,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "A5": {
+      "x": 0.3332685,
+      "y": 0.3179994,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        809.53,
+        462.05
+      ],
+      "sourceDot": 31,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "A6": {
+      "x": 0.3358619,
+      "y": 0.3108508,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        826.0,
+        428.0
+      ],
+      "sourceDot": 28,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "A7": {
+      "x": 0.3384363,
+      "y": 0.3039961,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        842.35,
+        395.35
+      ],
+      "sourceDot": 24,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "A8": {
+      "x": 0.3411651,
+      "y": 0.2958188,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        859.68,
+        356.4
+      ],
+      "sourceDot": 20,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "A9": {
+      "x": 0.3445441,
+      "y": 0.2870977,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        881.14,
+        314.86
+      ],
+      "sourceDot": 14,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "A10": {
+      "x": 0.3481484,
+      "y": 0.2787776,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        904.03,
+        275.23
+      ],
+      "sourceDot": 8,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "B1": {
+      "x": 0.3140901,
+      "y": 0.330529,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        687.73,
+        521.73
+      ],
+      "sourceDot": 38,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "B2": {
+      "x": 0.3167244,
+      "y": 0.3238065,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        704.46,
+        489.71
+      ],
+      "sourceDot": 34,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "B3": {
+      "x": 0.3198169,
+      "y": 0.3169266,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        724.1,
+        456.94
+      ],
+      "sourceDot": 30,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "B4": {
+      "x": 0.3226448,
+      "y": 0.3097003,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        742.06,
+        422.52
+      ],
+      "sourceDot": 27,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "B5": {
+      "x": 0.3252854,
+      "y": 0.3022221,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        758.83,
+        386.9
+      ],
+      "sourceDot": 22,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "B6": {
+      "x": 0.327537,
+      "y": 0.2951155,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        773.13,
+        353.05
+      ],
+      "sourceDot": 18,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "B7": {
+      "x": 0.330291,
+      "y": 0.2878619,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        790.62,
+        318.5
+      ],
+      "sourceDot": 15,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "B8": {
+      "x": 0.3333473,
+      "y": 0.2803144,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        810.03,
+        282.55
+      ],
+      "sourceDot": 9,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "B9": {
+      "x": 0.3362555,
+      "y": 0.2725359,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        828.5,
+        245.5
+      ],
+      "sourceDot": 3,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "B10": {
+      "x": 0.3396409,
+      "y": 0.2632983,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        850.0,
+        201.5
+      ],
+      "sourceDot": 0,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "C1": {
+      "x": 0.4443855,
+      "y": 0.457787,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1515.22,
+        1127.88
+      ],
+      "sourceDot": 119,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "C2": {
+      "x": 0.437895,
+      "y": 0.4542431,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1474.0,
+        1111.0
+      ],
+      "sourceDot": 118,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "C3": {
+      "x": 0.4324233,
+      "y": 0.4502604,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1439.25,
+        1092.03
+      ],
+      "sourceDot": 115,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "C4": {
+      "x": 0.4253897,
+      "y": 0.446072,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1394.58,
+        1072.08
+      ],
+      "sourceDot": 113,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "C5": {
+      "x": 0.4189402,
+      "y": 0.4422846,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1353.62,
+        1054.04
+      ],
+      "sourceDot": 110,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "C6": {
+      "x": 0.411516,
+      "y": 0.4369331,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1306.47,
+        1028.55
+      ],
+      "sourceDot": 105,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "C7": {
+      "x": 0.404476,
+      "y": 0.4323039,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1261.76,
+        1006.5
+      ],
+      "sourceDot": 101,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "C8": {
+      "x": 0.3972707,
+      "y": 0.4277523,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1216.0,
+        984.82
+      ],
+      "sourceDot": 96,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "C9": {
+      "x": 0.3902717,
+      "y": 0.4233056,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1171.55,
+        963.64
+      ],
+      "sourceDot": 93,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "C10": {
+      "x": 0.3834348,
+      "y": 0.4196085,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1128.13,
+        946.03
+      ],
+      "sourceDot": 90,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "C11": {
+      "x": 0.3764515,
+      "y": 0.4152354,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1083.78,
+        925.2
+      ],
+      "sourceDot": 85,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "C12": {
+      "x": 0.358073,
+      "y": 0.4014987,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        967.06,
+        859.77
+      ],
+      "sourceDot": 77,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "C13": {
+      "x": 0.3513227,
+      "y": 0.3976588,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        924.19,
+        841.48
+      ],
+      "sourceDot": 73,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D1": {
+      "x": 0.4379801,
+      "y": 0.4798648,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1474.54,
+        1233.04
+      ],
+      "sourceDot": 130,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D2": {
+      "x": 0.4321903,
+      "y": 0.4758443,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1437.77,
+        1213.89
+      ],
+      "sourceDot": 128,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D3": {
+      "x": 0.425988,
+      "y": 0.4717735,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1398.38,
+        1194.5
+      ],
+      "sourceDot": 127,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D4": {
+      "x": 0.4190787,
+      "y": 0.4680994,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1354.5,
+        1177.0
+      ],
+      "sourceDot": 125,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D5": {
+      "x": 0.4119663,
+      "y": 0.4640055,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1309.33,
+        1157.5
+      ],
+      "sourceDot": 122,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D6": {
+      "x": 0.4047878,
+      "y": 0.4590424,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1263.74,
+        1133.86
+      ],
+      "sourceDot": 121,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D7": {
+      "x": 0.3971133,
+      "y": 0.4542431,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1215.0,
+        1111.0
+      ],
+      "sourceDot": 117,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D8": {
+      "x": 0.3896576,
+      "y": 0.4496054,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1167.65,
+        1088.91
+      ],
+      "sourceDot": 114,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D9": {
+      "x": 0.3825483,
+      "y": 0.4456102,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1122.5,
+        1069.88
+      ],
+      "sourceDot": 111,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D10": {
+      "x": 0.3755729,
+      "y": 0.4415414,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1078.2,
+        1050.5
+      ],
+      "sourceDot": 108,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D11": {
+      "x": 0.3687691,
+      "y": 0.4374076,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1034.99,
+        1030.81
+      ],
+      "sourceDot": 106,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D12": {
+      "x": 0.3610552,
+      "y": 0.4326188,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        986.0,
+        1008.0
+      ],
+      "sourceDot": 102,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D13": {
+      "x": 0.3395543,
+      "y": 0.4181935,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        849.45,
+        939.29
+      ],
+      "sourceDot": 89,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D14": {
+      "x": 0.3334732,
+      "y": 0.4141625,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        810.83,
+        920.09
+      ],
+      "sourceDot": 84,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D15": {
+      "x": 0.3268379,
+      "y": 0.4104927,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        768.69,
+        902.61
+      ],
+      "sourceDot": 82,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "D16": {
+      "x": 0.3111582,
+      "y": 0.3997981,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        669.11,
+        851.67
+      ],
+      "sourceDot": 75,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "E1": {
+      "x": 0.5777182,
+      "y": 0.5733867,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2362.0,
+        1678.5
+      ],
+      "sourceDot": 163,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "E2": {
+      "x": 0.5756996,
+      "y": 0.5816796,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2349.18,
+        1718.0
+      ],
+      "sourceDot": 169,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "E3": {
+      "x": 0.5733551,
+      "y": 0.5897708,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2334.29,
+        1756.54
+      ],
+      "sourceDot": 176,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "E4": {
+      "x": 0.5709475,
+      "y": 0.5960608,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2319.0,
+        1786.5
+      ],
+      "sourceDot": 179,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "E5": {
+      "x": 0.5683636,
+      "y": 0.602842,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2302.59,
+        1818.8
+      ],
+      "sourceDot": 184,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F1": {
+      "x": 0.5644697,
+      "y": 0.6035957,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2277.86,
+        1822.39
+      ],
+      "sourceDot": 185,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F2": {
+      "x": 0.5599758,
+      "y": 0.6007006,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2249.32,
+        1808.6
+      ],
+      "sourceDot": 182,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F3": {
+      "x": 0.5550615,
+      "y": 0.5970055,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2218.11,
+        1791.0
+      ],
+      "sourceDot": 180,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F4": {
+      "x": 0.5502039,
+      "y": 0.593468,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2187.26,
+        1774.15
+      ],
+      "sourceDot": 177,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F5": {
+      "x": 0.5449527,
+      "y": 0.589943,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2153.91,
+        1757.36
+      ],
+      "sourceDot": 175,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F6": {
+      "x": 0.5392999,
+      "y": 0.5868043,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2118.01,
+        1742.41
+      ],
+      "sourceDot": 173,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F7": {
+      "x": 0.5335322,
+      "y": 0.5833045,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2081.38,
+        1725.74
+      ],
+      "sourceDot": 171,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F8": {
+      "x": 0.5286274,
+      "y": 0.5803275,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2050.23,
+        1711.56
+      ],
+      "sourceDot": 168,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F9": {
+      "x": 0.5234596,
+      "y": 0.5765317,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2017.41,
+        1693.48
+      ],
+      "sourceDot": 166,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F10": {
+      "x": 0.5186713,
+      "y": 0.5735715,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1987.0,
+        1679.38
+      ],
+      "sourceDot": 164,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F11": {
+      "x": 0.5134326,
+      "y": 0.5700759,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1953.73,
+        1662.73
+      ],
+      "sourceDot": 161,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F12": {
+      "x": 0.5090112,
+      "y": 0.5675209,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1925.65,
+        1650.56
+      ],
+      "sourceDot": 159,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F13": {
+      "x": 0.5043473,
+      "y": 0.5641597,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1896.03,
+        1634.55
+      ],
+      "sourceDot": 157,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F14": {
+      "x": 0.4995904,
+      "y": 0.5611931,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1865.82,
+        1620.42
+      ],
+      "sourceDot": 156,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F15": {
+      "x": 0.4948021,
+      "y": 0.558065,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1835.41,
+        1605.52
+      ],
+      "sourceDot": 154,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F16": {
+      "x": 0.4898107,
+      "y": 0.5548759,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1803.71,
+        1590.33
+      ],
+      "sourceDot": 152,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F17": {
+      "x": 0.4852743,
+      "y": 0.5518464,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1774.9,
+        1575.9
+      ],
+      "sourceDot": 150,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F18": {
+      "x": 0.4800309,
+      "y": 0.5487854,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1741.6,
+        1561.32
+      ],
+      "sourceDot": 148,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F19": {
+      "x": 0.4751214,
+      "y": 0.5452457,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1710.42,
+        1544.46
+      ],
+      "sourceDot": 146,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F20": {
+      "x": 0.4709708,
+      "y": 0.5423191,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1684.06,
+        1530.52
+      ],
+      "sourceDot": 144,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F21": {
+      "x": 0.4660581,
+      "y": 0.5392665,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1652.86,
+        1515.98
+      ],
+      "sourceDot": 142,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F22": {
+      "x": 0.4613327,
+      "y": 0.5366842,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1622.85,
+        1503.68
+      ],
+      "sourceDot": 140,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F23": {
+      "x": 0.4556075,
+      "y": 0.5331571,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1586.49,
+        1486.88
+      ],
+      "sourceDot": 139,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F24": {
+      "x": 0.4499642,
+      "y": 0.5296385,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1550.65,
+        1470.12
+      ],
+      "sourceDot": 138,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F25": {
+      "x": 0.4445083,
+      "y": 0.5264641,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1516.0,
+        1455.0
+      ],
+      "sourceDot": 136,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F26": {
+      "x": 0.4535952,
+      "y": 0.542,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1573.71,
+        1529.0
+      ],
+      "sourceDot": 143,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F27": {
+      "x": 0.4584701,
+      "y": 0.5449161,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1604.67,
+        1542.89
+      ],
+      "sourceDot": 145,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F28": {
+      "x": 0.4649228,
+      "y": 0.5494215,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1645.65,
+        1564.35
+      ],
+      "sourceDot": 149,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F29": {
+      "x": 0.4707267,
+      "y": 0.5531145,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1682.51,
+        1581.94
+      ],
+      "sourceDot": 151,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F30": {
+      "x": 0.4767416,
+      "y": 0.5565996,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1720.71,
+        1598.54
+      ],
+      "sourceDot": 153,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F31": {
+      "x": 0.4825471,
+      "y": 0.5605717,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1757.58,
+        1617.46
+      ],
+      "sourceDot": 155,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F32": {
+      "x": 0.4881086,
+      "y": 0.5644851,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1792.9,
+        1636.1
+      ],
+      "sourceDot": 158,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F33": {
+      "x": 0.4936543,
+      "y": 0.568283,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1828.12,
+        1654.19
+      ],
+      "sourceDot": 160,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F34": {
+      "x": 0.4990787,
+      "y": 0.5717051,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1862.57,
+        1670.49
+      ],
+      "sourceDot": 162,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F35": {
+      "x": 0.5047267,
+      "y": 0.5751671,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1898.44,
+        1686.98
+      ],
+      "sourceDot": 165,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F36": {
+      "x": 0.5106897,
+      "y": 0.5785913,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1936.31,
+        1703.29
+      ],
+      "sourceDot": 167,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F37": {
+      "x": 0.5168684,
+      "y": 0.5824438,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1975.55,
+        1721.64
+      ],
+      "sourceDot": 170,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F38": {
+      "x": 0.5221684,
+      "y": 0.5859309,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2009.21,
+        1738.25
+      ],
+      "sourceDot": 172,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F39": {
+      "x": 0.5279629,
+      "y": 0.5897498,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2046.01,
+        1756.44
+      ],
+      "sourceDot": 174,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F40": {
+      "x": 0.5339495,
+      "y": 0.5936065,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2084.03,
+        1774.81
+      ],
+      "sourceDot": 178,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F41": {
+      "x": 0.5399408,
+      "y": 0.5972092,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2122.08,
+        1791.97
+      ],
+      "sourceDot": 181,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F42": {
+      "x": 0.5458801,
+      "y": 0.6008643,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2159.8,
+        1809.38
+      ],
+      "sourceDot": 183,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "F43": {
+      "x": 0.5513219,
+      "y": 0.6044481,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2194.36,
+        1826.45
+      ],
+      "sourceDot": 186,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G1": {
+      "x": 0.6163696,
+      "y": 0.4341052,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2607.47,
+        1015.08
+      ],
+      "sourceDot": 103,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G2": {
+      "x": 0.6106035,
+      "y": 0.4307776,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2570.85,
+        999.23
+      ],
+      "sourceDot": 99,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G3": {
+      "x": 0.6053979,
+      "y": 0.427683,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2537.79,
+        984.49
+      ],
+      "sourceDot": 98,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G4": {
+      "x": 0.6006379,
+      "y": 0.4244708,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2507.56,
+        969.19
+      ],
+      "sourceDot": 95,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G5": {
+      "x": 0.5949111,
+      "y": 0.4207716,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2471.19,
+        951.57
+      ],
+      "sourceDot": 92,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G6": {
+      "x": 0.5899575,
+      "y": 0.4179961,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2439.73,
+        938.35
+      ],
+      "sourceDot": 88,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G7": {
+      "x": 0.5846401,
+      "y": 0.414891,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2405.96,
+        923.56
+      ],
+      "sourceDot": 86,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G8": {
+      "x": 0.5795542,
+      "y": 0.4117524,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2373.66,
+        908.61
+      ],
+      "sourceDot": 83,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G9": {
+      "x": 0.574051,
+      "y": 0.4083702,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2338.71,
+        892.5
+      ],
+      "sourceDot": 80,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G10": {
+      "x": 0.5685069,
+      "y": 0.4048011,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2303.5,
+        875.5
+      ],
+      "sourceDot": 79,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G11": {
+      "x": 0.5619377,
+      "y": 0.4007723,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2261.78,
+        856.31
+      ],
+      "sourceDot": 76,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G12": {
+      "x": 0.5560063,
+      "y": 0.3973439,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2224.11,
+        839.98
+      ],
+      "sourceDot": 72,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G13": {
+      "x": 0.5502827,
+      "y": 0.393779,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2187.76,
+        823.0
+      ],
+      "sourceDot": 70,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G14": {
+      "x": 0.5440536,
+      "y": 0.3899832,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2148.2,
+        804.92
+      ],
+      "sourceDot": 69,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G15": {
+      "x": 0.538393,
+      "y": 0.3865569,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2112.25,
+        788.6
+      ],
+      "sourceDot": 67,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G16": {
+      "x": 0.532241,
+      "y": 0.3827191,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2073.18,
+        770.32
+      ],
+      "sourceDot": 65,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G17": {
+      "x": 0.5254798,
+      "y": 0.3788225,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2030.24,
+        751.76
+      ],
+      "sourceDot": 63,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G18": {
+      "x": 0.5193011,
+      "y": 0.374779,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1991.0,
+        732.5
+      ],
+      "sourceDot": 61,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G19": {
+      "x": 0.5123462,
+      "y": 0.3706011,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1946.83,
+        712.6
+      ],
+      "sourceDot": 58,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G20": {
+      "x": 0.5057518,
+      "y": 0.3667738,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1904.95,
+        694.37
+      ],
+      "sourceDot": 56,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G21": {
+      "x": 0.5003447,
+      "y": 0.363675,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1870.61,
+        679.61
+      ],
+      "sourceDot": 55,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "G22": {
+      "x": 0.4946951,
+      "y": 0.3600199,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1834.73,
+        662.2
+      ],
+      "sourceDot": 52,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J1": {
+      "x": 0.6099594,
+      "y": 0.4451651,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2566.76,
+        1067.76
+      ],
+      "sourceDot": 112,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J2": {
+      "x": 0.6045775,
+      "y": 0.4417073,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2532.58,
+        1051.29
+      ],
+      "sourceDot": 109,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J3": {
+      "x": 0.599194,
+      "y": 0.4380396,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2498.39,
+        1033.82
+      ],
+      "sourceDot": 107,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J4": {
+      "x": 0.5935964,
+      "y": 0.4345251,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2462.84,
+        1017.08
+      ],
+      "sourceDot": 104,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J5": {
+      "x": 0.5884931,
+      "y": 0.4312898,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2430.43,
+        1001.67
+      ],
+      "sourceDot": 100,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J6": {
+      "x": 0.5829978,
+      "y": 0.4274604,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2395.53,
+        983.43
+      ],
+      "sourceDot": 97,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J7": {
+      "x": 0.5768979,
+      "y": 0.4237066,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2356.79,
+        965.55
+      ],
+      "sourceDot": 94,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J8": {
+      "x": 0.5704137,
+      "y": 0.4199402,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2315.61,
+        947.61
+      ],
+      "sourceDot": 91,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J9": {
+      "x": 0.5630935,
+      "y": 0.4152585,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2269.12,
+        925.31
+      ],
+      "sourceDot": 87,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J10": {
+      "x": 0.5540758,
+      "y": 0.4091743,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2211.85,
+        896.33
+      ],
+      "sourceDot": 81,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J11": {
+      "x": 0.5460202,
+      "y": 0.4041125,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2160.69,
+        872.22
+      ],
+      "sourceDot": 78,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J12": {
+      "x": 0.5384953,
+      "y": 0.3991515,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2112.9,
+        848.59
+      ],
+      "sourceDot": 74,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J13": {
+      "x": 0.531142,
+      "y": 0.3943459,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2066.2,
+        825.7
+      ],
+      "sourceDot": 71,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J14": {
+      "x": 0.5236092,
+      "y": 0.3900336,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2018.36,
+        805.16
+      ],
+      "sourceDot": 68,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J15": {
+      "x": 0.5173439,
+      "y": 0.3859418,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1978.57,
+        785.67
+      ],
+      "sourceDot": 66,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J16": {
+      "x": 0.5105338,
+      "y": 0.3820347,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1935.32,
+        767.06
+      ],
+      "sourceDot": 64,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J17": {
+      "x": 0.5039489,
+      "y": 0.378453,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1893.5,
+        750.0
+      ],
+      "sourceDot": 62,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J18": {
+      "x": 0.4982536,
+      "y": 0.3747013,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1857.33,
+        732.13
+      ],
+      "sourceDot": 60,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J19": {
+      "x": 0.4927882,
+      "y": 0.3711701,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1822.62,
+        715.31
+      ],
+      "sourceDot": 59,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J20": {
+      "x": 0.488518,
+      "y": 0.3680608,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1795.5,
+        700.5
+      ],
+      "sourceDot": 57,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J21": {
+      "x": 0.4803852,
+      "y": 0.363232,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1743.85,
+        677.5
+      ],
+      "sourceDot": 54,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J22": {
+      "x": 0.4761134,
+      "y": 0.3605867,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1716.72,
+        664.9
+      ],
+      "sourceDot": 53,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J23": {
+      "x": 0.4710936,
+      "y": 0.3573809,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1684.84,
+        649.63
+      ],
+      "sourceDot": 51,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J24": {
+      "x": 0.4665919,
+      "y": 0.3545193,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1656.25,
+        636.0
+      ],
+      "sourceDot": 49,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J25": {
+      "x": 0.4609359,
+      "y": 0.35086,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1620.33,
+        618.57
+      ],
+      "sourceDot": 47,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J26": {
+      "x": 0.4556878,
+      "y": 0.3475093,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1587.0,
+        602.61
+      ],
+      "sourceDot": 46,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J27": {
+      "x": 0.4499847,
+      "y": 0.3437765,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1550.78,
+        584.83
+      ],
+      "sourceDot": 44,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J28": {
+      "x": 0.4445083,
+      "y": 0.3401381,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1516.0,
+        567.5
+      ],
+      "sourceDot": 43,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J29": {
+      "x": 0.4392161,
+      "y": 0.3361261,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1482.39,
+        548.39
+      ],
+      "sourceDot": 41,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J30": {
+      "x": 0.4340562,
+      "y": 0.3328425,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1449.62,
+        532.75
+      ],
+      "sourceDot": 40,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J31": {
+      "x": 0.4284648,
+      "y": 0.3290971,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1414.11,
+        514.91
+      ],
+      "sourceDot": 37,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J32": {
+      "x": 0.423919,
+      "y": 0.3262209,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1385.24,
+        501.21
+      ],
+      "sourceDot": 36,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J33": {
+      "x": 0.4190425,
+      "y": 0.3226875,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1354.27,
+        484.38
+      ],
+      "sourceDot": 33,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J34": {
+      "x": 0.4141314,
+      "y": 0.3195006,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1323.08,
+        469.2
+      ],
+      "sourceDot": 32,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J35": {
+      "x": 0.4088061,
+      "y": 0.316196,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1289.26,
+        453.46
+      ],
+      "sourceDot": 29,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J36": {
+      "x": 0.400549,
+      "y": 0.3082391,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1236.82,
+        415.56
+      ],
+      "sourceDot": 26,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J37": {
+      "x": 0.397192,
+      "y": 0.3051823,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1215.5,
+        401.0
+      ],
+      "sourceDot": 25,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J38": {
+      "x": 0.3933957,
+      "y": 0.302115,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1191.39,
+        386.39
+      ],
+      "sourceDot": 23,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J39": {
+      "x": 0.3886719,
+      "y": 0.298546,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1161.39,
+        369.39
+      ],
+      "sourceDot": 21,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J40": {
+      "x": 0.383849,
+      "y": 0.2951491,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1130.76,
+        353.21
+      ],
+      "sourceDot": 19,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J41": {
+      "x": 0.3796543,
+      "y": 0.2921699,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1104.12,
+        339.02
+      ],
+      "sourceDot": 17,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J42": {
+      "x": 0.375491,
+      "y": 0.289025,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1077.68,
+        324.04
+      ],
+      "sourceDot": 16,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J43": {
+      "x": 0.3709405,
+      "y": 0.286048,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1048.78,
+        309.86
+      ],
+      "sourceDot": 13,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J44": {
+      "x": 0.366941,
+      "y": 0.2833229,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        1023.38,
+        296.88
+      ],
+      "sourceDot": 12,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J45": {
+      "x": 0.3625716,
+      "y": 0.2804256,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        995.63,
+        283.08
+      ],
+      "sourceDot": 10,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J46": {
+      "x": 0.3581423,
+      "y": 0.2775746,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        967.5,
+        269.5
+      ],
+      "sourceDot": 7,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "J47": {
+      "x": 0.3536799,
+      "y": 0.2745199,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        939.16,
+        254.95
+      ],
+      "sourceDot": 5,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "H1": {
+      "x": 0.6164168,
+      "y": 0.4667033,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2607.77,
+        1170.35
+      ],
+      "sourceDot": 124,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "H2": {
+      "x": 0.6106475,
+      "y": 0.4859783,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2571.13,
+        1262.16
+      ],
+      "sourceDot": 132,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "I1": {
+      "x": 0.585355,
+      "y": 0.5474586,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2410.5,
+        1555.0
+      ],
+      "sourceDot": 147,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "I2": {
+      "x": 0.5889435,
+      "y": 0.5369844,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2433.29,
+        1505.11
+      ],
+      "sourceDot": 141,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "I3": {
+      "x": 0.5916281,
+      "y": 0.5293046,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2450.34,
+        1468.53
+      ],
+      "sourceDot": 137,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "I4": {
+      "x": 0.5943191,
+      "y": 0.5209866,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2467.43,
+        1428.91
+      ],
+      "sourceDot": 135,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "I5": {
+      "x": 0.597769,
+      "y": 0.5104873,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2489.34,
+        1378.9
+      ],
+      "sourceDot": 134,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "I6": {
+      "x": 0.6000962,
+      "y": 0.4935112,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2504.12,
+        1298.04
+      ],
+      "sourceDot": 133,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "I7": {
+      "x": 0.6028533,
+      "y": 0.4849118,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2521.63,
+        1257.08
+      ],
+      "sourceDot": 131,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "I8": {
+      "x": 0.6051522,
+      "y": 0.4778493,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2536.23,
+        1223.44
+      ],
+      "sourceDot": 129,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "I9": {
+      "x": 0.6074716,
+      "y": 0.4710114,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2550.96,
+        1190.87
+      ],
+      "sourceDot": 126,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "I10": {
+      "x": 0.6093217,
+      "y": 0.4654667,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2562.71,
+        1164.46
+      ],
+      "sourceDot": 123,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "I11": {
+      "x": 0.6112947,
+      "y": 0.4583475,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2575.24,
+        1130.55
+      ],
+      "sourceDot": 120,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    },
+    "I12": {
+      "x": 0.6127764,
+      "y": 0.4515873,
+      "source": "每棵树位置.png",
+      "sourcePixel": [
+        2584.65,
+        1098.35
+      ],
+      "sourceDot": 116,
+      "status": "reference",
+      "note": "按位置图同名标注对应，仅供参考，尚未现场核对。"
+    }
+  },
+  "excludedMapLabels": [
+    "F44",
+    "F45",
+    "G23",
+    "G24",
+    "G25",
+    "G26",
+    "G27",
+    "G28",
+    "G29"
+  ],
+  "displayPolicy": "Original RGB restored. Rubbings full-size lossless WebP with original alpha when verified ZIP image matches, otherwise workbook pixels with black background removed. Corner-label crop retained. Photos rotated clockwise to portrait; upright G14 center-cropped to portrait."
 }

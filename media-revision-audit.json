@@ -1,0 +1,3459 @@
+[
+  {
+    "id": "D10",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I2",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I2",
+    "kind": "rubbings",
+    "source": "树洞合集/I2.png",
+    "size": [
+      1023,
+      631
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      993,
+      2650,
+      2016,
+      3281
+    ],
+    "lossless": true
+  },
+  {
+    "id": "I10",
+    "kind": "rubbings",
+    "source": "树洞合集/I10.png",
+    "size": [
+      1122,
+      418
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      840,
+      1100,
+      1962,
+      1518
+    ],
+    "lossless": true
+  },
+  {
+    "id": "D1",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "D11",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J14",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J43",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "D5",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J32",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F6",
+    "kind": "rubbings",
+    "source": "树洞合集/F6.png",
+    "size": [
+      2204,
+      2837
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      521,
+      702,
+      2725,
+      3539
+    ],
+    "lossless": true
+  },
+  {
+    "id": "F8",
+    "kind": "rubbings",
+    "source": "树洞合集/F8.png",
+    "size": [
+      926,
+      2844
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      872,
+      1180,
+      1798,
+      4024
+    ],
+    "lossless": true
+  },
+  {
+    "id": "F34",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G6",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1200,
+      1600
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F29",
+    "kind": "rubbings",
+    "source": "树洞合集/F29.png",
+    "size": [
+      1587,
+      2069
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      918,
+      840,
+      2505,
+      2909
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J29",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I1",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I11",
+    "kind": "rubbings",
+    "source": "树洞合集/I11.png",
+    "size": [
+      377,
+      343
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1344,
+      1152,
+      1721,
+      1495
+    ],
+    "lossless": true
+  },
+  {
+    "id": "F41",
+    "kind": "rubbings",
+    "source": "树洞合集/F42.png",
+    "size": [
+      966,
+      1801
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1162,
+      960,
+      2128,
+      2761
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J13",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F13",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1280,
+      1707
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G15",
+    "kind": "rubbings",
+    "source": "树洞合集/G26.png",
+    "size": [
+      902,
+      1621
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1406,
+      804,
+      2308,
+      2425
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J3",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J30",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F4",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J43",
+    "kind": "rubbings",
+    "source": "树洞合集/J40.png",
+    "size": [
+      398,
+      371
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1433,
+      1475,
+      1831,
+      1846
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J47",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F32",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G21",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1919
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I8",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "A8",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1440
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "C1",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "C10",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "D9",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F25",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G2",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1279,
+      1706
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "E1",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1280,
+      1707
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F36",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J14",
+    "kind": "rubbings",
+    "source": "树洞合集/J11.png",
+    "size": [
+      569,
+      476
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1201,
+      1623,
+      1770,
+      2099
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J42",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J44",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J17",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J33",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "A1",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1440
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "B6",
+    "kind": "rubbings",
+    "source": "树洞合集/B6.png",
+    "size": [
+      1622,
+      1792
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      628,
+      1043,
+      2250,
+      2835
+    ],
+    "lossless": true
+  },
+  {
+    "id": "D12",
+    "kind": "rubbings",
+    "source": "树洞合集/D12.png",
+    "size": [
+      1500,
+      1559
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      774,
+      1173,
+      2274,
+      2732
+    ],
+    "lossless": true
+  },
+  {
+    "id": "F5",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J17",
+    "kind": "rubbings",
+    "source": "树洞合集/J18.png",
+    "size": [
+      809,
+      1798
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1051,
+      651,
+      1860,
+      2449
+    ],
+    "lossless": true
+  },
+  {
+    "id": "B5",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F2",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F28",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G1",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1279,
+      1706
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G16",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1919
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "A2",
+    "kind": "rubbings",
+    "source": "树洞合集/A2.png",
+    "size": [
+      1563,
+      2856
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      758,
+      810,
+      2321,
+      3666
+    ],
+    "lossless": true
+  },
+  {
+    "id": "B8",
+    "kind": "rubbings",
+    "source": "树洞合集/B8.png",
+    "size": [
+      1119,
+      1702
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      993,
+      1174,
+      2112,
+      2876
+    ],
+    "lossless": true
+  },
+  {
+    "id": "E5",
+    "kind": "rubbings",
+    "source": "树洞合集/E5.png",
+    "size": [
+      590,
+      567
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1201,
+      1739,
+      1791,
+      2306
+    ],
+    "lossless": true
+  },
+  {
+    "id": "G13",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1919
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G15",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1919
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G19",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1919
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "A9",
+    "kind": "rubbings",
+    "source": "树洞合集/A9.png",
+    "size": [
+      1393,
+      2493
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      728,
+      623,
+      2121,
+      3116
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J16",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J21",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J27",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I12",
+    "kind": "rubbings",
+    "source": "树洞合集/I12.png",
+    "size": [
+      1058,
+      3125
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      908,
+      731,
+      1966,
+      3856
+    ],
+    "lossless": true
+  },
+  {
+    "id": "C12",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F29",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J5",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "H1",
+    "kind": "rubbings",
+    "source": "树洞合集/H1.png",
+    "size": [
+      2055,
+      3147
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      624,
+      79,
+      2679,
+      3226
+    ],
+    "lossless": true
+  },
+  {
+    "id": "B6",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "B8",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "D14",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "D15",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J18",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F20",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J31",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G14",
+    "kind": "rubbings",
+    "source": "树洞合集/G24.png",
+    "size": [
+      586,
+      1365
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1224,
+      572,
+      1810,
+      1937
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J1",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1200,
+      1600
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J15",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J15",
+    "kind": "rubbings",
+    "source": "树洞合集/J15.png",
+    "size": [
+      1245,
+      2921
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1047,
+      351,
+      2292,
+      3272
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J22",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J24",
+    "kind": "rubbings",
+    "source": "树洞合集/J24.png",
+    "size": [
+      898,
+      929
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1144,
+      1359,
+      2042,
+      2288
+    ],
+    "lossless": true
+  },
+  {
+    "id": "A3",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1440
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F23",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I11",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G22",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "D7",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "D8",
+    "kind": "rubbings",
+    "source": "树洞合集/D8.png",
+    "size": [
+      1367,
+      1108
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      811,
+      1474,
+      2178,
+      2582
+    ],
+    "lossless": true
+  },
+  {
+    "id": "D13",
+    "kind": "rubbings",
+    "source": "树洞合集/D13.png",
+    "size": [
+      801,
+      699
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1097,
+      1745,
+      1898,
+      2444
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J24",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J46",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I7",
+    "kind": "rubbings",
+    "source": "树洞合集/I7.png",
+    "size": [
+      371,
+      521
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1350,
+      1676,
+      1721,
+      2197
+    ],
+    "lossless": true
+  },
+  {
+    "id": "B2",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F41",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G7",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1280,
+      1706
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G9",
+    "kind": "rubbings",
+    "source": "树洞合集/G10.png",
+    "size": [
+      357,
+      497
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1413,
+      1327,
+      1770,
+      1824
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J6",
+    "kind": "rubbings",
+    "source": "树洞合集/J4.png",
+    "size": [
+      564,
+      2535
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1260,
+      683,
+      1824,
+      3218
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J12",
+    "kind": "rubbings",
+    "source": "workbook",
+    "size": [
+      496,
+      405
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1263,
+      1813,
+      1759,
+      2218
+    ],
+    "lossless": true
+  },
+  {
+    "id": "I3",
+    "kind": "rubbings",
+    "source": "树洞合集/I3.png",
+    "size": [
+      285,
+      354
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1339,
+      1862,
+      1624,
+      2216
+    ],
+    "lossless": true
+  },
+  {
+    "id": "I4",
+    "kind": "rubbings",
+    "source": "树洞合集/I4.png",
+    "size": [
+      794,
+      708
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1096,
+      1857,
+      1890,
+      2565
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J36",
+    "kind": "rubbings",
+    "source": "树洞合集/J35.png",
+    "size": [
+      1351,
+      1012
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1200,
+      746,
+      2551,
+      1758
+    ],
+    "lossless": true
+  },
+  {
+    "id": "G1",
+    "kind": "rubbings",
+    "source": "树洞合集/G1.png",
+    "size": [
+      1310,
+      1690
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      942,
+      735,
+      2252,
+      2425
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J10",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "A10",
+    "kind": "rubbings",
+    "source": "树洞合集/A10.png",
+    "size": [
+      1104,
+      1989
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      913,
+      860,
+      2017,
+      2849
+    ],
+    "lossless": true
+  },
+  {
+    "id": "C4",
+    "kind": "rubbings",
+    "source": "树洞合集/C4.png",
+    "size": [
+      1602,
+      1739
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      694,
+      1117,
+      2296,
+      2856
+    ],
+    "lossless": true
+  },
+  {
+    "id": "D6",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F38",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J11",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "A4",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1440
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "A7",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1440
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "B5",
+    "kind": "rubbings",
+    "source": "树洞合集/B5.png",
+    "size": [
+      1036,
+      1995
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      934,
+      1099,
+      1970,
+      3094
+    ],
+    "lossless": true
+  },
+  {
+    "id": "G5",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "C7",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F31",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G20",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1919
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "A7",
+    "kind": "rubbings",
+    "source": "树洞合集/A7.png",
+    "size": [
+      781,
+      1307
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1217,
+      1366,
+      1998,
+      2673
+    ],
+    "lossless": true
+  },
+  {
+    "id": "F12",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "C13",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "D2",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F42",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J12",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I3",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I6",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J45",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I10",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I12",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "A6",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1440
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "C8",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F35",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G4",
+    "kind": "rubbings",
+    "source": "树洞合集/G4.png",
+    "size": [
+      694,
+      642
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1202,
+      1509,
+      1896,
+      2151
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J23",
+    "kind": "rubbings",
+    "source": "树洞合集/J22.png",
+    "size": [
+      1502,
+      2344
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      630,
+      504,
+      2132,
+      2848
+    ],
+    "lossless": true
+  },
+  {
+    "id": "B3",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "B10",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "D6",
+    "kind": "rubbings",
+    "source": "树洞合集/D6.png",
+    "size": [
+      1085,
+      3410
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      825,
+      540,
+      1910,
+      3950
+    ],
+    "lossless": true
+  },
+  {
+    "id": "F10",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F26",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F30",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F40",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "C6",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F1",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G3",
+    "kind": "rubbings",
+    "source": "树洞合集/G3.png",
+    "size": [
+      712,
+      481
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1422,
+      1107,
+      2134,
+      1588
+    ],
+    "lossless": true
+  },
+  {
+    "id": "G14",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      959,
+      1279
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      373,
+      0,
+      1332,
+      1279
+    ],
+    "lossless": false
+  },
+  {
+    "id": "J7",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J19",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J36",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I7",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "A4",
+    "kind": "rubbings",
+    "source": "树洞合集/A4.png",
+    "size": [
+      1781,
+      10368
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      556,
+      1000,
+      2337,
+      11368
+    ],
+    "lossless": true
+  },
+  {
+    "id": "F14",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F15",
+    "kind": "rubbings",
+    "source": "树洞合集/F15.png",
+    "size": [
+      1053,
+      3232
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1062,
+      359,
+      2115,
+      3591
+    ],
+    "lossless": true
+  },
+  {
+    "id": "G10",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1279,
+      1706
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J28",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "H2",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I4",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "C3",
+    "kind": "rubbings",
+    "source": "树洞合集/C3.png",
+    "size": [
+      3024,
+      5448
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      0,
+      962,
+      3024,
+      6410
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J22",
+    "kind": "rubbings",
+    "source": "树洞合集/J21.png",
+    "size": [
+      969,
+      1075
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1126,
+      1175,
+      2095,
+      2250
+    ],
+    "lossless": true
+  },
+  {
+    "id": "D8",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F18",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G4",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1280,
+      1706
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "A5",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1440
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F3",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1919
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F33",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G3",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1280,
+      1706
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G9",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1279,
+      1706
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G16",
+    "kind": "rubbings",
+    "source": "树洞合集/G27.png",
+    "size": [
+      750,
+      981
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1073,
+      1253,
+      1823,
+      2234
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J34",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I9",
+    "kind": "rubbings",
+    "source": "树洞合集/I9.png",
+    "size": [
+      1255,
+      657
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1036,
+      1423,
+      2291,
+      2080
+    ],
+    "lossless": true
+  },
+  {
+    "id": "B9",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J46",
+    "kind": "rubbings",
+    "source": "树洞合集/J43.png",
+    "size": [
+      674,
+      485
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1070,
+      3296,
+      1744,
+      3781
+    ],
+    "lossless": true
+  },
+  {
+    "id": "F22",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J8",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "D4",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F9",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G5",
+    "kind": "rubbings",
+    "source": "树洞合集/G5.png",
+    "size": [
+      1368,
+      1140
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      853,
+      559,
+      2221,
+      1699
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J20",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "D7",
+    "kind": "rubbings",
+    "source": "树洞合集/D7.png",
+    "size": [
+      1086,
+      1489
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      988,
+      1570,
+      2074,
+      3059
+    ],
+    "lossless": true
+  },
+  {
+    "id": "G17",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1919
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J39",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J45",
+    "kind": "rubbings",
+    "source": "树洞合集/J42.png",
+    "size": [
+      765,
+      1678
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1082,
+      1218,
+      1847,
+      2896
+    ],
+    "lossless": true
+  },
+  {
+    "id": "A2",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "C9",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J44",
+    "kind": "rubbings",
+    "source": "树洞合集/J41.png",
+    "size": [
+      1172,
+      1493
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      941,
+      581,
+      2113,
+      2074
+    ],
+    "lossless": true
+  },
+  {
+    "id": "B1",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "C2",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G12",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1919
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "B7",
+    "kind": "rubbings",
+    "source": "树洞合集/B7.png",
+    "size": [
+      1388,
+      1458
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      819,
+      1283,
+      2207,
+      2741
+    ],
+    "lossless": true
+  },
+  {
+    "id": "F27",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F15",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "A10",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1440
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "B3",
+    "kind": "rubbings",
+    "source": "树洞合集/B3.png",
+    "size": [
+      967,
+      1654
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      931,
+      1438,
+      1898,
+      3092
+    ],
+    "lossless": true
+  },
+  {
+    "id": "D5",
+    "kind": "rubbings",
+    "source": "树洞合集/D5.png",
+    "size": [
+      2007,
+      1681
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      578,
+      1203,
+      2585,
+      2884
+    ],
+    "lossless": true
+  },
+  {
+    "id": "B7",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "E2",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "E4",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F11",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G11",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1919
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J2",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J26",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "E5",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F6",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F16",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J37",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "B4",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "C11",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F5",
+    "kind": "rubbings",
+    "source": "树洞合集/F5.png",
+    "size": [
+      1970,
+      3303
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      674,
+      392,
+      2644,
+      3695
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J25",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J41",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F2",
+    "kind": "rubbings",
+    "source": "树洞合集/F2.png",
+    "size": [
+      1732,
+      2902
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      875,
+      503,
+      2607,
+      3405
+    ],
+    "lossless": true
+  },
+  {
+    "id": "G18",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1919
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J5",
+    "kind": "rubbings",
+    "source": "树洞合集/J5.png",
+    "size": [
+      399,
+      483
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1702,
+      1297,
+      2101,
+      1780
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J7",
+    "kind": "rubbings",
+    "source": "树洞合集/J5.png",
+    "size": [
+      399,
+      483
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1702,
+      1297,
+      2101,
+      1780
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J6",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I9",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "A1",
+    "kind": "rubbings",
+    "source": "树洞合集/A1.png",
+    "size": [
+      2016,
+      3074
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      456,
+      126,
+      2472,
+      3200
+    ],
+    "lossless": true
+  },
+  {
+    "id": "C5",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "D3",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J4",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F42",
+    "kind": "rubbings",
+    "source": "树洞合集/F44.png",
+    "size": [
+      939,
+      2757
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1082,
+      1275,
+      2021,
+      4032
+    ],
+    "lossless": true
+  },
+  {
+    "id": "C4",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F26",
+    "kind": "rubbings",
+    "source": "树洞合集/F26.png",
+    "size": [
+      1380,
+      852
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      938,
+      1415,
+      2318,
+      2267
+    ],
+    "lossless": true
+  },
+  {
+    "id": "D13",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F7",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J38",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "A3",
+    "kind": "rubbings",
+    "source": "树洞合集/A3.png",
+    "size": [
+      527,
+      635
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1318,
+      1389,
+      1845,
+      2024
+    ],
+    "lossless": true
+  },
+  {
+    "id": "E3",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F39",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G8",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1280,
+      1706
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "G19",
+    "kind": "rubbings",
+    "source": "树洞合集/G28.png",
+    "size": [
+      612,
+      1528
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1147,
+      1650,
+      1759,
+      3178
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J11",
+    "kind": "rubbings",
+    "source": "workbook",
+    "size": [
+      366,
+      371
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1350,
+      1377,
+      1716,
+      1748
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J18",
+    "kind": "rubbings",
+    "source": "workbook",
+    "size": [
+      366,
+      371
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1350,
+      1377,
+      1716,
+      1748
+    ],
+    "lossless": true
+  },
+  {
+    "id": "F19",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "H1",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "A8",
+    "kind": "rubbings",
+    "source": "树洞合集/A8.png",
+    "size": [
+      1365,
+      1721
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      849,
+      1342,
+      2214,
+      3063
+    ],
+    "lossless": true
+  },
+  {
+    "id": "A9",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1440
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F3",
+    "kind": "rubbings",
+    "source": "树洞合集/F3.png",
+    "size": [
+      2200,
+      3023
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      530,
+      399,
+      2730,
+      3422
+    ],
+    "lossless": true
+  },
+  {
+    "id": "F21",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F37",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J23",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "B9",
+    "kind": "rubbings",
+    "source": "树洞合集/B9.png",
+    "size": [
+      1465,
+      1949
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      837,
+      1013,
+      2302,
+      2962
+    ],
+    "lossless": true
+  },
+  {
+    "id": "C3",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F24",
+    "kind": "rubbings",
+    "source": "树洞合集/F24.png",
+    "size": [
+      432,
+      522
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1320,
+      1421,
+      1752,
+      1943
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J31",
+    "kind": "rubbings",
+    "source": "树洞合集/J29.png",
+    "size": [
+      1448,
+      1651
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      267,
+      135,
+      1715,
+      1786
+    ],
+    "lossless": true
+  },
+  {
+    "id": "I8",
+    "kind": "rubbings",
+    "source": "树洞合集/I8.png",
+    "size": [
+      1078,
+      845
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1111,
+      1604,
+      2189,
+      2449
+    ],
+    "lossless": true
+  },
+  {
+    "id": "B1",
+    "kind": "rubbings",
+    "source": "树洞合集/B1.png",
+    "size": [
+      1054,
+      1009
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1026,
+      1423,
+      2080,
+      2432
+    ],
+    "lossless": true
+  },
+  {
+    "id": "F24",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F43",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J35",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J40",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "J47",
+    "kind": "rubbings",
+    "source": "树洞合集/J44.png",
+    "size": [
+      367,
+      409
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1435,
+      1852,
+      1802,
+      2261
+    ],
+    "lossless": true
+  },
+  {
+    "id": "D1",
+    "kind": "rubbings",
+    "source": "树洞合集/D1.png",
+    "size": [
+      1871,
+      6554
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      643,
+      0,
+      2514,
+      6554
+    ],
+    "lossless": true
+  },
+  {
+    "id": "D9",
+    "kind": "rubbings",
+    "source": "树洞合集/D9.png",
+    "size": [
+      1175,
+      1018
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      965,
+      1546,
+      2140,
+      2564
+    ],
+    "lossless": true
+  },
+  {
+    "id": "D16",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F25",
+    "kind": "rubbings",
+    "source": "树洞合集/F25.png",
+    "size": [
+      1106,
+      3803
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": [
+      1086,
+      43,
+      2192,
+      3846
+    ],
+    "lossless": true
+  },
+  {
+    "id": "J9",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F17",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "F8",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1080,
+      1920
+    ],
+    "rotationClockwise": 0,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "D12",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  },
+  {
+    "id": "I5",
+    "kind": "photos",
+    "source": "workbook",
+    "size": [
+      1800,
+      2400
+    ],
+    "rotationClockwise": 90,
+    "displayCrop": null,
+    "lossless": false
+  }
+]

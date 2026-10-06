@@ -1,0 +1,18 @@
+{
+  "source": [
+    "地图1，用于晴天、阴天.png"
+  ],
+  "excluded": "中等视角.png contains baked-in red labels and callouts, so is not used as building geometry.",
+  "method": "Color-mask contours traced from the unannotated supplied campus raster. Tiny color-noise holes under 45 pixels filled; polygon simplification at 1.8 source pixels removes staircase noise on building edges; no invented building footprints.",
+  "registration": {
+    "scale": 0.2280000000000001,
+    "offsetX": 298,
+    "offsetY": 240
+  },
+  "layers": [
+    "context",
+    "open space",
+    "secondary structures",
+    "ultramarine structures"
+  ]
+}

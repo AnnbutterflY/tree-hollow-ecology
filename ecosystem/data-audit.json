@@ -1,0 +1,5075 @@
+{
+  "source": "未命名表格 (1).xlsx",
+  "sheet": "Sheet1",
+  "sourceSha256": "74a41c1535c8ab66fa4bbcc6499c38cfc3884b16aaa934d54271c2e039b566ea",
+  "records": 180,
+  "uniqueIds": 180,
+  "photos": 180,
+  "rubbings": 76,
+  "unmatchedImages": [],
+  "taxaLabels": [
+    "举腹蚁",
+    "地衣",
+    "大头蚁",
+    "天牛",
+    "弓背蚁",
+    "弹尾虫",
+    "拟蚁蛛",
+    "星天牛",
+    "晶粒鬼伞",
+    "白蚁",
+    "真菌",
+    "纯白微皮伞",
+    "细叶麦冬",
+    "胶质真菌",
+    "薜荔",
+    "蚂蚁",
+    "蚊子",
+    "蛾蚋",
+    "蜗牛",
+    "蜘蛛",
+    "蝉",
+    "蟑螂",
+    "西瓜虫",
+    "霉菌",
+    "靴耳",
+    "马陆",
+    "鼻涕虫"
+  ],
+  "weatherRecordedRows": {
+    "晴天": 114,
+    "雨天": 55,
+    "阴天": 113
+  },
+  "heightRecorded": 43,
+  "directionRecorded": 8,
+  "imagePolicy": "Photos resized without cropping. Rubbing corner labels removed and outer margins cropped. Spreadsheet anchor row/column and cell ID authoritative; source originals preserved.",
+  "imageMap": [
+    {
+      "record": "A1",
+      "type": "photos",
+      "sourceRow": 2,
+      "sourceColumn": 2,
+      "file": "images/A1-photos-1.jpg",
+      "sourceSha256": "20c6e4b933ce770b460e87fd85b5e9148a23de488f87902b3ada680c0e4a245c",
+      "crop": null
+    },
+    {
+      "record": "A1",
+      "type": "rubbings",
+      "sourceRow": 2,
+      "sourceColumn": 3,
+      "file": "images/A1-rubbings-1.jpg",
+      "sourceSha256": "b5139eaa6c829964ba256db12b0dd5596570cfd3b545c96e449800f1b37b988a",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            67,
+            95,
+            443,
+            491
+          ],
+          [
+            473,
+            95,
+            637,
+            491
+          ]
+        ],
+        "bodyBounds": [
+          562,
+          232,
+          2366,
+          3094
+        ],
+        "cropBox": [
+          456,
+          126,
+          2472,
+          3200
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "A2",
+      "type": "photos",
+      "sourceRow": 3,
+      "sourceColumn": 2,
+      "file": "images/A2-photos-1.jpg",
+      "sourceSha256": "332290e151cee20ee079144a37109f15414d6d93be5840b194eda6764985221b",
+      "crop": null
+    },
+    {
+      "record": "A2",
+      "type": "rubbings",
+      "sourceRow": 3,
+      "sourceColumn": 3,
+      "file": "images/A2-rubbings-1.jpg",
+      "sourceSha256": "900c08c914f082ec2aed6ca4507a8ab4a3f3fa69d0d468053278301eac35fa06",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            535,
+            147,
+            807,
+            547
+          ],
+          [
+            124,
+            152,
+            505,
+            547
+          ]
+        ],
+        "bodyBounds": [
+          864,
+          916,
+          2215,
+          3560
+        ],
+        "cropBox": [
+          758,
+          810,
+          2321,
+          3666
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "A3",
+      "type": "photos",
+      "sourceRow": 4,
+      "sourceColumn": 2,
+      "file": "images/A3-photos-1.jpg",
+      "sourceSha256": "bf40896e3fa59f3617b020bf078c55f10b42c307fe0155c23f2c785ebfb6b7e6",
+      "crop": null
+    },
+    {
+      "record": "A3",
+      "type": "rubbings",
+      "sourceRow": 4,
+      "sourceColumn": 3,
+      "file": "images/A3-rubbings-1.jpg",
+      "sourceSha256": "1768afe62d7fc5ad89bdb5d520fc7e33fa1491f3df7ab017f44aad17932dc7bb",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            166,
+            133,
+            543,
+            533
+          ],
+          [
+            549,
+            133,
+            826,
+            543
+          ]
+        ],
+        "bodyBounds": [
+          1424,
+          1495,
+          1739,
+          1918
+        ],
+        "cropBox": [
+          1318,
+          1389,
+          1845,
+          2024
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "A4",
+      "type": "photos",
+      "sourceRow": 5,
+      "sourceColumn": 2,
+      "file": "images/A4-photos-1.jpg",
+      "sourceSha256": "9f98cec4bfd72e509eb93be7f1423d9d0fe6d83e6a33f83300a7050c3df79ae6",
+      "crop": null
+    },
+    {
+      "record": "A4",
+      "type": "rubbings",
+      "sourceRow": 5,
+      "sourceColumn": 3,
+      "file": "images/A4-rubbings-1.jpg",
+      "sourceSha256": "494d427d9080260d4bf682d97fcb1c6bdadbfe8085e4ce6e7335a48b5568e663",
+      "crop": {
+        "sourceSize": [
+          3024,
+          11633
+        ],
+        "overlapBandCrop": [
+          0,
+          0,
+          3024,
+          1000
+        ],
+        "removedLabelComponents": [],
+        "bodyBounds": [
+          662,
+          1000,
+          2231,
+          11262
+        ],
+        "cropBox": [
+          556,
+          1000,
+          2337,
+          11368
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "A5",
+      "type": "photos",
+      "sourceRow": 6,
+      "sourceColumn": 2,
+      "file": "images/A5-photos-1.jpg",
+      "sourceSha256": "970e5cb1ea70846f143b029f702174225c23799f3aa80d849c4aceb5b8b943f7",
+      "crop": null
+    },
+    {
+      "record": "A6",
+      "type": "photos",
+      "sourceRow": 7,
+      "sourceColumn": 2,
+      "file": "images/A6-photos-1.jpg",
+      "sourceSha256": "60fe10e2da54b841e4f08cdd6e4e7bd5f54c6fb1e86540fdf6fc28fc6f8ee1cb",
+      "crop": null
+    },
+    {
+      "record": "A7",
+      "type": "photos",
+      "sourceRow": 8,
+      "sourceColumn": 2,
+      "file": "images/A7-photos-1.jpg",
+      "sourceSha256": "9744e76a58974928219889a72991b1d66bd77aceff275dbb7dd72b380b842386",
+      "crop": null
+    },
+    {
+      "record": "A7",
+      "type": "rubbings",
+      "sourceRow": 8,
+      "sourceColumn": 3,
+      "file": "images/A7-rubbings-1.jpg",
+      "sourceSha256": "2e02242228225966ebb895656c9f53655ebd5b8854a0370934031ff4bd962134",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            124,
+            109,
+            505,
+            510
+          ],
+          [
+            511,
+            119,
+            784,
+            510
+          ]
+        ],
+        "bodyBounds": [
+          1323,
+          1472,
+          1892,
+          2567
+        ],
+        "cropBox": [
+          1217,
+          1366,
+          1998,
+          2673
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "A8",
+      "type": "photos",
+      "sourceRow": 9,
+      "sourceColumn": 2,
+      "file": "images/A8-photos-1.jpg",
+      "sourceSha256": "9f32a3370b284671045b841c22dae5591d6fd441d8b4b75ca8fdc549ce318723",
+      "crop": null
+    },
+    {
+      "record": "A8",
+      "type": "rubbings",
+      "sourceRow": 9,
+      "sourceColumn": 3,
+      "file": "images/A8-rubbings-1.jpg",
+      "sourceSha256": "60ebfb7a3e6c268b2f5b6e56a69f3c26be59632026ad5522c33007dbb4cb5544",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            76,
+            29,
+            453,
+            429
+          ],
+          [
+            459,
+            29,
+            736,
+            439
+          ]
+        ],
+        "bodyBounds": [
+          955,
+          1448,
+          2108,
+          2957
+        ],
+        "cropBox": [
+          849,
+          1342,
+          2214,
+          3063
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "A9",
+      "type": "photos",
+      "sourceRow": 10,
+      "sourceColumn": 2,
+      "file": "images/A9-photos-1.jpg",
+      "sourceSha256": "14f5ffb49012c41875a152862ca61c77d58dfc56c27ffc95cefb9f20cad05f82",
+      "crop": null
+    },
+    {
+      "record": "A9",
+      "type": "rubbings",
+      "sourceRow": 10,
+      "sourceColumn": 3,
+      "file": "images/A9-rubbings-1.jpg",
+      "sourceSha256": "80e7ad3fff3810c071cbfd62797ea68fd7481db7aa1d7515244c5fbba0d2385f",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            62,
+            43,
+            443,
+            443
+          ],
+          [
+            450,
+            43,
+            727,
+            448
+          ]
+        ],
+        "bodyBounds": [
+          834,
+          729,
+          2015,
+          3010
+        ],
+        "cropBox": [
+          728,
+          623,
+          2121,
+          3116
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "A10",
+      "type": "photos",
+      "sourceRow": 11,
+      "sourceColumn": 2,
+      "file": "images/A10-photos-1.jpg",
+      "sourceSha256": "69ab1c837c3115b053b5616d6b566ca9f9fe08cec4fb8701b118f17336a66399",
+      "crop": null
+    },
+    {
+      "record": "A10",
+      "type": "rubbings",
+      "sourceRow": 11,
+      "sourceColumn": 3,
+      "file": "images/A10-rubbings-1.jpg",
+      "sourceSha256": "910f48cfd85f51aa16f950d5f1822397d9667afce559ef10f1dc0e4f3f541376",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            53,
+            53,
+            321,
+            339
+          ],
+          [
+            539,
+            53,
+            736,
+            344
+          ],
+          [
+            331,
+            57,
+            458,
+            339
+          ]
+        ],
+        "bodyBounds": [
+          1019,
+          966,
+          1911,
+          2743
+        ],
+        "cropBox": [
+          913,
+          860,
+          2017,
+          2849
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "B1",
+      "type": "photos",
+      "sourceRow": 12,
+      "sourceColumn": 2,
+      "file": "images/B1-photos-1.jpg",
+      "sourceSha256": "5145c8392c8a19bcf57c58ad64d4a902d8292fd6240af74d21c0772387367edb",
+      "crop": null
+    },
+    {
+      "record": "B1",
+      "type": "rubbings",
+      "sourceRow": 12,
+      "sourceColumn": 3,
+      "file": "images/B1-rubbings-1.jpg",
+      "sourceSha256": "090afa23e05eb528e293ac52c90b27b366096af51c91b345dcb24675e5a1eef5",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            57,
+            48,
+            377,
+            434
+          ],
+          [
+            417,
+            57,
+            580,
+            434
+          ]
+        ],
+        "bodyBounds": [
+          1132,
+          1529,
+          1974,
+          2326
+        ],
+        "cropBox": [
+          1026,
+          1423,
+          2080,
+          2432
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "B2",
+      "type": "photos",
+      "sourceRow": 13,
+      "sourceColumn": 2,
+      "file": "images/B2-photos-1.jpg",
+      "sourceSha256": "cbc2a7c32d5e17b9d8ec7575c8f745636cc489071be2d220f2ecfe8e48707315",
+      "crop": null
+    },
+    {
+      "record": "B3",
+      "type": "photos",
+      "sourceRow": 14,
+      "sourceColumn": 2,
+      "file": "images/B3-photos-1.jpg",
+      "sourceSha256": "b963b5d205447aa426a3abeb62878bf378587c9c263353c7ad94497584b27749",
+      "crop": null
+    },
+    {
+      "record": "B3",
+      "type": "rubbings",
+      "sourceRow": 14,
+      "sourceColumn": 3,
+      "file": "images/B3-rubbings-1.jpg",
+      "sourceSha256": "66b7569c142e83a0c03528327b588d43761965e2f1983ab1441f0b7c50495259",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            105,
+            152,
+            420,
+            533
+          ],
+          [
+            445,
+            152,
+            713,
+            538
+          ]
+        ],
+        "bodyBounds": [
+          1037,
+          1544,
+          1792,
+          2986
+        ],
+        "cropBox": [
+          931,
+          1438,
+          1898,
+          3092
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "B4",
+      "type": "photos",
+      "sourceRow": 15,
+      "sourceColumn": 2,
+      "file": "images/B4-photos-1.jpg",
+      "sourceSha256": "6e7ec6c1700fcef608bae627d637f68452164c4512e331515696187d5d03d15e",
+      "crop": null
+    },
+    {
+      "record": "B5",
+      "type": "photos",
+      "sourceRow": 16,
+      "sourceColumn": 2,
+      "file": "images/B5-photos-1.jpg",
+      "sourceSha256": "f2bb375e0547532e0c9ae89bfbe8799b7103d705e59dd9c34f38b0279a53c359",
+      "crop": null
+    },
+    {
+      "record": "B5",
+      "type": "rubbings",
+      "sourceRow": 16,
+      "sourceColumn": 3,
+      "file": "images/B5-rubbings-1.jpg",
+      "sourceSha256": "00abd8c22266cd57182fbee6d38f08c5415d70549dd20f58f582b5c47ad1146d",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            105,
+            152,
+            420,
+            533
+          ],
+          [
+            450,
+            157,
+            713,
+            538
+          ]
+        ],
+        "bodyBounds": [
+          1040,
+          1205,
+          1864,
+          2988
+        ],
+        "cropBox": [
+          934,
+          1099,
+          1970,
+          3094
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "B6",
+      "type": "photos",
+      "sourceRow": 17,
+      "sourceColumn": 2,
+      "file": "images/B6-photos-1.jpg",
+      "sourceSha256": "04a00f8614821752653ba25d99cfe972e4a77cff772f0eba49987a92eae526cb",
+      "crop": null
+    },
+    {
+      "record": "B6",
+      "type": "rubbings",
+      "sourceRow": 17,
+      "sourceColumn": 3,
+      "file": "images/B6-rubbings-1.jpg",
+      "sourceSha256": "dd83f9795d6b0b8724cad4e8f41014cceb89e8ed0db8023c991ee5b1d57252c4",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            105,
+            152,
+            420,
+            533
+          ],
+          [
+            450,
+            152,
+            713,
+            538
+          ]
+        ],
+        "bodyBounds": [
+          734,
+          1149,
+          2144,
+          2729
+        ],
+        "cropBox": [
+          628,
+          1043,
+          2250,
+          2835
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "B7",
+      "type": "photos",
+      "sourceRow": 18,
+      "sourceColumn": 2,
+      "file": "images/B7-photos-1.jpg",
+      "sourceSha256": "b26e336851f20c553d24d9f6d745c9708162fc6480a6d72e55cc31b56bb812d9",
+      "crop": null
+    },
+    {
+      "record": "B7",
+      "type": "rubbings",
+      "sourceRow": 18,
+      "sourceColumn": 3,
+      "file": "images/B7-rubbings-1.jpg",
+      "sourceSha256": "c83ba4583fcc059b14ea86480f5ac5d180267da46d373e7b87710ee0adf9c00c",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            105,
+            152,
+            420,
+            533
+          ],
+          [
+            450,
+            157,
+            708,
+            533
+          ]
+        ],
+        "bodyBounds": [
+          925,
+          1389,
+          2101,
+          2635
+        ],
+        "cropBox": [
+          819,
+          1283,
+          2207,
+          2741
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "B8",
+      "type": "photos",
+      "sourceRow": 19,
+      "sourceColumn": 2,
+      "file": "images/B8-photos-1.jpg",
+      "sourceSha256": "ca72356957bedfc36e2805b01e160881fc8720b051d86f1f7c0557901e39685e",
+      "crop": null
+    },
+    {
+      "record": "B8",
+      "type": "rubbings",
+      "sourceRow": 19,
+      "sourceColumn": 3,
+      "file": "images/B8-rubbings-1.jpg",
+      "sourceSha256": "1776da85458c90be2d870cb70f1536c8bdc424ea5e6913723b8b596b719b696d",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            105,
+            152,
+            420,
+            533
+          ],
+          [
+            445,
+            152,
+            713,
+            538
+          ]
+        ],
+        "bodyBounds": [
+          1099,
+          1280,
+          2006,
+          2770
+        ],
+        "cropBox": [
+          993,
+          1174,
+          2112,
+          2876
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "B9",
+      "type": "photos",
+      "sourceRow": 20,
+      "sourceColumn": 2,
+      "file": "images/B9-photos-1.jpg",
+      "sourceSha256": "2ba1732a22ddabf71879e8a2866eaf5feac23e2f872dd45b2d0c17d6e3146062",
+      "crop": null
+    },
+    {
+      "record": "B9",
+      "type": "rubbings",
+      "sourceRow": 20,
+      "sourceColumn": 3,
+      "file": "images/B9-rubbings-1.jpg",
+      "sourceSha256": "67610c01d8ef4892ab8cc402c03ad40e5f63eda65860f06500581633fbb04690",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            105,
+            152,
+            420,
+            533
+          ],
+          [
+            450,
+            152,
+            713,
+            538
+          ]
+        ],
+        "bodyBounds": [
+          943,
+          1119,
+          2196,
+          2856
+        ],
+        "cropBox": [
+          837,
+          1013,
+          2302,
+          2962
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "B10",
+      "type": "photos",
+      "sourceRow": 21,
+      "sourceColumn": 2,
+      "file": "images/B10-photos-1.jpg",
+      "sourceSha256": "8eb0982778ca01500245e58f07e92d0f5deded4f69e87748fe2304198c756ac8",
+      "crop": null
+    },
+    {
+      "record": "C1",
+      "type": "photos",
+      "sourceRow": 22,
+      "sourceColumn": 2,
+      "file": "images/C1-photos-1.jpg",
+      "sourceSha256": "0f5b9d0d4886463ad93a360b50afddf324305cd5391b13ae78770f32c0aed2f2",
+      "crop": null
+    },
+    {
+      "record": "C2",
+      "type": "photos",
+      "sourceRow": 23,
+      "sourceColumn": 2,
+      "file": "images/C2-photos-1.jpg",
+      "sourceSha256": "010c054f3bc96ca257370a0e9f89e7a9f1ef3fd147e2f6a935e7b177f919984d",
+      "crop": null
+    },
+    {
+      "record": "C3",
+      "type": "photos",
+      "sourceRow": 24,
+      "sourceColumn": 2,
+      "file": "images/C3-photos-1.jpg",
+      "sourceSha256": "269e0d83c264c3fb66448528e438abdab40b91a30fef35a74a0b99819113eab5",
+      "crop": null
+    },
+    {
+      "record": "C3",
+      "type": "rubbings",
+      "sourceRow": 24,
+      "sourceColumn": 3,
+      "file": "images/C3-rubbings-1.jpg",
+      "sourceSha256": "7718a38f0fd632e126bcbebceba342fd1721a43b7081337447a2dd125328d2fa",
+      "crop": {
+        "sourceSize": [
+          3024,
+          6554
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            76,
+            142,
+            425,
+            543
+          ],
+          [
+            454,
+            152,
+            717,
+            543
+          ]
+        ],
+        "bodyBounds": [
+          89,
+          1068,
+          2973,
+          6304
+        ],
+        "cropBox": [
+          0,
+          962,
+          3024,
+          6410
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "C4",
+      "type": "photos",
+      "sourceRow": 25,
+      "sourceColumn": 2,
+      "file": "images/C4-photos-1.jpg",
+      "sourceSha256": "b512eac08464fa0d3a08d5948309a98faf0b10e4d63b0e18a5af4dabcf274579",
+      "crop": null
+    },
+    {
+      "record": "C4",
+      "type": "rubbings",
+      "sourceRow": 25,
+      "sourceColumn": 3,
+      "file": "images/C4-rubbings-1.jpg",
+      "sourceSha256": "a81bdde956ff62e92743abe975d416169decac5fd6e0da973d1ff0ce5b88cf9e",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            76,
+            142,
+            425,
+            543
+          ],
+          [
+            450,
+            157,
+            717,
+            533
+          ]
+        ],
+        "bodyBounds": [
+          800,
+          1223,
+          2190,
+          2750
+        ],
+        "cropBox": [
+          694,
+          1117,
+          2296,
+          2856
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "C5",
+      "type": "photos",
+      "sourceRow": 26,
+      "sourceColumn": 2,
+      "file": "images/C5-photos-1.jpg",
+      "sourceSha256": "bc51cd1b769c31d161acec72fc9d4554c66359e8c8443e87b20f6b89a9751981",
+      "crop": null
+    },
+    {
+      "record": "C6",
+      "type": "photos",
+      "sourceRow": 27,
+      "sourceColumn": 2,
+      "file": "images/C6-photos-1.jpg",
+      "sourceSha256": "e27ce9756508c48c9895a3935e437675204928330927caf5dac7a678ce813d72",
+      "crop": null
+    },
+    {
+      "record": "C7",
+      "type": "photos",
+      "sourceRow": 28,
+      "sourceColumn": 2,
+      "file": "images/C7-photos-1.jpg",
+      "sourceSha256": "ca17ae04b26958c6b7ba5fe4c4d44359cec1cf804332d1dd284f84f6b0bbcbd5",
+      "crop": null
+    },
+    {
+      "record": "C8",
+      "type": "photos",
+      "sourceRow": 29,
+      "sourceColumn": 2,
+      "file": "images/C8-photos-1.jpg",
+      "sourceSha256": "8e426fd8ea3b7f98a582a4c4573bd143417dde7719f348b931604fadbec0cd16",
+      "crop": null
+    },
+    {
+      "record": "C9",
+      "type": "photos",
+      "sourceRow": 30,
+      "sourceColumn": 2,
+      "file": "images/C9-photos-1.jpg",
+      "sourceSha256": "5b8ed28afd71ac5a0c72375cb8b1be6aa6fa3621f9a9040bc2203c4a8dc6c331",
+      "crop": null
+    },
+    {
+      "record": "C10",
+      "type": "photos",
+      "sourceRow": 31,
+      "sourceColumn": 2,
+      "file": "images/C10-photos-1.jpg",
+      "sourceSha256": "29190a7707fbd72d87fb7660bdb9b467257f2742f719770a88642fec79b685ca",
+      "crop": null
+    },
+    {
+      "record": "C11",
+      "type": "photos",
+      "sourceRow": 32,
+      "sourceColumn": 2,
+      "file": "images/C11-photos-1.jpg",
+      "sourceSha256": "ff08667e6ac216501f47a784742c086688ccaef7adf5095b26eb625f026c8fab",
+      "crop": null
+    },
+    {
+      "record": "C12",
+      "type": "photos",
+      "sourceRow": 33,
+      "sourceColumn": 2,
+      "file": "images/C12-photos-1.jpg",
+      "sourceSha256": "76b30220086020fe5f80c264e0258669142870624f65df04b7f509acf033537a",
+      "crop": null
+    },
+    {
+      "record": "C13",
+      "type": "photos",
+      "sourceRow": 34,
+      "sourceColumn": 2,
+      "file": "images/C13-photos-1.jpg",
+      "sourceSha256": "5b75eec321f4f0cf3964f50b75e5cda5b3af2da577e9853437961b71b1fa9dba",
+      "crop": null
+    },
+    {
+      "record": "D1",
+      "type": "photos",
+      "sourceRow": 35,
+      "sourceColumn": 2,
+      "file": "images/D1-photos-1.jpg",
+      "sourceSha256": "6d7a564d7d6e8abdbe6f9f27e59f2dcbd3e36a1335b6f8d26799f1a3d465e985",
+      "crop": null
+    },
+    {
+      "record": "D1",
+      "type": "rubbings",
+      "sourceRow": 35,
+      "sourceColumn": 3,
+      "file": "images/D1-rubbings-1.jpg",
+      "sourceSha256": "b26f2d18835feb65ac7e64afa44d2fa38e1a0a6c8bed18098ed8010165fda279",
+      "crop": {
+        "sourceSize": [
+          3024,
+          6554
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            100,
+            152,
+            425,
+            533
+          ],
+          [
+            464,
+            157,
+            628,
+            533
+          ]
+        ],
+        "bodyBounds": [
+          749,
+          56,
+          2408,
+          6508
+        ],
+        "cropBox": [
+          643,
+          0,
+          2514,
+          6554
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "D2",
+      "type": "photos",
+      "sourceRow": 36,
+      "sourceColumn": 2,
+      "file": "images/D2-photos-1.jpg",
+      "sourceSha256": "af79d59bf8aec3a4ce4f4b80f5de440c2bde55f583d6aaaa30f2e696c2893643",
+      "crop": null
+    },
+    {
+      "record": "D3",
+      "type": "photos",
+      "sourceRow": 37,
+      "sourceColumn": 2,
+      "file": "images/D3-photos-1.jpg",
+      "sourceSha256": "3a4907e54fa127091b871295edfd7ae86c42d2b911d41b138e480d3077936f62",
+      "crop": null
+    },
+    {
+      "record": "D4",
+      "type": "photos",
+      "sourceRow": 38,
+      "sourceColumn": 2,
+      "file": "images/D4-photos-1.jpg",
+      "sourceSha256": "6cd14be5c0a8fd7a22bdce07f31105f3b58dcc5508c81ac666c148271df467d8",
+      "crop": null
+    },
+    {
+      "record": "D5",
+      "type": "photos",
+      "sourceRow": 39,
+      "sourceColumn": 2,
+      "file": "images/D5-photos-1.jpg",
+      "sourceSha256": "3f70e2ad0af5192ccebbe62d71bc27279900f3973e91d0d0e9b060684441b676",
+      "crop": null
+    },
+    {
+      "record": "D5",
+      "type": "rubbings",
+      "sourceRow": 39,
+      "sourceColumn": 3,
+      "file": "images/D5-rubbings-1.jpg",
+      "sourceSha256": "3efef5848fdd0f42c53990a3bbcc178f5c42dd666d441c33afe5949bc592e34f",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            100,
+            152,
+            425,
+            533
+          ],
+          [
+            454,
+            157,
+            717,
+            538
+          ]
+        ],
+        "bodyBounds": [
+          684,
+          1309,
+          2479,
+          2778
+        ],
+        "cropBox": [
+          578,
+          1203,
+          2585,
+          2884
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "D6",
+      "type": "photos",
+      "sourceRow": 40,
+      "sourceColumn": 2,
+      "file": "images/D6-photos-1.jpg",
+      "sourceSha256": "eb0b4e01d8c661793794281cb549fb42acd7662e4dff7ee6967b59b02e533d59",
+      "crop": null
+    },
+    {
+      "record": "D6",
+      "type": "rubbings",
+      "sourceRow": 40,
+      "sourceColumn": 3,
+      "file": "images/D6-rubbings-1.jpg",
+      "sourceSha256": "e4cf3985eae1be6ce3ab68e552773c1093ecceddaef74be9e633373357961c5c",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            100,
+            152,
+            425,
+            533
+          ],
+          [
+            454,
+            152,
+            717,
+            538
+          ]
+        ],
+        "bodyBounds": [
+          931,
+          646,
+          1804,
+          3844
+        ],
+        "cropBox": [
+          825,
+          540,
+          1910,
+          3950
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "D7",
+      "type": "photos",
+      "sourceRow": 41,
+      "sourceColumn": 2,
+      "file": "images/D7-photos-1.jpg",
+      "sourceSha256": "4cf0ecfcc7a88240edcb778591caad8eedeb6ce25522c64cb2bf7fae22f3de5e",
+      "crop": null
+    },
+    {
+      "record": "D7",
+      "type": "rubbings",
+      "sourceRow": 41,
+      "sourceColumn": 3,
+      "file": "images/D7-rubbings-1.jpg",
+      "sourceSha256": "e3997767de36ab23a37b4ad802009ca91a17a95dccd4ab85a5b63f8c0ffc6021",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            100,
+            152,
+            425,
+            533
+          ],
+          [
+            454,
+            157,
+            713,
+            533
+          ]
+        ],
+        "bodyBounds": [
+          1094,
+          1676,
+          1968,
+          2953
+        ],
+        "cropBox": [
+          988,
+          1570,
+          2074,
+          3059
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "D8",
+      "type": "photos",
+      "sourceRow": 42,
+      "sourceColumn": 2,
+      "file": "images/D8-photos-1.jpg",
+      "sourceSha256": "22ce54a951f965a29ac80c7c941bf2176b49c7c78a7ee56f4293ea1f870bc2b4",
+      "crop": null
+    },
+    {
+      "record": "D8",
+      "type": "rubbings",
+      "sourceRow": 42,
+      "sourceColumn": 3,
+      "file": "images/D8-rubbings-1.jpg",
+      "sourceSha256": "0a3201cb82883bd9fc4eeb02825f11cdb7e9b351b3a467ed89c59464acaab226",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            100,
+            152,
+            425,
+            533
+          ],
+          [
+            454,
+            152,
+            717,
+            538
+          ]
+        ],
+        "bodyBounds": [
+          917,
+          1580,
+          2072,
+          2476
+        ],
+        "cropBox": [
+          811,
+          1474,
+          2178,
+          2582
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "D9",
+      "type": "photos",
+      "sourceRow": 43,
+      "sourceColumn": 2,
+      "file": "images/D9-photos-1.jpg",
+      "sourceSha256": "ddd98efcfdb2ec13e20017d24c17cb687b0c48e242e64a4a8a587744987560d5",
+      "crop": null
+    },
+    {
+      "record": "D9",
+      "type": "rubbings",
+      "sourceRow": 43,
+      "sourceColumn": 3,
+      "file": "images/D9-rubbings-1.jpg",
+      "sourceSha256": "b8efc1a86065451d0bfbebd33f73c96d05a46b5be27a419beeaabfe9c6dd5c10",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            100,
+            152,
+            425,
+            533
+          ],
+          [
+            454,
+            152,
+            717,
+            538
+          ]
+        ],
+        "bodyBounds": [
+          1071,
+          1652,
+          2034,
+          2458
+        ],
+        "cropBox": [
+          965,
+          1546,
+          2140,
+          2564
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "D10",
+      "type": "photos",
+      "sourceRow": 44,
+      "sourceColumn": 2,
+      "file": "images/D10-photos-1.jpg",
+      "sourceSha256": "bc903366124a9e95e7fabf8d82980493a9dbecca1ae14236230e7f31bb79c9e7",
+      "crop": null
+    },
+    {
+      "record": "D11",
+      "type": "photos",
+      "sourceRow": 45,
+      "sourceColumn": 2,
+      "file": "images/D11-photos-1.jpg",
+      "sourceSha256": "7ea36a26e89a6fc2a0288e4eb156c481b87bd1b91d5130ccb049f57e98eb8321",
+      "crop": null
+    },
+    {
+      "record": "D12",
+      "type": "photos",
+      "sourceRow": 46,
+      "sourceColumn": 2,
+      "file": "images/D12-photos-1.jpg",
+      "sourceSha256": "eac1c7330b6397c6736f63832dc0552e27947d0fd0c0af601abcdd22015c103a",
+      "crop": null
+    },
+    {
+      "record": "D12",
+      "type": "rubbings",
+      "sourceRow": 46,
+      "sourceColumn": 3,
+      "file": "images/D12-rubbings-1.jpg",
+      "sourceSha256": "f85572ccac51c97b84373bad7086a5587fec1835f5ca1c18e1fe0a318db61fdc",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            133,
+            157,
+            462,
+            543
+          ],
+          [
+            780,
+            157,
+            1039,
+            543
+          ],
+          [
+            497,
+            166,
+            666,
+            543
+          ]
+        ],
+        "bodyBounds": [
+          880,
+          1279,
+          2168,
+          2626
+        ],
+        "cropBox": [
+          774,
+          1173,
+          2274,
+          2732
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "D13",
+      "type": "photos",
+      "sourceRow": 47,
+      "sourceColumn": 2,
+      "file": "images/D13-photos-1.jpg",
+      "sourceSha256": "a9845bec846cdf23b8be4c6b523e8835489dcf86cb4e0922a14c84bf0d14dd2f",
+      "crop": null
+    },
+    {
+      "record": "D13",
+      "type": "rubbings",
+      "sourceRow": 47,
+      "sourceColumn": 3,
+      "file": "images/D13-rubbings-1.jpg",
+      "sourceSha256": "9a9a8e59893b0a29a063224a6dcb7bae5dbfa5b2fa3de6217c34954a321e4444",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            133,
+            157,
+            462,
+            543
+          ],
+          [
+            776,
+            157,
+            1044,
+            547
+          ],
+          [
+            497,
+            166,
+            666,
+            543
+          ]
+        ],
+        "bodyBounds": [
+          1203,
+          1851,
+          1792,
+          2338
+        ],
+        "cropBox": [
+          1097,
+          1745,
+          1898,
+          2444
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "D14",
+      "type": "photos",
+      "sourceRow": 48,
+      "sourceColumn": 2,
+      "file": "images/D14-photos-1.jpg",
+      "sourceSha256": "432c554732fc8c7b538e75e803a7a5a658c2762f89f6ef4c5e41528f7a38ae93",
+      "crop": null
+    },
+    {
+      "record": "D15",
+      "type": "photos",
+      "sourceRow": 49,
+      "sourceColumn": 2,
+      "file": "images/D15-photos-1.jpg",
+      "sourceSha256": "432c554732fc8c7b538e75e803a7a5a658c2762f89f6ef4c5e41528f7a38ae93",
+      "crop": null
+    },
+    {
+      "record": "D16",
+      "type": "photos",
+      "sourceRow": 50,
+      "sourceColumn": 2,
+      "file": "images/D16-photos-1.jpg",
+      "sourceSha256": "8c83e6dadb908551f7abe58848d15b76095d1246e830e97419fbf9e34ab56a1f",
+      "crop": null
+    },
+    {
+      "record": "E1",
+      "type": "photos",
+      "sourceRow": 51,
+      "sourceColumn": 2,
+      "file": "images/E1-photos-1.jpg",
+      "sourceSha256": "cf336ba1e57e73f6cf5905f9ab4f668109699c691de281dd445f724ac0ad1b8e",
+      "crop": null
+    },
+    {
+      "record": "E2",
+      "type": "photos",
+      "sourceRow": 52,
+      "sourceColumn": 2,
+      "file": "images/E2-photos-1.jpg",
+      "sourceSha256": "dbf3141da074380e9b3a4c77386e1b23cec9e3786feca67da96132fbf86df268",
+      "crop": null
+    },
+    {
+      "record": "E3",
+      "type": "photos",
+      "sourceRow": 53,
+      "sourceColumn": 2,
+      "file": "images/E3-photos-1.jpg",
+      "sourceSha256": "ebc20047e44704533ca323777de39b9256dc0b8fceb6f0b38a0451ad54e5e230",
+      "crop": null
+    },
+    {
+      "record": "E4",
+      "type": "photos",
+      "sourceRow": 54,
+      "sourceColumn": 2,
+      "file": "images/E4-photos-1.jpg",
+      "sourceSha256": "50eee3566af1629eeb3351084444064f5e4f4c6115e5650d67eb6a3d6376f232",
+      "crop": null
+    },
+    {
+      "record": "E5",
+      "type": "photos",
+      "sourceRow": 55,
+      "sourceColumn": 2,
+      "file": "images/E5-photos-1.jpg",
+      "sourceSha256": "8a592c4161857bbc4c6eb10622b39fb33128ee957aa1437fa78dae988fe82b67",
+      "crop": null
+    },
+    {
+      "record": "E5",
+      "type": "rubbings",
+      "sourceRow": 55,
+      "sourceColumn": 3,
+      "file": "images/E5-rubbings-1.jpg",
+      "sourceSha256": "91f755761d2072072ef7d3bafaa41133f518fd091d3df5b4ea4832a5b284a3d2",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            284,
+            284,
+            543,
+            651
+          ],
+          [
+            582,
+            284,
+            836,
+            656
+          ]
+        ],
+        "bodyBounds": [
+          1307,
+          1845,
+          1685,
+          2200
+        ],
+        "cropBox": [
+          1201,
+          1739,
+          1791,
+          2306
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "F1",
+      "type": "photos",
+      "sourceRow": 56,
+      "sourceColumn": 2,
+      "file": "images/F1-photos-1.jpg",
+      "sourceSha256": "869cbc109804a84690914eb9ee97a14764bdff89f06e58dde6aa15309fa53512",
+      "crop": null
+    },
+    {
+      "record": "F2",
+      "type": "photos",
+      "sourceRow": 57,
+      "sourceColumn": 2,
+      "file": "images/F2-photos-1.jpg",
+      "sourceSha256": "782db68ff3cd588cb1284fd876803c58f3f7e4d45991ff9cf03f2e7f0d485a30",
+      "crop": null
+    },
+    {
+      "record": "F2",
+      "type": "rubbings",
+      "sourceRow": 57,
+      "sourceColumn": 3,
+      "file": "images/F2-rubbings-1.jpg",
+      "sourceSha256": "c39af6596a63c7a54e8dc2c4ff192f32840d2033b6dee4008d328ecac5c3c07b",
+      "crop": {
+        "sourceSize": [
+          3240,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            188,
+            118,
+            505,
+            571
+          ],
+          [
+            533,
+            118,
+            844,
+            571
+          ]
+        ],
+        "bodyBounds": [
+          988,
+          616,
+          2494,
+          3292
+        ],
+        "cropBox": [
+          875,
+          503,
+          2607,
+          3405
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "F3",
+      "type": "photos",
+      "sourceRow": 58,
+      "sourceColumn": 2,
+      "file": "images/F3-photos-1.jpg",
+      "sourceSha256": "130602f48f23610f1cbe3ae0c3adb842d1eed85308407d19b0ba0aa91d7ab363",
+      "crop": null
+    },
+    {
+      "record": "F3",
+      "type": "rubbings",
+      "sourceRow": 58,
+      "sourceColumn": 3,
+      "file": "images/F3-rubbings-1.jpg",
+      "sourceSha256": "1b0d1cea400ca4c057e67530a6f9b64b4c5631a8d2d87999ae0863aab7f7251e",
+      "crop": {
+        "sourceSize": [
+          3240,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            188,
+            148,
+            485,
+            561
+          ],
+          [
+            502,
+            153,
+            794,
+            571
+          ]
+        ],
+        "bodyBounds": [
+          643,
+          512,
+          2617,
+          3309
+        ],
+        "cropBox": [
+          530,
+          399,
+          2730,
+          3422
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "F4",
+      "type": "photos",
+      "sourceRow": 59,
+      "sourceColumn": 2,
+      "file": "images/F4-photos-1.jpg",
+      "sourceSha256": "07f002c32f02f6596efe27e1ce2a9a9815401247ef1c29518153cfe28a43434d",
+      "crop": null
+    },
+    {
+      "record": "F5",
+      "type": "photos",
+      "sourceRow": 60,
+      "sourceColumn": 2,
+      "file": "images/F5-photos-1.jpg",
+      "sourceSha256": "4fa5636164c0e429dbe8bc91e3a33e9531ea75bf5b4fe9941990bd325d1529ff",
+      "crop": null
+    },
+    {
+      "record": "F5",
+      "type": "rubbings",
+      "sourceRow": 60,
+      "sourceColumn": 3,
+      "file": "images/F5-rubbings-1.jpg",
+      "sourceSha256": "a6709652e1502a0d45307abda9480a29a2c60a824ae28e15283ba24e8ce7166a",
+      "crop": {
+        "sourceSize": [
+          3240,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            244,
+            234,
+            465,
+            551
+          ],
+          [
+            482,
+            239,
+            703,
+            556
+          ]
+        ],
+        "bodyBounds": [
+          787,
+          505,
+          2531,
+          3582
+        ],
+        "cropBox": [
+          674,
+          392,
+          2644,
+          3695
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "F6",
+      "type": "photos",
+      "sourceRow": 61,
+      "sourceColumn": 2,
+      "file": "images/F6-photos-1.jpg",
+      "sourceSha256": "c2c146b90bd1ec8bbe4f0dd98f7ceddad73d0c752a760125218278c1c7eb6520",
+      "crop": null
+    },
+    {
+      "record": "F6",
+      "type": "rubbings",
+      "sourceRow": 61,
+      "sourceColumn": 3,
+      "file": "images/F6-rubbings-1.jpg",
+      "sourceSha256": "2197b7474ca30a0acd6ba2144b69d2413ec61378c67fbedd21cfaf17b98a80f0",
+      "crop": {
+        "sourceSize": [
+          3240,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            168,
+            118,
+            541,
+            657
+          ],
+          [
+            573,
+            118,
+            946,
+            667
+          ]
+        ],
+        "bodyBounds": [
+          634,
+          815,
+          2612,
+          3426
+        ],
+        "cropBox": [
+          521,
+          702,
+          2725,
+          3539
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "F7",
+      "type": "photos",
+      "sourceRow": 62,
+      "sourceColumn": 2,
+      "file": "images/F7-photos-1.jpg",
+      "sourceSha256": "58384cd4647cdec6ebb3177ffae5905e324b2c6fe172f4b8d2e1ff7ce66b29fc",
+      "crop": null
+    },
+    {
+      "record": "F8",
+      "type": "photos",
+      "sourceRow": 63,
+      "sourceColumn": 2,
+      "file": "images/F8-photos-1.jpg",
+      "sourceSha256": "e9ec2b3f0a4e8c1b02c0fd1dc224ba7af375d179f3366e681025b4aab2147a04",
+      "crop": null
+    },
+    {
+      "record": "F8",
+      "type": "rubbings",
+      "sourceRow": 63,
+      "sourceColumn": 3,
+      "file": "images/F8-rubbings-1.jpg",
+      "sourceSha256": "7b3ee6147ffd3447a2f8b90a3738cad3680483861386a14fa07303971dfe7253",
+      "crop": {
+        "sourceSize": [
+          3240,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            188,
+            173,
+            368,
+            419
+          ],
+          [
+            376,
+            173,
+            551,
+            424
+          ],
+          [
+            1702,
+            325,
+            2070,
+            915
+          ]
+        ],
+        "bodyBounds": [
+          985,
+          1293,
+          1685,
+          3911
+        ],
+        "cropBox": [
+          872,
+          1180,
+          1798,
+          4024
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "F9",
+      "type": "photos",
+      "sourceRow": 64,
+      "sourceColumn": 2,
+      "file": "images/F9-photos-1.jpg",
+      "sourceSha256": "8968f80d722b28f42902188536e335570ad7a3305eb7df798b92792a5651ef1c",
+      "crop": null
+    },
+    {
+      "record": "F10",
+      "type": "photos",
+      "sourceRow": 65,
+      "sourceColumn": 2,
+      "file": "images/F10-photos-1.jpg",
+      "sourceSha256": "6e873c3fd024fae4cc81a0954dcd940e28e55f93649cd28684b04afc3d57cc3f",
+      "crop": null
+    },
+    {
+      "record": "F11",
+      "type": "photos",
+      "sourceRow": 66,
+      "sourceColumn": 2,
+      "file": "images/F11-photos-1.jpg",
+      "sourceSha256": "2f567fe472e7c2633c83f4db78e74052bcce38cb7bcba7a8304fd9339931a139",
+      "crop": null
+    },
+    {
+      "record": "F12",
+      "type": "photos",
+      "sourceRow": 67,
+      "sourceColumn": 2,
+      "file": "images/F12-photos-1.jpg",
+      "sourceSha256": "574b1b2f24a6e7333b555a878c67274e7d5e1563f130a8c706357961f921e951",
+      "crop": null
+    },
+    {
+      "record": "F13",
+      "type": "photos",
+      "sourceRow": 68,
+      "sourceColumn": 2,
+      "file": "images/F13-photos-1.jpg",
+      "sourceSha256": "d3fa644499972438e69ba148a1850824df67e5128fc1782b33cf9ca17577afd3",
+      "crop": null
+    },
+    {
+      "record": "F14",
+      "type": "photos",
+      "sourceRow": 69,
+      "sourceColumn": 2,
+      "file": "images/F14-photos-1.jpg",
+      "sourceSha256": "afbaec9a9d71594c421de1618a73c8a2fcdd92679fd254645a67582cdc139a2a",
+      "crop": null
+    },
+    {
+      "record": "F15",
+      "type": "photos",
+      "sourceRow": 70,
+      "sourceColumn": 2,
+      "file": "images/F15-photos-1.jpg",
+      "sourceSha256": "27544b9c8cd97bed1aa54b1008f101d5b15632345d41b2fc8af2867e97d815e5",
+      "crop": null
+    },
+    {
+      "record": "F15",
+      "type": "rubbings",
+      "sourceRow": 70,
+      "sourceColumn": 3,
+      "file": "images/F15-rubbings-1.jpg",
+      "sourceSha256": "b5dc412b00f835eec5126b2b3bcb78bcb6413101befe77e69015015209daa551",
+      "crop": {
+        "sourceSize": [
+          3240,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            143,
+            183,
+            384,
+            525
+          ],
+          [
+            517,
+            188,
+            667,
+            525
+          ],
+          [
+            771,
+            188,
+            1011,
+            530
+          ]
+        ],
+        "bodyBounds": [
+          1175,
+          472,
+          2002,
+          3478
+        ],
+        "cropBox": [
+          1062,
+          359,
+          2115,
+          3591
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "F16",
+      "type": "photos",
+      "sourceRow": 71,
+      "sourceColumn": 2,
+      "file": "images/F16-photos-1.jpg",
+      "sourceSha256": "9463279a3668434513dd23df915aec45952bdbd8a3ed3fc2eb989d071d362b0f",
+      "crop": null
+    },
+    {
+      "record": "F17",
+      "type": "photos",
+      "sourceRow": 72,
+      "sourceColumn": 2,
+      "file": "images/F17-photos-1.jpg",
+      "sourceSha256": "07631ecabdfc2e0259119ff6b3458948df6c9c1bfa921c1a8aaf50d94ccf093b",
+      "crop": null
+    },
+    {
+      "record": "F18",
+      "type": "photos",
+      "sourceRow": 73,
+      "sourceColumn": 2,
+      "file": "images/F18-photos-1.jpg",
+      "sourceSha256": "dfe402ce03ba0b58b90ed0b9eb888d66dac9675f63cf6e3dd63ec68a6f526cb9",
+      "crop": null
+    },
+    {
+      "record": "F19",
+      "type": "photos",
+      "sourceRow": 74,
+      "sourceColumn": 2,
+      "file": "images/F19-photos-1.jpg",
+      "sourceSha256": "2da08af41bdaac218d69906fabd1681bedf2a61ee803f862d9be6ee6bd2c6ec2",
+      "crop": null
+    },
+    {
+      "record": "F20",
+      "type": "photos",
+      "sourceRow": 75,
+      "sourceColumn": 2,
+      "file": "images/F20-photos-1.jpg",
+      "sourceSha256": "eda858e65a3cc9d0ed13d7f19e3d9aee9303ca87fa64da889f9aa9b96ab1c7d4",
+      "crop": null
+    },
+    {
+      "record": "F21",
+      "type": "photos",
+      "sourceRow": 76,
+      "sourceColumn": 2,
+      "file": "images/F21-photos-1.jpg",
+      "sourceSha256": "62c65c862f2fa57f3302b3338f40226a7c0981d351f1838a29bf4df27d750879",
+      "crop": null
+    },
+    {
+      "record": "F22",
+      "type": "photos",
+      "sourceRow": 77,
+      "sourceColumn": 2,
+      "file": "images/F22-photos-1.jpg",
+      "sourceSha256": "dd9f4a40d7a97e74aa3c5990cc2afef4fe183c9bd857ab901e4bf79908072fc5",
+      "crop": null
+    },
+    {
+      "record": "F23",
+      "type": "photos",
+      "sourceRow": 78,
+      "sourceColumn": 2,
+      "file": "images/F23-photos-1.jpg",
+      "sourceSha256": "74827c4e607855e5f1ce2181c0ef98d494c008e29bfd5ae8d87049d034e978fc",
+      "crop": null
+    },
+    {
+      "record": "F24",
+      "type": "photos",
+      "sourceRow": 79,
+      "sourceColumn": 2,
+      "file": "images/F24-photos-1.jpg",
+      "sourceSha256": "bbd6192d5d81d9b91e5c040d7903a3e7072401df37b9ff5a055b2e55ab03e71b",
+      "crop": null
+    },
+    {
+      "record": "F24",
+      "type": "rubbings",
+      "sourceRow": 79,
+      "sourceColumn": 3,
+      "file": "images/F24-rubbings-1.jpg",
+      "sourceSha256": "7a0d70672af86eab3b3073f5c11c578e5b24a3aeae07c80758ef566291accbcf",
+      "crop": {
+        "sourceSize": [
+          3240,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            133,
+            178,
+            328,
+            455
+          ],
+          [
+            340,
+            178,
+            525,
+            455
+          ],
+          [
+            538,
+            183,
+            733,
+            455
+          ]
+        ],
+        "bodyBounds": [
+          1433,
+          1534,
+          1639,
+          1830
+        ],
+        "cropBox": [
+          1320,
+          1421,
+          1752,
+          1943
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "F25",
+      "type": "photos",
+      "sourceRow": 80,
+      "sourceColumn": 2,
+      "file": "images/F25-photos-1.jpg",
+      "sourceSha256": "d39177adcbabe33f9393ad7aa750bd2e66e931631529cf13decf8b29a1d4982c",
+      "crop": null
+    },
+    {
+      "record": "F25",
+      "type": "rubbings",
+      "sourceRow": 80,
+      "sourceColumn": 3,
+      "file": "images/F25-rubbings-1.jpg",
+      "sourceSha256": "b6c8813b95f8bbe696aa7c2bf9b007c8a0c3cee0f29b3513e81568596f380665",
+      "crop": {
+        "sourceSize": [
+          3240,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            188,
+            133,
+            409,
+            455
+          ],
+          [
+            528,
+            138,
+            743,
+            455
+          ],
+          [
+            766,
+            143,
+            986,
+            460
+          ]
+        ],
+        "bodyBounds": [
+          1199,
+          156,
+          2079,
+          3733
+        ],
+        "cropBox": [
+          1086,
+          43,
+          2192,
+          3846
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "F26",
+      "type": "photos",
+      "sourceRow": 81,
+      "sourceColumn": 2,
+      "file": "images/F26-photos-1.jpg",
+      "sourceSha256": "2abab1076155fad25a93e4a8b047381b4197d74f622e180ef273d7dad6e9ae87",
+      "crop": null
+    },
+    {
+      "record": "F26",
+      "type": "rubbings",
+      "sourceRow": 81,
+      "sourceColumn": 3,
+      "file": "images/F26-rubbings-1.jpg",
+      "sourceSha256": "5261070166726f2b01a623549fea9a56bfa46d8b84588dc55566f56a8d23e038",
+      "crop": {
+        "sourceSize": [
+          3240,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            209,
+            183,
+            358,
+            394
+          ],
+          [
+            431,
+            183,
+            576,
+            394
+          ],
+          [
+            583,
+            183,
+            733,
+            399
+          ]
+        ],
+        "bodyBounds": [
+          1051,
+          1528,
+          2205,
+          2154
+        ],
+        "cropBox": [
+          938,
+          1415,
+          2318,
+          2267
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "F27",
+      "type": "photos",
+      "sourceRow": 82,
+      "sourceColumn": 2,
+      "file": "images/F27-photos-1.jpg",
+      "sourceSha256": "d444dc9687ed3a974dd02c1190270d16e8f66a72caa5d7806cedec2dc3b5563c",
+      "crop": null
+    },
+    {
+      "record": "F28",
+      "type": "photos",
+      "sourceRow": 83,
+      "sourceColumn": 2,
+      "file": "images/F28-photos-1.jpg",
+      "sourceSha256": "25e6aee9b8326ab7fd94de1d9e11cc22f3ab5ea22df45485dcc364fd6ea7e5ff",
+      "crop": null
+    },
+    {
+      "record": "F29",
+      "type": "photos",
+      "sourceRow": 84,
+      "sourceColumn": 2,
+      "file": "images/F29-photos-1.jpg",
+      "sourceSha256": "7ce975e6cf47ef8cbd1e7571a2f2cfe4630d5ca59572fd63b22f14fb2af7c291",
+      "crop": null
+    },
+    {
+      "record": "F29",
+      "type": "rubbings",
+      "sourceRow": 84,
+      "sourceColumn": 3,
+      "file": "images/F29-rubbings-1.jpg",
+      "sourceSha256": "a2d698dfba0870c1efcbdff76d4c9bab26fe3ea92a0fc3be033f63f23677d9d1",
+      "crop": {
+        "sourceSize": [
+          3240,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            168,
+            158,
+            333,
+            394
+          ],
+          [
+            416,
+            158,
+            576,
+            394
+          ],
+          [
+            588,
+            158,
+            753,
+            394
+          ]
+        ],
+        "bodyBounds": [
+          1031,
+          953,
+          2392,
+          2796
+        ],
+        "cropBox": [
+          918,
+          840,
+          2505,
+          2909
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "F30",
+      "type": "photos",
+      "sourceRow": 85,
+      "sourceColumn": 2,
+      "file": "images/F30-photos-1.jpg",
+      "sourceSha256": "00febbe2a893e53b2b7f6465750c551279ffbb8f113aa8678bf944e46c5411c2",
+      "crop": null
+    },
+    {
+      "record": "F31",
+      "type": "photos",
+      "sourceRow": 86,
+      "sourceColumn": 2,
+      "file": "images/F31-photos-1.jpg",
+      "sourceSha256": "bbdb6c2ee944bd8295432106c52c1799b002ad63122176baf0e5809af889b5a7",
+      "crop": null
+    },
+    {
+      "record": "F32",
+      "type": "photos",
+      "sourceRow": 87,
+      "sourceColumn": 2,
+      "file": "images/F32-photos-1.jpg",
+      "sourceSha256": "6f41e2bdcd492f145fcc0e1ed25318913d0acc14906874966efe172431aec8b7",
+      "crop": null
+    },
+    {
+      "record": "F33",
+      "type": "photos",
+      "sourceRow": 88,
+      "sourceColumn": 2,
+      "file": "images/F33-photos-1.jpg",
+      "sourceSha256": "d82824bdc9cc76eef4659e8703d80cdc3e8500654caf3e3c7d9fdaaed0024138",
+      "crop": null
+    },
+    {
+      "record": "F34",
+      "type": "photos",
+      "sourceRow": 89,
+      "sourceColumn": 2,
+      "file": "images/F34-photos-1.jpg",
+      "sourceSha256": "f155720193f41c308f848e845e57e27d00d7fd32133b8d1709ff4e57b2798258",
+      "crop": null
+    },
+    {
+      "record": "F35",
+      "type": "photos",
+      "sourceRow": 90,
+      "sourceColumn": 2,
+      "file": "images/F35-photos-1.jpg",
+      "sourceSha256": "d9fa994f6c12b5bef7a91bce92c042b19070c098b0055a9a155fe7df6b23db54",
+      "crop": null
+    },
+    {
+      "record": "F36",
+      "type": "photos",
+      "sourceRow": 91,
+      "sourceColumn": 2,
+      "file": "images/F36-photos-1.jpg",
+      "sourceSha256": "c732dd89cde140aa1fd6abac424fd1bf6e7af220cace2095a6c3f167a4e478f0",
+      "crop": null
+    },
+    {
+      "record": "F37",
+      "type": "photos",
+      "sourceRow": 92,
+      "sourceColumn": 2,
+      "file": "images/F37-photos-1.jpg",
+      "sourceSha256": "682db4ed8cb19b7f751d49b1f7daf95148f763a4398464711492872a9921ae77",
+      "crop": null
+    },
+    {
+      "record": "F38",
+      "type": "photos",
+      "sourceRow": 93,
+      "sourceColumn": 2,
+      "file": "images/F38-photos-1.jpg",
+      "sourceSha256": "fee8a7a669240fa184a80c8096d7148caa0cfc1cf86008ee1f5515aa706f500d",
+      "crop": null
+    },
+    {
+      "record": "F39",
+      "type": "photos",
+      "sourceRow": 94,
+      "sourceColumn": 2,
+      "file": "images/F39-photos-1.jpg",
+      "sourceSha256": "0c7c80654a65e757b1a317ff34bd248a78b616b45f45b1dce72e49b1e403e2a8",
+      "crop": null
+    },
+    {
+      "record": "F40",
+      "type": "photos",
+      "sourceRow": 95,
+      "sourceColumn": 2,
+      "file": "images/F40-photos-1.jpg",
+      "sourceSha256": "cb8b0d875dc45e7dcda86e2bafd06f10864dbaeb859442ac6029c59700d4ef4e",
+      "crop": null
+    },
+    {
+      "record": "F41",
+      "type": "photos",
+      "sourceRow": 96,
+      "sourceColumn": 2,
+      "file": "images/F41-photos-1.jpg",
+      "sourceSha256": "ffc52c6224e86e065d7c73069bde6e769032dc4bb247ce8473f216ed62ada9b9",
+      "crop": null
+    },
+    {
+      "record": "F41",
+      "type": "rubbings",
+      "sourceRow": 96,
+      "sourceColumn": 3,
+      "file": "images/F41-rubbings-1.jpg",
+      "sourceSha256": "afd5a6954fdfd5361262d222f160f7735223273e7d093db622f1559aa7e6f036",
+      "crop": {
+        "sourceSize": [
+          3240,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            133,
+            118,
+            277,
+            328
+          ],
+          [
+            436,
+            118,
+            581,
+            328
+          ],
+          [
+            280,
+            123,
+            429,
+            328
+          ]
+        ],
+        "bodyBounds": [
+          1275,
+          1073,
+          2015,
+          2648
+        ],
+        "cropBox": [
+          1162,
+          960,
+          2128,
+          2761
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "F42",
+      "type": "photos",
+      "sourceRow": 97,
+      "sourceColumn": 2,
+      "file": "images/F42-photos-1.jpg",
+      "sourceSha256": "b3c2059a18cb8fb131afb0feb9bc85c3d30629ddec8677ec25dd8033bff2a5ea",
+      "crop": null
+    },
+    {
+      "record": "F42",
+      "type": "rubbings",
+      "sourceRow": 97,
+      "sourceColumn": 3,
+      "file": "images/F42-rubbings-1.jpg",
+      "sourceSha256": "449ddb5b4064995d237fa22dfbf431019955f1050fa9cd2072140af081192312",
+      "crop": {
+        "sourceSize": [
+          3240,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            133,
+            97,
+            303,
+            333
+          ],
+          [
+            305,
+            102,
+            475,
+            333
+          ],
+          [
+            482,
+            102,
+            647,
+            333
+          ],
+          [
+            1586,
+            138,
+            1786,
+            799
+          ]
+        ],
+        "bodyBounds": [
+          1195,
+          1388,
+          1908,
+          3920
+        ],
+        "cropBox": [
+          1082,
+          1275,
+          2021,
+          4032
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "F43",
+      "type": "photos",
+      "sourceRow": 98,
+      "sourceColumn": 2,
+      "file": "images/F43-photos-1.jpg",
+      "sourceSha256": "6972b39b3d2fe5ce1ba740706f8fd196cd291a32b43698538f7e629b833cb2cb",
+      "crop": null
+    },
+    {
+      "record": "G1",
+      "type": "photos",
+      "sourceRow": 99,
+      "sourceColumn": 2,
+      "file": "images/G1-photos-1.jpg",
+      "sourceSha256": "a8f512b6476170aab1406d9ce785ae5197447410a40b79e5da938cb2131ca62a",
+      "crop": null
+    },
+    {
+      "record": "G1",
+      "type": "rubbings",
+      "sourceRow": 99,
+      "sourceColumn": 3,
+      "file": "images/G1-rubbings-1.jpg",
+      "sourceSha256": "487a0d9e8254b30861708252c898c8e2be15a1265b0d1917aa5b54662ebbaf40",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            76,
+            176,
+            458,
+            576
+          ],
+          [
+            530,
+            180,
+            774,
+            571
+          ]
+        ],
+        "bodyBounds": [
+          1048,
+          841,
+          2146,
+          2319
+        ],
+        "cropBox": [
+          942,
+          735,
+          2252,
+          2425
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "G2",
+      "type": "photos",
+      "sourceRow": 100,
+      "sourceColumn": 2,
+      "file": "images/G2-photos-1.jpg",
+      "sourceSha256": "bc742ce76f4af066d79732a876802dd133bcfa3c62a635f1ad011df371e331e2",
+      "crop": null
+    },
+    {
+      "record": "G3",
+      "type": "photos",
+      "sourceRow": 101,
+      "sourceColumn": 2,
+      "file": "images/G3-photos-1.jpg",
+      "sourceSha256": "694cffc0a31d28aa2cc15faee17b7ee61b4fff5e32493e34f5ba684c44dade12",
+      "crop": null
+    },
+    {
+      "record": "G3",
+      "type": "rubbings",
+      "sourceRow": 101,
+      "sourceColumn": 3,
+      "file": "images/G3-rubbings-1.jpg",
+      "sourceSha256": "f04c05d9970d7015862c81cabe419a60429a373cd51a61a3d85084f839535a48",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            138,
+            161,
+            519,
+            562
+          ],
+          [
+            568,
+            161,
+            836,
+            566
+          ]
+        ],
+        "bodyBounds": [
+          1528,
+          1213,
+          2028,
+          1482
+        ],
+        "cropBox": [
+          1422,
+          1107,
+          2134,
+          1588
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "G4",
+      "type": "photos",
+      "sourceRow": 102,
+      "sourceColumn": 2,
+      "file": "images/G4-photos-1.jpg",
+      "sourceSha256": "7d727fec1c0adef97e9c4a66875ca25f0a6d7a57d50b5f4efe29e8f3d95946d2",
+      "crop": null
+    },
+    {
+      "record": "G4",
+      "type": "rubbings",
+      "sourceRow": 102,
+      "sourceColumn": 3,
+      "file": "images/G4-rubbings-1.jpg",
+      "sourceSha256": "92d677f49939fdc37cdfceee944630e1d050fe3318dc8e304a8a18dd6f8f1206",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            218,
+            142,
+            543,
+            491
+          ],
+          [
+            572,
+            152,
+            821,
+            486
+          ]
+        ],
+        "bodyBounds": [
+          1308,
+          1615,
+          1790,
+          2045
+        ],
+        "cropBox": [
+          1202,
+          1509,
+          1896,
+          2151
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "G5",
+      "type": "photos",
+      "sourceRow": 103,
+      "sourceColumn": 2,
+      "file": "images/G5-photos-1.jpg",
+      "sourceSha256": "4bd98ad3fd83e4f05c80f24434a1973beeb2178272c79e399e56b430ca975e3f",
+      "crop": null
+    },
+    {
+      "record": "G5",
+      "type": "rubbings",
+      "sourceRow": 103,
+      "sourceColumn": 3,
+      "file": "images/G5-rubbings-1.jpg",
+      "sourceSha256": "157d8bce09ea5db4255b0e29b4557273361810c58df7c45d8fcffa7722039c34",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            90,
+            119,
+            500,
+            552
+          ],
+          [
+            554,
+            128,
+            850,
+            557
+          ]
+        ],
+        "bodyBounds": [
+          959,
+          665,
+          2115,
+          1593
+        ],
+        "cropBox": [
+          853,
+          559,
+          2221,
+          1699
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "G6",
+      "type": "photos",
+      "sourceRow": 104,
+      "sourceColumn": 2,
+      "file": "images/G6-photos-1.jpg",
+      "sourceSha256": "b4690272f885db305239e6370aa141bc2a6f3fe58a739fd125a64434f6172561",
+      "crop": null
+    },
+    {
+      "record": "G7",
+      "type": "photos",
+      "sourceRow": 105,
+      "sourceColumn": 2,
+      "file": "images/G7-photos-1.jpg",
+      "sourceSha256": "f87429c914750950f0849ef0870381482b87f3a157cae7df357409ccbf55a5e6",
+      "crop": null
+    },
+    {
+      "record": "G8",
+      "type": "photos",
+      "sourceRow": 106,
+      "sourceColumn": 2,
+      "file": "images/G8-photos-1.jpg",
+      "sourceSha256": "9b0810e0f6d9462a54b53806dc72295683354f77a7fda7abd7bba9eb62092b15",
+      "crop": null
+    },
+    {
+      "record": "G9",
+      "type": "photos",
+      "sourceRow": 107,
+      "sourceColumn": 2,
+      "file": "images/G9-photos-1.jpg",
+      "sourceSha256": "7e58c2bc7770db5e07117bc9c514e50abe51c770e8abb58fa13c2181133182da",
+      "crop": null
+    },
+    {
+      "record": "G9",
+      "type": "rubbings",
+      "sourceRow": 107,
+      "sourceColumn": 3,
+      "file": "images/G9-rubbings-1.jpg",
+      "sourceSha256": "0f6caadd1c24ca2f374b6d1213f5e3997af6e31f5e7f29e2f5eaf7823d9d3021",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            185,
+            209,
+            453,
+            486
+          ],
+          [
+            691,
+            209,
+            888,
+            486
+          ],
+          [
+            497,
+            213,
+            670,
+            481
+          ]
+        ],
+        "bodyBounds": [
+          1519,
+          1433,
+          1664,
+          1718
+        ],
+        "cropBox": [
+          1413,
+          1327,
+          1770,
+          1824
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "G10",
+      "type": "photos",
+      "sourceRow": 108,
+      "sourceColumn": 2,
+      "file": "images/G10-photos-1.jpg",
+      "sourceSha256": "9a21098a61c24b194e32745f42b5769b01e2289b41bca1b16b8ea39a317c67a7",
+      "crop": null
+    },
+    {
+      "record": "G11",
+      "type": "photos",
+      "sourceRow": 109,
+      "sourceColumn": 2,
+      "file": "images/G11-photos-1.jpg",
+      "sourceSha256": "a46d3b8eebc231595857773fc41f34a3553905b5d6bae4fa302e18aa2e2c80fc",
+      "crop": null
+    },
+    {
+      "record": "G12",
+      "type": "photos",
+      "sourceRow": 110,
+      "sourceColumn": 2,
+      "file": "images/G12-photos-1.jpg",
+      "sourceSha256": "2fcfc74c76a4712e611db8e7681714f5cdc3ef3bbed9da31d3ccef37eccd9af2",
+      "crop": null
+    },
+    {
+      "record": "G13",
+      "type": "photos",
+      "sourceRow": 111,
+      "sourceColumn": 2,
+      "file": "images/G13-photos-1.jpg",
+      "sourceSha256": "67948289f9cf3e93b12628baf9c0c5afbf2b32d0ed094267fc53030d43a02960",
+      "crop": null
+    },
+    {
+      "record": "G14",
+      "type": "photos",
+      "sourceRow": 112,
+      "sourceColumn": 2,
+      "file": "images/G14-photos-1.jpg",
+      "sourceSha256": "953963d308d8b590f6ce5115a30e0faf94c817f0487ce60d68a26784037ba919",
+      "crop": null
+    },
+    {
+      "record": "G14",
+      "type": "rubbings",
+      "sourceRow": 112,
+      "sourceColumn": 3,
+      "file": "images/G14-rubbings-1.jpg",
+      "sourceSha256": "302ec54493d99aaa3a3e900f0e2423c5c5ad144c8f050478cfa9b360961e9137",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            138,
+            237,
+            481,
+            599
+          ],
+          [
+            525,
+            237,
+            769,
+            595
+          ],
+          [
+            790,
+            242,
+            1053,
+            595
+          ]
+        ],
+        "bodyBounds": [
+          1330,
+          678,
+          1704,
+          1831
+        ],
+        "cropBox": [
+          1224,
+          572,
+          1810,
+          1937
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "G15",
+      "type": "photos",
+      "sourceRow": 113,
+      "sourceColumn": 2,
+      "file": "images/G15-photos-1.jpg",
+      "sourceSha256": "508e82dd9d626e6320e267e1f4840f48bee6b651824188538c3479ade71624c3",
+      "crop": null
+    },
+    {
+      "record": "G15",
+      "type": "rubbings",
+      "sourceRow": 113,
+      "sourceColumn": 3,
+      "file": "images/G15-rubbings-1.jpg",
+      "sourceSha256": "878e4fce3010761cfd476b87f2e00df307636120398abe68452afefe12557d34",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            86,
+            218,
+            500,
+            656
+          ],
+          [
+            554,
+            218,
+            845,
+            651
+          ],
+          [
+            889,
+            228,
+            1190,
+            656
+          ]
+        ],
+        "bodyBounds": [
+          1512,
+          910,
+          2202,
+          2319
+        ],
+        "cropBox": [
+          1406,
+          804,
+          2308,
+          2425
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "G16",
+      "type": "photos",
+      "sourceRow": 114,
+      "sourceColumn": 2,
+      "file": "images/G16-photos-1.jpg",
+      "sourceSha256": "d93f55923dd0ae3084260d4fbf5ad9e86a2987ddb9e3a1c82b6a212fb9214699",
+      "crop": null
+    },
+    {
+      "record": "G16",
+      "type": "rubbings",
+      "sourceRow": 114,
+      "sourceColumn": 3,
+      "file": "images/G16-rubbings-1.jpg",
+      "sourceSha256": "7adb7711ce13c0ce917a17d280fa5269e4360ba6123ab413e3e65ed6f8c2a549",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            176,
+            133,
+            628,
+            614
+          ],
+          [
+            695,
+            133,
+            1015,
+            604
+          ],
+          [
+            1059,
+            142,
+            1398,
+            604
+          ]
+        ],
+        "bodyBounds": [
+          1179,
+          1359,
+          1717,
+          2128
+        ],
+        "cropBox": [
+          1073,
+          1253,
+          1823,
+          2234
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "G17",
+      "type": "photos",
+      "sourceRow": 115,
+      "sourceColumn": 2,
+      "file": "images/G17-photos-1.jpg",
+      "sourceSha256": "f4f424ad92020072d11d5de61caf37185ef466edfb44a98c673829347a748a86",
+      "crop": null
+    },
+    {
+      "record": "G18",
+      "type": "photos",
+      "sourceRow": 116,
+      "sourceColumn": 2,
+      "file": "images/G18-photos-1.jpg",
+      "sourceSha256": "eea73db05c8bd57a61bccbbbc1f782f40246bcf4c3138a340456ce006506705b",
+      "crop": null
+    },
+    {
+      "record": "G19",
+      "type": "photos",
+      "sourceRow": 117,
+      "sourceColumn": 2,
+      "file": "images/G19-photos-1.jpg",
+      "sourceSha256": "45d90d45359d74f2cff5594981cf85fdf339fb64f3496813fe968191551c3f31",
+      "crop": null
+    },
+    {
+      "record": "G19",
+      "type": "rubbings",
+      "sourceRow": 117,
+      "sourceColumn": 3,
+      "file": "images/G19-rubbings-1.jpg",
+      "sourceSha256": "0fd85642bd55d5e2b3952da7d3e31e6316dbf67a91e8a53ee3766b33463c2f99",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            142,
+            114,
+            495,
+            486
+          ],
+          [
+            539,
+            114,
+            788,
+            481
+          ],
+          [
+            823,
+            114,
+            1072,
+            486
+          ]
+        ],
+        "bodyBounds": [
+          1253,
+          1756,
+          1653,
+          3072
+        ],
+        "cropBox": [
+          1147,
+          1650,
+          1759,
+          3178
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "G20",
+      "type": "photos",
+      "sourceRow": 118,
+      "sourceColumn": 2,
+      "file": "images/G20-photos-1.jpg",
+      "sourceSha256": "5722f942ced3bc4fa5d8c5c5f14fab9e359b379f2530bae3f31d49cec35a157e",
+      "crop": null
+    },
+    {
+      "record": "G21",
+      "type": "photos",
+      "sourceRow": 119,
+      "sourceColumn": 2,
+      "file": "images/G21-photos-1.jpg",
+      "sourceSha256": "d7a9d83ffc275007e85b64241a4305bfa3642f54489ff0d3bf4d04b46079897c",
+      "crop": null
+    },
+    {
+      "record": "G22",
+      "type": "photos",
+      "sourceRow": 120,
+      "sourceColumn": 2,
+      "file": "images/G22-photos-1.jpg",
+      "sourceSha256": "0597a85c06f1110812badeb8ad48d7a11941f43e37df4c99918a73ac7820f512",
+      "crop": null
+    },
+    {
+      "record": "J1",
+      "type": "photos",
+      "sourceRow": 121,
+      "sourceColumn": 2,
+      "file": "images/J1-photos-1.jpg",
+      "sourceSha256": "eb3bfca860470ddffb568ec9bcfa69166242012756f008fe56b8b7fda3328231",
+      "crop": null
+    },
+    {
+      "record": "J2",
+      "type": "photos",
+      "sourceRow": 122,
+      "sourceColumn": 2,
+      "file": "images/J2-photos-1.jpg",
+      "sourceSha256": "cfce3315947c4b19ece84159c9ab26472038acffd84432bd17ba12a3c53f3648",
+      "crop": null
+    },
+    {
+      "record": "J3",
+      "type": "photos",
+      "sourceRow": 123,
+      "sourceColumn": 2,
+      "file": "images/J3-photos-1.jpg",
+      "sourceSha256": "5f3ae1f5dd27305650c5904843574411d4d91fdd2f8d2e5dcf882275a46ba59c",
+      "crop": null
+    },
+    {
+      "record": "J4",
+      "type": "photos",
+      "sourceRow": 124,
+      "sourceColumn": 2,
+      "file": "images/J4-photos-1.jpg",
+      "sourceSha256": "97ade91b0111be9d2c561ee2fed57e43d75e8faf95591f1f4f1e83d9a64d5352",
+      "crop": null
+    },
+    {
+      "record": "J5",
+      "type": "photos",
+      "sourceRow": 125,
+      "sourceColumn": 2,
+      "file": "images/J5-photos-1.jpg",
+      "sourceSha256": "29a2ae0645fe24ce9729c936b03bb288924461ea8e262d42a58e3df2ccc29335",
+      "crop": null
+    },
+    {
+      "record": "J5",
+      "type": "rubbings",
+      "sourceRow": 125,
+      "sourceColumn": 3,
+      "file": "images/J5-rubbings-1.jpg",
+      "sourceSha256": "4fdc6a73a0d53f5711cc871f3a6cf0ba22310fde6a3973f118a04040c6dd4647",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            242,
+            280,
+            514,
+            689
+          ],
+          [
+            572,
+            280,
+            854,
+            689
+          ]
+        ],
+        "bodyBounds": [
+          1808,
+          1403,
+          1995,
+          1674
+        ],
+        "cropBox": [
+          1702,
+          1297,
+          2101,
+          1780
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J6",
+      "type": "photos",
+      "sourceRow": 126,
+      "sourceColumn": 2,
+      "file": "images/J6-photos-1.jpg",
+      "sourceSha256": "e860b5d3929f72dcc8eea47233c5f1b7da745562025b0f96b728208c9e92588a",
+      "crop": null
+    },
+    {
+      "record": "J6",
+      "type": "rubbings",
+      "sourceRow": 126,
+      "sourceColumn": 3,
+      "file": "images/J6-rubbings-1.jpg",
+      "sourceSha256": "265e29555c61a24e12eeef6bc82e4c3df19e2cb2474c13028f3bacde7c9a92e9",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            166,
+            185,
+            481,
+            651
+          ],
+          [
+            530,
+            185,
+            873,
+            642
+          ]
+        ],
+        "bodyBounds": [
+          1366,
+          789,
+          1718,
+          3112
+        ],
+        "cropBox": [
+          1260,
+          683,
+          1824,
+          3218
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J7",
+      "type": "photos",
+      "sourceRow": 127,
+      "sourceColumn": 2,
+      "file": "images/J7-photos-1.jpg",
+      "sourceSha256": "0ff1a2ad10e5734821b82a257c18107c519030050db1c6a165a804eba28854b6",
+      "crop": null
+    },
+    {
+      "record": "J7",
+      "type": "rubbings",
+      "sourceRow": 127,
+      "sourceColumn": 3,
+      "file": "images/J7-rubbings-1.jpg",
+      "sourceSha256": "4fdc6a73a0d53f5711cc871f3a6cf0ba22310fde6a3973f118a04040c6dd4647",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            242,
+            280,
+            514,
+            689
+          ],
+          [
+            572,
+            280,
+            854,
+            689
+          ]
+        ],
+        "bodyBounds": [
+          1808,
+          1403,
+          1995,
+          1674
+        ],
+        "cropBox": [
+          1702,
+          1297,
+          2101,
+          1780
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J8",
+      "type": "photos",
+      "sourceRow": 128,
+      "sourceColumn": 2,
+      "file": "images/J8-photos-1.jpg",
+      "sourceSha256": "f9fbc7b02c24b380131df12f4a52c791cf3bbc12dc743a830e49b3497b43d570",
+      "crop": null
+    },
+    {
+      "record": "J9",
+      "type": "photos",
+      "sourceRow": 129,
+      "sourceColumn": 2,
+      "file": "images/J9-photos-1.jpg",
+      "sourceSha256": "2c690cb3324675a78e79108b2a08733da07f289e4222a450ee6db7d3fd8625f8",
+      "crop": null
+    },
+    {
+      "record": "J10",
+      "type": "photos",
+      "sourceRow": 130,
+      "sourceColumn": 2,
+      "file": "images/J10-photos-1.jpg",
+      "sourceSha256": "f8a9738fd2c7d955b5844a3a1e262c15154bfc4626d7d92008bea880441ede85",
+      "crop": null
+    },
+    {
+      "record": "J11",
+      "type": "photos",
+      "sourceRow": 131,
+      "sourceColumn": 2,
+      "file": "images/J11-photos-1.jpg",
+      "sourceSha256": "2e05d70752d559f790a886cbb41458783d78c39459912665b2674334b473e6a3",
+      "crop": null
+    },
+    {
+      "record": "J11",
+      "type": "rubbings",
+      "sourceRow": 131,
+      "sourceColumn": 3,
+      "file": "images/J11-rubbings-1.jpg",
+      "sourceSha256": "75d7de8ae6a8ef0670b01223a632c2988d1c4005c5624a48be83d5793230aa8e",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            119,
+            161,
+            368,
+            595
+          ],
+          [
+            468,
+            171,
+            717,
+            590
+          ],
+          [
+            799,
+            171,
+            1048,
+            590
+          ]
+        ],
+        "bodyBounds": [
+          1456,
+          1483,
+          1610,
+          1642
+        ],
+        "cropBox": [
+          1350,
+          1377,
+          1716,
+          1748
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J12",
+      "type": "photos",
+      "sourceRow": 132,
+      "sourceColumn": 2,
+      "file": "images/J12-photos-1.jpg",
+      "sourceSha256": "8e357f099a3764775d2d7280d8ee1992e17a498214ede41bccaaf07d2715bfae",
+      "crop": null
+    },
+    {
+      "record": "J12",
+      "type": "rubbings",
+      "sourceRow": 132,
+      "sourceColumn": 3,
+      "file": "images/J12-rubbings-1.jpg",
+      "sourceSha256": "2c68e6c9121a697db700a1092121fec8746a197d892e78b83e3c61d3ea9a96d9",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            119,
+            161,
+            368,
+            595
+          ],
+          [
+            771,
+            161,
+            1058,
+            590
+          ],
+          [
+            468,
+            171,
+            717,
+            590
+          ]
+        ],
+        "bodyBounds": [
+          1369,
+          1919,
+          1653,
+          2112
+        ],
+        "cropBox": [
+          1263,
+          1813,
+          1759,
+          2218
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J13",
+      "type": "photos",
+      "sourceRow": 133,
+      "sourceColumn": 2,
+      "file": "images/J13-photos-1.jpg",
+      "sourceSha256": "34fe826f1eb1dd0d3a684a2d71a23126d2e54ccbab39ef3fbeaf6a4452fb4e07",
+      "crop": null
+    },
+    {
+      "record": "J14",
+      "type": "photos",
+      "sourceRow": 134,
+      "sourceColumn": 2,
+      "file": "images/J14-photos-1.jpg",
+      "sourceSha256": "ec5d66bf701f49b9f97a7a34f8eb2e5ccccfba2ee879d110589d7254563f0fc4",
+      "crop": null
+    },
+    {
+      "record": "J14",
+      "type": "rubbings",
+      "sourceRow": 134,
+      "sourceColumn": 3,
+      "file": "images/J14-rubbings-1.jpg",
+      "sourceSha256": "c35d24dddff8a305c8aad80e271fcea892bddb428ad92afd81e7607f625a44d1",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            166,
+            176,
+            401,
+            524
+          ],
+          [
+            464,
+            176,
+            675,
+            514
+          ],
+          [
+            733,
+            176,
+            944,
+            514
+          ]
+        ],
+        "bodyBounds": [
+          1307,
+          1729,
+          1664,
+          1993
+        ],
+        "cropBox": [
+          1201,
+          1623,
+          1770,
+          2099
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J15",
+      "type": "photos",
+      "sourceRow": 135,
+      "sourceColumn": 2,
+      "file": "images/J15-photos-1.jpg",
+      "sourceSha256": "edb21fbf73decd7ffad9583ec1e43f56ca1aa5b4e057906abdd3515c05ea3b6e",
+      "crop": null
+    },
+    {
+      "record": "J15",
+      "type": "rubbings",
+      "sourceRow": 135,
+      "sourceColumn": 3,
+      "file": "images/J15-rubbings-1.jpg",
+      "sourceSha256": "2c12be2f3bdf58b8fff23ea2f0cf91a7c4681b21c63b98316c86da842f812b55",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            152,
+            147,
+            439,
+            571
+          ],
+          [
+            520,
+            147,
+            779,
+            566
+          ],
+          [
+            828,
+            147,
+            1119,
+            576
+          ]
+        ],
+        "bodyBounds": [
+          1153,
+          457,
+          2186,
+          3166
+        ],
+        "cropBox": [
+          1047,
+          351,
+          2292,
+          3272
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J16",
+      "type": "photos",
+      "sourceRow": 136,
+      "sourceColumn": 2,
+      "file": "images/J16-photos-1.jpg",
+      "sourceSha256": "50e764b2f234a65ff16d036b3904cff4f4d83e97912306dec3fba8b9fc0ec517",
+      "crop": null
+    },
+    {
+      "record": "J17",
+      "type": "photos",
+      "sourceRow": 137,
+      "sourceColumn": 2,
+      "file": "images/J17-photos-1.jpg",
+      "sourceSha256": "6c6fa56cde4e8b1861212beadf9255249a57a43a5e9cef1aa8af51683d038a3e",
+      "crop": null
+    },
+    {
+      "record": "J17",
+      "type": "rubbings",
+      "sourceRow": 137,
+      "sourceColumn": 3,
+      "file": "images/J17-rubbings-1.jpg",
+      "sourceSha256": "0a1280530a601317be65c4e995e8bbc2cab63ce4c9a2137327d147c28c1cce60",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            799,
+            190,
+            1105,
+            647
+          ],
+          [
+            86,
+            199,
+            387,
+            647
+          ],
+          [
+            478,
+            199,
+            751,
+            642
+          ]
+        ],
+        "bodyBounds": [
+          1157,
+          757,
+          1754,
+          2343
+        ],
+        "cropBox": [
+          1051,
+          651,
+          1860,
+          2449
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J18",
+      "type": "photos",
+      "sourceRow": 138,
+      "sourceColumn": 2,
+      "file": "images/J18-photos-1.jpg",
+      "sourceSha256": "430eec143c12d719f7fdaab5097cdc4f7109131f616b7a24784fabc501fd1ce1",
+      "crop": null
+    },
+    {
+      "record": "J18",
+      "type": "rubbings",
+      "sourceRow": 138,
+      "sourceColumn": 3,
+      "file": "images/J18-rubbings-1.jpg",
+      "sourceSha256": "75d7de8ae6a8ef0670b01223a632c2988d1c4005c5624a48be83d5793230aa8e",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            119,
+            161,
+            368,
+            595
+          ],
+          [
+            468,
+            171,
+            717,
+            590
+          ],
+          [
+            799,
+            171,
+            1048,
+            590
+          ]
+        ],
+        "bodyBounds": [
+          1456,
+          1483,
+          1610,
+          1642
+        ],
+        "cropBox": [
+          1350,
+          1377,
+          1716,
+          1748
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J19",
+      "type": "photos",
+      "sourceRow": 139,
+      "sourceColumn": 2,
+      "file": "images/J19-photos-1.jpg",
+      "sourceSha256": "f33f8964f8a538eaaaeb4fa2b93f0217b4cd90e1291a84560733647927d2ca93",
+      "crop": null
+    },
+    {
+      "record": "J20",
+      "type": "photos",
+      "sourceRow": 140,
+      "sourceColumn": 2,
+      "file": "images/J20-photos-1.jpg",
+      "sourceSha256": "9742d450470c53a4e2b490734a39e3aa6250e9df0524f151c6b99134fb4ab6aa",
+      "crop": null
+    },
+    {
+      "record": "J21",
+      "type": "photos",
+      "sourceRow": 141,
+      "sourceColumn": 2,
+      "file": "images/J21-photos-1.jpg",
+      "sourceSha256": "0312b858c60a8d45a442b45a78c05cc52bb8e17b6f4d50046ef2d406199baa13",
+      "crop": null
+    },
+    {
+      "record": "J22",
+      "type": "photos",
+      "sourceRow": 142,
+      "sourceColumn": 2,
+      "file": "images/J22-photos-1.jpg",
+      "sourceSha256": "088a3ce4f9b6ac9aa585b8dcc891a269f73ca0c3f04a53770710d2a20ee4545b",
+      "crop": null
+    },
+    {
+      "record": "J22",
+      "type": "rubbings",
+      "sourceRow": 142,
+      "sourceColumn": 3,
+      "file": "images/J22-rubbings-1.jpg",
+      "sourceSha256": "63905f35cf2c036d6943a24f804bdd5c7dc1050691df75f17b9c90ce0b429c50",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            473,
+            185,
+            736,
+            566
+          ],
+          [
+            166,
+            190,
+            420,
+            576
+          ],
+          [
+            795,
+            190,
+            1029,
+            566
+          ]
+        ],
+        "bodyBounds": [
+          1232,
+          1281,
+          1989,
+          2144
+        ],
+        "cropBox": [
+          1126,
+          1175,
+          2095,
+          2250
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J23",
+      "type": "photos",
+      "sourceRow": 143,
+      "sourceColumn": 2,
+      "file": "images/J23-photos-1.jpg",
+      "sourceSha256": "b2f01fdbeaa758fe9b3d12fbf417256b50fc2dcba44441851b5011998c141581",
+      "crop": null
+    },
+    {
+      "record": "J23",
+      "type": "rubbings",
+      "sourceRow": 143,
+      "sourceColumn": 3,
+      "file": "images/J23-rubbings-1.jpg",
+      "sourceSha256": "39ac3b9fd7971326eb3a0426c4832c6f912b92df66074487caf53d6975ad0957",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            473,
+            72,
+            812,
+            571
+          ],
+          [
+            865,
+            72,
+            1204,
+            571
+          ],
+          [
+            67,
+            81,
+            401,
+            580
+          ]
+        ],
+        "bodyBounds": [
+          736,
+          610,
+          2026,
+          2742
+        ],
+        "cropBox": [
+          630,
+          504,
+          2132,
+          2848
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J24",
+      "type": "photos",
+      "sourceRow": 144,
+      "sourceColumn": 2,
+      "file": "images/J24-photos-1.jpg",
+      "sourceSha256": "afbee519dc587a6ddd7133660cbcae9c3e6ec5bef1e5fcd30f1bc5f5decee766",
+      "crop": null
+    },
+    {
+      "record": "J24",
+      "type": "rubbings",
+      "sourceRow": 144,
+      "sourceColumn": 3,
+      "file": "images/J24-rubbings-1.jpg",
+      "sourceSha256": "59bb1e0b730423334fe0a8c79fd53b8be4a19517c63bb9d445af68d7631b01c6",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            473,
+            256,
+            722,
+            618
+          ],
+          [
+            180,
+            265,
+            425,
+            623
+          ],
+          [
+            743,
+            265,
+            1010,
+            618
+          ]
+        ],
+        "bodyBounds": [
+          1250,
+          1465,
+          1936,
+          2182
+        ],
+        "cropBox": [
+          1144,
+          1359,
+          2042,
+          2288
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J25",
+      "type": "photos",
+      "sourceRow": 145,
+      "sourceColumn": 2,
+      "file": "images/J25-photos-1.jpg",
+      "sourceSha256": "2084f1fb02a7571547ce056ab5644168aadc05d15598c54904b6d79a9e8027e9",
+      "crop": null
+    },
+    {
+      "record": "J26",
+      "type": "photos",
+      "sourceRow": 146,
+      "sourceColumn": 2,
+      "file": "images/J26-photos-1.jpg",
+      "sourceSha256": "3733a452b4da1c4f3db16d6f23eef557943195738a5ac83547fb7cbfdcce9a7f",
+      "crop": null
+    },
+    {
+      "record": "J27",
+      "type": "photos",
+      "sourceRow": 147,
+      "sourceColumn": 2,
+      "file": "images/J27-photos-1.jpg",
+      "sourceSha256": "a3cf7465f2e90ec822017e3792ef36f6bd16650edcdefc569881ee15c70e9be3",
+      "crop": null
+    },
+    {
+      "record": "J28",
+      "type": "photos",
+      "sourceRow": 148,
+      "sourceColumn": 2,
+      "file": "images/J28-photos-1.jpg",
+      "sourceSha256": "28092796c5b24b575e53a2b4b219689f56549d620625cf93c32f7abbe78a79b1",
+      "crop": null
+    },
+    {
+      "record": "J29",
+      "type": "photos",
+      "sourceRow": 149,
+      "sourceColumn": 2,
+      "file": "images/J29-photos-1.jpg",
+      "sourceSha256": "59fc8aaa384c170a685758fb87501012f4c2981d3a59446e8fdd15ea5d4c9d67",
+      "crop": null
+    },
+    {
+      "record": "J30",
+      "type": "photos",
+      "sourceRow": 150,
+      "sourceColumn": 2,
+      "file": "images/J30-photos-1.jpg",
+      "sourceSha256": "e5f0beaa82cef549ba4d22306892b7ade110cffc7b82ca9bef2624534d502315",
+      "crop": null
+    },
+    {
+      "record": "J31",
+      "type": "photos",
+      "sourceRow": 151,
+      "sourceColumn": 2,
+      "file": "images/J31-photos-1.jpg",
+      "sourceSha256": "60b39c4909c42ba41bdd51d402cecbf27979f7bccfef7eddf421607c7571a67e",
+      "crop": null
+    },
+    {
+      "record": "J31",
+      "type": "rubbings",
+      "sourceRow": 151,
+      "sourceColumn": 3,
+      "file": "images/J31-rubbings-1.jpg",
+      "sourceSha256": "ef333c872f8706a6b6b051b2e4b60f70a09cfc072e32d9a3de6f5d18db8085d7",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            478,
+            232,
+            717,
+            585
+          ],
+          [
+            743,
+            232,
+            987,
+            585
+          ],
+          [
+            199,
+            242,
+            434,
+            590
+          ]
+        ],
+        "bodyBounds": [
+          373,
+          241,
+          1609,
+          1680
+        ],
+        "cropBox": [
+          267,
+          135,
+          1715,
+          1786
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J32",
+      "type": "photos",
+      "sourceRow": 152,
+      "sourceColumn": 2,
+      "file": "images/J32-photos-1.jpg",
+      "sourceSha256": "1acf8722eabd73c3e69070fee8eb76f45792f5835a3477432cd378ef7bcf0e0b",
+      "crop": null
+    },
+    {
+      "record": "J33",
+      "type": "photos",
+      "sourceRow": 153,
+      "sourceColumn": 2,
+      "file": "images/J33-photos-1.jpg",
+      "sourceSha256": "e5e0e006150cd62a68a020baaf1b902a9dad5aef6ecba48f61e12effe7c14602",
+      "crop": null
+    },
+    {
+      "record": "J34",
+      "type": "photos",
+      "sourceRow": 154,
+      "sourceColumn": 2,
+      "file": "images/J34-photos-1.jpg",
+      "sourceSha256": "9accd619506bec89b4daba2f5ad088cf5a95efed057c0966399bdf09cbf07926",
+      "crop": null
+    },
+    {
+      "record": "J35",
+      "type": "photos",
+      "sourceRow": 155,
+      "sourceColumn": 2,
+      "file": "images/J35-photos-1.jpg",
+      "sourceSha256": "9c3f08d2cef6ca432a57fc28cc76c7bc06b8a6eed02ac98e424b7317c6613656",
+      "crop": null
+    },
+    {
+      "record": "J36",
+      "type": "photos",
+      "sourceRow": 156,
+      "sourceColumn": 2,
+      "file": "images/J36-photos-1.jpg",
+      "sourceSha256": "4e1528dfa76a930798d0093d324c4f2884f811c8dfe20eededdaca7838dcc829",
+      "crop": null
+    },
+    {
+      "record": "J36",
+      "type": "rubbings",
+      "sourceRow": 156,
+      "sourceColumn": 3,
+      "file": "images/J36-rubbings-1.jpg",
+      "sourceSha256": "abdb728e24e815aa3b154cdb7ecaad3be316b509b9b57c861bc263c8268d45fa",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            327,
+            223,
+            524,
+            510
+          ],
+          [
+            100,
+            228,
+            292,
+            510
+          ],
+          [
+            544,
+            228,
+            741,
+            510
+          ]
+        ],
+        "bodyBounds": [
+          1306,
+          852,
+          2445,
+          1652
+        ],
+        "cropBox": [
+          1200,
+          746,
+          2551,
+          1758
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J37",
+      "type": "photos",
+      "sourceRow": 157,
+      "sourceColumn": 2,
+      "file": "images/J37-photos-1.jpg",
+      "sourceSha256": "bf1747c8796be542ce47ad51f63c762bb6ae30ef850c0351d3272ff7d54726b6",
+      "crop": null
+    },
+    {
+      "record": "J38",
+      "type": "photos",
+      "sourceRow": 158,
+      "sourceColumn": 2,
+      "file": "images/J38-photos-1.jpg",
+      "sourceSha256": "b6b964fd2ddfde4f8c1eb1768b92ba8915b3773130b3d244e3ab3ceeace4e1f6",
+      "crop": null
+    },
+    {
+      "record": "J39",
+      "type": "photos",
+      "sourceRow": 159,
+      "sourceColumn": 2,
+      "file": "images/J39-photos-1.jpg",
+      "sourceSha256": "e893668ff713da9f7063dfcffdbca228349aebcf4c8b77198e985f6c91453d72",
+      "crop": null
+    },
+    {
+      "record": "J40",
+      "type": "photos",
+      "sourceRow": 160,
+      "sourceColumn": 2,
+      "file": "images/J40-photos-1.jpg",
+      "sourceSha256": "46ee4d7eb675f6c7ef5e989924c079bb8d8622331396e79d2526054523380580",
+      "crop": null
+    },
+    {
+      "record": "J41",
+      "type": "photos",
+      "sourceRow": 161,
+      "sourceColumn": 2,
+      "file": "images/J41-photos-1.jpg",
+      "sourceSha256": "020f1bbbe06086a45f103d4cd8bdd780a86b5a13b7ed35dc7cec24d646b16d53",
+      "crop": null
+    },
+    {
+      "record": "J42",
+      "type": "photos",
+      "sourceRow": 162,
+      "sourceColumn": 2,
+      "file": "images/J42-photos-1.jpg",
+      "sourceSha256": "a441b8e52247fa84e0f38a8404a7963fc0b123b333e7e7e357835e9ba6d74423",
+      "crop": null
+    },
+    {
+      "record": "J43",
+      "type": "photos",
+      "sourceRow": 163,
+      "sourceColumn": 2,
+      "file": "images/J43-photos-1.jpg",
+      "sourceSha256": "eabe3dc9853cbe6147f99ad6e77543c600256cc0537ea822edeaa554ac5c932f",
+      "crop": null
+    },
+    {
+      "record": "J43",
+      "type": "rubbings",
+      "sourceRow": 163,
+      "sourceColumn": 3,
+      "file": "images/J43-rubbings-1.jpg",
+      "sourceSha256": "d99ccb0350dcb0119ded465168db085825be7ef2a223944fb94f931a33eb225d",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            643,
+            289,
+            854,
+            595
+          ],
+          [
+            176,
+            294,
+            377,
+            595
+          ],
+          [
+            402,
+            294,
+            623,
+            590
+          ]
+        ],
+        "bodyBounds": [
+          1539,
+          1581,
+          1725,
+          1740
+        ],
+        "cropBox": [
+          1433,
+          1475,
+          1831,
+          1846
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J44",
+      "type": "photos",
+      "sourceRow": 164,
+      "sourceColumn": 2,
+      "file": "images/J44-photos-1.jpg",
+      "sourceSha256": "8aaeddcf0c6d48d6e94f36f848c76d23dbf9ef314be9664d828bd5f101154ec1",
+      "crop": null
+    },
+    {
+      "record": "J44",
+      "type": "rubbings",
+      "sourceRow": 164,
+      "sourceColumn": 3,
+      "file": "images/J44-rubbings-1.jpg",
+      "sourceSha256": "2f78ad1b67e64a5800467f27a9b52cac7195797c79a64962747d0feda02ad24a",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            95,
+            100,
+            330,
+            443
+          ],
+          [
+            360,
+            100,
+            614,
+            439
+          ],
+          [
+            658,
+            100,
+            869,
+            439
+          ]
+        ],
+        "bodyBounds": [
+          1047,
+          687,
+          2007,
+          1968
+        ],
+        "cropBox": [
+          941,
+          581,
+          2113,
+          2074
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J45",
+      "type": "photos",
+      "sourceRow": 165,
+      "sourceColumn": 2,
+      "file": "images/J45-photos-1.jpg",
+      "sourceSha256": "1f8f5aa273b4708cf4f417fad81ac5779296dfe075fa0ff9f3ab1b444133caaf",
+      "crop": null
+    },
+    {
+      "record": "J45",
+      "type": "rubbings",
+      "sourceRow": 165,
+      "sourceColumn": 3,
+      "file": "images/J45-rubbings-1.jpg",
+      "sourceSha256": "2fcb7313c1f7193e3081ab4f45f5029c8a8ccc551f70c2951dd0de7082261a26",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            795,
+            256,
+            1053,
+            637
+          ],
+          [
+            190,
+            265,
+            448,
+            642
+          ],
+          [
+            483,
+            265,
+            765,
+            637
+          ],
+          [
+            1442,
+            544,
+            2286,
+            1261
+          ]
+        ],
+        "bodyBounds": [
+          1188,
+          1324,
+          1741,
+          2790
+        ],
+        "cropBox": [
+          1082,
+          1218,
+          1847,
+          2896
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J46",
+      "type": "photos",
+      "sourceRow": 166,
+      "sourceColumn": 2,
+      "file": "images/J46-photos-1.jpg",
+      "sourceSha256": "5241c88f05f16e047bd0f8055ff063027bb64e760c80e2a931ea9055be86fecb",
+      "crop": null
+    },
+    {
+      "record": "J46",
+      "type": "rubbings",
+      "sourceRow": 166,
+      "sourceColumn": 3,
+      "file": "images/J46-rubbings-1.jpg",
+      "sourceSha256": "6279b19d8375c9bab46dc01bad765365d84bb6ec45212a872ba105815ac3c99d",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            837,
+            166,
+            1143,
+            618
+          ],
+          [
+            142,
+            176,
+            439,
+            614
+          ],
+          [
+            478,
+            176,
+            807,
+            609
+          ]
+        ],
+        "bodyBounds": [
+          1176,
+          3402,
+          1638,
+          3675
+        ],
+        "cropBox": [
+          1070,
+          3296,
+          1744,
+          3781
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "J47",
+      "type": "photos",
+      "sourceRow": 167,
+      "sourceColumn": 2,
+      "file": "images/J47-photos-1.jpg",
+      "sourceSha256": "748f57a292533b70a50ddedb6b455b7810fc66f0e2bd4f3d7184204e3c3eae3b",
+      "crop": null
+    },
+    {
+      "record": "J47",
+      "type": "rubbings",
+      "sourceRow": 167,
+      "sourceColumn": 3,
+      "file": "images/J47-rubbings-1.jpg",
+      "sourceSha256": "bf5ae59ca1d4e81b340ec914fce309b7f14abd4c2d96efd0029936abc2818540",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            898,
+            171,
+            1237,
+            618
+          ],
+          [
+            539,
+            176,
+            878,
+            628
+          ],
+          [
+            190,
+            185,
+            495,
+            642
+          ]
+        ],
+        "bodyBounds": [
+          1541,
+          1958,
+          1696,
+          2155
+        ],
+        "cropBox": [
+          1435,
+          1852,
+          1802,
+          2261
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "H1",
+      "type": "photos",
+      "sourceRow": 168,
+      "sourceColumn": 2,
+      "file": "images/H1-photos-1.jpg",
+      "sourceSha256": "8a7823b235562227b6d2d25008b161bfe5271f823c3028a801c86440d5288df6",
+      "crop": null
+    },
+    {
+      "record": "H1",
+      "type": "rubbings",
+      "sourceRow": 168,
+      "sourceColumn": 3,
+      "file": "images/H1-rubbings-1.jpg",
+      "sourceSha256": "ab70292c4215d246ce015ab32c53b1c80f44ecdb25e2558193ad78fbf1f1eda9",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            176,
+            176,
+            486,
+            552
+          ],
+          [
+            563,
+            176,
+            798,
+            552
+          ]
+        ],
+        "bodyBounds": [
+          730,
+          185,
+          2573,
+          3120
+        ],
+        "cropBox": [
+          624,
+          79,
+          2679,
+          3226
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "H2",
+      "type": "photos",
+      "sourceRow": 169,
+      "sourceColumn": 2,
+      "file": "images/H2-photos-1.jpg",
+      "sourceSha256": "a634bfaef7eb6b7418d91ab8b8934efa8e8aa042aba7734977b91d10ceb9d6c9",
+      "crop": null
+    },
+    {
+      "record": "I1",
+      "type": "photos",
+      "sourceRow": 170,
+      "sourceColumn": 2,
+      "file": "images/I1-photos-1.jpg",
+      "sourceSha256": "55528adb0af0a270c57416cfa131475067cc9f27383617196da9b6fda059ebb9",
+      "crop": null
+    },
+    {
+      "record": "I2",
+      "type": "photos",
+      "sourceRow": 171,
+      "sourceColumn": 2,
+      "file": "images/I2-photos-1.jpg",
+      "sourceSha256": "7d30b0f8f5550a909c1dde6e07fe396c2afdff58412a30fd32905424127a1c01",
+      "crop": null
+    },
+    {
+      "record": "I2",
+      "type": "rubbings",
+      "sourceRow": 171,
+      "sourceColumn": 3,
+      "file": "images/I2-rubbings-1.jpg",
+      "sourceSha256": "c44eaf16e0f2e141170e32e3603d0031edf7542c482d92cc7ea5236086373daf",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            379,
+            284,
+            585,
+            585
+          ],
+          [
+            280,
+            289,
+            339,
+            585
+          ]
+        ],
+        "bodyBounds": [
+          1099,
+          2756,
+          1910,
+          3175
+        ],
+        "cropBox": [
+          993,
+          2650,
+          2016,
+          3281
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "I3",
+      "type": "photos",
+      "sourceRow": 172,
+      "sourceColumn": 2,
+      "file": "images/I3-photos-1.jpg",
+      "sourceSha256": "7f45b7355d7d6110d30930082fc4842847e36058d6ec6d4e9d8f86a8a4b10a97",
+      "crop": null
+    },
+    {
+      "record": "I3",
+      "type": "rubbings",
+      "sourceRow": 172,
+      "sourceColumn": 3,
+      "file": "images/I3-rubbings-1.jpg",
+      "sourceSha256": "ee2c6a66f97704937063b4c6d298b6faf3b1dbd5e363df35e1c80f8cc9131c97",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            275,
+            256,
+            500,
+            590
+          ],
+          [
+            161,
+            261,
+            231,
+            585
+          ]
+        ],
+        "bodyBounds": [
+          1445,
+          1968,
+          1518,
+          2110
+        ],
+        "cropBox": [
+          1339,
+          1862,
+          1624,
+          2216
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "I4",
+      "type": "photos",
+      "sourceRow": 173,
+      "sourceColumn": 2,
+      "file": "images/I4-photos-1.jpg",
+      "sourceSha256": "d199e4d1a986970c02293ae300f8be0913a9895962d760281fac15cf9f03a033",
+      "crop": null
+    },
+    {
+      "record": "I4",
+      "type": "rubbings",
+      "sourceRow": 173,
+      "sourceColumn": 3,
+      "file": "images/I4-rubbings-1.jpg",
+      "sourceSha256": "5cb6ff8bb82422c9e6b85c2509529f0ef15f1aefdc3755c712cc8948a32a3751",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            180,
+            246,
+            250,
+            590
+          ],
+          [
+            289,
+            246,
+            547,
+            590
+          ]
+        ],
+        "bodyBounds": [
+          1202,
+          1963,
+          1784,
+          2459
+        ],
+        "cropBox": [
+          1096,
+          1857,
+          1890,
+          2565
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "I5",
+      "type": "photos",
+      "sourceRow": 174,
+      "sourceColumn": 2,
+      "file": "images/I5-photos-1.jpg",
+      "sourceSha256": "d27cf15af089e9cd7d38b782f30d858427bfe174a0e97488767310bc3ddbe623",
+      "crop": null
+    },
+    {
+      "record": "I6",
+      "type": "photos",
+      "sourceRow": 175,
+      "sourceColumn": 2,
+      "file": "images/I6-photos-1.jpg",
+      "sourceSha256": "00b9b9f52426ea499654368a76a4f2ea5d898a56ab7c3e72988973df13894fb0",
+      "crop": null
+    },
+    {
+      "record": "I7",
+      "type": "photos",
+      "sourceRow": 176,
+      "sourceColumn": 2,
+      "file": "images/I7-photos-1.jpg",
+      "sourceSha256": "4d7b8355779e82410ac0e7dbce622bb34f45558a09736c585749d06e6fdf62cc",
+      "crop": null
+    },
+    {
+      "record": "I7",
+      "type": "rubbings",
+      "sourceRow": 176,
+      "sourceColumn": 3,
+      "file": "images/I7-rubbings-1.jpg",
+      "sourceSha256": "0b01a1e9d7d67860edf49aacdb8de8534bc84d0ad96275d832ad51afc580cfbf",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            275,
+            289,
+            344,
+            642
+          ],
+          [
+            393,
+            289,
+            651,
+            642
+          ]
+        ],
+        "bodyBounds": [
+          1456,
+          1782,
+          1615,
+          2091
+        ],
+        "cropBox": [
+          1350,
+          1676,
+          1721,
+          2197
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "I8",
+      "type": "photos",
+      "sourceRow": 177,
+      "sourceColumn": 2,
+      "file": "images/I8-photos-1.jpg",
+      "sourceSha256": "9fffd5cbae4f8132cdd2c299c0b0ea4fcc30cba0cadf95bd483d7e5156f4e914",
+      "crop": null
+    },
+    {
+      "record": "I8",
+      "type": "rubbings",
+      "sourceRow": 177,
+      "sourceColumn": 3,
+      "file": "images/I8-rubbings-1.jpg",
+      "sourceSha256": "b7b01ec4b0584f42ade8616a9a809e06048e384bf5a4dc7c70462c42f6f03cfb",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            331,
+            180,
+            618,
+            614
+          ],
+          [
+            185,
+            185,
+            269,
+            604
+          ]
+        ],
+        "bodyBounds": [
+          1217,
+          1710,
+          2083,
+          2343
+        ],
+        "cropBox": [
+          1111,
+          1604,
+          2189,
+          2449
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "I9",
+      "type": "photos",
+      "sourceRow": 178,
+      "sourceColumn": 2,
+      "file": "images/I9-photos-1.jpg",
+      "sourceSha256": "f30be9844e9be0d02b1ee714a5d632707ee58ff071e5e3c0aaa3d0a64d407ea6",
+      "crop": null
+    },
+    {
+      "record": "I9",
+      "type": "rubbings",
+      "sourceRow": 178,
+      "sourceColumn": 3,
+      "file": "images/I9-rubbings-1.jpg",
+      "sourceSha256": "40e838dd2358d8d86d659612bd6b0b8b19889c9ab91d33e0594291e8d68e6a98",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            346,
+            199,
+            614,
+            580
+          ],
+          [
+            223,
+            209,
+            297,
+            580
+          ]
+        ],
+        "bodyBounds": [
+          1142,
+          1529,
+          2185,
+          1974
+        ],
+        "cropBox": [
+          1036,
+          1423,
+          2291,
+          2080
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "I10",
+      "type": "photos",
+      "sourceRow": 179,
+      "sourceColumn": 2,
+      "file": "images/I10-photos-1.jpg",
+      "sourceSha256": "4c0095127e03bf917b12258857e5a879d0cc60c800bbe09cc25c54b41ee3fdff",
+      "crop": null
+    },
+    {
+      "record": "I10",
+      "type": "rubbings",
+      "sourceRow": 179,
+      "sourceColumn": 3,
+      "file": "images/I10-rubbings-1.jpg",
+      "sourceSha256": "138f799a4c85dff37c6e10b2dbb7d1257dafd241b8259c5a47e2a09a3b2ea6dd",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            639,
+            251,
+            902,
+            628
+          ],
+          [
+            237,
+            261,
+            306,
+            618
+          ],
+          [
+            383,
+            261,
+            604,
+            618
+          ]
+        ],
+        "bodyBounds": [
+          946,
+          1206,
+          1856,
+          1412
+        ],
+        "cropBox": [
+          840,
+          1100,
+          1962,
+          1518
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "I11",
+      "type": "photos",
+      "sourceRow": 180,
+      "sourceColumn": 2,
+      "file": "images/I11-photos-1.jpg",
+      "sourceSha256": "f9fef86d062afaeb4322efcac77a5b043dac3ac2c9bfa65ce3ec1c7945420d2b",
+      "crop": null
+    },
+    {
+      "record": "I11",
+      "type": "rubbings",
+      "sourceRow": 180,
+      "sourceColumn": 3,
+      "file": "images/I11-rubbings-1.jpg",
+      "sourceSha256": "512c68f9a76b957da7b5bc8754a665f4dfeaf92297b2b78203786edc910a1226",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            223,
+            185,
+            306,
+            609
+          ],
+          [
+            398,
+            185,
+            661,
+            609
+          ],
+          [
+            733,
+            185,
+            1001,
+            609
+          ]
+        ],
+        "bodyBounds": [
+          1450,
+          1258,
+          1615,
+          1389
+        ],
+        "cropBox": [
+          1344,
+          1152,
+          1721,
+          1495
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    },
+    {
+      "record": "I12",
+      "type": "photos",
+      "sourceRow": 181,
+      "sourceColumn": 2,
+      "file": "images/I12-photos-1.jpg",
+      "sourceSha256": "5ce500ffb707fc400d1ed63d0e56aeccf2d25aa708e566d1b4e26861fe26e961",
+      "crop": null
+    },
+    {
+      "record": "I12",
+      "type": "rubbings",
+      "sourceRow": 181,
+      "sourceColumn": 3,
+      "file": "images/I12-rubbings-1.jpg",
+      "sourceSha256": "52211bebdcf18cfcc1f499891f6f282faac3afd485262143511a1af0feb22151",
+      "crop": {
+        "sourceSize": [
+          3024,
+          4032
+        ],
+        "overlapBandCrop": null,
+        "removedLabelComponents": [
+          [
+            596,
+            190,
+            854,
+            576
+          ],
+          [
+            166,
+            199,
+            240,
+            576
+          ],
+          [
+            317,
+            199,
+            552,
+            576
+          ]
+        ],
+        "bodyBounds": [
+          1014,
+          837,
+          1860,
+          3750
+        ],
+        "cropBox": [
+          908,
+          731,
+          1966,
+          3856
+        ],
+        "mapping": "Spreadsheet anchor row/column and cell ID; image label ignored."
+      }
+    }
+  ]
+}
