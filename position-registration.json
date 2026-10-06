@@ -1,0 +1,9 @@
+{
+  "scale": 0.157,
+  "offsetX": 384,
+  "offsetY": 328,
+  "source": "每棵树位置.png",
+  "target": "地图1，用于晴天、阴天.png",
+  "method": "Direct building-mask registration, separate from medium-view artwork",
+  "score": 0.9400299787521362
+}
