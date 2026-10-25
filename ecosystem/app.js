@@ -8,7 +8,7 @@
   const graph=M.build(data.records,window.TREE_ROLES), nodeMap=new Map(graph.nodes.map(n=>[n.id,n]));
   const recordMap=new Map(data.records.map(r=>[r.id,r]));
   const labels={tree:'树洞',species:'生物 / 类群',process:'生态过程'};
-  const colors={tree:'#ffffff',species:'#4936d2',process:'#8e77df'};
+  const colors={tree:'#ffffff',species:'#7cbf49',process:'#a6d383'};
   const evidenceNames={record:'备注记录',weather:'天气记录',trace:'痕迹证据',interpretation:'原记录的解释'};
   const viewNames={overview:['COMMUNITY OVERVIEW','哪些生命，共享一处树洞？','仅显示生物类群 · 最多24条较强共现关系 · 同一档案出现不等于捕食'],all:['COMPLETE NETWORK',data.records.length+' 处树洞，彼此关联。','全部档案 · 朝向、高度与天气不作为节点'],tree:['HOLLOW × ORGANISM','沿着生命，回到树洞。','树洞与生物的观察关联'],ecology:['ECOLOGICAL RELATIONSHIPS','从微小生命，到生态过程。','虚线为角色推测，非现场证据']};
   const svg=$('network'), scene=$('scene');
@@ -132,7 +132,7 @@
       const radius=n.type==='tree'?5.2:Math.min(32,11+Math.sqrt(n.count||1)*3.5);
       const p=positions.get(n.id);p.radius=radius;
       const group=el('g',{class:'graph-node'+(n.knowledge?' knowledge-node':''),'data-node':n.id,tabindex:'0',role:'button','aria-label':n.label+'，'+(n.knowledge?'生态知识':labels[n.type])+'，打开详情'});
-      group.append(el('circle',{r:radius+6,class:'node-halo'}),el('circle',{r:radius,class:'node-core',fill:colors[n.type],stroke:n.type==='tree'?'#6b5cd2':'#7965d5'}));
+      group.append(el('circle',{r:radius+6,class:'node-halo'}),el('circle',{r:radius,class:'node-core',fill:colors[n.type],stroke:n.type==='tree'?'#90c965':'#97cc6e'}));
       const title=el('title');title.textContent=n.label+(n.knowledge?' · 生态知识':n.type==='species'?' · '+n.count+' 处关联树洞':'');group.append(title);
       const text=el('text',{y:radius+16});text.textContent=n.label;group.append(text);
       group.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();selectNode(n.id);}});
