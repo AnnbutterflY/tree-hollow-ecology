@@ -13,3 +13,6 @@
 
 @media(min-width:901px){.embedded .workspace{min-height:420px;height:calc(100dvh - 105px)}}
 .knowledge-node .node-core{fill:#fff;stroke:#9bc878;stroke-width:2;stroke-dasharray:4 3}.graph-edge.association{stroke:#a0c584;opacity:.45}
+
+img[src*="-rubbings-"]{filter:grayscale(1) brightness(1.7) sepia(1) saturate(1.8) hue-rotate(40deg)!important}
+
