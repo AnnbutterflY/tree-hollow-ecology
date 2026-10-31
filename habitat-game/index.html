@@ -1,5 +1,6 @@
 <!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>树隙之间 · 选择你的生命</title><style>
 *{box-sizing:border-box}body{margin:0;background:#0c170e;color:#dde5ca;font:14px/1.6 'Source Han Sans SC','思源黑体','Microsoft YaHei','微软雅黑',sans-serif}body:before{content:'';position:fixed;inset:0;background:linear-gradient(90deg,#0a140ce6,#12200db8),url(images/38aba95826b3386a4408.png) center/cover;z-index:-2}body:after{content:'';position:fixed;inset:14px;border:1px solid #acb98c44;pointer-events:none;z-index:5}button,input{font:inherit}button{cursor:pointer;color:inherit}button:focus-visible,input:focus-visible{outline:2px solid #dcb3d2;outline-offset:3px}header{padding:24px 4vw;border-bottom:1px solid #b9c69b33;display:flex;justify-content:space-between;align-items:center}.brand{letter-spacing:4px;color:#c7df96;font-size:12px}.brand small{display:block;font-size:9px;letter-spacing:2px;color:#8e9b7b}.home{background:none;border:1px solid #9daa7e55;border-radius:30px;padding:8px 18px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:30px;padding:28px 4vw 110px;max-width:1600px;margin:auto}.intro{display:flex;justify-content:space-between;align-items:end;margin:0 0 24px}h1{font:42px 'Source Han Sans SC','思源黑体','Microsoft YaHei','微软雅黑',sans-serif;letter-spacing:5px;margin:0 0 10px}h1 em{font-style:normal;color:#d7aacd}.subtitle{font-size:12px;color:#a5af94;margin:0}.step{font-size:10px;letter-spacing:3px;color:#c0a2de}.tools{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}.tools button,.tools input{border:1px solid #a8b78a44;background:#101e12bb;border-radius:25px;padding:7px 15px;color:#cbd6ba}.tools button.active{background:#b2a0df25;border-color:#b7a2ed;color:#d6c6ff}.tools input{min-width:130px;flex:1}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.card{position:relative;border:1px solid #abb58a35;background:#142016a6;border-radius:7px;min-height:166px;padding:7px 10px 12px;transition:.18s}.card:hover{background:#253025b3;transform:translateY(-2px)}.card.selected{border-color:#b6a0ef;box-shadow:inset 0 0 25px #ac89ef18}.card h2{font:21px 'Source Han Sans SC','思源黑体','Microsoft YaHei','微软雅黑',sans-serif;color:#c2adff;margin:0}.card small{font-size:9px;letter-spacing:1px;color:#a3b296}.mark{position:absolute;right:9px;top:7px;border:1px solid #a48aca77;border-radius:50%;width:20px;height:20px;font-size:12px;color:#d7c5ff}.silhouette{width:120px;height:112px;background-image:url(images/1e28fb3b8941a728768a.png);background-size:640px 960px;mix-blend-mode:screen;clip-path:inset(0 0 26px 0);margin:auto;pointer-events:none}.panel{position:sticky;top:20px;align-self:start;background:#0b170edb;border:1px solid #b6be934a;border-radius:8px;padding:25px}.panel .eyebrow{font-size:10px;letter-spacing:3px;color:#c0a6e9}.panel h2{font:32px 'Source Han Sans SC','思源黑体','Microsoft YaHei','微软雅黑',sans-serif;color:#d9c7ff;margin:5px 0 14px}.panel h3{font-size:11px;letter-spacing:2px;color:#b9cb91;margin:22px 0 5px}.panel p{font-size:12px;margin:0;color:#bdc8ac}.panel .hint{border-left:2px solid #c5a0cc;padding-left:12px;color:#d8c6dc}.chips{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.chip{font-size:10px;background:#b8cb9220;padding:3px 8px;border:1px solid #a7ba7a33;border-radius:4px}.panel footer{margin-top:20px;font-size:10px;color:#8f9b80}.bottom{position:fixed;bottom:0;left:0;right:0;background:#0e190ef2;border-top:1px solid #a4b58255;padding:16px 4vw;display:flex;justify-content:space-between;gap:20px;align-items:center;z-index:4}.bottom p{margin:0;font-size:12px}.primary{background:#cadba3;color:#172211;border:0;border-radius:30px;padding:12px 28px;font-weight:bold}.primary:disabled{opacity:.4;cursor:default}.ghost{background:transparent;border:1px solid #bbc99a66;border-radius:25px;padding:10px 18px;margin-right:8px}.notice{font-size:11px;color:#b6bd9e}.route{padding:24px;border:1px solid #b3a0d76b;margin:12px 0;background:#141c17cc}.route h2{color:#cfb5e4;font-size:22px;margin:0 0 14px}.empty{padding:30px;color:#b7c09e}.selectedNames{color:#d4bbf5}.screen{display:none}.screen.show{display:block}@media(max-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}.layout{grid-template-columns:minmax(0,1fr) 300px}}@media(max-width:740px){header{padding:20px 7vw}.layout{display:block;padding:25px 7vw 150px}.grid{grid-template-columns:repeat(2,1fr)}.panel{position:static;margin-top:25px}.intro{display:block}h1{font-size:34px}.step{margin-top:10px}.bottom{padding:12px 7vw;flex-wrap:wrap}.primary{padding:10px 18px}.card{min-height:165px}body:after{inset:7px}}
+#battle{position:fixed;inset:0;z-index:80;background:#0c100f;color:#e4e0d2;font:14px/1.6 'Source Han Sans SC','Microsoft YaHei',sans-serif;overflow:auto;background-image:radial-gradient(ellipse at 50% 45%,#29352b55,transparent 70%)}#battle[hidden]{display:none}#battle *{box-sizing:border-box}#battle button,#battle select{font:inherit;color:inherit;background:linear-gradient(#30342d,#171c19);border:1px solid #77725b;border-radius:2px;padding:9px 16px;cursor:pointer}#battle button:hover{border-color:#d7bd84;background:#3c4234}#battle button:disabled{opacity:.4;cursor:default}#battle button:focus-visible{outline:2px solid #efdaa5;outline-offset:3px}.battle-head{padding:16px 3vw;border-bottom:1px solid #84715266;display:flex;align-items:center;justify-content:space-between;gap:14px;background:#0e1513ed}.battle-head h2{font-size:22px;font-weight:500;letter-spacing:5px;margin:0;color:#decfa6}.battle-head small{letter-spacing:2px;color:#a5ad98}.battle-panel{border:1px solid #7b71584d;padding:22px;background:linear-gradient(135deg,#1c241fef,#0d1311f5);box-shadow:inset 0 0 0 3px #060a0880,0 15px 40px #0006}.battle-prep{display:grid;grid-template-columns:280px minmax(0,1fr) 320px;gap:20px;padding:24px 3vw}.battle-kicker{color:#c9ae72;letter-spacing:3px;font-size:11px;text-transform:uppercase}.battle-prep h3{font-size:21px;font-weight:400;color:#ddd4b5;margin:10px 0}.battle-prep .silhouette{transform:scale(1.5);margin:35px auto}.battle-muted{color:#a0ab9c;font-size:12px}.battle-line{border-bottom:1px solid #8d806137;padding:11px 0}.battle-enemies{display:flex;gap:10px;align-items:center;justify-content:center;min-height:210px;background:radial-gradient(ellipse,#36403544,transparent)}.battle-items{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:9px;max-height:40vh;overflow:auto}.battle-pick{text-align:left;min-height:125px;border-color:var(--tier)!important;position:relative}.battle-pick.active{outline:2px solid #e1cf9b;background:#3b402c!important}.battle-item-art{height:65px;pointer-events:none}.battle-pick b{display:block;font-size:12px}.battle-pick small{font-size:11px;color:#a7b099}.battle-hint{min-height:45px;padding:10px;color:#dec891;border-left:2px solid #a08450;background:#171d16;margin:12px 0}.battle-primary{background:linear-gradient(#776443,#443923)!important;color:#fff2ce!important;border-color:#b99b60!important}.battle-shell{display:grid;grid-template-columns:minmax(0,1fr) 255px;gap:14px;padding:18px 2vw 110px}.battle-stage{position:relative;aspect-ratio:1100/540;border:1px solid #796b50;overflow:hidden;box-shadow:0 20px 70px #0008;background:#111c1b}.battle-stage canvas{width:100%;height:100%;display:block}.battle-hero{position:absolute;width:10.9%;height:20.7%;pointer-events:none;transform:translate(-50%,-100%);transition:none}.battle-hero .silhouette{width:120px;height:112px;position:absolute;left:50%;top:50%;margin:-56px 0 0 -60px;transform:scale(.65)}.battle-bars{position:absolute;left:20px;top:18px;right:20px;display:flex;justify-content:space-between;gap:20px;pointer-events:none}.battle-bar{width:220px;font-size:11px;text-shadow:0 1px 3px #000}.battle-bar.enemy{width:38%;text-align:right}.battle-bar i{display:block;height:10px;background:#180e0c;border:1px solid #79674c;margin-top:6px}.battle-bar em{display:block;height:100%;background:linear-gradient(90deg,#64251c,#bd6845);transition:width .1s}.battle-bar.enemy em{background:linear-gradient(90deg,#5b2921,#bd7d45)}.battle-task{position:absolute;left:20px;bottom:15px;font-size:12px;color:#d3dbbf;background:#0c120dc9;padding:7px 12px;pointer-events:none}.battle-sidebar h3{color:#c9b47f;font-size:14px;font-weight:400;letter-spacing:2px;margin-top:0}.battle-sidebar{font-size:12px}.battle-sidebar p{color:#b9c0ae}.battle-log{border-top:1px solid #706a4944;margin-top:18px;padding-top:12px;max-height:210px;overflow:auto}.battle-log div{padding:5px 0;color:#b1ba9f;border-bottom:1px solid #7773}.battle-hotbar{position:fixed;bottom:0;left:0;right:0;padding:12px;background:linear-gradient(transparent,#0c100ff5 20%);display:flex;gap:8px;justify-content:center;align-items:center;z-index:2}.battle-hotbar button{min-width:85px;min-height:66px;position:relative;display:flex;flex-direction:column;align-items:center;font-size:12px!important}.battle-hotbar kbd{color:#c7b992;font-size:11px}.battle-hotbar strong{font-size:17px;font-weight:400}.battle-slot{width:120px}.battle-slot small{font-size:10px;color:#b4bea8}.battle-state{position:absolute;inset:0;display:grid;place-items:center;background:#050a08c9;text-align:center;z-index:3}.battle-state>div{max-width:500px;padding:30px}.battle-state h2{font-size:40px;letter-spacing:7px;color:#e8cf94;font-weight:400}.battle-state p{color:#bfc6ae}.battle-rewards{display:flex;gap:10px;flex-wrap:wrap;padding:20px 3vw}.battle-reward{width:210px;border:1px solid var(--tier);padding:15px;background:#182018}.battle-reward .battle-item-art{height:95px}.battle-codex{position:absolute;inset:60px 3vw 25px;overflow:auto;z-index:9;background:#111a16;padding:25px;border:1px solid #8e7950}.battle-codex table{width:100%;border-collapse:collapse;font-size:12px}.battle-codex td,.battle-codex th{padding:12px;border:1px solid #687056;text-align:left}.battle-codex input{padding:10px;background:#222d23;color:#e2e8d7;border:1px solid #798365;font:inherit;margin-bottom:14px}.battle-mobile{display:none}.battle-codex-close{position:sticky;top:0;float:right}.battle-focus{color:#efd092}.battle-codex .scroll{overflow:auto}@media(max-width:1050px){.battle-prep{grid-template-columns:230px 1fr}.battle-prep>aside:last-child{grid-column:1/-1}.battle-shell{grid-template-columns:1fr}.battle-sidebar{display:none}.battle-hotbar button{min-width:65px}.battle-hero .silhouette{transform:scale(.5)}}@media(max-width:650px){.battle-prep{grid-template-columns:1fr;padding:14px}.battle-prep>aside:last-child{grid-column:auto}.battle-head{padding:12px}.battle-head h2{font-size:17px}.battle-head button{padding:7px!important}.battle-shell{padding:10px 5px 200px}.battle-stage{min-height:290px;aspect-ratio:auto}.battle-stage canvas{object-fit:fill}.battle-hotbar{flex-wrap:wrap;gap:5px}.battle-hotbar button{min-width:55px;min-height:55px;padding:6px!important}.battle-mobile{display:flex;gap:5px}.battle-bar{width:130px}.battle-bars{left:10px;right:10px;top:10px}.battle-task{font-size:10px;left:7px;bottom:5px}.battle-hero .silhouette{transform:scale(.35)}.battle-state h2{font-size:26px}.battle-codex{inset:60px 7px 10px;padding:14px}.battle-slot{width:90px}}
 .silhouette{filter:url(#organism-white)!important}</style><svg aria-hidden="true" width="0" height="0" style="position:absolute;pointer-events:none"><defs><filter id="original-white" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/></filter><filter id="organism-white" color-interpolation-filters="sRGB"><feColorMatrix in="SourceGraphic" type="luminanceToAlpha" result="brush"/><feFlood flood-color="white" result="pigment"/><feComposite in="pigment" in2="brush" operator="in"/></filter></defs></svg><header><div class="brand">HOLLOW SIGNAL<small>树隙之间 · 生命档案</small></div><button class="home" data-return-world>回到世界</button><button class="home" id="reset">重新选择 ↗</button></header><div class="layout"><section><div class="intro"><div><h1>选择你的<em>生命</em></h1><p class="subtitle">沿着微小的线索，找到属于你的树隙。</p></div><div class="step" id="step">01 / 选择角色</div></div><div id="choose" class="screen show"><div class="tools" id="tools"><button class="active" data-filter="全部">全部</button><button data-filter="动物">动物</button><button data-filter="其他">植物与菌类</button><input id="search" aria-label="搜索角色" placeholder="寻找一个名字…"></div><p class="notice">选择1—3个角色；已有11种图案直接使用你的原画；其余为补画示意。</p><div class="grid" id="grid"></div></div><div id="explore" class="screen"><div class="tools"><button id="phase1">查看首轮线索</button><button id="phase2">查看传递后筛选</button></div><p class="notice">候选编号对应真实档案；物理条件未核验，不能直接判为适居。</p><div id="routes"></div></div></section><aside class="panel" id="panel"></aside></div><div class="bottom"><div><p id="selection">尚未选择角色</p><span class="notice" id="status">每个角色从12个考察点开始，循线索缩为8→4。</span></div><div><button class="ghost" id="back" hidden>返回图谱</button><button class="primary" id="start" disabled>带着这个身份出发 ↗</button></div></div><script>
 const DATA={"roles": [{"生物": "举腹蚁", "游戏角色类型": "动物", "生活空间定义": "树皮、枝干裂隙附近", "特殊条件": "合作灰蝶必须匹配具体种", "原记录全部点位": "D1", "游戏候选数量": 12, "第一轮候选编号": "D1、A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "观察腹部姿态与路径，不刺激动物", "来源": "https://ipm.ucanr.edu/home-and-landscape/ants/\nhttps://ipm.ucanr.edu/home-and-landscape/carpenter-ants/"}, {"生物": "地衣", "游戏角色类型": "生境观察角色", "生活空间定义": "洞口外较稳定树皮面", "特殊条件": "不是洞内居民；光照与树皮条件依种而变", "原记录全部点位": "无，用户新增", "游戏候选数量": 12, "第一轮候选编号": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "观察树皮附着斑片，不刮取", "来源": "https://britishlichensociety.org.uk/learning/what-is-a-lichen"}, {"生物": "大头蚁", "游戏角色类型": "动物", "生活空间定义": "树基、土木交界及通行裂隙", "特殊条件": "须鉴定；不能把所有大头蚁当同一物种", "原记录全部点位": "C3、C4、D5、D7、F8、F42、G9、G14、G16、J6、J15、J17、J22、J23、J24、J31、J43、J46、I2、I7、I8、I9", "游戏候选数量": 12, "第一轮候选编号": "C3、C4、D5、D7、F8、F42、G9、G14、G16、J6、J15、J17", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "记录大小工蚁差异及路径", "来源": "https://ipm.ucanr.edu/home-and-landscape/ants/\nhttps://ipm.ucanr.edu/home-and-landscape/carpenter-ants/"}, {"生物": "天牛", "游戏角色类型": "动物", "生活空间定义": "幼虫寄主木材；成虫在树表活动", "特殊条件": "天牛类食性有差异；羽化孔不是空房入口", "原记录全部点位": "无，用户新增", "游戏候选数量": 12, "第一轮候选编号": "D1、D6、F6、F8、F41、F42、G5、G1、G15、J31、H1、I9", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "区分幼虫木材利用和成虫停留", "来源": "https://ipm.ucanr.edu/home-and-landscape/subterranean-and-other-termites/\nhttps://research.fs.usda.gov/treesearch/62262\nhttps://www.fao.org/4/i0640c/i0640c.pdf"}, {"生物": "弓背蚁", "游戏角色类型": "动物", "生活空间定义": "有可利用空隙的木质空间及树皮附近", "特殊条件": "挖木筑巢不等于吃木；需查空隙与巢证", "原记录全部点位": "A1、A2、A3、A7、A8、A9、B5、B6、B7、B9、D7、F5、F6、F29、F41、F42、G3、G4、G5、G15、G16、G19、J11、J12、J24、J36、J44、J45、H1、I2", "游戏候选数量": 12, "第一轮候选编号": "A1、A2、A3、A7、A8、A9、B5、B6、B7、B9、D7、F5", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "找较大蚁类、出入口与往返路径", "来源": "https://ipm.ucanr.edu/home-and-landscape/ants/\nhttps://ipm.ucanr.edu/home-and-landscape/carpenter-ants/"}, {"生物": "弹尾虫", "游戏角色类型": "动物", "生活空间定义": "潮湿有机物、菌层及腐木表面", "特殊条件": "体形微小，需放大；不能凭肉眼缺席判无", "原记录全部点位": "无，用户新增", "游戏候选数量": 12, "第一轮候选编号": "A1、C3、D5、D6、D7、D8、D12、D13、F5、G3、G16、J5", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "放大观察微小跳跃动物与菌层", "来源": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/springtails\nhttps://extension.umn.edu/garden-and-home/home-maintenance/household-insects/sowbugs-millipedes-and-centipedes\nhttps://ipm.ucanr.edu/home-and-landscape/snails-and-slugs/"}, {"生物": "拟蚁蛛", "游戏角色类型": "动物", "生活空间定义": "蚁类活动附近的树皮与植被表面", "特殊条件": "八足；拟态不等于与蚂蚁合作", "原记录全部点位": "D5", "游戏候选数量": 12, "第一轮候选编号": "D5、A8、B8、F3、A1、A2、A3、A7、A9、B7、D7、F5", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "比较八足、体形与蚂蚁六足", "来源": "https://ipm.ucanr.edu/home-and-landscape/spiders/\nhttps://australian.museum/learn/species-identification/ask-an-expert/spiders-that-mimic-ants/"}, {"生物": "星天牛", "游戏角色类型": "动物", "生活空间定义": "适宜寄主的木质组织与根颈相关位置", "特殊条件": "必须鉴种；蛀孔不能独立定种", "原记录全部点位": "G1、G15、J31、H1、I9", "游戏候选数量": 12, "第一轮候选编号": "G1、G15、J31、H1、I9、D1、D6、F6、F8、F41、F42、G5", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "用孔洞记录定位历史痕迹，不声称正在取食", "来源": "https://ipm.ucanr.edu/home-and-landscape/subterranean-and-other-termites/\nhttps://research.fs.usda.gov/treesearch/62262\nhttps://www.fao.org/4/i0640c/i0640c.pdf"}, {"生物": "晶粒鬼伞", "游戏角色类型": "生境观察角色", "生活空间定义": "腐木或埋木基质附近", "特殊条件": "鉴定待复核；不是任意干净洞壁都可生长", "原记录全部点位": "无，用户新增", "游戏候选数量": 12, "第一轮候选编号": "C3、F2、F15、E5、A1、A2、A3、A7、A8、A9、B7、D5", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "找子实体与木质基质的连接", "来源": "https://mdc.mo.gov/discover-nature/field-guide/mica-cap\nhttps://research.fs.usda.gov/treesearch/62262\nhttps://www.epa.gov/mold/mold-course-chapter-1"}, {"生物": "白蚁", "游戏角色类型": "动物", "生活空间定义": "木质基质与隐蔽通道", "特殊条件": "蚁路或泥线是痕迹；不拆通道，不确认当时活体", "原记录全部点位": "D1、D6、F6、F8、F41、F42、G5", "游戏候选数量": 12, "第一轮候选编号": "D1、D6、F6、F8、F41、F42、G5、G1、G15、J31、H1、I9", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "找泥线、木材利用痕迹与旧记录", "来源": "https://ipm.ucanr.edu/home-and-landscape/subterranean-and-other-termites/\nhttps://research.fs.usda.gov/treesearch/62262\nhttps://www.fao.org/4/i0640c/i0640c.pdf"}, {"生物": "真菌", "游戏角色类型": "生境观察角色", "生活空间定义": "按实际鉴定再分腐生、寄生或其他", "特殊条件": "宽泛标签，与具体真菌角色择一以免重复", "原记录全部点位": "F2", "游戏候选数量": 12, "第一轮候选编号": "F2、C3、F15、E5、A1、A2、A3、A7、A8、A9、B7、D5", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "找菌体／子实体，先确认基质再判功能", "来源": "https://mdc.mo.gov/discover-nature/field-guide/mica-cap\nhttps://research.fs.usda.gov/treesearch/62262\nhttps://www.epa.gov/mold/mold-course-chapter-1"}, {"生物": "纯白微皮伞", "游戏角色类型": "生境观察角色", "生活空间定义": "原记录所对应基质待确认", "特殊条件": "不凭中文名设定特定宿主木材", "原记录全部点位": "C3", "游戏候选数量": 12, "第一轮候选编号": "C3、F2、F15、E5、A1、A2、A3、A7、A8、A9、B7、D5", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "找白色小型子实体并记录着生基质", "来源": "https://mdc.mo.gov/discover-nature/field-guide/mica-cap\nhttps://research.fs.usda.gov/treesearch/62262\nhttps://www.epa.gov/mold/mold-course-chapter-1"}, {"生物": "细叶麦冬", "游戏角色类型": "生境观察角色", "生活空间定义": "有根系可生长的树基土壤或积土处", "特殊条件": "植物，不把树皮随意当可扎根土层", "原记录全部点位": "无，用户新增", "游戏候选数量": 12, "第一轮候选编号": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "确认叶丛、根系连接及土层", "来源": "https://extension.usu.edu/planthealth/ipm/ornamental-pest-guide/arthopods/cicadas\nhttps://www.iplant.cn/info/Ficus%20pumila?t=focn\nhttps://wszwy.sustech.edu.cn/flowers-detail/i-409.html"}, {"生物": "胶质真菌", "游戏角色类型": "生境观察角色", "生活空间定义": "具有胶质外观的菌体着生面待核", "特殊条件": "形态标签并非确定生态类群", "原记录全部点位": "E5", "游戏候选数量": 12, "第一轮候选编号": "E5、C3、F2、F15、A1、A2、A3、A7、A8、A9、B7、D5", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "找胶质外观，记录木材或其他着生基质", "来源": "https://mdc.mo.gov/discover-nature/field-guide/mica-cap\nhttps://research.fs.usda.gov/treesearch/62262\nhttps://www.epa.gov/mold/mold-course-chapter-1"}, {"生物": "薜荔", "游戏角色类型": "生境观察角色", "生活空间定义": "树表攀援处，根系连接适宜基质", "特殊条件": "不是洞内定居动物，不把攀援写寄生", "原记录全部点位": "无，用户新增", "游戏候选数量": 12, "第一轮候选编号": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "辨认攀援枝叶与附着位置", "来源": "https://extension.usu.edu/planthealth/ipm/ornamental-pest-guide/arthopods/cicadas\nhttps://www.iplant.cn/info/Ficus%20pumila?t=focn\nhttps://wszwy.sustech.edu.cn/flowers-detail/i-409.html"}, {"生物": "蚂蚁", "游戏角色类型": "动物", "生活空间定义": "树皮裂隙及周边通行空间", "特殊条件": "不凭工蚁经过确认巢；不得挖巢", "原记录全部点位": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2、I7、I8", "游戏候选数量": 12, "第一轮候选编号": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "找连续行走路径，不采集工蚁", "来源": "https://ipm.ucanr.edu/home-and-landscape/ants/\nhttps://ipm.ucanr.edu/home-and-landscape/carpenter-ants/"}, {"生物": "蚊子", "游戏角色类型": "动物", "生活空间定义": "部分种幼期利用持水容器状树洞；成虫可在阴蔽处停歇", "特殊条件": "必须区分成虫和幼虫；不能人为加水养蚊", "原记录全部点位": "A8", "游戏候选数量": 12, "第一轮候选编号": "A8、A1、A2、A3、A7、A9、B7、D5、D7、F5、H1、I2", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "成虫记录→检查是否持水；水面幼虫照片才支持繁殖线索", "来源": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/flies\nhttps://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html"}, {"生物": "蛾蚋", "游戏角色类型": "动物", "生活空间定义": "幼虫需要持续湿润有机膜；成虫靠近潜在孳生处", "特殊条件": "湿有机膜不必等同深积水，需生活史鉴定", "原记录全部点位": "无，用户新增", "游戏候选数量": 12, "第一轮候选编号": "A8、A1、A2、A3、A7、A9、B7、D5、D7、F5、H1、I2", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "辨认绒毛小飞虫，再查湿润有机膜", "来源": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/flies\nhttps://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html"}, {"生物": "蜗牛", "游戏角色类型": "动物", "生活空间定义": "湿润遮蔽的洞缘及周边植被", "特殊条件": "空壳不能当活体；不以洞口大小推定适居", "原记录全部点位": "A1、A2、A4、A8、F24、F42、G9、G15、J7、J14、J36、I10", "游戏候选数量": 12, "第一轮候选编号": "A1、A2、A4、A8、F24、F42、G9、G15、J7、J14、J36、I10", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "观察壳与黏液，区分空壳和活体", "来源": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/springtails\nhttps://extension.umn.edu/garden-and-home/home-maintenance/household-insects/sowbugs-millipedes-and-centipedes\nhttps://ipm.ucanr.edu/home-and-landscape/snails-and-slugs/"}, {"生物": "蜘蛛", "游戏角色类型": "动物", "生活空间定义": "能附着丝网或供游猎的洞缘、树皮", "特殊条件": "结网型与游猎型分开；有网不等于有蜘蛛", "原记录全部点位": "A8、B8、D5、F3", "游戏候选数量": 12, "第一轮候选编号": "A8、B8、D5、F3、A1、A2、A3、A7、A9、B7、D7、F5", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "找丝网、固定点或游猎影像", "来源": "https://ipm.ucanr.edu/home-and-landscape/spiders/\nhttps://australian.museum/learn/species-identification/ask-an-expert/spiders-that-mimic-ants/"}, {"生物": "蝉", "游戏角色类型": "动物", "生活空间定义": "若虫依赖地下根区；成虫利用树干枝叶", "特殊条件": "树洞只作邻近活动点，不设幼虫洞内定居", "原记录全部点位": "无，用户新增", "游戏候选数量": 12, "第一轮候选编号": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "分辨蝉蜕与活体；联想到根区而非洞底", "来源": "https://extension.usu.edu/planthealth/ipm/ornamental-pest-guide/arthopods/cicadas\nhttps://www.iplant.cn/info/Ficus%20pumila?t=focn\nhttps://wszwy.sustech.edu.cn/flowers-detail/i-409.html"}, {"生物": "蟑螂", "游戏角色类型": "动物", "生活空间定义": "隐蔽裂隙和有机物附近的夜间活动空间", "特殊条件": "不指定室内害虫种；活动点不等于繁殖巢", "原记录全部点位": "A8、B3", "游戏候选数量": 12, "第一轮候选编号": "A8、B3、A1、C3、D5、D6、D7、D8、D12、D13、F5、G3", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "观察扁平体与长触角，记录夜间时段", "来源": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/springtails\nhttps://extension.umn.edu/garden-and-home/home-maintenance/household-insects/sowbugs-millipedes-and-centipedes\nhttps://ipm.ucanr.edu/home-and-landscape/snails-and-slugs/"}, {"生物": "西瓜虫", "游戏角色类型": "动物", "生活空间定义": "湿润落叶、腐殖质与洞底木屑附近", "特殊条件": "陆生等足类，需要保湿但非永久水下", "原记录全部点位": "A2、A4、G15、J6、J11、J15、J24、J43、J44、J46", "游戏候选数量": 12, "第一轮候选编号": "A2、A4、G15、J6、J11、J15、J24、J43、J44、J46、A1、C3", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "寻找分节椭圆体与落叶覆盖，不翻动真实洞底", "来源": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/springtails\nhttps://extension.umn.edu/garden-and-home/home-maintenance/household-insects/sowbugs-millipedes-and-centipedes\nhttps://ipm.ucanr.edu/home-and-landscape/snails-and-slugs/"}, {"生物": "霉菌", "游戏角色类型": "生境观察角色", "生活空间定义": "湿润有机基质的菌落表面", "特殊条件": "霉菌属真菌；不直接嗅闻或接触", "原记录全部点位": "F2、F15", "游戏候选数量": 12, "第一轮候选编号": "F2、F15、C3、E5、A1、A2、A3、A7、A8、A9、B7、D5", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "照片记录菌落色泽及基质，不采集", "来源": "https://mdc.mo.gov/discover-nature/field-guide/mica-cap\nhttps://research.fs.usda.gov/treesearch/62262\nhttps://www.epa.gov/mold/mold-course-chapter-1"}, {"生物": "靴耳", "游戏角色类型": "生境观察角色", "生活空间定义": "原记录对应的木质着生基质待核", "特殊条件": "标签未至种；不承诺特定腐生能力", "原记录全部点位": "C3", "游戏候选数量": 12, "第一轮候选编号": "C3、F2、F15、E5、A1、A2、A3、A7、A8、A9、B7、D5", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "观察侧生形态与着生面", "来源": "https://mdc.mo.gov/discover-nature/field-guide/mica-cap\nhttps://research.fs.usda.gov/treesearch/62262\nhttps://www.epa.gov/mold/mold-course-chapter-1"}, {"生物": "马陆", "游戏角色类型": "动物", "生活空间定义": "湿润腐败植物碎屑附近", "特殊条件": "多足；与捕食性蜈蚣分开", "原记录全部点位": "无，用户新增", "游戏候选数量": 12, "第一轮候选编号": "A1、C3、D5、D6、D7、D8、D12、D13、F5、G3、G16、J5", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "寻找多节多足形态及碎屑环境", "来源": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/springtails\nhttps://extension.umn.edu/garden-and-home/home-maintenance/household-insects/sowbugs-millipedes-and-centipedes\nhttps://ipm.ucanr.edu/home-and-landscape/snails-and-slugs/"}, {"生物": "鼻涕虫", "游戏角色类型": "动物", "生活空间定义": "遮阴、保湿而非被水淹的洞缘或碎屑层", "特殊条件": "干燥暴晒不宜；黏液不等于活体定居", "原记录全部点位": "A1、C3、D5、D6、D7、D8、D12、D13、F5、G3、G16、J5、J18、J22、J31、J45、J47、H1、I8、I12", "游戏候选数量": 12, "第一轮候选编号": "A1、C3、D5、D6、D7、D8、D12、D13、F5、G3、G16、J5", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "找黏液或活体；复查保湿条件", "来源": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/springtails\nhttps://extension.umn.edu/garden-and-home/home-maintenance/household-insects/sowbugs-millipedes-and-centipedes\nhttps://ipm.ucanr.edu/home-and-landscape/snails-and-slugs/"}, {"生物": "蚜虫", "游戏角色类型": "动物", "生活空间定义": "适合的活体寄主嫩梢或叶面；不是树洞深处", "特殊条件": "新增角色；未确认寄主与种，不认定校园已出现", "原记录全部点位": "无，用户新增", "游戏候选数量": 12, "第一轮候选编号": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "找寄主、蚜群与蜜露关联；游戏用资料卡代现场确认", "来源": "https://ipm.ucanr.edu/home-and-landscape/aphids/"}, {"生物": "灰蝶", "游戏角色类型": "动物", "生活空间定义": "幼虫在适合寄主与匹配蚁活动处；成虫为访花停歇", "特殊条件": "新增角色；不把所有灰蝶都设洞内居民", "原记录全部点位": "无，用户新增", "游戏候选数量": 12, "第一轮候选编号": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "开放为栖息点的条件": "现场复查本行生活空间与特殊条件；无物种记录的编号只是游戏考察点，不是已确认栖息地", "线索内容": "先识别幼虫／成虫、寄主和蚁伙伴", "来源": "https://australian.museum/learn/animals/insects/lycaenid-butterflies-and-ants/"}], "clues": [{"生物": "举腹蚁", "阶段": "初始", "筛选后编号": "D1、A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "举腹蚁", "阶段": "首轮·线索1", "筛选后编号": "D1、A1、A2、A3、A7、A8、A9、B7", "数量": 8, "线索／条件": "观察腹部姿态与路径，不刺激动物", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "举腹蚁", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "D1、A1、A2、A3", "数量": 4, "线索／条件": "树皮、枝干裂隙附近；合作灰蝶必须匹配具体种", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "地衣", "阶段": "初始", "筛选后编号": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "地衣", "阶段": "首轮·线索1", "筛选后编号": "A1、A2、A3、A7、A8、A9、B7、D5", "数量": 8, "线索／条件": "观察树皮附着斑片，不刮取", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "地衣", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A1、A2、A3、A7", "数量": 4, "线索／条件": "洞口外较稳定树皮面；不是洞内居民；光照与树皮条件依种而变", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "大头蚁", "阶段": "初始", "筛选后编号": "C3、C4、D5、D7、F8、F42、G9、G14、G16、J6、J15、J17", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "大头蚁", "阶段": "首轮·线索1", "筛选后编号": "C3、C4、D5、D7、F8、F42、G9、G14", "数量": 8, "线索／条件": "记录大小工蚁差异及路径", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "大头蚁", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "C3、C4、D5、D7", "数量": 4, "线索／条件": "树基、土木交界及通行裂隙；须鉴定；不能把所有大头蚁当同一物种", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "天牛", "阶段": "初始", "筛选后编号": "D1、D6、F6、F8、F41、F42、G5、G1、G15、J31、H1、I9", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "天牛", "阶段": "首轮·线索1", "筛选后编号": "D1、D6、F6、F8、F41、F42、G5、G1", "数量": 8, "线索／条件": "区分幼虫木材利用和成虫停留", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "天牛", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "D1、D6、F6、F8", "数量": 4, "线索／条件": "幼虫寄主木材；成虫在树表活动；天牛类食性有差异；羽化孔不是空房入口", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "弓背蚁", "阶段": "初始", "筛选后编号": "A1、A2、A3、A7、A8、A9、B5、B6、B7、B9、D7、F5", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "弓背蚁", "阶段": "首轮·线索1", "筛选后编号": "A1、A2、A3、A7、A8、A9、B5、B6", "数量": 8, "线索／条件": "找较大蚁类、出入口与往返路径", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "弓背蚁", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A1、A2、A3、A7", "数量": 4, "线索／条件": "有可利用空隙的木质空间及树皮附近；挖木筑巢不等于吃木；需查空隙与巢证", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "弹尾虫", "阶段": "初始", "筛选后编号": "A1、C3、D5、D6、D7、D8、D12、D13、F5、G3、G16、J5", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "弹尾虫", "阶段": "首轮·线索1", "筛选后编号": "A1、C3、D5、D6、D7、D8、D12、D13", "数量": 8, "线索／条件": "放大观察微小跳跃动物与菌层", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "弹尾虫", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A1、C3、D5、D6", "数量": 4, "线索／条件": "潮湿有机物、菌层及腐木表面；体形微小，需放大；不能凭肉眼缺席判无", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "拟蚁蛛", "阶段": "初始", "筛选后编号": "D5、A8、B8、F3、A1、A2、A3、A7、A9、B7、D7、F5", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "拟蚁蛛", "阶段": "首轮·线索1", "筛选后编号": "D5、A8、B8、F3、A1、A2、A3、A7", "数量": 8, "线索／条件": "比较八足、体形与蚂蚁六足", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "拟蚁蛛", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "D5、A8、B8、F3", "数量": 4, "线索／条件": "蚁类活动附近的树皮与植被表面；八足；拟态不等于与蚂蚁合作", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "星天牛", "阶段": "初始", "筛选后编号": "G1、G15、J31、H1、I9、D1、D6、F6、F8、F41、F42、G5", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "星天牛", "阶段": "首轮·线索1", "筛选后编号": "G1、G15、J31、H1、I9、D1、D6、F6", "数量": 8, "线索／条件": "用孔洞记录定位历史痕迹，不声称正在取食", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "星天牛", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "G1、G15、J31、H1", "数量": 4, "线索／条件": "适宜寄主的木质组织与根颈相关位置；必须鉴种；蛀孔不能独立定种", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "晶粒鬼伞", "阶段": "初始", "筛选后编号": "C3、F2、F15、E5、A1、A2、A3、A7、A8、A9、B7、D5", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "晶粒鬼伞", "阶段": "首轮·线索1", "筛选后编号": "C3、F2、F15、E5、A1、A2、A3、A7", "数量": 8, "线索／条件": "找子实体与木质基质的连接", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "晶粒鬼伞", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "C3、F2、F15、E5", "数量": 4, "线索／条件": "腐木或埋木基质附近；鉴定待复核；不是任意干净洞壁都可生长", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "白蚁", "阶段": "初始", "筛选后编号": "D1、D6、F6、F8、F41、F42、G5、G1、G15、J31、H1、I9", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "白蚁", "阶段": "首轮·线索1", "筛选后编号": "D1、D6、F6、F8、F41、F42、G5、G1", "数量": 8, "线索／条件": "找泥线、木材利用痕迹与旧记录", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "白蚁", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "D1、D6、F6、F8", "数量": 4, "线索／条件": "木质基质与隐蔽通道；蚁路或泥线是痕迹；不拆通道，不确认当时活体", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "真菌", "阶段": "初始", "筛选后编号": "F2、C3、F15、E5、A1、A2、A3、A7、A8、A9、B7、D5", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "真菌", "阶段": "首轮·线索1", "筛选后编号": "F2、C3、F15、E5、A1、A2、A3、A7", "数量": 8, "线索／条件": "找菌体／子实体，先确认基质再判功能", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "真菌", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "F2、C3、F15、E5", "数量": 4, "线索／条件": "按实际鉴定再分腐生、寄生或其他；宽泛标签，与具体真菌角色择一以免重复", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "纯白微皮伞", "阶段": "初始", "筛选后编号": "C3、F2、F15、E5、A1、A2、A3、A7、A8、A9、B7、D5", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "纯白微皮伞", "阶段": "首轮·线索1", "筛选后编号": "C3、F2、F15、E5、A1、A2、A3、A7", "数量": 8, "线索／条件": "找白色小型子实体并记录着生基质", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "纯白微皮伞", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "C3、F2、F15、E5", "数量": 4, "线索／条件": "原记录所对应基质待确认；不凭中文名设定特定宿主木材", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "细叶麦冬", "阶段": "初始", "筛选后编号": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "细叶麦冬", "阶段": "首轮·线索1", "筛选后编号": "A1、A2、A3、A7、A8、A9、B7、D5", "数量": 8, "线索／条件": "确认叶丛、根系连接及土层", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "细叶麦冬", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A1、A2、A3、A7", "数量": 4, "线索／条件": "有根系可生长的树基土壤或积土处；植物，不把树皮随意当可扎根土层", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "胶质真菌", "阶段": "初始", "筛选后编号": "E5、C3、F2、F15、A1、A2、A3、A7、A8、A9、B7、D5", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "胶质真菌", "阶段": "首轮·线索1", "筛选后编号": "E5、C3、F2、F15、A1、A2、A3、A7", "数量": 8, "线索／条件": "找胶质外观，记录木材或其他着生基质", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "胶质真菌", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "E5、C3、F2、F15", "数量": 4, "线索／条件": "具有胶质外观的菌体着生面待核；形态标签并非确定生态类群", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "薜荔", "阶段": "初始", "筛选后编号": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "薜荔", "阶段": "首轮·线索1", "筛选后编号": "A1、A2、A3、A7、A8、A9、B7、D5", "数量": 8, "线索／条件": "辨认攀援枝叶与附着位置", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "薜荔", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A1、A2、A3、A7", "数量": 4, "线索／条件": "树表攀援处，根系连接适宜基质；不是洞内定居动物，不把攀援写寄生", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蚂蚁", "阶段": "初始", "筛选后编号": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蚂蚁", "阶段": "首轮·线索1", "筛选后编号": "A1、A2、A3、A7、A8、A9、B7、D5", "数量": 8, "线索／条件": "找连续行走路径，不采集工蚁", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蚂蚁", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A1、A2、A3、A7", "数量": 4, "线索／条件": "树皮裂隙及周边通行空间；不凭工蚁经过确认巢；不得挖巢", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蚊子", "阶段": "初始", "筛选后编号": "A8、A1、A2、A3、A7、A9、B7、D5、D7、F5、H1、I2", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蚊子", "阶段": "首轮·线索1", "筛选后编号": "A8、A1、A2、A3、A7、A9、B7、D5", "数量": 8, "线索／条件": "成虫记录→检查是否持水；水面幼虫照片才支持繁殖线索", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蚊子", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A8、A1、A2、A3", "数量": 4, "线索／条件": "部分种幼期利用持水容器状树洞；成虫可在阴蔽处停歇；必须区分成虫和幼虫；不能人为加水养蚊", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蛾蚋", "阶段": "初始", "筛选后编号": "A8、A1、A2、A3、A7、A9、B7、D5、D7、F5、H1、I2", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蛾蚋", "阶段": "首轮·线索1", "筛选后编号": "A8、A1、A2、A3、A7、A9、B7、D5", "数量": 8, "线索／条件": "辨认绒毛小飞虫，再查湿润有机膜", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蛾蚋", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A8、A1、A2、A3", "数量": 4, "线索／条件": "幼虫需要持续湿润有机膜；成虫靠近潜在孳生处；湿有机膜不必等同深积水，需生活史鉴定", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蜗牛", "阶段": "初始", "筛选后编号": "A1、A2、A4、A8、F24、F42、G9、G15、J7、J14、J36、I10", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蜗牛", "阶段": "首轮·线索1", "筛选后编号": "A1、A2、A4、A8、F24、F42、G9、G15", "数量": 8, "线索／条件": "观察壳与黏液，区分空壳和活体", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蜗牛", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A1、A2、A4、A8", "数量": 4, "线索／条件": "湿润遮蔽的洞缘及周边植被；空壳不能当活体；不以洞口大小推定适居", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蜘蛛", "阶段": "初始", "筛选后编号": "A8、B8、D5、F3、A1、A2、A3、A7、A9、B7、D7、F5", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蜘蛛", "阶段": "首轮·线索1", "筛选后编号": "A8、B8、D5、F3、A1、A2、A3、A7", "数量": 8, "线索／条件": "找丝网、固定点或游猎影像", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蜘蛛", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A8、B8、D5、F3", "数量": 4, "线索／条件": "能附着丝网或供游猎的洞缘、树皮；结网型与游猎型分开；有网不等于有蜘蛛", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蝉", "阶段": "初始", "筛选后编号": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蝉", "阶段": "首轮·线索1", "筛选后编号": "A1、A2、A3、A7、A8、A9、B7、D5", "数量": 8, "线索／条件": "分辨蝉蜕与活体；联想到根区而非洞底", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蝉", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A1、A2、A3、A7", "数量": 4, "线索／条件": "若虫依赖地下根区；成虫利用树干枝叶；树洞只作邻近活动点，不设幼虫洞内定居", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蟑螂", "阶段": "初始", "筛选后编号": "A8、B3、A1、C3、D5、D6、D7、D8、D12、D13、F5、G3", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蟑螂", "阶段": "首轮·线索1", "筛选后编号": "A8、B3、A1、C3、D5、D6、D7、D8", "数量": 8, "线索／条件": "观察扁平体与长触角，记录夜间时段", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蟑螂", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A8、B3、A1、C3", "数量": 4, "线索／条件": "隐蔽裂隙和有机物附近的夜间活动空间；不指定室内害虫种；活动点不等于繁殖巢", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "西瓜虫", "阶段": "初始", "筛选后编号": "A2、A4、G15、J6、J11、J15、J24、J43、J44、J46、A1、C3", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "西瓜虫", "阶段": "首轮·线索1", "筛选后编号": "A2、A4、G15、J6、J11、J15、J24、J43", "数量": 8, "线索／条件": "寻找分节椭圆体与落叶覆盖，不翻动真实洞底", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "西瓜虫", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A2、A4、G15、J6", "数量": 4, "线索／条件": "湿润落叶、腐殖质与洞底木屑附近；陆生等足类，需要保湿但非永久水下", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "霉菌", "阶段": "初始", "筛选后编号": "F2、F15、C3、E5、A1、A2、A3、A7、A8、A9、B7、D5", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "霉菌", "阶段": "首轮·线索1", "筛选后编号": "F2、F15、C3、E5、A1、A2、A3、A7", "数量": 8, "线索／条件": "照片记录菌落色泽及基质，不采集", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "霉菌", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "F2、F15、C3、E5", "数量": 4, "线索／条件": "湿润有机基质的菌落表面；霉菌属真菌；不直接嗅闻或接触", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "靴耳", "阶段": "初始", "筛选后编号": "C3、F2、F15、E5、A1、A2、A3、A7、A8、A9、B7、D5", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "靴耳", "阶段": "首轮·线索1", "筛选后编号": "C3、F2、F15、E5、A1、A2、A3、A7", "数量": 8, "线索／条件": "观察侧生形态与着生面", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "靴耳", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "C3、F2、F15、E5", "数量": 4, "线索／条件": "原记录对应的木质着生基质待核；标签未至种；不承诺特定腐生能力", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "马陆", "阶段": "初始", "筛选后编号": "A1、C3、D5、D6、D7、D8、D12、D13、F5、G3、G16、J5", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "马陆", "阶段": "首轮·线索1", "筛选后编号": "A1、C3、D5、D6、D7、D8、D12、D13", "数量": 8, "线索／条件": "寻找多节多足形态及碎屑环境", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "马陆", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A1、C3、D5、D6", "数量": 4, "线索／条件": "湿润腐败植物碎屑附近；多足；与捕食性蜈蚣分开", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "鼻涕虫", "阶段": "初始", "筛选后编号": "A1、C3、D5、D6、D7、D8、D12、D13、F5、G3、G16、J5", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "鼻涕虫", "阶段": "首轮·线索1", "筛选后编号": "A1、C3、D5、D6、D7、D8、D12、D13", "数量": 8, "线索／条件": "找黏液或活体；复查保湿条件", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "鼻涕虫", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A1、C3、D5、D6", "数量": 4, "线索／条件": "遮阴、保湿而非被水淹的洞缘或碎屑层；干燥暴晒不宜；黏液不等于活体定居", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蚜虫", "阶段": "初始", "筛选后编号": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蚜虫", "阶段": "首轮·线索1", "筛选后编号": "A1、A2、A3、A7、A8、A9、B7、D5", "数量": 8, "线索／条件": "找寄主、蚜群与蜜露关联；游戏用资料卡代现场确认", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "蚜虫", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A1、A2、A3、A7", "数量": 4, "线索／条件": "适合的活体寄主嫩梢或叶面；不是树洞深处；新增角色；未确认寄主与种，不认定校园已出现", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "灰蝶", "阶段": "初始", "筛选后编号": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "数量": 12, "线索／条件": "领取角色与条件卡，12点为中等搜索范围", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "灰蝶", "阶段": "首轮·线索1", "筛选后编号": "A1、A2、A3、A7、A8、A9、B7、D5", "数量": 8, "线索／条件": "先识别幼虫／成虫、寄主和蚁伙伴", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}, {"生物": "灰蝶", "阶段": "首轮·线索2（非第二轮）", "筛选后编号": "A1、A2、A3、A7", "数量": 4, "线索／条件": "幼虫在适合寄主与匹配蚁活动处；成虫为访花停歇；新增角色；不把所有灰蝶都设洞内居民", "筛选性质": "12→8→4为布展任务配额；不是从未测量的湿度、洞深等自动推算；安装线索牌前逐点复核。"}], "round2": [{"生物A": "举腹蚁", "生物B": "蚜虫", "生物信息方向": "举腹蚁 → 蚜虫；蚜虫 → 举腹蚁", "真实信号机制": "蚁触角与蚜虫身体接触，提供近距离刺激；蚜虫排出蜜露，蚁接触并取食。蜜露兼具资源作用，不能把奖励等同一句主动信息。", "可交接的游戏信息": "伙伴存在及其所在基质的位置线索；不把振动或触角刺激翻译成洞号", "第一轮A": "D1、A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1", "第一轮B": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "第二轮交集": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1", "共同树洞考察编号": "A1、A2、A3、A7", "二轮保留数量": 4, "现场开放门槛": "寄主植物、蚜群／蜜露、适配蚁类的三项证据同时核对", "同洞条件": "同一编号下须有各自适宜的相邻微空间；不强迫蚜虫／灰蝶幼虫住洞内", "异洞条件": "可以不同编号；须测量空间连接与个体活动，不假定信息跨任意距离传播", "证据状态": "蚁—蚜层面有机制依据；未取得本项目举腹蚁具体种的同等机制证据，属于候选机制外推。", "来源": "https://www.sciencedirect.com/science/article/abs/pii/S0003347280801023\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC4313836/\nhttps://ipm.ucanr.edu/home-and-landscape/aphids/", "第二轮开放条件": "仅双方同时入选且传递关系启用；其他成员不进入第二轮"}, {"生物A": "举腹蚁", "生物B": "灰蝶", "生物信息方向": "灰蝶幼虫／蛹 → 举腹蚁", "真实信号机制": "幼虫／蛹发出振动，经接触基质传播；特定振动回放能引发宿主蚁反应。只写已测得的反应，不把振动翻译为“这里有树洞”等语义。", "可交接的游戏信息": "伙伴存在及其所在基质的位置线索；不把振动或触角刺激翻译成洞号", "第一轮A": "D1、A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1", "第一轮B": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "第二轮交集": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1", "共同树洞考察编号": "A1、A2、A3、A7", "二轮保留数量": 4, "现场开放门槛": "指定灰蝶幼虫／蛹、匹配宿主蚁、寄主／发育场所同时核对", "同洞条件": "同一编号下须有各自适宜的相邻微空间；不强迫蚜虫／灰蝶幼虫住洞内", "异洞条件": "可以不同编号；须测量空间连接与个体活动，不假定信息跨任意距离传播", "证据状态": "具体物种回放实验支持；本项目尚未鉴定至这两个种，现场未确认。", "来源": "https://www.nature.com/articles/s41598-019-54966-6.pdf", "第二轮开放条件": "仅双方同时入选且传递关系启用；其他成员不进入第二轮"}, {"生物A": "大头蚁", "生物B": "蚜虫", "生物信息方向": "大头蚁 → 蚜虫；蚜虫 → 大头蚁", "真实信号机制": "蚁触角与蚜虫身体接触，提供近距离刺激；蚜虫排出蜜露，蚁接触并取食。蜜露兼具资源作用，不能把奖励等同一句主动信息。", "可交接的游戏信息": "伙伴存在及其所在基质的位置线索；不把振动或触角刺激翻译成洞号", "第一轮A": "C3、C4、D5、D7、F8、F42、G9、G14、G16、J6、J15、J17", "第一轮B": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "第二轮交集": "D5、D7", "共同树洞考察编号": "D5、D7", "二轮保留数量": 2, "现场开放门槛": "寄主植物、蚜群／蜜露、适配蚁类的三项证据同时核对", "同洞条件": "同一编号下须有各自适宜的相邻微空间；不强迫蚜虫／灰蝶幼虫住洞内", "异洞条件": "可以不同编号；须测量空间连接与个体活动，不假定信息跨任意距离传播", "证据状态": "蚁—蚜层面有机制依据；未取得本项目大头蚁具体种的同等机制证据，属于候选机制外推。", "来源": "https://www.sciencedirect.com/science/article/abs/pii/S0003347280801023\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC4313836/\nhttps://ipm.ucanr.edu/home-and-landscape/aphids/", "第二轮开放条件": "仅双方同时入选且传递关系启用；其他成员不进入第二轮"}, {"生物A": "弓背蚁", "生物B": "蚜虫", "生物信息方向": "弓背蚁 → 蚜虫；蚜虫 → 弓背蚁", "真实信号机制": "蚁触角与蚜虫身体接触，提供近距离刺激；蚜虫排出蜜露，蚁接触并取食。蜜露兼具资源作用，不能把奖励等同一句主动信息。", "可交接的游戏信息": "伙伴存在及其所在基质的位置线索；不把振动或触角刺激翻译成洞号", "第一轮A": "A1、A2、A3、A7、A8、A9、B5、B6、B7、B9、D7、F5", "第一轮B": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "第二轮交集": "A1、A2、A3、A7、A8、A9、B7、D7、F5", "共同树洞考察编号": "A1、A2、A3、A7", "二轮保留数量": 4, "现场开放门槛": "寄主植物、蚜群／蜜露、适配蚁类的三项证据同时核对", "同洞条件": "同一编号下须有各自适宜的相邻微空间；不强迫蚜虫／灰蝶幼虫住洞内", "异洞条件": "可以不同编号；须测量空间连接与个体活动，不假定信息跨任意距离传播", "证据状态": "蚁—蚜层面有机制依据；未取得本项目弓背蚁具体种的同等机制证据，属于候选机制外推。", "来源": "https://www.sciencedirect.com/science/article/abs/pii/S0003347280801023\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC4313836/\nhttps://ipm.ucanr.edu/home-and-landscape/aphids/", "第二轮开放条件": "仅双方同时入选且传递关系启用；其他成员不进入第二轮"}, {"生物A": "蚂蚁", "生物B": "蚜虫", "生物信息方向": "蚂蚁 → 蚜虫；蚜虫 → 蚂蚁", "真实信号机制": "蚁触角与蚜虫身体接触，提供近距离刺激；蚜虫排出蜜露，蚁接触并取食。蜜露兼具资源作用，不能把奖励等同一句主动信息。", "可交接的游戏信息": "伙伴存在及其所在基质的位置线索；不把振动或触角刺激翻译成洞号", "第一轮A": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "第一轮B": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "第二轮交集": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "共同树洞考察编号": "A1、A2、A3、A7", "二轮保留数量": 4, "现场开放门槛": "寄主植物、蚜群／蜜露、适配蚁类的三项证据同时核对", "同洞条件": "同一编号下须有各自适宜的相邻微空间；不强迫蚜虫／灰蝶幼虫住洞内", "异洞条件": "可以不同编号；须测量空间连接与个体活动，不假定信息跨任意距离传播", "证据状态": "蚁—蚜层面有机制依据；本表为宽泛类群，不代表全部蚁蚜组合成立。", "来源": "https://www.sciencedirect.com/science/article/abs/pii/S0003347280801023\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC4313836/\nhttps://ipm.ucanr.edu/home-and-landscape/aphids/", "第二轮开放条件": "仅双方同时入选且传递关系启用；其他成员不进入第二轮"}, {"生物A": "蚂蚁", "生物B": "灰蝶", "生物信息方向": "灰蝶幼虫／蛹 → 蚂蚁", "真实信号机制": "幼虫／蛹发出振动，经接触基质传播；特定振动回放能引发宿主蚁反应。只写已测得的反应，不把振动翻译为“这里有树洞”等语义。", "可交接的游戏信息": "伙伴存在及其所在基质的位置线索；不把振动或触角刺激翻译成洞号", "第一轮A": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "第一轮B": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "第二轮交集": "A1、A2、A3、A7、A8、A9、B7、D5、D7、F5、H1、I2", "共同树洞考察编号": "A1、A2、A3、A7", "二轮保留数量": 4, "现场开放门槛": "指定灰蝶幼虫／蛹、匹配宿主蚁、寄主／发育场所同时核对", "同洞条件": "同一编号下须有各自适宜的相邻微空间；不强迫蚜虫／灰蝶幼虫住洞内", "异洞条件": "可以不同编号；须测量空间连接与个体活动，不假定信息跨任意距离传播", "证据状态": "具体物种回放实验支持；本项目尚未鉴定至这两个种，现场未确认。", "来源": "https://www.nature.com/articles/s41598-019-54966-6.pdf", "第二轮开放条件": "仅双方同时入选且传递关系启用；其他成员不进入第二轮"}], "siteChecks": [{"生物": "举腹蚁", "树洞编号": "D1", "原始依据": "原表有该标签；不证明定居", "现场条件": "树皮、枝干裂隙附近", "必须复查": "合作灰蝶必须匹配具体种", "原始备注": "白蚁痕迹\n举腹蚁", "该生物原始字段": "白蚁痕迹\n举腹蚁；举腹蚁；举腹蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "举腹蚁", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树皮、枝干裂隙附近", "必须复查": "合作灰蝶必须匹配具体种", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "举腹蚁", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树皮、枝干裂隙附近", "必须复查": "合作灰蝶必须匹配具体种", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "举腹蚁", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树皮、枝干裂隙附近", "必须复查": "合作灰蝶必须匹配具体种", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "举腹蚁", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树皮、枝干裂隙附近", "必须复查": "合作灰蝶必须匹配具体种", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "举腹蚁", "树洞编号": "A8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树皮、枝干裂隙附近", "必须复查": "合作灰蝶必须匹配具体种", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "举腹蚁", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树皮、枝干裂隙附近", "必须复查": "合作灰蝶必须匹配具体种", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "举腹蚁", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树皮、枝干裂隙附近", "必须复查": "合作灰蝶必须匹配具体种", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "举腹蚁", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树皮、枝干裂隙附近", "必须复查": "合作灰蝶必须匹配具体种", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "举腹蚁", "树洞编号": "D7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树皮、枝干裂隙附近", "必须复查": "合作灰蝶必须匹配具体种", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "举腹蚁", "树洞编号": "F5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树皮、枝干裂隙附近", "必须复查": "合作灰蝶必须匹配具体种", "原始备注": "一些蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "举腹蚁", "树洞编号": "H1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树皮、枝干裂隙附近", "必须复查": "合作灰蝶必须匹配具体种", "原始备注": "鼻涕虫粘液\n星天牛羽化孔\n蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "地衣", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "洞口外较稳定树皮面", "必须复查": "不是洞内居民；光照与树皮条件依种而变", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "地衣", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "洞口外较稳定树皮面", "必须复查": "不是洞内居民；光照与树皮条件依种而变", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "地衣", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "洞口外较稳定树皮面", "必须复查": "不是洞内居民；光照与树皮条件依种而变", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "地衣", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "洞口外较稳定树皮面", "必须复查": "不是洞内居民；光照与树皮条件依种而变", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "地衣", "树洞编号": "A8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "洞口外较稳定树皮面", "必须复查": "不是洞内居民；光照与树皮条件依种而变", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "地衣", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "洞口外较稳定树皮面", "必须复查": "不是洞内居民；光照与树皮条件依种而变", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "地衣", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "洞口外较稳定树皮面", "必须复查": "不是洞内居民；光照与树皮条件依种而变", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "地衣", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "洞口外较稳定树皮面", "必须复查": "不是洞内居民；光照与树皮条件依种而变", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "地衣", "树洞编号": "D7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "洞口外较稳定树皮面", "必须复查": "不是洞内居民；光照与树皮条件依种而变", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "地衣", "树洞编号": "F5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "洞口外较稳定树皮面", "必须复查": "不是洞内居民；光照与树皮条件依种而变", "原始备注": "一些蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "地衣", "树洞编号": "H1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "洞口外较稳定树皮面", "必须复查": "不是洞内居民；光照与树皮条件依种而变", "原始备注": "鼻涕虫粘液\n星天牛羽化孔\n蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "地衣", "树洞编号": "I2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "洞口外较稳定树皮面", "必须复查": "不是洞内居民；光照与树皮条件依种而变", "原始备注": "有烟头\n有蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "大头蚁", "树洞编号": "C3", "原始依据": "原表有该标签；不证明定居", "现场条件": "树基、土木交界及通行裂隙", "必须复查": "须鉴定；不能把所有大头蚁当同一物种", "原始备注": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构", "该生物原始字段": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构；大头蚁；大头蚁\n鼻涕虫\n靴耳", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "大头蚁", "树洞编号": "C4", "原始依据": "原表有该标签；不证明定居", "现场条件": "树基、土木交界及通行裂隙", "必须复查": "须鉴定；不能把所有大头蚁当同一物种", "原始备注": "大头蚁×n", "该生物原始字段": "大头蚁×n；大头蚁；大头蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "大头蚁", "树洞编号": "D5", "原始依据": "原表有该标签；不证明定居", "现场条件": "树基、土木交界及通行裂隙", "必须复查": "须鉴定；不能把所有大头蚁当同一物种", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "拟蚁蛛\n大头蚁；大头蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "大头蚁", "树洞编号": "D7", "原始依据": "原表有该标签；不证明定居", "现场条件": "树基、土木交界及通行裂隙", "必须复查": "须鉴定；不能把所有大头蚁当同一物种", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "弓背蚁\n大头蚁；弓背蚁\n大头蚁\n鼻涕虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "大头蚁", "树洞编号": "F8", "原始依据": "原表有该标签；不证明定居", "现场条件": "树基、土木交界及通行裂隙", "必须复查": "须鉴定；不能把所有大头蚁当同一物种", "原始备注": "白蚁痕迹", "该生物原始字段": "大头蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "大头蚁", "树洞编号": "F42", "原始依据": "原表有该标签；不证明定居", "现场条件": "树基、土木交界及通行裂隙", "必须复查": "须鉴定；不能把所有大头蚁当同一物种", "原始备注": "白蚁痕迹", "该生物原始字段": "弓背蚁\n大头蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "大头蚁", "树洞编号": "G9", "原始依据": "原表有该标签；不证明定居", "现场条件": "树基、土木交界及通行裂隙", "必须复查": "须鉴定；不能把所有大头蚁当同一物种", "原始备注": "空白", "该生物原始字段": "大头蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "大头蚁", "树洞编号": "G14", "原始依据": "原表有该标签；不证明定居", "现场条件": "树基、土木交界及通行裂隙", "必须复查": "须鉴定；不能把所有大头蚁当同一物种", "原始备注": "空白", "该生物原始字段": "大头蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "大头蚁", "树洞编号": "G16", "原始依据": "原表有该标签；不证明定居", "现场条件": "树基、土木交界及通行裂隙", "必须复查": "须鉴定；不能把所有大头蚁当同一物种", "原始备注": "空白", "该生物原始字段": "大头蚁\n弓背蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "大头蚁", "树洞编号": "J6", "原始依据": "原表有该标签；不证明定居", "现场条件": "树基、土木交界及通行裂隙", "必须复查": "须鉴定；不能把所有大头蚁当同一物种", "原始备注": "空白", "该生物原始字段": "大头蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "大头蚁", "树洞编号": "J15", "原始依据": "原表有该标签；不证明定居", "现场条件": "树基、土木交界及通行裂隙", "必须复查": "须鉴定；不能把所有大头蚁当同一物种", "原始备注": "空白", "该生物原始字段": "大头蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "大头蚁", "树洞编号": "J17", "原始依据": "原表有该标签；不证明定居", "现场条件": "树基、土木交界及通行裂隙", "必须复查": "须鉴定；不能把所有大头蚁当同一物种", "原始备注": "空白", "该生物原始字段": "大头蚁；大头蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "天牛", "树洞编号": "D1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫寄主木材；成虫在树表活动", "必须复查": "天牛类食性有差异；羽化孔不是空房入口", "原始备注": "白蚁痕迹\n举腹蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "天牛", "树洞编号": "D6", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫寄主木材；成虫在树表活动", "必须复查": "天牛类食性有差异；羽化孔不是空房入口", "原始备注": "有白蚁痕迹\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "天牛", "树洞编号": "F6", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫寄主木材；成虫在树表活动", "必须复查": "天牛类食性有差异；羽化孔不是空房入口", "原始备注": "白蚁痕迹", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "天牛", "树洞编号": "F8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫寄主木材；成虫在树表活动", "必须复查": "天牛类食性有差异；羽化孔不是空房入口", "原始备注": "白蚁痕迹", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "天牛", "树洞编号": "F41", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫寄主木材；成虫在树表活动", "必须复查": "天牛类食性有差异；羽化孔不是空房入口", "原始备注": "白蚁痕迹", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "天牛", "树洞编号": "F42", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫寄主木材；成虫在树表活动", "必须复查": "天牛类食性有差异；羽化孔不是空房入口", "原始备注": "白蚁痕迹", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "天牛", "树洞编号": "G5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫寄主木材；成虫在树表活动", "必须复查": "天牛类食性有差异；羽化孔不是空房入口", "原始备注": "白蚁路径", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "天牛", "树洞编号": "G1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫寄主木材；成虫在树表活动", "必须复查": "天牛类食性有差异；羽化孔不是空房入口", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "天牛", "树洞编号": "G15", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫寄主木材；成虫在树表活动", "必须复查": "天牛类食性有差异；羽化孔不是空房入口", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "天牛", "树洞编号": "J31", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫寄主木材；成虫在树表活动", "必须复查": "天牛类食性有差异；羽化孔不是空房入口", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "天牛", "树洞编号": "H1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫寄主木材；成虫在树表活动", "必须复查": "天牛类食性有差异；羽化孔不是空房入口", "原始备注": "鼻涕虫粘液\n星天牛羽化孔\n蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "天牛", "树洞编号": "I9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫寄主木材；成虫在树表活动", "必须复查": "天牛类食性有差异；羽化孔不是空房入口", "原始备注": "星天牛羽化孔", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "弓背蚁", "树洞编号": "A1", "原始依据": "原表有该标签；不证明定居", "现场条件": "有可利用空隙的木质空间及树皮附近", "必须复查": "挖木筑巢不等于吃木；需查空隙与巢证", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "弓背蚁；弓背蚁，\n鼻涕虫\n蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "弓背蚁", "树洞编号": "A2", "原始依据": "原表有该标签；不证明定居", "现场条件": "有可利用空隙的木质空间及树皮附近", "必须复查": "挖木筑巢不等于吃木；需查空隙与巢证", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "弓背蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "弓背蚁", "树洞编号": "A3", "原始依据": "原表有该标签；不证明定居", "现场条件": "有可利用空隙的木质空间及树皮附近", "必须复查": "挖木筑巢不等于吃木；需查空隙与巢证", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "弓背蚁；弓背蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "弓背蚁", "树洞编号": "A7", "原始依据": "原表有该标签；不证明定居", "现场条件": "有可利用空隙的木质空间及树皮附近", "必须复查": "挖木筑巢不等于吃木；需查空隙与巢证", "原始备注": "蚂蚁较多", "该生物原始字段": "弓背蚁；弓背蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "弓背蚁", "树洞编号": "A8", "原始依据": "原表有该标签；不证明定居", "现场条件": "有可利用空隙的木质空间及树皮附近", "必须复查": "挖木筑巢不等于吃木；需查空隙与巢证", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "蚊子\n弓背蚁；弓背蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "弓背蚁", "树洞编号": "A9", "原始依据": "原表有该标签；不证明定居", "现场条件": "有可利用空隙的木质空间及树皮附近", "必须复查": "挖木筑巢不等于吃木；需查空隙与巢证", "原始备注": "大蚂蚁×1", "该生物原始字段": "弓背蚁；弓背蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "弓背蚁", "树洞编号": "B5", "原始依据": "原表有该标签；不证明定居", "现场条件": "有可利用空隙的木质空间及树皮附近", "必须复查": "挖木筑巢不等于吃木；需查空隙与巢证", "原始备注": "弓背蚁", "该生物原始字段": "弓背蚁；弓背蚁；弓背蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "弓背蚁", "树洞编号": "B6", "原始依据": "原表有该标签；不证明定居", "现场条件": "有可利用空隙的木质空间及树皮附近", "必须复查": "挖木筑巢不等于吃木；需查空隙与巢证", "原始备注": "弓背蚁", "该生物原始字段": "弓背蚁；弓背蚁；弓背蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "弓背蚁", "树洞编号": "B7", "原始依据": "原表有该标签；不证明定居", "现场条件": "有可利用空隙的木质空间及树皮附近", "必须复查": "挖木筑巢不等于吃木；需查空隙与巢证", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "蚂蚁少（弓背蚁；弓背蚁；弓背蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "弓背蚁", "树洞编号": "B9", "原始依据": "原表有该标签；不证明定居", "现场条件": "有可利用空隙的木质空间及树皮附近", "必须复查": "挖木筑巢不等于吃木；需查空隙与巢证", "原始备注": "弓背蚁", "该生物原始字段": "弓背蚁；弓背蚁；弓背蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "弓背蚁", "树洞编号": "D7", "原始依据": "原表有该标签；不证明定居", "现场条件": "有可利用空隙的木质空间及树皮附近", "必须复查": "挖木筑巢不等于吃木；需查空隙与巢证", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "弓背蚁\n大头蚁；弓背蚁\n大头蚁\n鼻涕虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "弓背蚁", "树洞编号": "F5", "原始依据": "原表有该标签；不证明定居", "现场条件": "有可利用空隙的木质空间及树皮附近", "必须复查": "挖木筑巢不等于吃木；需查空隙与巢证", "原始备注": "一些蚂蚁", "该生物原始字段": "弓背蚁；弓背蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "弹尾虫", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "潮湿有机物、菌层及腐木表面", "必须复查": "体形微小，需放大；不能凭肉眼缺席判无", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "弹尾虫", "树洞编号": "C3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "潮湿有机物、菌层及腐木表面", "必须复查": "体形微小，需放大；不能凭肉眼缺席判无", "原始备注": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "弹尾虫", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "潮湿有机物、菌层及腐木表面", "必须复查": "体形微小，需放大；不能凭肉眼缺席判无", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "弹尾虫", "树洞编号": "D6", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "潮湿有机物、菌层及腐木表面", "必须复查": "体形微小，需放大；不能凭肉眼缺席判无", "原始备注": "有白蚁痕迹\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "弹尾虫", "树洞编号": "D7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "潮湿有机物、菌层及腐木表面", "必须复查": "体形微小，需放大；不能凭肉眼缺席判无", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "弹尾虫", "树洞编号": "D8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "潮湿有机物、菌层及腐木表面", "必须复查": "体形微小，需放大；不能凭肉眼缺席判无", "原始备注": "鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "弹尾虫", "树洞编号": "D12", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "潮湿有机物、菌层及腐木表面", "必须复查": "体形微小，需放大；不能凭肉眼缺席判无", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "弹尾虫", "树洞编号": "D13", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "潮湿有机物、菌层及腐木表面", "必须复查": "体形微小，需放大；不能凭肉眼缺席判无", "原始备注": "鸟屎\n鼻涕虫痕迹", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "弹尾虫", "树洞编号": "F5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "潮湿有机物、菌层及腐木表面", "必须复查": "体形微小，需放大；不能凭肉眼缺席判无", "原始备注": "一些蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "弹尾虫", "树洞编号": "G3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "潮湿有机物、菌层及腐木表面", "必须复查": "体形微小，需放大；不能凭肉眼缺席判无", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "弹尾虫", "树洞编号": "G16", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "潮湿有机物、菌层及腐木表面", "必须复查": "体形微小，需放大；不能凭肉眼缺席判无", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "弹尾虫", "树洞编号": "J5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "潮湿有机物、菌层及腐木表面", "必须复查": "体形微小，需放大；不能凭肉眼缺席判无", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "拟蚁蛛", "树洞编号": "D5", "原始依据": "原表有该标签；不证明定居", "现场条件": "蚁类活动附近的树皮与植被表面", "必须复查": "八足；拟态不等于与蚂蚁合作", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛；拟蚁蛛\n大头蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "拟蚁蛛", "树洞编号": "A8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "蚁类活动附近的树皮与植被表面", "必须复查": "八足；拟态不等于与蚂蚁合作", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "拟蚁蛛", "树洞编号": "B8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "蚁类活动附近的树皮与植被表面", "必须复查": "八足；拟态不等于与蚂蚁合作", "原始备注": "蜘蛛卵囊,蛛网", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "拟蚁蛛", "树洞编号": "F3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "蚁类活动附近的树皮与植被表面", "必须复查": "八足；拟态不等于与蚂蚁合作", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "拟蚁蛛", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "蚁类活动附近的树皮与植被表面", "必须复查": "八足；拟态不等于与蚂蚁合作", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "拟蚁蛛", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "蚁类活动附近的树皮与植被表面", "必须复查": "八足；拟态不等于与蚂蚁合作", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "拟蚁蛛", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "蚁类活动附近的树皮与植被表面", "必须复查": "八足；拟态不等于与蚂蚁合作", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "拟蚁蛛", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "蚁类活动附近的树皮与植被表面", "必须复查": "八足；拟态不等于与蚂蚁合作", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "拟蚁蛛", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "蚁类活动附近的树皮与植被表面", "必须复查": "八足；拟态不等于与蚂蚁合作", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "拟蚁蛛", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "蚁类活动附近的树皮与植被表面", "必须复查": "八足；拟态不等于与蚂蚁合作", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "拟蚁蛛", "树洞编号": "D7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "蚁类活动附近的树皮与植被表面", "必须复查": "八足；拟态不等于与蚂蚁合作", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "拟蚁蛛", "树洞编号": "F5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "蚁类活动附近的树皮与植被表面", "必须复查": "八足；拟态不等于与蚂蚁合作", "原始备注": "一些蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "星天牛", "树洞编号": "G1", "原始依据": "原表有该标签；不证明定居", "现场条件": "适宜寄主的木质组织与根颈相关位置", "必须复查": "必须鉴种；蛀孔不能独立定种", "原始备注": "空白", "该生物原始字段": "星天牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "星天牛", "树洞编号": "G15", "原始依据": "原表有该标签；不证明定居", "现场条件": "适宜寄主的木质组织与根颈相关位置", "必须复查": "必须鉴种；蛀孔不能独立定种", "原始备注": "空白", "该生物原始字段": "弓背蚁\n星天牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "星天牛", "树洞编号": "J31", "原始依据": "原表有该标签；不证明定居", "现场条件": "适宜寄主的木质组织与根颈相关位置", "必须复查": "必须鉴种；蛀孔不能独立定种", "原始备注": "空白", "该生物原始字段": "星天牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "星天牛", "树洞编号": "H1", "原始依据": "原表有该标签；不证明定居", "现场条件": "适宜寄主的木质组织与根颈相关位置", "必须复查": "必须鉴种；蛀孔不能独立定种", "原始备注": "鼻涕虫粘液\n星天牛羽化孔\n蚂蚁", "该生物原始字段": "鼻涕虫粘液\n星天牛羽化孔\n蚂蚁；星天牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "星天牛", "树洞编号": "I9", "原始依据": "原表有该标签；不证明定居", "现场条件": "适宜寄主的木质组织与根颈相关位置", "必须复查": "必须鉴种；蛀孔不能独立定种", "原始备注": "星天牛羽化孔", "该生物原始字段": "星天牛羽化孔；星天牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "星天牛", "树洞编号": "D1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适宜寄主的木质组织与根颈相关位置", "必须复查": "必须鉴种；蛀孔不能独立定种", "原始备注": "白蚁痕迹\n举腹蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "星天牛", "树洞编号": "D6", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适宜寄主的木质组织与根颈相关位置", "必须复查": "必须鉴种；蛀孔不能独立定种", "原始备注": "有白蚁痕迹\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "星天牛", "树洞编号": "F6", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适宜寄主的木质组织与根颈相关位置", "必须复查": "必须鉴种；蛀孔不能独立定种", "原始备注": "白蚁痕迹", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "星天牛", "树洞编号": "F8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适宜寄主的木质组织与根颈相关位置", "必须复查": "必须鉴种；蛀孔不能独立定种", "原始备注": "白蚁痕迹", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "星天牛", "树洞编号": "F41", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适宜寄主的木质组织与根颈相关位置", "必须复查": "必须鉴种；蛀孔不能独立定种", "原始备注": "白蚁痕迹", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "星天牛", "树洞编号": "F42", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适宜寄主的木质组织与根颈相关位置", "必须复查": "必须鉴种；蛀孔不能独立定种", "原始备注": "白蚁痕迹", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "星天牛", "树洞编号": "G5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适宜寄主的木质组织与根颈相关位置", "必须复查": "必须鉴种；蛀孔不能独立定种", "原始备注": "白蚁路径", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "晶粒鬼伞", "树洞编号": "C3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "腐木或埋木基质附近", "必须复查": "鉴定待复核；不是任意干净洞壁都可生长", "原始备注": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "晶粒鬼伞", "树洞编号": "F2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "腐木或埋木基质附近", "必须复查": "鉴定待复核；不是任意干净洞壁都可生长", "原始备注": "有断掉大枝干\n和水、霉菌\n真菌掏空的树洞\n被砍\n有钉子", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "晶粒鬼伞", "树洞编号": "F15", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "腐木或埋木基质附近", "必须复查": "鉴定待复核；不是任意干净洞壁都可生长", "原始备注": "有支撑\n洞的腐烂破坏了\n一些枝条的 \n维管通道 →\n 枝条“断供” →\n 叶子长在原位\n直接干枯，\n一直挂在枝头。\n\n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "晶粒鬼伞", "树洞编号": "E5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "腐木或埋木基质附近", "必须复查": "鉴定待复核；不是任意干净洞壁都可生长", "原始备注": "有砍掉后愈伤\n组织形成的树洞\n有胶质真菌", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "晶粒鬼伞", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "腐木或埋木基质附近", "必须复查": "鉴定待复核；不是任意干净洞壁都可生长", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "晶粒鬼伞", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "腐木或埋木基质附近", "必须复查": "鉴定待复核；不是任意干净洞壁都可生长", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "晶粒鬼伞", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "腐木或埋木基质附近", "必须复查": "鉴定待复核；不是任意干净洞壁都可生长", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "晶粒鬼伞", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "腐木或埋木基质附近", "必须复查": "鉴定待复核；不是任意干净洞壁都可生长", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "晶粒鬼伞", "树洞编号": "A8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "腐木或埋木基质附近", "必须复查": "鉴定待复核；不是任意干净洞壁都可生长", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "晶粒鬼伞", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "腐木或埋木基质附近", "必须复查": "鉴定待复核；不是任意干净洞壁都可生长", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "晶粒鬼伞", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "腐木或埋木基质附近", "必须复查": "鉴定待复核；不是任意干净洞壁都可生长", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "晶粒鬼伞", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "腐木或埋木基质附近", "必须复查": "鉴定待复核；不是任意干净洞壁都可生长", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "白蚁", "树洞编号": "D1", "原始依据": "原表有该标签；不证明定居", "现场条件": "木质基质与隐蔽通道", "必须复查": "蚁路或泥线是痕迹；不拆通道，不确认当时活体", "原始备注": "白蚁痕迹\n举腹蚁", "该生物原始字段": "白蚁痕迹\n举腹蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "白蚁", "树洞编号": "D6", "原始依据": "原表有该标签；不证明定居", "现场条件": "木质基质与隐蔽通道", "必须复查": "蚁路或泥线是痕迹；不拆通道，不确认当时活体", "原始备注": "有白蚁痕迹\n鼻涕虫粘液", "该生物原始字段": "有白蚁痕迹\n鼻涕虫粘液", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "白蚁", "树洞编号": "F6", "原始依据": "原表有该标签；不证明定居", "现场条件": "木质基质与隐蔽通道", "必须复查": "蚁路或泥线是痕迹；不拆通道，不确认当时活体", "原始备注": "白蚁痕迹", "该生物原始字段": "白蚁痕迹", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "白蚁", "树洞编号": "F8", "原始依据": "原表有该标签；不证明定居", "现场条件": "木质基质与隐蔽通道", "必须复查": "蚁路或泥线是痕迹；不拆通道，不确认当时活体", "原始备注": "白蚁痕迹", "该生物原始字段": "白蚁痕迹", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "白蚁", "树洞编号": "F41", "原始依据": "原表有该标签；不证明定居", "现场条件": "木质基质与隐蔽通道", "必须复查": "蚁路或泥线是痕迹；不拆通道，不确认当时活体", "原始备注": "白蚁痕迹", "该生物原始字段": "白蚁痕迹", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "白蚁", "树洞编号": "F42", "原始依据": "原表有该标签；不证明定居", "现场条件": "木质基质与隐蔽通道", "必须复查": "蚁路或泥线是痕迹；不拆通道，不确认当时活体", "原始备注": "白蚁痕迹", "该生物原始字段": "白蚁痕迹", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "白蚁", "树洞编号": "G5", "原始依据": "原表有该标签；不证明定居", "现场条件": "木质基质与隐蔽通道", "必须复查": "蚁路或泥线是痕迹；不拆通道，不确认当时活体", "原始备注": "白蚁路径", "该生物原始字段": "白蚁路径", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "白蚁", "树洞编号": "G1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "木质基质与隐蔽通道", "必须复查": "蚁路或泥线是痕迹；不拆通道，不确认当时活体", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "白蚁", "树洞编号": "G15", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "木质基质与隐蔽通道", "必须复查": "蚁路或泥线是痕迹；不拆通道，不确认当时活体", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "白蚁", "树洞编号": "J31", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "木质基质与隐蔽通道", "必须复查": "蚁路或泥线是痕迹；不拆通道，不确认当时活体", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "白蚁", "树洞编号": "H1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "木质基质与隐蔽通道", "必须复查": "蚁路或泥线是痕迹；不拆通道，不确认当时活体", "原始备注": "鼻涕虫粘液\n星天牛羽化孔\n蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "白蚁", "树洞编号": "I9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "木质基质与隐蔽通道", "必须复查": "蚁路或泥线是痕迹；不拆通道，不确认当时活体", "原始备注": "星天牛羽化孔", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "真菌", "树洞编号": "F2", "原始依据": "原表有该标签；不证明定居", "现场条件": "按实际鉴定再分腐生、寄生或其他", "必须复查": "宽泛标签，与具体真菌角色择一以免重复", "原始备注": "有断掉大枝干\n和水、霉菌\n真菌掏空的树洞\n被砍\n有钉子", "该生物原始字段": "有断掉大枝干\n和水、霉菌\n真菌掏空的树洞\n被砍\n有钉子", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "真菌", "树洞编号": "C3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "按实际鉴定再分腐生、寄生或其他", "必须复查": "宽泛标签，与具体真菌角色择一以免重复", "原始备注": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "真菌", "树洞编号": "F15", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "按实际鉴定再分腐生、寄生或其他", "必须复查": "宽泛标签，与具体真菌角色择一以免重复", "原始备注": "有支撑\n洞的腐烂破坏了\n一些枝条的 \n维管通道 →\n 枝条“断供” →\n 叶子长在原位\n直接干枯，\n一直挂在枝头。\n\n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "真菌", "树洞编号": "E5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "按实际鉴定再分腐生、寄生或其他", "必须复查": "宽泛标签，与具体真菌角色择一以免重复", "原始备注": "有砍掉后愈伤\n组织形成的树洞\n有胶质真菌", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "真菌", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "按实际鉴定再分腐生、寄生或其他", "必须复查": "宽泛标签，与具体真菌角色择一以免重复", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "真菌", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "按实际鉴定再分腐生、寄生或其他", "必须复查": "宽泛标签，与具体真菌角色择一以免重复", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "真菌", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "按实际鉴定再分腐生、寄生或其他", "必须复查": "宽泛标签，与具体真菌角色择一以免重复", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "真菌", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "按实际鉴定再分腐生、寄生或其他", "必须复查": "宽泛标签，与具体真菌角色择一以免重复", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "真菌", "树洞编号": "A8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "按实际鉴定再分腐生、寄生或其他", "必须复查": "宽泛标签，与具体真菌角色择一以免重复", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "真菌", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "按实际鉴定再分腐生、寄生或其他", "必须复查": "宽泛标签，与具体真菌角色择一以免重复", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "真菌", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "按实际鉴定再分腐生、寄生或其他", "必须复查": "宽泛标签，与具体真菌角色择一以免重复", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "真菌", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "按实际鉴定再分腐生、寄生或其他", "必须复查": "宽泛标签，与具体真菌角色择一以免重复", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "纯白微皮伞", "树洞编号": "C3", "原始依据": "原表有该标签；不证明定居", "现场条件": "原记录所对应基质待确认", "必须复查": "不凭中文名设定特定宿主木材", "原始备注": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构", "该生物原始字段": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构；纯白微皮伞\n靴耳", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "纯白微皮伞", "树洞编号": "F2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录所对应基质待确认", "必须复查": "不凭中文名设定特定宿主木材", "原始备注": "有断掉大枝干\n和水、霉菌\n真菌掏空的树洞\n被砍\n有钉子", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "纯白微皮伞", "树洞编号": "F15", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录所对应基质待确认", "必须复查": "不凭中文名设定特定宿主木材", "原始备注": "有支撑\n洞的腐烂破坏了\n一些枝条的 \n维管通道 →\n 枝条“断供” →\n 叶子长在原位\n直接干枯，\n一直挂在枝头。\n\n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "纯白微皮伞", "树洞编号": "E5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录所对应基质待确认", "必须复查": "不凭中文名设定特定宿主木材", "原始备注": "有砍掉后愈伤\n组织形成的树洞\n有胶质真菌", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "纯白微皮伞", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录所对应基质待确认", "必须复查": "不凭中文名设定特定宿主木材", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "纯白微皮伞", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录所对应基质待确认", "必须复查": "不凭中文名设定特定宿主木材", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "纯白微皮伞", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录所对应基质待确认", "必须复查": "不凭中文名设定特定宿主木材", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "纯白微皮伞", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录所对应基质待确认", "必须复查": "不凭中文名设定特定宿主木材", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "纯白微皮伞", "树洞编号": "A8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录所对应基质待确认", "必须复查": "不凭中文名设定特定宿主木材", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "纯白微皮伞", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录所对应基质待确认", "必须复查": "不凭中文名设定特定宿主木材", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "纯白微皮伞", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录所对应基质待确认", "必须复查": "不凭中文名设定特定宿主木材", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "纯白微皮伞", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录所对应基质待确认", "必须复查": "不凭中文名设定特定宿主木材", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "细叶麦冬", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "有根系可生长的树基土壤或积土处", "必须复查": "植物，不把树皮随意当可扎根土层", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "细叶麦冬", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "有根系可生长的树基土壤或积土处", "必须复查": "植物，不把树皮随意当可扎根土层", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "细叶麦冬", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "有根系可生长的树基土壤或积土处", "必须复查": "植物，不把树皮随意当可扎根土层", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "细叶麦冬", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "有根系可生长的树基土壤或积土处", "必须复查": "植物，不把树皮随意当可扎根土层", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "细叶麦冬", "树洞编号": "A8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "有根系可生长的树基土壤或积土处", "必须复查": "植物，不把树皮随意当可扎根土层", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "细叶麦冬", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "有根系可生长的树基土壤或积土处", "必须复查": "植物，不把树皮随意当可扎根土层", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "细叶麦冬", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "有根系可生长的树基土壤或积土处", "必须复查": "植物，不把树皮随意当可扎根土层", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "细叶麦冬", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "有根系可生长的树基土壤或积土处", "必须复查": "植物，不把树皮随意当可扎根土层", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "细叶麦冬", "树洞编号": "D7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "有根系可生长的树基土壤或积土处", "必须复查": "植物，不把树皮随意当可扎根土层", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "细叶麦冬", "树洞编号": "F5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "有根系可生长的树基土壤或积土处", "必须复查": "植物，不把树皮随意当可扎根土层", "原始备注": "一些蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "细叶麦冬", "树洞编号": "H1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "有根系可生长的树基土壤或积土处", "必须复查": "植物，不把树皮随意当可扎根土层", "原始备注": "鼻涕虫粘液\n星天牛羽化孔\n蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "细叶麦冬", "树洞编号": "I2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "有根系可生长的树基土壤或积土处", "必须复查": "植物，不把树皮随意当可扎根土层", "原始备注": "有烟头\n有蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "胶质真菌", "树洞编号": "E5", "原始依据": "原表有该标签；不证明定居", "现场条件": "具有胶质外观的菌体着生面待核", "必须复查": "形态标签并非确定生态类群", "原始备注": "有砍掉后愈伤\n组织形成的树洞\n有胶质真菌", "该生物原始字段": "有砍掉后愈伤\n组织形成的树洞\n有胶质真菌", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "胶质真菌", "树洞编号": "C3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "具有胶质外观的菌体着生面待核", "必须复查": "形态标签并非确定生态类群", "原始备注": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "胶质真菌", "树洞编号": "F2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "具有胶质外观的菌体着生面待核", "必须复查": "形态标签并非确定生态类群", "原始备注": "有断掉大枝干\n和水、霉菌\n真菌掏空的树洞\n被砍\n有钉子", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "胶质真菌", "树洞编号": "F15", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "具有胶质外观的菌体着生面待核", "必须复查": "形态标签并非确定生态类群", "原始备注": "有支撑\n洞的腐烂破坏了\n一些枝条的 \n维管通道 →\n 枝条“断供” →\n 叶子长在原位\n直接干枯，\n一直挂在枝头。\n\n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "胶质真菌", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "具有胶质外观的菌体着生面待核", "必须复查": "形态标签并非确定生态类群", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "胶质真菌", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "具有胶质外观的菌体着生面待核", "必须复查": "形态标签并非确定生态类群", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "胶质真菌", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "具有胶质外观的菌体着生面待核", "必须复查": "形态标签并非确定生态类群", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "胶质真菌", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "具有胶质外观的菌体着生面待核", "必须复查": "形态标签并非确定生态类群", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "胶质真菌", "树洞编号": "A8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "具有胶质外观的菌体着生面待核", "必须复查": "形态标签并非确定生态类群", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "胶质真菌", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "具有胶质外观的菌体着生面待核", "必须复查": "形态标签并非确定生态类群", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "胶质真菌", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "具有胶质外观的菌体着生面待核", "必须复查": "形态标签并非确定生态类群", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "胶质真菌", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "具有胶质外观的菌体着生面待核", "必须复查": "形态标签并非确定生态类群", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "薜荔", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树表攀援处，根系连接适宜基质", "必须复查": "不是洞内定居动物，不把攀援写寄生", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "薜荔", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树表攀援处，根系连接适宜基质", "必须复查": "不是洞内定居动物，不把攀援写寄生", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "薜荔", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树表攀援处，根系连接适宜基质", "必须复查": "不是洞内定居动物，不把攀援写寄生", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "薜荔", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树表攀援处，根系连接适宜基质", "必须复查": "不是洞内定居动物，不把攀援写寄生", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "薜荔", "树洞编号": "A8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树表攀援处，根系连接适宜基质", "必须复查": "不是洞内定居动物，不把攀援写寄生", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "薜荔", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树表攀援处，根系连接适宜基质", "必须复查": "不是洞内定居动物，不把攀援写寄生", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "薜荔", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树表攀援处，根系连接适宜基质", "必须复查": "不是洞内定居动物，不把攀援写寄生", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "薜荔", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树表攀援处，根系连接适宜基质", "必须复查": "不是洞内定居动物，不把攀援写寄生", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "薜荔", "树洞编号": "D7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树表攀援处，根系连接适宜基质", "必须复查": "不是洞内定居动物，不把攀援写寄生", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "薜荔", "树洞编号": "F5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树表攀援处，根系连接适宜基质", "必须复查": "不是洞内定居动物，不把攀援写寄生", "原始备注": "一些蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "薜荔", "树洞编号": "H1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树表攀援处，根系连接适宜基质", "必须复查": "不是洞内定居动物，不把攀援写寄生", "原始备注": "鼻涕虫粘液\n星天牛羽化孔\n蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "薜荔", "树洞编号": "I2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "树表攀援处，根系连接适宜基质", "必须复查": "不是洞内定居动物，不把攀援写寄生", "原始备注": "有烟头\n有蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚂蚁", "树洞编号": "A1", "原始依据": "原表有该标签；不证明定居", "现场条件": "树皮裂隙及周边通行空间", "必须复查": "不凭工蚁经过确认巢；不得挖巢", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蚂蚁", "树洞编号": "A2", "原始依据": "原表有该标签；不证明定居", "现场条件": "树皮裂隙及周边通行空间", "必须复查": "不凭工蚁经过确认巢；不得挖巢", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蚂蚁", "树洞编号": "A3", "原始依据": "原表有该标签；不证明定居", "现场条件": "树皮裂隙及周边通行空间", "必须复查": "不凭工蚁经过确认巢；不得挖巢", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "小创口×1\n蚂蚁×1", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蚂蚁", "树洞编号": "A7", "原始依据": "原表有该标签；不证明定居", "现场条件": "树皮裂隙及周边通行空间", "必须复查": "不凭工蚁经过确认巢；不得挖巢", "原始备注": "蚂蚁较多", "该生物原始字段": "蚂蚁较多", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蚂蚁", "树洞编号": "A8", "原始依据": "原表有该标签；不证明定居", "现场条件": "树皮裂隙及周边通行空间", "必须复查": "不凭工蚁经过确认巢；不得挖巢", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蚂蚁", "树洞编号": "A9", "原始依据": "原表有该标签；不证明定居", "现场条件": "树皮裂隙及周边通行空间", "必须复查": "不凭工蚁经过确认巢；不得挖巢", "原始备注": "大蚂蚁×1", "该生物原始字段": "大蚂蚁×1", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蚂蚁", "树洞编号": "B7", "原始依据": "原表有该标签；不证明定居", "现场条件": "树皮裂隙及周边通行空间", "必须复查": "不凭工蚁经过确认巢；不得挖巢", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "蚂蚁少（弓背蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蚂蚁", "树洞编号": "D5", "原始依据": "原表有该标签；不证明定居", "现场条件": "树皮裂隙及周边通行空间", "必须复查": "不凭工蚁经过确认巢；不得挖巢", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蚂蚁", "树洞编号": "D7", "原始依据": "原表有该标签；不证明定居", "现场条件": "树皮裂隙及周边通行空间", "必须复查": "不凭工蚁经过确认巢；不得挖巢", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "蚂蚁较少\n鼻涕虫粘液", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蚂蚁", "树洞编号": "F5", "原始依据": "原表有该标签；不证明定居", "现场条件": "树皮裂隙及周边通行空间", "必须复查": "不凭工蚁经过确认巢；不得挖巢", "原始备注": "一些蚂蚁", "该生物原始字段": "一些蚂蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蚂蚁", "树洞编号": "H1", "原始依据": "原表有该标签；不证明定居", "现场条件": "树皮裂隙及周边通行空间", "必须复查": "不凭工蚁经过确认巢；不得挖巢", "原始备注": "鼻涕虫粘液\n星天牛羽化孔\n蚂蚁", "该生物原始字段": "鼻涕虫粘液\n星天牛羽化孔\n蚂蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蚂蚁", "树洞编号": "I2", "原始依据": "原表有该标签；不证明定居", "现场条件": "树皮裂隙及周边通行空间", "必须复查": "不凭工蚁经过确认巢；不得挖巢", "原始备注": "有烟头\n有蚂蚁", "该生物原始字段": "有烟头\n有蚂蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蚊子", "树洞编号": "A8", "原始依据": "原表有该标签；不证明定居", "现场条件": "部分种幼期利用持水容器状树洞；成虫可在阴蔽处停歇", "必须复查": "必须区分成虫和幼虫；不能人为加水养蚊", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n；蚊子\n弓背蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蚊子", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "部分种幼期利用持水容器状树洞；成虫可在阴蔽处停歇", "必须复查": "必须区分成虫和幼虫；不能人为加水养蚊", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚊子", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "部分种幼期利用持水容器状树洞；成虫可在阴蔽处停歇", "必须复查": "必须区分成虫和幼虫；不能人为加水养蚊", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚊子", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "部分种幼期利用持水容器状树洞；成虫可在阴蔽处停歇", "必须复查": "必须区分成虫和幼虫；不能人为加水养蚊", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚊子", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "部分种幼期利用持水容器状树洞；成虫可在阴蔽处停歇", "必须复查": "必须区分成虫和幼虫；不能人为加水养蚊", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚊子", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "部分种幼期利用持水容器状树洞；成虫可在阴蔽处停歇", "必须复查": "必须区分成虫和幼虫；不能人为加水养蚊", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚊子", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "部分种幼期利用持水容器状树洞；成虫可在阴蔽处停歇", "必须复查": "必须区分成虫和幼虫；不能人为加水养蚊", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚊子", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "部分种幼期利用持水容器状树洞；成虫可在阴蔽处停歇", "必须复查": "必须区分成虫和幼虫；不能人为加水养蚊", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚊子", "树洞编号": "D7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "部分种幼期利用持水容器状树洞；成虫可在阴蔽处停歇", "必须复查": "必须区分成虫和幼虫；不能人为加水养蚊", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚊子", "树洞编号": "F5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "部分种幼期利用持水容器状树洞；成虫可在阴蔽处停歇", "必须复查": "必须区分成虫和幼虫；不能人为加水养蚊", "原始备注": "一些蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚊子", "树洞编号": "H1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "部分种幼期利用持水容器状树洞；成虫可在阴蔽处停歇", "必须复查": "必须区分成虫和幼虫；不能人为加水养蚊", "原始备注": "鼻涕虫粘液\n星天牛羽化孔\n蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚊子", "树洞编号": "I2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "部分种幼期利用持水容器状树洞；成虫可在阴蔽处停歇", "必须复查": "必须区分成虫和幼虫；不能人为加水养蚊", "原始备注": "有烟头\n有蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蛾蚋", "树洞编号": "A8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫需要持续湿润有机膜；成虫靠近潜在孳生处", "必须复查": "湿有机膜不必等同深积水，需生活史鉴定", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蛾蚋", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫需要持续湿润有机膜；成虫靠近潜在孳生处", "必须复查": "湿有机膜不必等同深积水，需生活史鉴定", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蛾蚋", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫需要持续湿润有机膜；成虫靠近潜在孳生处", "必须复查": "湿有机膜不必等同深积水，需生活史鉴定", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蛾蚋", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫需要持续湿润有机膜；成虫靠近潜在孳生处", "必须复查": "湿有机膜不必等同深积水，需生活史鉴定", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蛾蚋", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫需要持续湿润有机膜；成虫靠近潜在孳生处", "必须复查": "湿有机膜不必等同深积水，需生活史鉴定", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蛾蚋", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫需要持续湿润有机膜；成虫靠近潜在孳生处", "必须复查": "湿有机膜不必等同深积水，需生活史鉴定", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蛾蚋", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫需要持续湿润有机膜；成虫靠近潜在孳生处", "必须复查": "湿有机膜不必等同深积水，需生活史鉴定", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蛾蚋", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫需要持续湿润有机膜；成虫靠近潜在孳生处", "必须复查": "湿有机膜不必等同深积水，需生活史鉴定", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蛾蚋", "树洞编号": "D7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫需要持续湿润有机膜；成虫靠近潜在孳生处", "必须复查": "湿有机膜不必等同深积水，需生活史鉴定", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蛾蚋", "树洞编号": "F5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫需要持续湿润有机膜；成虫靠近潜在孳生处", "必须复查": "湿有机膜不必等同深积水，需生活史鉴定", "原始备注": "一些蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蛾蚋", "树洞编号": "H1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫需要持续湿润有机膜；成虫靠近潜在孳生处", "必须复查": "湿有机膜不必等同深积水，需生活史鉴定", "原始备注": "鼻涕虫粘液\n星天牛羽化孔\n蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蛾蚋", "树洞编号": "I2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫需要持续湿润有机膜；成虫靠近潜在孳生处", "必须复查": "湿有机膜不必等同深积水，需生活史鉴定", "原始备注": "有烟头\n有蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蜗牛", "树洞编号": "A1", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润遮蔽的洞缘及周边植被", "必须复查": "空壳不能当活体；不以洞口大小推定适居", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条；弓背蚁，\n鼻涕虫\n蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜗牛", "树洞编号": "A2", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润遮蔽的洞缘及周边植被", "必须复查": "空壳不能当活体；不以洞口大小推定适居", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "西瓜虫×1\n蚂蚁较多\n蜗牛×1；蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜗牛", "树洞编号": "A4", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润遮蔽的洞缘及周边植被", "必须复查": "空壳不能当活体；不以洞口大小推定适居", "原始备注": "西瓜虫×2\n蜗牛×4", "该生物原始字段": "西瓜虫×2\n蜗牛×4；西瓜虫\n蜗牛；西瓜虫\n蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜗牛", "树洞编号": "A8", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润遮蔽的洞缘及周边植被", "必须复查": "空壳不能当活体；不以洞口大小推定适居", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n；蟑螂\n蜘蛛\n蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜗牛", "树洞编号": "F24", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润遮蔽的洞缘及周边植被", "必须复查": "空壳不能当活体；不以洞口大小推定适居", "原始备注": "许多被砍痕迹", "该生物原始字段": "蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜗牛", "树洞编号": "F42", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润遮蔽的洞缘及周边植被", "必须复查": "空壳不能当活体；不以洞口大小推定适居", "原始备注": "白蚁痕迹", "该生物原始字段": "蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜗牛", "树洞编号": "G9", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润遮蔽的洞缘及周边植被", "必须复查": "空壳不能当活体；不以洞口大小推定适居", "原始备注": "空白", "该生物原始字段": "蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜗牛", "树洞编号": "G15", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润遮蔽的洞缘及周边植被", "必须复查": "空壳不能当活体；不以洞口大小推定适居", "原始备注": "空白", "该生物原始字段": "蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜗牛", "树洞编号": "J7", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润遮蔽的洞缘及周边植被", "必须复查": "空壳不能当活体；不以洞口大小推定适居", "原始备注": "空白", "该生物原始字段": "蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜗牛", "树洞编号": "J14", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润遮蔽的洞缘及周边植被", "必须复查": "空壳不能当活体；不以洞口大小推定适居", "原始备注": "空白", "该生物原始字段": "蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜗牛", "树洞编号": "J36", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润遮蔽的洞缘及周边植被", "必须复查": "空壳不能当活体；不以洞口大小推定适居", "原始备注": "空白", "该生物原始字段": "蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜗牛", "树洞编号": "I10", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润遮蔽的洞缘及周边植被", "必须复查": "空壳不能当活体；不以洞口大小推定适居", "原始备注": "空白", "该生物原始字段": "蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜘蛛", "树洞编号": "A8", "原始依据": "原表有该标签；不证明定居", "现场条件": "能附着丝网或供游猎的洞缘、树皮", "必须复查": "结网型与游猎型分开；有网不等于有蜘蛛", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n；蟑螂\n蜘蛛\n蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜘蛛", "树洞编号": "B8", "原始依据": "原表有该标签；不证明定居", "现场条件": "能附着丝网或供游猎的洞缘、树皮", "必须复查": "结网型与游猎型分开；有网不等于有蜘蛛", "原始备注": "蜘蛛卵囊,蛛网", "该生物原始字段": "蜘蛛卵囊,蛛网；蜘蛛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜘蛛", "树洞编号": "D5", "原始依据": "原表有该标签；不证明定居", "现场条件": "能附着丝网或供游猎的洞缘、树皮", "必须复查": "结网型与游猎型分开；有网不等于有蜘蛛", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜘蛛", "树洞编号": "F3", "原始依据": "原表有该标签；不证明定居", "现场条件": "能附着丝网或供游猎的洞缘、树皮", "必须复查": "结网型与游猎型分开；有网不等于有蜘蛛", "原始备注": "空白", "该生物原始字段": "蜘蛛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蜘蛛", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "能附着丝网或供游猎的洞缘、树皮", "必须复查": "结网型与游猎型分开；有网不等于有蜘蛛", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蜘蛛", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "能附着丝网或供游猎的洞缘、树皮", "必须复查": "结网型与游猎型分开；有网不等于有蜘蛛", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蜘蛛", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "能附着丝网或供游猎的洞缘、树皮", "必须复查": "结网型与游猎型分开；有网不等于有蜘蛛", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蜘蛛", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "能附着丝网或供游猎的洞缘、树皮", "必须复查": "结网型与游猎型分开；有网不等于有蜘蛛", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蜘蛛", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "能附着丝网或供游猎的洞缘、树皮", "必须复查": "结网型与游猎型分开；有网不等于有蜘蛛", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蜘蛛", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "能附着丝网或供游猎的洞缘、树皮", "必须复查": "结网型与游猎型分开；有网不等于有蜘蛛", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蜘蛛", "树洞编号": "D7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "能附着丝网或供游猎的洞缘、树皮", "必须复查": "结网型与游猎型分开；有网不等于有蜘蛛", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蜘蛛", "树洞编号": "F5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "能附着丝网或供游猎的洞缘、树皮", "必须复查": "结网型与游猎型分开；有网不等于有蜘蛛", "原始备注": "一些蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蝉", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "若虫依赖地下根区；成虫利用树干枝叶", "必须复查": "树洞只作邻近活动点，不设幼虫洞内定居", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蝉", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "若虫依赖地下根区；成虫利用树干枝叶", "必须复查": "树洞只作邻近活动点，不设幼虫洞内定居", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蝉", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "若虫依赖地下根区；成虫利用树干枝叶", "必须复查": "树洞只作邻近活动点，不设幼虫洞内定居", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蝉", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "若虫依赖地下根区；成虫利用树干枝叶", "必须复查": "树洞只作邻近活动点，不设幼虫洞内定居", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蝉", "树洞编号": "A8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "若虫依赖地下根区；成虫利用树干枝叶", "必须复查": "树洞只作邻近活动点，不设幼虫洞内定居", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蝉", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "若虫依赖地下根区；成虫利用树干枝叶", "必须复查": "树洞只作邻近活动点，不设幼虫洞内定居", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蝉", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "若虫依赖地下根区；成虫利用树干枝叶", "必须复查": "树洞只作邻近活动点，不设幼虫洞内定居", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蝉", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "若虫依赖地下根区；成虫利用树干枝叶", "必须复查": "树洞只作邻近活动点，不设幼虫洞内定居", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蝉", "树洞编号": "D7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "若虫依赖地下根区；成虫利用树干枝叶", "必须复查": "树洞只作邻近活动点，不设幼虫洞内定居", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蝉", "树洞编号": "F5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "若虫依赖地下根区；成虫利用树干枝叶", "必须复查": "树洞只作邻近活动点，不设幼虫洞内定居", "原始备注": "一些蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蝉", "树洞编号": "H1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "若虫依赖地下根区；成虫利用树干枝叶", "必须复查": "树洞只作邻近活动点，不设幼虫洞内定居", "原始备注": "鼻涕虫粘液\n星天牛羽化孔\n蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蝉", "树洞编号": "I2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "若虫依赖地下根区；成虫利用树干枝叶", "必须复查": "树洞只作邻近活动点，不设幼虫洞内定居", "原始备注": "有烟头\n有蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蟑螂", "树洞编号": "A8", "原始依据": "原表有该标签；不证明定居", "现场条件": "隐蔽裂隙和有机物附近的夜间活动空间", "必须复查": "不指定室内害虫种；活动点不等于繁殖巢", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n；蟑螂\n蜘蛛\n蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蟑螂", "树洞编号": "B3", "原始依据": "原表有该标签；不证明定居", "现场条件": "隐蔽裂隙和有机物附近的夜间活动空间", "必须复查": "不指定室内害虫种；活动点不等于繁殖巢", "原始备注": "有蟑螂，10cm", "该生物原始字段": "有蟑螂，10cm；蟑螂", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蟑螂", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "隐蔽裂隙和有机物附近的夜间活动空间", "必须复查": "不指定室内害虫种；活动点不等于繁殖巢", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蟑螂", "树洞编号": "C3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "隐蔽裂隙和有机物附近的夜间活动空间", "必须复查": "不指定室内害虫种；活动点不等于繁殖巢", "原始备注": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蟑螂", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "隐蔽裂隙和有机物附近的夜间活动空间", "必须复查": "不指定室内害虫种；活动点不等于繁殖巢", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蟑螂", "树洞编号": "D6", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "隐蔽裂隙和有机物附近的夜间活动空间", "必须复查": "不指定室内害虫种；活动点不等于繁殖巢", "原始备注": "有白蚁痕迹\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蟑螂", "树洞编号": "D7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "隐蔽裂隙和有机物附近的夜间活动空间", "必须复查": "不指定室内害虫种；活动点不等于繁殖巢", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蟑螂", "树洞编号": "D8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "隐蔽裂隙和有机物附近的夜间活动空间", "必须复查": "不指定室内害虫种；活动点不等于繁殖巢", "原始备注": "鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蟑螂", "树洞编号": "D12", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "隐蔽裂隙和有机物附近的夜间活动空间", "必须复查": "不指定室内害虫种；活动点不等于繁殖巢", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蟑螂", "树洞编号": "D13", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "隐蔽裂隙和有机物附近的夜间活动空间", "必须复查": "不指定室内害虫种；活动点不等于繁殖巢", "原始备注": "鸟屎\n鼻涕虫痕迹", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蟑螂", "树洞编号": "F5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "隐蔽裂隙和有机物附近的夜间活动空间", "必须复查": "不指定室内害虫种；活动点不等于繁殖巢", "原始备注": "一些蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蟑螂", "树洞编号": "G3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "隐蔽裂隙和有机物附近的夜间活动空间", "必须复查": "不指定室内害虫种；活动点不等于繁殖巢", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "西瓜虫", "树洞编号": "A2", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润落叶、腐殖质与洞底木屑附近", "必须复查": "陆生等足类，需要保湿但非永久水下", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "西瓜虫×1\n蚂蚁较多\n蜗牛×1；西瓜虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "西瓜虫", "树洞编号": "A4", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润落叶、腐殖质与洞底木屑附近", "必须复查": "陆生等足类，需要保湿但非永久水下", "原始备注": "西瓜虫×2\n蜗牛×4", "该生物原始字段": "西瓜虫×2\n蜗牛×4；西瓜虫\n蜗牛；西瓜虫\n蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "西瓜虫", "树洞编号": "G15", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润落叶、腐殖质与洞底木屑附近", "必须复查": "陆生等足类，需要保湿但非永久水下", "原始备注": "空白", "该生物原始字段": "西瓜虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "西瓜虫", "树洞编号": "J6", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润落叶、腐殖质与洞底木屑附近", "必须复查": "陆生等足类，需要保湿但非永久水下", "原始备注": "空白", "该生物原始字段": "西瓜虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "西瓜虫", "树洞编号": "J11", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润落叶、腐殖质与洞底木屑附近", "必须复查": "陆生等足类，需要保湿但非永久水下", "原始备注": "空白", "该生物原始字段": "西瓜虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "西瓜虫", "树洞编号": "J15", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润落叶、腐殖质与洞底木屑附近", "必须复查": "陆生等足类，需要保湿但非永久水下", "原始备注": "空白", "该生物原始字段": "西瓜虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "西瓜虫", "树洞编号": "J24", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润落叶、腐殖质与洞底木屑附近", "必须复查": "陆生等足类，需要保湿但非永久水下", "原始备注": "空白", "该生物原始字段": "西瓜虫\n弓背蚁", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "西瓜虫", "树洞编号": "J43", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润落叶、腐殖质与洞底木屑附近", "必须复查": "陆生等足类，需要保湿但非永久水下", "原始备注": "空白", "该生物原始字段": "西瓜虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "西瓜虫", "树洞编号": "J44", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润落叶、腐殖质与洞底木屑附近", "必须复查": "陆生等足类，需要保湿但非永久水下", "原始备注": "空白", "该生物原始字段": "西瓜虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "西瓜虫", "树洞编号": "J46", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润落叶、腐殖质与洞底木屑附近", "必须复查": "陆生等足类，需要保湿但非永久水下", "原始备注": "空白", "该生物原始字段": "西瓜虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "西瓜虫", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润落叶、腐殖质与洞底木屑附近", "必须复查": "陆生等足类，需要保湿但非永久水下", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "西瓜虫", "树洞编号": "C3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润落叶、腐殖质与洞底木屑附近", "必须复查": "陆生等足类，需要保湿但非永久水下", "原始备注": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "霉菌", "树洞编号": "F2", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润有机基质的菌落表面", "必须复查": "霉菌属真菌；不直接嗅闻或接触", "原始备注": "有断掉大枝干\n和水、霉菌\n真菌掏空的树洞\n被砍\n有钉子", "该生物原始字段": "有断掉大枝干\n和水、霉菌\n真菌掏空的树洞\n被砍\n有钉子；霉菌", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "霉菌", "树洞编号": "F15", "原始依据": "原表有该标签；不证明定居", "现场条件": "湿润有机基质的菌落表面", "必须复查": "霉菌属真菌；不直接嗅闻或接触", "原始备注": "有支撑\n洞的腐烂破坏了\n一些枝条的 \n维管通道 →\n 枝条“断供” →\n 叶子长在原位\n直接干枯，\n一直挂在枝头。\n\n", "该生物原始字段": "霉菌", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "霉菌", "树洞编号": "C3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润有机基质的菌落表面", "必须复查": "霉菌属真菌；不直接嗅闻或接触", "原始备注": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "霉菌", "树洞编号": "E5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润有机基质的菌落表面", "必须复查": "霉菌属真菌；不直接嗅闻或接触", "原始备注": "有砍掉后愈伤\n组织形成的树洞\n有胶质真菌", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "霉菌", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润有机基质的菌落表面", "必须复查": "霉菌属真菌；不直接嗅闻或接触", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "霉菌", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润有机基质的菌落表面", "必须复查": "霉菌属真菌；不直接嗅闻或接触", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "霉菌", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润有机基质的菌落表面", "必须复查": "霉菌属真菌；不直接嗅闻或接触", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "霉菌", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润有机基质的菌落表面", "必须复查": "霉菌属真菌；不直接嗅闻或接触", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "霉菌", "树洞编号": "A8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润有机基质的菌落表面", "必须复查": "霉菌属真菌；不直接嗅闻或接触", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "霉菌", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润有机基质的菌落表面", "必须复查": "霉菌属真菌；不直接嗅闻或接触", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "霉菌", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润有机基质的菌落表面", "必须复查": "霉菌属真菌；不直接嗅闻或接触", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "霉菌", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润有机基质的菌落表面", "必须复查": "霉菌属真菌；不直接嗅闻或接触", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "靴耳", "树洞编号": "C3", "原始依据": "原表有该标签；不证明定居", "现场条件": "原记录对应的木质着生基质待核", "必须复查": "标签未至种；不承诺特定腐生能力", "原始备注": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构", "该生物原始字段": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构；纯白微皮伞\n靴耳；大头蚁\n鼻涕虫\n靴耳", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "靴耳", "树洞编号": "F2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录对应的木质着生基质待核", "必须复查": "标签未至种；不承诺特定腐生能力", "原始备注": "有断掉大枝干\n和水、霉菌\n真菌掏空的树洞\n被砍\n有钉子", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "靴耳", "树洞编号": "F15", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录对应的木质着生基质待核", "必须复查": "标签未至种；不承诺特定腐生能力", "原始备注": "有支撑\n洞的腐烂破坏了\n一些枝条的 \n维管通道 →\n 枝条“断供” →\n 叶子长在原位\n直接干枯，\n一直挂在枝头。\n\n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "靴耳", "树洞编号": "E5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录对应的木质着生基质待核", "必须复查": "标签未至种；不承诺特定腐生能力", "原始备注": "有砍掉后愈伤\n组织形成的树洞\n有胶质真菌", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "靴耳", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录对应的木质着生基质待核", "必须复查": "标签未至种；不承诺特定腐生能力", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "靴耳", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录对应的木质着生基质待核", "必须复查": "标签未至种；不承诺特定腐生能力", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "靴耳", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录对应的木质着生基质待核", "必须复查": "标签未至种；不承诺特定腐生能力", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "靴耳", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录对应的木质着生基质待核", "必须复查": "标签未至种；不承诺特定腐生能力", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "靴耳", "树洞编号": "A8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录对应的木质着生基质待核", "必须复查": "标签未至种；不承诺特定腐生能力", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "靴耳", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录对应的木质着生基质待核", "必须复查": "标签未至种；不承诺特定腐生能力", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "靴耳", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录对应的木质着生基质待核", "必须复查": "标签未至种；不承诺特定腐生能力", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "靴耳", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "原记录对应的木质着生基质待核", "必须复查": "标签未至种；不承诺特定腐生能力", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "马陆", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润腐败植物碎屑附近", "必须复查": "多足；与捕食性蜈蚣分开", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "马陆", "树洞编号": "C3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润腐败植物碎屑附近", "必须复查": "多足；与捕食性蜈蚣分开", "原始备注": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "马陆", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润腐败植物碎屑附近", "必须复查": "多足；与捕食性蜈蚣分开", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "马陆", "树洞编号": "D6", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润腐败植物碎屑附近", "必须复查": "多足；与捕食性蜈蚣分开", "原始备注": "有白蚁痕迹\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "马陆", "树洞编号": "D7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润腐败植物碎屑附近", "必须复查": "多足；与捕食性蜈蚣分开", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "马陆", "树洞编号": "D8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润腐败植物碎屑附近", "必须复查": "多足；与捕食性蜈蚣分开", "原始备注": "鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "马陆", "树洞编号": "D12", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润腐败植物碎屑附近", "必须复查": "多足；与捕食性蜈蚣分开", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "马陆", "树洞编号": "D13", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润腐败植物碎屑附近", "必须复查": "多足；与捕食性蜈蚣分开", "原始备注": "鸟屎\n鼻涕虫痕迹", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "马陆", "树洞编号": "F5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润腐败植物碎屑附近", "必须复查": "多足；与捕食性蜈蚣分开", "原始备注": "一些蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "马陆", "树洞编号": "G3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润腐败植物碎屑附近", "必须复查": "多足；与捕食性蜈蚣分开", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "马陆", "树洞编号": "G16", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润腐败植物碎屑附近", "必须复查": "多足；与捕食性蜈蚣分开", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "马陆", "树洞编号": "J5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "湿润腐败植物碎屑附近", "必须复查": "多足；与捕食性蜈蚣分开", "原始备注": "空白", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "鼻涕虫", "树洞编号": "A1", "原始依据": "原表有该标签；不证明定居", "现场条件": "遮阴、保湿而非被水淹的洞缘或碎屑层", "必须复查": "干燥暴晒不宜；黏液不等于活体定居", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条；鼻涕虫；弓背蚁，\n鼻涕虫\n蜗牛", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "鼻涕虫", "树洞编号": "C3", "原始依据": "原表有该标签；不证明定居", "现场条件": "遮阴、保湿而非被水淹的洞缘或碎屑层", "必须复查": "干燥暴晒不宜；黏液不等于活体定居", "原始备注": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构", "该生物原始字段": "大头蚁\n靴耳\n鼻涕虫粘液\n纯白微皮伞\n蚁巢结构；大头蚁\n鼻涕虫\n靴耳", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "鼻涕虫", "树洞编号": "D5", "原始依据": "原表有该标签；不证明定居", "现场条件": "遮阴、保湿而非被水淹的洞缘或碎屑层", "必须复查": "干燥暴晒不宜；黏液不等于活体定居", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛；鼻涕虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "鼻涕虫", "树洞编号": "D6", "原始依据": "原表有该标签；不证明定居", "现场条件": "遮阴、保湿而非被水淹的洞缘或碎屑层", "必须复查": "干燥暴晒不宜；黏液不等于活体定居", "原始备注": "有白蚁痕迹\n鼻涕虫粘液", "该生物原始字段": "有白蚁痕迹\n鼻涕虫粘液；鼻涕虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "鼻涕虫", "树洞编号": "D7", "原始依据": "原表有该标签；不证明定居", "现场条件": "遮阴、保湿而非被水淹的洞缘或碎屑层", "必须复查": "干燥暴晒不宜；黏液不等于活体定居", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "蚂蚁较少\n鼻涕虫粘液；鼻涕虫；弓背蚁\n大头蚁\n鼻涕虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "鼻涕虫", "树洞编号": "D8", "原始依据": "原表有该标签；不证明定居", "现场条件": "遮阴、保湿而非被水淹的洞缘或碎屑层", "必须复查": "干燥暴晒不宜；黏液不等于活体定居", "原始备注": "鼻涕虫粘液", "该生物原始字段": "鼻涕虫粘液；鼻涕虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "鼻涕虫", "树洞编号": "D12", "原始依据": "原表有该标签；不证明定居", "现场条件": "遮阴、保湿而非被水淹的洞缘或碎屑层", "必须复查": "干燥暴晒不宜；黏液不等于活体定居", "原始备注": "空白", "该生物原始字段": "鼻涕虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "鼻涕虫", "树洞编号": "D13", "原始依据": "原表有该标签；不证明定居", "现场条件": "遮阴、保湿而非被水淹的洞缘或碎屑层", "必须复查": "干燥暴晒不宜；黏液不等于活体定居", "原始备注": "鸟屎\n鼻涕虫痕迹", "该生物原始字段": "鸟屎\n鼻涕虫痕迹；鼻涕虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "鼻涕虫", "树洞编号": "F5", "原始依据": "原表有该标签；不证明定居", "现场条件": "遮阴、保湿而非被水淹的洞缘或碎屑层", "必须复查": "干燥暴晒不宜；黏液不等于活体定居", "原始备注": "一些蚂蚁", "该生物原始字段": "鼻涕虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "鼻涕虫", "树洞编号": "G3", "原始依据": "原表有该标签；不证明定居", "现场条件": "遮阴、保湿而非被水淹的洞缘或碎屑层", "必须复查": "干燥暴晒不宜；黏液不等于活体定居", "原始备注": "空白", "该生物原始字段": "鼻涕虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "鼻涕虫", "树洞编号": "G16", "原始依据": "原表有该标签；不证明定居", "现场条件": "遮阴、保湿而非被水淹的洞缘或碎屑层", "必须复查": "干燥暴晒不宜；黏液不等于活体定居", "原始备注": "空白", "该生物原始字段": "鼻涕虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "鼻涕虫", "树洞编号": "J5", "原始依据": "原表有该标签；不证明定居", "现场条件": "遮阴、保湿而非被水淹的洞缘或碎屑层", "必须复查": "干燥暴晒不宜；黏液不等于活体定居", "原始备注": "空白", "该生物原始字段": "鼻涕虫", "游戏适居状态": "未开放：需复核条件", "建议优先级": "先复核原记录点"}, {"生物": "蚜虫", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适合的活体寄主嫩梢或叶面；不是树洞深处", "必须复查": "新增角色；未确认寄主与种，不认定校园已出现", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚜虫", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适合的活体寄主嫩梢或叶面；不是树洞深处", "必须复查": "新增角色；未确认寄主与种，不认定校园已出现", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚜虫", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适合的活体寄主嫩梢或叶面；不是树洞深处", "必须复查": "新增角色；未确认寄主与种，不认定校园已出现", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚜虫", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适合的活体寄主嫩梢或叶面；不是树洞深处", "必须复查": "新增角色；未确认寄主与种，不认定校园已出现", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚜虫", "树洞编号": "A8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适合的活体寄主嫩梢或叶面；不是树洞深处", "必须复查": "新增角色；未确认寄主与种，不认定校园已出现", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚜虫", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适合的活体寄主嫩梢或叶面；不是树洞深处", "必须复查": "新增角色；未确认寄主与种，不认定校园已出现", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚜虫", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适合的活体寄主嫩梢或叶面；不是树洞深处", "必须复查": "新增角色；未确认寄主与种，不认定校园已出现", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚜虫", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适合的活体寄主嫩梢或叶面；不是树洞深处", "必须复查": "新增角色；未确认寄主与种，不认定校园已出现", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚜虫", "树洞编号": "D7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适合的活体寄主嫩梢或叶面；不是树洞深处", "必须复查": "新增角色；未确认寄主与种，不认定校园已出现", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚜虫", "树洞编号": "F5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适合的活体寄主嫩梢或叶面；不是树洞深处", "必须复查": "新增角色；未确认寄主与种，不认定校园已出现", "原始备注": "一些蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚜虫", "树洞编号": "H1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适合的活体寄主嫩梢或叶面；不是树洞深处", "必须复查": "新增角色；未确认寄主与种，不认定校园已出现", "原始备注": "鼻涕虫粘液\n星天牛羽化孔\n蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "蚜虫", "树洞编号": "I2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "适合的活体寄主嫩梢或叶面；不是树洞深处", "必须复查": "新增角色；未确认寄主与种，不认定校园已出现", "原始备注": "有烟头\n有蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "灰蝶", "树洞编号": "A1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫在适合寄主与匹配蚁活动处；成虫为访花停歇", "必须复查": "新增角色；不把所有灰蝶都设洞内居民", "原始备注": "鼻涕虫×2\n蜗牛×1\n蚂蚁较少\n主干侧方小枝条", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "灰蝶", "树洞编号": "A2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫在适合寄主与匹配蚁活动处；成虫为访花停歇", "必须复查": "新增角色；不把所有灰蝶都设洞内居民", "原始备注": "西瓜虫×1\n蚂蚁较多\n蜗牛×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "灰蝶", "树洞编号": "A3", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫在适合寄主与匹配蚁活动处；成虫为访花停歇", "必须复查": "新增角色；不把所有灰蝶都设洞内居民", "原始备注": "小创口×1\n蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "灰蝶", "树洞编号": "A7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫在适合寄主与匹配蚁活动处；成虫为访花停歇", "必须复查": "新增角色；不把所有灰蝶都设洞内居民", "原始备注": "蚂蚁较多", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "灰蝶", "树洞编号": "A8", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫在适合寄主与匹配蚁活动处；成虫为访花停歇", "必须复查": "新增角色；不把所有灰蝶都设洞内居民", "原始备注": "蟑螂×2大蚊子×1\n蜗牛×2蜘蛛×1\n蚂蚁×n", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "灰蝶", "树洞编号": "A9", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫在适合寄主与匹配蚁活动处；成虫为访花停歇", "必须复查": "新增角色；不把所有灰蝶都设洞内居民", "原始备注": "大蚂蚁×1", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "灰蝶", "树洞编号": "B7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫在适合寄主与匹配蚁活动处；成虫为访花停歇", "必须复查": "新增角色；不把所有灰蝶都设洞内居民", "原始备注": "蚂蚁少（弓背蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "灰蝶", "树洞编号": "D5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫在适合寄主与匹配蚁活动处；成虫为访花停歇", "必须复查": "新增角色；不把所有灰蝶都设洞内居民", "原始备注": "树洞内有蛛丝\n鼻涕虫粘液\n蚂蚁较少\n有拟蚁蛛", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "灰蝶", "树洞编号": "D7", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫在适合寄主与匹配蚁活动处；成虫为访花停歇", "必须复查": "新增角色；不把所有灰蝶都设洞内居民", "原始备注": "蚂蚁较少\n鼻涕虫粘液", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "灰蝶", "树洞编号": "F5", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫在适合寄主与匹配蚁活动处；成虫为访花停歇", "必须复查": "新增角色；不把所有灰蝶都设洞内居民", "原始备注": "一些蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "灰蝶", "树洞编号": "H1", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫在适合寄主与匹配蚁活动处；成虫为访花停歇", "必须复查": "新增角色；不把所有灰蝶都设洞内居民", "原始备注": "鼻涕虫粘液\n星天牛羽化孔\n蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}, {"生物": "灰蝶", "树洞编号": "I2", "原始依据": "设计考察点；该生物无原表记录", "现场条件": "幼虫在适合寄主与匹配蚁活动处；成虫为访花停歇", "必须复查": "新增角色；不把所有灰蝶都设洞内居民", "原始备注": "有烟头\n有蚂蚁", "该生物原始字段": "无", "游戏适居状态": "未开放：需复核条件", "建议优先级": "再复核候选点"}], "rules": [{"规则": "候选量", "内容": "每角色12个游戏考察编号→首条线索8个→次条线索4个。已记录的物种点位可多于12，全部保留在生物库，12只是游戏抽样。"}, {"规则": "禁止伪造适居证据", "内容": "180点多数缺洞深、湿度、积水、基质等信息。此版本分配的是考察点，所有具体编号均需现场核验后才能标为可栖息；绝不按物种共现推造物理属性。"}, {"规则": "三种选择结果", "内容": "好：全部硬条件满足且至少2个偏好满足；普通：硬条件满足、偏好不足；差：任一硬条件失败。现场数据不足→未知，不判差。"}, {"规则": "特殊角色", "内容": "蚜虫与灰蝶幼虫以寄主和伙伴为优先；蝉幼虫在地下根区；植物、地衣与菌类按着生／基质判定。不能统一当洞内居民。"}, {"规则": "多人二轮", "内容": "先取双方候选交集，再复查伙伴、寄主和空间条件。交集中的编号是共同考察地点，不能解释为已证明可以同洞共生。"}, {"规则": "非传递分支", "内容": "互斥：触发关系事件后分开选洞；无关：各自继续12→8→4。三人组逐对检查，任一冲突不强制同住。"}, {"规则": "冒险与物品", "内容": "4点候选后才开启洞号档案；物品是虚拟菌纹、叶脉、路径、振动等卡片，不取走真实生物或基质。"}, {"规则": "线索部署", "内容": "先复核12点物理条件，满足后布展；不满足则从其余有拓片且经核验的点位替换，不能为凑数量纳入无拓片树木。"}, {"规则": "树洞纳入条件", "内容": "按用户定义：仅纳入有拓片的76个点位。无拓片树木完全排除，不进入角色记录、线索、候选及二轮交集。"}, {"规则": "第二轮开放条件", "内容": "仅当前入选且有传递关系的双方进入第二轮；单人、无传递关系和三人组其他成员首轮后直接探索。12→8→4都是首轮内线索步骤。"}]};const roles=DATA.roles;let selected=[],focus=0,filter='全部',search='',view='choose';const $=id=>document.getElementById(id);const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const centersX=[110,310,515,715,920],centersY=[240,470,690,920,1145,1365];const originalCoords={"鼻涕虫": [108, 138, 204, 440], "蜗牛": [364, 33, 538, 491], "马陆": [610, 270, 677, 389], "弓背蚁": [789, 300, 849, 379], "蛾蚋": [462, 627, 561, 715], "蜘蛛": [345, 901, 473, 1054], "蟑螂": [536, 760, 711, 1111], "大头蚁": [126, 1213, 166, 1263], "靴耳": [184, 1271, 316, 1350], "拟蚁蛛": [381, 1277, 427, 1328], "举腹蚁": [511, 1268, 543, 1316]};const originalUrl='images/2605ed9c6af294a7a12e.png';function sprite(i){const box=originalCoords[roles[i].生物];if(box){const [x,y,x2,y2]=box,scale=Math.min(112/(x2-x),100/(y2-y));return `background-image:url(${originalUrl});background-size:${1350*scale}px ${1800*scale}px;background-position:${(120-(x2-x)*scale)/2-x*scale}px ${(112-(y2-y)*scale)/2-y*scale}px;clip-path:inset(${(112-(y2-y)*scale)/2}px ${(120-(x2-x)*scale)/2}px);filter:url(#original-white)!important`} return `background-position:${60-centersX[i%5]*.625}px ${56-centersY[Math.floor(i/5)]*.625}px`}
 function render(){let found=0;$('grid').innerHTML=roles.map((r,i)=>{if(!r.生物.includes(search)||(filter==='动物'&&r.游戏角色类型!=='动物')||(filter==='其他'&&r.游戏角色类型==='动物'))return '';found++;return `<button class="card ${selected.includes(i)?'selected':''}" data-index="${i}" aria-pressed="${selected.includes(i)}"><span class="mark">${selected.includes(i)?'✓':'+'}</span><div class="silhouette" style="${sprite(i)}"></div><h2>${escape(r.生物)}</h2></button>`}).join('')||'<p class="empty">没有找到这个名字。</p>';$('selection').innerHTML=selected.length?`已选择 ${selected.length}/3：<span class="selectedNames">${selected.map(i=>roles[i].生物).join(' · ')}</span>`:'尚未选择角色';$('start').disabled=!selected.length;panel()}
@@ -71,8 +72,8 @@ const isolatedPositions={};isolatedNames.forEach((names,sheet)=>names.forEach((n
 function art(item){const p=isolatedPositions[item.name];if(!p)return '';const x=p.sheet==='rainbow'?p.index*400:(p.index%4)*384,y=p.sheet==='rainbow'?0:Math.floor(p.index/4)*512,w=p.sheet==='rainbow'?400:384,h=p.sheet==='rainbow'?630:512,id='isolated-'+item.uid;return `<svg viewBox="${x} ${y} ${w} ${h}" preserveAspectRatio="xMidYMid meet" width="100%" height="100%" style="overflow:hidden"><defs><clipPath id="${id}"><rect x="${x+3}" y="${y+3}" width="${w-6}" height="${h-6}"/></clipPath></defs><image href="${sheets[p.sheet]}" width="1536" height="1024" clip-path="url(#${id})"/></svg>`}
 
 const player=()=>party[activePlayer];const finished=p=>p.holes.every(h=>h.searched);const allDone=()=>party.every(finished);const value=p=>p.bag.reduce((s,i)=>s+i.value,0);
-function save(){try{localStorage.setItem(inventoryKey(),JSON.stringify({party:party.map(p=>({name:p.name,nickname:p.nickname,runId:p.runId,lastDelivery:p.lastDelivery,bag:p.bag,holes:p.holes.map(h=>({id:h.id,loot:h.loot,searched:h.searched,bestFound:h.bestFound}))})),habitats}))}catch(e){console.warn('无法保存本机进度',e)}}
-function init(){party=selected.map(i=>{const points=MAP_POINTS.filter(p=>roles[i].第一轮候选编号.split('、').includes(p.id)).map(p=>({...p,mask:masks[p.id]}));return{name:roles[i].生物,nickname:nickFor(i),runId:crypto.randomUUID(),roleIndex:i,bag:[],...makeRun(points)}});habitats={};try{const saved=JSON.parse(localStorage.getItem(inventoryKey()));if(saved?.party?.length===party.length){party.forEach((p,i)=>{if(saved.party[i].name!==p.name)return;p.bag=saved.party[i].bag||[];p.runId=saved.party[i].runId||p.runId;p.lastDelivery=saved.party[i].lastDelivery;p.holes.forEach(h=>{const old=saved.party[i].holes.find(x=>x.id===h.id);if(old){h.loot=old.loot;h.searched=old.searched;h.bestFound=old.bestFound||h.loot.filter(i=>i.revealed).reduce((best,i)=>!best||i.value>best.value?{tier:i.tier,value:i.value}:best,null)}})});habitats=saved.habitats||{}}}catch{}activePlayer=Math.max(0,party.findIndex(p=>p.roleIndex===mapRole));save()}
+function save(){try{localStorage.setItem(inventoryKey(),JSON.stringify({party:party.map(p=>({name:p.name,nickname:p.nickname,runId:p.runId,combatRunUses:p.combatRunUses,lastDelivery:p.lastDelivery,bag:p.bag,holes:p.holes.map(h=>({id:h.id,loot:h.loot,searched:h.searched,bestFound:h.bestFound,combat:h.combat}))})),habitats}))}catch(e){console.warn('无法保存本机进度',e)}}
+function init(){party=selected.map(i=>{const points=MAP_POINTS.filter(p=>roles[i].第一轮候选编号.split('、').includes(p.id)).map(p=>({...p,mask:masks[p.id]}));return{name:roles[i].生物,nickname:nickFor(i),runId:crypto.randomUUID(),roleIndex:i,bag:[],...makeRun(points)}});habitats={};try{const saved=JSON.parse(localStorage.getItem(inventoryKey()));if(saved?.party?.length===party.length){party.forEach((p,i)=>{if(saved.party[i].name!==p.name)return;p.bag=saved.party[i].bag||[];p.runId=saved.party[i].runId||p.runId;p.lastDelivery=saved.party[i].lastDelivery;p.combatRunUses=saved.party[i].combatRunUses||{};p.holes.forEach(h=>{const old=saved.party[i].holes.find(x=>x.id===h.id);if(old){h.combat=old.combat;h.loot=old.loot;h.searched=old.searched;h.bestFound=old.bestFound||h.loot.filter(i=>i.revealed).reduce((best,i)=>!best||i.value>best.value?{tier:i.tier,value:i.value}:best,null)}})});habitats=saved.habitats||{}}}catch{}activePlayer=Math.max(0,party.findIndex(p=>p.roleIndex===mapRole));save()}
 function top(sub){return `<header class="adv-top"><div><strong>树洞冒险</strong><div class="adv-muted">${sub}</div></div><div class="adv-tabs">${party.map((p,i)=>`<button class="adv-btn ${i===activePlayer?'active':''}" data-player="${i}">${escape(p.nickname)} · ${p.holes.filter(h=>h.searched).length}/${p.holes.length}</button>`).join('')}</div><button class="adv-btn" data-action="audio">${forestAudio.muted?'开启声音':'森林声音：开'}</button><button class="adv-btn" data-action="personal">个人空间</button><button class="adv-btn" data-action="deposit" ${player()?.bag.length?'':'disabled'}>带回藏品</button><button class="adv-btn" data-action="catalog">藏品价值表</button><button class="adv-btn" data-action="leave">收起冒险</button><button class="adv-btn" data-return-world>回到世界</button></header>`}
 function totalInfo(){const p=player();return `<div class="adv-stats"><span>背包 ${p.bag.reduce((s,i)=>s+i.w*i.h,0)}/24格</span><span>收藏价值 ${value(p).toLocaleString()}</span><span>已搜 ${p.holes.filter(h=>h.searched).length}/${p.holes.length}</span></div>`}
 function world(){currentHole=null;clearTimeout(searchTimer);searchTimer=null;forestAudio.stopSearch();const p=player(),xs=p.holes.map(h=>h.x),ys=p.holes.map(h=>h.y),w=Math.max(600,Math.max(...xs)-Math.min(...xs)+120),h=Math.max(440,Math.max(...ys)-Math.min(...ys)+120);worldBox={x:(Math.max(...xs)+Math.min(...xs)-w)/2,y:(Math.max(...ys)+Math.min(...ys)-h)/2,w,h};const displayPositions=[];p.holes.forEach((hole,index)=>{let spot={x:hole.x,y:hole.y};for(let k=0;k<500;k++){const radius=k===0?0:8*Math.sqrt(k),angle=k*2.399963;spot={x:hole.x+Math.cos(angle)*radius,y:hole.y+Math.sin(angle)*radius};if(!displayPositions.some(other=>Math.abs(other.x-spot.x)<34&&Math.abs(other.y-spot.y)<48))break}displayPositions.push(spot)});const grass=p.holes.flatMap((p,i)=>Array.from({length:9},(_,k)=>{const x=p.x+Math.sin(i*13+k*7)*25,y=p.y+Math.cos(i*4+k)*20;return `<path d="M${x},${y}q-4,-6 -3,-10m3,10q4,-5 6,-7" stroke="${k%2?'#557c35':'#7a9c45'}" stroke-width=".9" fill="none"/>`})).join('');root.innerHTML=top('微小生命视角 · 动态拓片尚未搜寻，静态拓片已经搜完')+`<main class="adv-body"><div class="adv-controls"><button class="adv-btn" data-action="zoom-in">＋ 放大</button><button class="adv-btn" data-action="zoom-out">－ 缩小</button><button class="adv-btn primary" data-action="habitat" ${allDone()?'':'disabled'}>${allDone()?'选择栖息地 ↗':'搜完所有角色的候选树洞后选择栖息地'}</button></div>${totalInfo()}<div class="adv-controls"><button class="adv-btn" data-action="new-expedition" ${p.bag.length?'disabled':''}>新一轮冒险（个人库资产保留）</button></div><div class="adv-world"><svg id="adv-map" viewBox="${worldBox.x} ${worldBox.y} ${w} ${h}" aria-label="生物视角冒险地图"><defs><filter id="horror-buildings"><feDropShadow dx="8" dy="12" stdDeviation="1" flood-color="#020703" flood-opacity="1"/></filter></defs><rect x="-1000" y="-1000" width="4000" height="4000" fill="#101b0e"/><image href="images/9220b96c5c3a60bc1580.svg" width="1448" height="1086" style="filter:url(#horror-buildings) contrast(1.12) brightness(.95)"/>${grass}${p.holes.map((hole,i)=>{const {x,y}=displayPositions[i];return `<g class="adv-hole ${hole.searched?'searched':'unsearched'}" data-hole="${hole.id}" tabindex="0" role="button" aria-label="树洞${hole.id}${hole.searched?'已搜':'未搜'}" data-found-tier="${hole.searched?(hole.bestFound?.tier||'white'):'unsearched'}" style="--hole-outline:${hole.searched?colours[hole.bestFound?.tier||'white']:'#ffffff'};animation-delay:${i*.17}s"><path d="M${hole.x},${hole.y}L${x},${y}" stroke="#a7bb7433"/><image href="${hole.rubbing}" x="${x-14}" y="${y-20}" width="28" height="38"/><text x="${x}" y="${y+24}" text-anchor="middle">${hole.id}</text></g>`}).join('')}</svg></div><p class="adv-banner">白29.4% · 蓝39.4% · 紫25% · 金5% · 彩虹1.2%；每洞至少1件。整局无自然金时补入最低价值金“无名住客的钥匙”。</p></main>`;const svg=root.querySelector('#adv-map');let drag=null;svg.onpointerdown=e=>{if(e.target.closest('[data-hole]'))return;svg.setPointerCapture(e.pointerId);drag={x:e.clientX,y:e.clientY,box:{...worldBox}}};svg.onpointermove=e=>{if(!drag)return;const rect=svg.getBoundingClientRect();worldBox={...drag.box,x:drag.box.x-(e.clientX-drag.x)*drag.box.w/rect.width,y:drag.box.y-(e.clientY-drag.y)*drag.box.h/rect.height};setWorldBox()};svg.onpointerup=svg.onpointercancel=()=>drag=null;svg.addEventListener('wheel',e=>{e.preventDefault();worldZoom(e.deltaY>0?1.15:.87)},{passive:false})}
@@ -106,7 +107,7 @@ function openRoom(nickname,tab='storage',message=''){personalWho=nickname;person
 personal.addEventListener('click',e=>{if(e.target.closest('[data-room-close]')){personal.hidden=true;return}const tab=e.target.closest('[data-room-tab]');if(tab){personalTab=tab.dataset.roomTab;drawRoom();return}const action=e.target.closest('[data-collect],[data-sell]');if(!action)return;const p=readProfile(personalWho),uid=action.dataset.collect||action.dataset.sell,index=p.storage.findIndex(i=>i.uid===uid);if(index<0)return;const item=p.storage[index];p.storage.splice(index,1);if(action.dataset.sell){p.balance+=item.value;p.stats.sold++}else p.collection[item.name]=(p.collection[item.name]||0)+1;try{writeProfile(p);drawRoom(action.dataset.sell?`已卖出${item.name}，资产增加${item.value.toLocaleString()}`:`已收藏${item.name}`)}catch{drawRoom('本地保存失败，本次操作未完成，请先释放浏览器存储空间。')}});
 function deposit(p,home=false){const profile=readProfile(p.nickname),items=p.bag.filter(i=>!profile.claims.includes(p.runId+':'+i.uid));const used=p.bag.reduce((n,i)=>n+i.w*i.h,0);for(const item of items){const claim=p.runId+':'+item.uid;profile.claims.push(claim);profile.storage.push({...item,uid:claim,sourceRun:p.runId});profile.stats.brought++;if(item.tier==='gold')profile.stats.gold++;if(item.tier==='rainbow')profile.stats.rainbow++}if(items.length){profile.stats.deliveries++;if(used===24)profile.stats.fullBag++}const visitKey=p.runId+':visits',searched=p.holes.filter(h=>h.searched).length;profile.visits=profile.visits||{};const oldCount=profile.visits[visitKey]||0;profile.stats.searched+=Math.max(0,searched-oldCount);profile.visits[visitKey]=Math.max(oldCount,searched);if(home&&!profile.claims.includes(p.runId+':home')){profile.claims.push(p.runId+':home');profile.stats.homes++}writeProfile(profile);p.lastDelivery={count:items.length,value:items.reduce((s,i)=>s+i.value,0)};p.bag=[];save();return items.length}
 function bringBack(){clearTimeout(searchTimer);searchTimer=null;searchingUid=null;forestAudio.stopSearch();const p=player();try{const count=deposit(p);world();openRoom(p.nickname,'storage',`本次${count}件藏品已进入个人库。`)}catch{lootView('本地保存失败，背包仍保留，请勿关闭页面。')}}
-function newExpedition(){const p=player();if(p.bag.length)return;Object.assign(p,makeRun(p.holes.map(h=>({id:h.id,x:h.x,y:h.y,rubbing:h.rubbing,mask:h.mask}))));p.runId=crypto.randomUUID();delete habitats[p.name];selectedBagUid=null;save();world()}
+function newExpedition(){const p=player();if(p.bag.length)return;Object.assign(p,makeRun(p.holes.map(h=>({id:h.id,x:h.x,y:h.y,rubbing:h.rubbing,mask:h.mask}))));p.runId=crypto.randomUUID();p.combatRunUses={};delete habitats[p.name];selectedBagUid=null;save();world()}
 root.addEventListener('click',e=>{const action=e.target.closest('[data-action]')?.dataset.action;if(action==='personal')openRoom(player().nickname);if(action==='deposit')bringBack();if(action==='new-expedition')newExpedition()});
 window.hollowPersonalQA={readProfile,deposit,openRoom,achievementDefs};
 
@@ -120,6 +121,994 @@ root.addEventListener('drop',e=>{const g=e.target.closest('[data-grid="bag"]');i
 root.addEventListener('dragend',()=>draggedBagUid=null);
 root.addEventListener('click',e=>{const cell=e.target.closest('[data-grid="bag"] .adv-cell');if(cell&&selectedBagUid)moveBag(selectedBagUid,+cell.dataset.x,+cell.dataset.y);if(e.target.closest('[data-action="rotate-bag"]'))rotateBag();if(e.target.closest('[data-action="drop-current"]')&&selectedBagUid)putBack(selectedBagUid)});
 root.addEventListener('keydown',e=>{if(e.key.toLowerCase()==='r'&&selectedBagUid&&currentHole){e.preventDefault();rotateBag()}});
+
+/* Deterministic encounter simulation. All creatures here are fictional encounter forms. */
+const HollowCombat=(()=>{
+const fixed=new Set(['地衣','晶粒鬼伞','真菌','纯白微皮伞','细叶麦冬','胶质真菌','薜荔','霉菌','靴耳','蚜虫']);
+const flyers=new Set(['蚊子','蛾蚋','蝉','灰蝶']);
+const grounded=new Set(['蜗牛','马陆','鼻涕虫','西瓜虫']);
+const enemies=[['盘根路障',100],['巨蚁·仓门卫士',130],['巨蛛·织隙者',160],['蛛神·八目守望',210],['落木与雨潮',100]];
+const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
+function create(role,index){const type=index%5,mode=fixed.has(role)?'guard':flyers.has(role)?'fly':'walk';return {version:1,role,mode,type,status:'ready',t:0,hp:100,x:130,y:456,vy:0,dir:1,aim:1,node:0,core:[100,100,100],cool:{attack:0,skill:0,jump:0},fx:{},used:{},runUses:{},log:[],targets:[false,false,false],barriers:type===0?[{x:420,hp:30},{x:740,hp:30}]:[],enemy:{x:840,hp:enemies[type][1],max:enemies[type][1],next:2,wind:0,hit:0},hazards:[],effects:[],loadout:[],tokens:0,inv:0,attacks:0,dodged:0,revived:false,frame:0,goal:mode==='guard'?'守住三个节点中的至少一个，持续45秒':type===0||type===4?'触碰3个路标，再到达右侧出口':'击退守卫，再到右侧出口',name:enemies[type][0],sceneIndex:index};}
+function note(s,t){s.message=t;s.log.unshift(t);s.log=s.log.slice(0,8);}
+function effect(s,name,seconds){s.fx[name]=Math.max(s.fx[name]||0,s.t+seconds);}
+const has=(s,n)=>(s.fx[n]||0)>s.t;
+const equipped=(s,n)=>s.equipped?.includes(n);
+function damage(s,n){if(s.status!=='active'||s.inv>s.t)return;let d=n;if(has(s,'shield')){s.fx.shield=0;note(s,'护盾抵挡了这次冲击');return}if(s.fx.blocks>0){s.fx.blocks--;note(s,'卷曲守势挡住冲击');return}if(equipped(s,'完整蝉蜕')&&!s.used.shell){d*=.5;s.used.shell=true}if(has(s,'guard')||has(s,'buffer'))d*=.5;if(equipped(s,'四季洞藏')&&!s.used.season){s.used.season=true;note(s,'四季洞藏挡住一次环境伤害');return}s.hp=Math.max(0,s.hp-d);s.inv=s.t+.85;
+ if(equipped(s,'一棵树的年轮')&&!s.used.rings){s.used.rings=true;effect(s,'buffer',2)}
+ if(s.hp<=0&&equipped(s,'生命回环')&&!s.runUses['生命回环']){s.runUses['生命回环']=true;s.hp=1;s.inv=s.t+1;s.revived=true;note(s,'生命回环：留住最后一点体力')}else if(s.hp<=0){s.status='lost';note(s,'体力耗尽。背包已保留，可整备后重试。')}
+}
+function hit(s,power=10,range=125){const barrier=(s.barriers||[]).find(b=>b.hp>0&&Math.abs(b.x-s.x)<range&&(b.x-s.x)*s.dir>=-25);if(barrier){barrier.hp=Math.max(0,barrier.hp-power);note(s,barrier.hp?'路障松动了':'路障已破开');return true}const e=s.enemy;if(e.hp<=0)return false;if(s.mode==='guard'||Math.abs(e.x-s.x)<range&&((e.x-s.x)*s.dir>=-25)){let extra=has(s,'weak')?8:0;s.fx.weak=0;e.hp=Math.max(0,e.hp-power-extra);e.hit=s.t+.2;if(s.type!==0&&s.type!==4)e.x=clamp(e.x+s.dir*15,90,1020);s.effects.push({kind:'slash',x:s.x,y:s.y-35,end:s.t+.25});if(!e.hp)note(s,'守卫退去，前往右侧出口领取战利品');return true}return false;}
+function attack(s){if(s.status!=='active'||s.cool.attack>s.t||has(s,'guard'))return false;s.cool.attack=s.t+.4;s.attacks++;effect(s,'attacking',.2);s.fx.stealth=0;hit(s,['大头蚁','星天牛','天牛'].includes(s.role)?16:['蜗牛','鼻涕虫','弹尾虫'].includes(s.role)?7:10);return true;}
+function jump(s){if(s.status!=='active'||s.cool.jump>s.t)return false;if(s.mode==='guard'){s.node=(s.node+1)%3;s.x=[180,500,820][s.node];s.cool.jump=s.t+.3;return true}if(grounded.has(s.role)){s.x=clamp(s.x+s.dir*90,40,1060);effect(s,'safe',.7);s.cool.jump=s.t+2;return true}if(s.y>=455||s.mode==='fly'||s.role==='弓背蚁'&&!s.used.airJump){if(s.y<455)s.used.airJump=true;s.vy=s.mode==='fly'?-220:s.role==='弹尾虫'?-540:-420;s.cool.jump=s.t+.3;return true}return false;}
+function skill(s,ally=false){if(s.status!=='active'||s.cool.skill>s.t)return false;const cd=s.skillCooldown||10;s.cool.skill=s.t+cd*(equipped(s,'极光叶脉')?.85:1);if(equipped(s,'蜕变冠冕')&&!s.used.crown){s.used.crown=true;s.cool.skill=s.t+cd*.5}const r=s.role;
+ switch(r){
+ case '举腹蚁':hit(s,25,220);s.enemy.x=clamp(s.enemy.x+s.dir*90,80,1040);break;
+ case '大头蚁':effect(s,'charging',.8);break;
+ case '天牛':hit(s,22,240);s.enemy.wind=0;s.enemy.next=s.t+2;break;
+ case '弓背蚁':effect(s,'speed',2);break;
+ case '弹尾虫':s.vy=-600;s.x=clamp(s.x+s.dir*100,40,1060);effect(s,'safe',.6);break;
+ case '拟蚁蛛':effect(s,'stealth',3);break;
+ case '星天牛':s.x=clamp(s.x+s.dir*140,40,1060);hit(s,35,240);break;
+ case '地衣':case '纯白微皮伞':case '靴耳':effect(s,'shield',8);s.core[s.node]=Math.min(100,s.core[s.node]+15);break;
+ case '晶粒鬼伞':effect(s,'slow',4);break;
+ case '白蚁':case '薜荔':effect(s,'bridge',6);if(s.mode==='guard')s.core[s.node]=Math.min(100,s.core[s.node]+25);break;
+ case '真菌':s.core[s.node]=Math.min(100,s.core[s.node]+45);break;
+ case '细叶麦冬':effect(s,'wall',5);break;
+ case '胶质真菌':effect(s,'buffer',4);break;
+ case '蚂蚁':effect(s,'route',6);break;
+ case '蚊子':s.x=clamp(s.x+s.dir*150,40,1060);effect(s,'safe',.6);break;
+ case '蛾蚋':s.x=[180,500,820].sort((a,b)=>Math.abs(a-s.x)-Math.abs(b-s.x))[0];effect(s,'safe',1.5);break;
+ case '蜗牛':effect(s,'guard',3);effect(s,'shield',5);break;
+ case '蜘蛛':effect(s,'slow',4);effect(s,'web',4);break;
+ case '蝉':s.enemy.wind=0;s.enemy.next=s.t+3;hit(s,12,280);break;
+ case '蟑螂':s.x=clamp(s.x+s.dir*200,40,1060);effect(s,'safe',.7);break;
+ case '西瓜虫':effect(s,'guard',3);break;
+ case '霉菌':effect(s,'buffer',4);s.core.forEach((v,i)=>{if(i!==s.node)s.core[i]=Math.min(100,v+12)});break;
+ case '马陆':effect(s,'guard',4);s.fx.blocks=2;break;
+ case '鼻涕虫':effect(s,'speed',2);effect(s,'safe',.5);break;
+ case '蚜虫':effect(s,'shield',ally?8:3);note(s,ally?'伙伴的线索化作护盾':'独自守望：获得一次短护盾');break;
+ case '灰蝶':effect(s,'glide',2);s.vy=-150;break;
+ default:throw Error('角色技能缺失：'+r);
+ }s.effects.push({kind:'skill',x:s.x,y:s.y-30,end:s.t+.65});return true;}
+const itemKinds={
+ '卷边落叶':'消耗','树皮薄片':'消耗','旧纽扣':'消耗','空种壳':'消耗','半透明翅片':'消耗','雨后泥点':'消耗','褪色纸角':'消耗','磨圆小石':'消耗','蛛丝小结':'消耗','干草软垫':'消耗',
+ '完整蝉蜕':'装备','叶脉书签':'装备','雨季水位尺':'装备','一棵树的年轮':'装备','蜕变冠冕':'装备','振动乐章':'装备','四季洞藏':'装备','生命回环':'装备','极光叶脉':'装备',
+ '叶脉密信':'任务','无名住客的钥匙':'任务','共居契约':'任务','失物小匣':'容器'};
+function use(s,name,meta={}){if(s.status!=='active')return {ok:false,message:'战斗未进行'};const kind=itemKinds[name]||'工具';if(kind==='装备')return {ok:false,message:'被动装备已随快捷栏生效，无需点击'};
+ const perRun=['叶脉密信','无名住客的钥匙','蜜露星图','虹露棱晶','万象树种'].includes(name),uses=perRun?s.runUses:s.used;
+ if(!meta.copy&&kind!=='消耗'&&uses[name])return {ok:false,message:'本场／本局已使用，重新进入不会刷新'};
+ if(name==='羽毛轻舟'&&s.type!==4)return {ok:false,message:'仅在积水与雨潮场景使用'};
+ if(name==='虹露棱晶'&&!s.lastBlue)return {ok:false,message:'先使用一件蓝色主动工具，再复制它的效果'};
+ if(name==='空种壳'&&![1,2].includes(s.type))return {ok:false,message:'只有巨蚁、巨蛛守藏者接受交换'};
+ if(name==='共居契约'&&!meta.ally)return {ok:false,message:'需另一名有传递关系的存活玩家确认协作'};
+ if(name==='生命回环')return {ok:false,message:'这是自动生效的装备'};
+ switch(name){
+ case '卷边落叶':effect(s,'bridge',6);break;
+ case '树皮薄片':effect(s,'shield',5);break;
+ case '旧纽扣':case '蝶蛹留影':effect(s,'decoy',3);s.decoyX=s.x;break;
+ case '空种壳':s.enemy.hp=0;note(s,'守藏者接受交换，让开道路');break;
+ case '细枝小叉':hit(s,18,240);s.enemy.wind=0;s.enemy.next=s.t+2;break;
+ case '半透明翅片':s.x=clamp(s.x+s.dir*140,40,1060);effect(s,'safe',1);break;
+ case '雨后泥点':effect(s,'slow',3);break;
+ case '褪色纸角':effect(s,'warning',30);break;
+ case '磨圆小石':s.enemy.hp=Math.max(0,s.enemy.hp-8);s.enemy.wind=0;s.enemy.next=s.t+1.5;break;
+ case '蛛丝小结':effect(s,'web',4);effect(s,'slow',4);break;
+ case '干草软垫':effect(s,'cushion',60);break;
+ case '空蜗牛壳':effect(s,'shield',60);break;
+ case '蓝色玻璃珠':effect(s,'route',5);break;
+ case '雨滴透镜':effect(s,'weak',5);effect(s,'route',5);break;
+ case '树脂小珠':effect(s,'slow',3);break;
+ case '羽毛轻舟':effect(s,'bridge',8);break;
+ case '双生种子':s.targets[0]=s.targets[1]=true;effect(s,'seeds',6);break;
+ case '迷你菌伞':effect(s,'umbrella',4);break;
+ case '三重足迹':effect(s,'forecast',6);break;
+ case '雨声琥珀':effect(s,'freeze',3);break;
+ case '叶脉密信':s.letterTask=true;note(s,'支线：本场触碰3个路标，奖励叶脉书签');break;
+ case '羽化之门':s.x=130;s.y=456;effect(s,'safe',1);break;
+ case '双层旧蛛网':effect(s,'web',5);effect(s,'slow',5);break;
+ case '蜜露星图':effect(s,'route',12);if(meta.ally)effect(s,'shield',6);note(s,meta.ally?'伙伴确认了安全路线':'星图显示自己的已知路线');break;
+ case '拟态双面牌':effect(s,'stealth',3);break;
+ case '失物小匣':s.taskBox=true;note(s,'任务匣启用：保存本场路标碎片，普通背包容量不变');break;
+ case '树隙之心':s.hp=Math.min(100,s.hp+20);break;
+ case '第一场雨':effect(s,'bridge',6);effect(s,'umbrella',6);break;
+ case '无名住客的钥匙':s.keyTask=true;note(s,'支线门已开：触碰中间路标，通关后领取额外蓝色玻璃珠');break;
+ case '共居契约':effect(s,'shield',10);s.coop=true;note(s,'双方确认协作；最终居住仍需单独确认');break;
+ case '校园遗失的星星':effect(s,'route',6);effect(s,'forecast',6);break;
+ case '虹露棱晶':{const r=use(s,s.lastBlue,{...meta,copy:true});if(!r.ok)return r;break;}
+ case '万象树种':s.status='retreated';note(s,'撤退门开启，背包已保留');break;
+ default:return {ok:false,message:'物品没有主动效果'};
+ }
+ if(!meta.copy&&kind!=='消耗')uses[name]=true;
+ if(meta.tier==='blue'&&kind==='工具'&&!meta.copy)s.lastBlue=name;
+ return {ok:true,consume:kind==='消耗',message:name+'已生效'};
+}
+function step(s,dt,input={}){if(s.status!=='active')return;s.t+=Math.min(dt,.05);dt=Math.min(dt,.05);const e=s.enemy;
+ if(input.left||input.right){s.dir=input.right?1:-1;if(s.mode==='guard'){if(s.cool.jump<=s.t){s.node=clamp(s.node+s.dir,0,2);s.x=[180,500,820][s.node];s.cool.jump=s.t+.25}}else if(!has(s,'guard'))s.x=clamp(s.x+s.dir*dt*(has(s,'speed')?310:185),40,1060)}
+ if(input.attack)attack(s);if(input.jump)jump(s);
+ if(s.y>425&&!has(s,'bridge'))for(const b of s.barriers||[]){if(b.hp>0&&Math.abs(s.x-b.x)<32)s.x=b.x-s.dir*32;}
+ if(s.mode!=='guard'){s.vy+=dt*(s.mode==='fly'?440:1050);if(has(s,'glide'))s.vy=Math.min(s.vy,30);s.y=clamp(s.y+s.vy*dt,100,456);if(s.y>=456){s.vy=0;s.used.airJump=false}}
+ else s.y=456;
+ if(s.fx.charging&&s.fx.charging<=s.t){delete s.fx.charging;s.x=clamp(s.x+s.dir*90,40,1060);hit(s,40,240)}
+ const safe=has(s,'safe')||has(s,'stealth');
+ if(e.hp>0&&!has(s,'freeze')){
+  if(!e.wind&&s.t>=e.next){e.wind=s.t+1.1+(s.type===4&&equipped(s,'雨季水位尺')?2:equipped(s,'振动乐章')||has(s,'warning')?1:0);e.target=has(s,'decoy')?s.decoyX:s.x;e.targetNode=s.node;}
+  if(e.wind&&s.t>=e.wind){e.wind=0;e.next=s.t+(s.type===3?2.3:3.2);s.hazards.push({x:e.target,w:s.type===3?170:110,start:s.t,end:s.t+.45});if(s.mode==='guard'){const k=e.targetNode;if(k===s.node&&has(s,'shield'))s.fx.shield=0;else if(!has(s,'wall')){s.core[k]=Math.max(0,s.core[k]-(has(s,'buffer')?8:16));if(k===s.node)damage(s,6)}}else if(Math.abs(s.x-e.target)<(s.type===3?110:80)&&s.y>395&&!safe&&!has(s,'bridge')&&!has(s,'umbrella')){if(has(s,'cushion'))s.fx.cushion=0;else if(s.fx.blocks>0)s.fx.blocks--;else damage(s,15)}else s.dodged++;}
+  if(s.type>0&&s.type<4&&!e.wind&&!safe){const target=has(s,'decoy')?s.decoyX:s.x;e.x+=Math.sign(target-e.x)*dt*(has(s,'slow')?24:52);e.x=clamp(e.x,60,1040);if(Math.abs(s.x-e.x)<55&&s.y>400&&!has(s,'web')&&!has(s,'wall'))damage(s,10);}
+ }
+ if(s.status!=='active')return;
+ [340,620,900].forEach((x,i)=>{if(Math.abs(s.x-x)<55)s.targets[i]=true});
+ if(s.mode==='guard'){if(s.core.every(v=>v<=0)){s.status='lost';note(s,'所有守点失守，可以重试')}else if(s.t>=45){s.status='won';note(s,'守望完成，领取战利品')}}
+ else if(s.x>1010&&((s.type===0||s.type===4)?s.targets.every(Boolean):e.hp<=0)){s.status='won';note(s,'已抵达出口，战斗完成')}
+ s.effects=s.effects.filter(x=>x.end>s.t);s.hazards=s.hazards.filter(x=>x.end>s.t);
+}
+return {create,step,attack,jump,skill,use,damage,has,fixed,flyers,enemies,itemKinds};
+})();
+if(typeof module!=='undefined')module.exports=HollowCombat;
+
+const combatBlueprint={
+  "status": "战斗设计方案，尚未实现；技能和影偶均为虚构机制，不作为物种生态事实。",
+  "roles": [
+    [
+      "举腹蚁",
+      "树皮岔口：两侧来袭的搬运影偶",
+      "让路障抵抗值归零，取回匣子",
+      "连续近身推击，第三击击退",
+      "低跃跨过裂缝",
+      "警戒扇面：前方命中并推退；冷却8秒",
+      "侧后方无保护，需转身迎敌"
+    ],
+    [
+      "地衣",
+      "裸露树皮：干燥风带不断移动",
+      "守住3处附着点45秒",
+      "选点释放一次阻拦脉冲",
+      "在3个附着点之间切换视角",
+      "贴地屏障：选点抵挡下一次环境伤害；冷却10秒",
+      "固定生长角色，不跑跳；需要分配保护位置"
+    ],
+    [
+      "大头蚁",
+      "种壳仓门：重型路障与窄门",
+      "击破2道仓门，带出目标",
+      "短距离重推，起手慢、破障强",
+      "小跃上低台",
+      "蓄力撞门：按住0.8秒后冲撞；冷却10秒",
+      "蓄力中不能防守，挥空后有恢复时间"
+    ],
+    [
+      "天牛",
+      "枯木长廊：高低木阶与碎屑",
+      "穿过走廊并打开封住的出口",
+      "前方横扫，范围较宽",
+      "越过一段低阶",
+      "木阶震击：打断周围影偶动作；冷却10秒",
+      "攻击后停顿较长，空中不能连攻"
+    ],
+    [
+      "弓背蚁",
+      "腐木梁桥：断桥与两层通路",
+      "开启两端机关后运回藏品",
+      "两段近身推击",
+      "连续两次短跃，第二次距离较短",
+      "急行：2秒内移动加快；冷却9秒",
+      "急行不能穿过墙壁或危险地面"
+    ],
+    [
+      "弹尾虫",
+      "湿叶跳台：间歇落水与漂浮平台",
+      "在60秒内触碰终点标记",
+      "短距轻推，伤害低",
+      "长距离跃起，落点可微调",
+      "弹射脱离：快速跃到附近安全点；冷却7秒",
+      "落点必须在可通行平台上，不能跳出场景"
+    ],
+    [
+      "拟蚁蛛",
+      "影子岔道：巡逻影偶与遮蔽物",
+      "取得目标后到出口，可全程避战",
+      "短距离突击",
+      "跃入相邻遮蔽区",
+      "拟态通行证：3秒内降低影偶关注；冷却12秒",
+      "是虚构潜行效果；攻击即解除，不代表现实蚂蚁必被欺骗"
+    ],
+    [
+      "星天牛",
+      "树根门厅：多段树根门与高台",
+      "击开标记门并避开落木",
+      "较慢的直线撞击",
+      "短暂越障落地",
+      "定向冲撞：沿箭头打破一个标记障碍；冷却12秒",
+      "与天牛是玩法分支；存在分类重叠，不设二者种间敌对"
+    ],
+    [
+      "晶粒鬼伞",
+      "腐木菌台：三处脆弱防守区",
+      "保护核心45秒并点亮3个标记",
+      "在选中区释放一次阻拦脉冲",
+      "切换到相邻防守区",
+      "菌幕：选区内影偶减速40%持续4秒；冷却10秒",
+      "固定角色；菌幕为视觉化技能，不作为现实菌毒性描述"
+    ],
+    [
+      "白蚁",
+      "木隧道：分叉通路与震动门",
+      "修通出口并护送一个目标",
+      "工具式敲击，擅长破标记障碍",
+      "跨越低矮断层",
+      "临时支撑：放一座持续6秒的通行桥；冷却12秒",
+      "桥不得与角色或物品重叠；失效前提示返回"
+    ],
+    [
+      "真菌",
+      "腐殖核心：资源线路被影偶截断",
+      "连接3条供给线并守住核心",
+      "沿已连接线路发出阻拦脉冲",
+      "切换到已连接节点",
+      "连线修复：立即恢复一条断线；冷却12秒",
+      "宽泛标签采用抽象守点形态，不指定真实物种能力"
+    ],
+    [
+      "纯白微皮伞",
+      "落叶伞廊：影偶从两侧靠近",
+      "保持两处伞台至少一处存活45秒",
+      "选区落下阻挡标记",
+      "切换左右伞台",
+      "伞下庇护：选台免受下一次命中；冷却9秒",
+      "另一侧仍需照看；不写成真实菌类主动战斗"
+    ],
+    [
+      "细叶麦冬",
+      "根际石阶：散落目标与间歇风带",
+      "用3处根际节点护送目标到出口",
+      "在选点升起短暂路障",
+      "在3处节点间切换",
+      "根际护栏：阻挡一条通路5秒；冷却10秒",
+      "不能移动本体；护栏只影响游戏影偶"
+    ],
+    [
+      "胶质真菌",
+      "湿润壁面：上下两条冲击通道",
+      "守住附着区45秒",
+      "选通道释放缓冲波",
+      "切换上下防区",
+      "柔性缓冲：4秒内所受环境伤害减半；冷却12秒",
+      "只能保住当前区，不能把两区同时变为无敌"
+    ],
+    [
+      "薜荔",
+      "攀援壁面：三个高度的悬挂平台",
+      "接住沿平台滑落的3件任务物",
+      "选中藤点推开阻挡影偶",
+      "在已开放高度间切换视角",
+      "临时藤桥：连接相邻两平台6秒；冷却12秒",
+      "是场景机关玩法，不把植物做成跳跃动物"
+    ],
+    [
+      "蚂蚁",
+      "树隙岔路：搬运目标与路障",
+      "取回目标并回到入口",
+      "均衡两段攻击",
+      "标准短跃",
+      "路线标记：显示安全出口6秒；冷却10秒",
+      "未鉴定蚁类的通用模板；不额外赋予毒液或特定化学技能"
+    ],
+    [
+      "蚊子",
+      "空中水滴廊：升降气流与碰撞影偶",
+      "触碰3个标记后飞出出口",
+      "短距气流推击",
+      "短时升高，松开缓慢下降",
+      "侧向闪避：迅速侧移；冷却7秒",
+      "空中体力有限，必须落在安全点恢复；不加入吸血设定"
+    ],
+    [
+      "蛾蚋",
+      "潮湿洞口：滴水帘与窄平台",
+      "穿越3道滴水帘取得目标",
+      "短距气流推击",
+      "短时升降飞行",
+      "贴壁躲避：最近安全点暂避1.5秒；冷却8秒",
+      "明确是成虫外观玩法；不混用幼虫栖境或能力"
+    ],
+    [
+      "蜗牛",
+      "苔边石径：低矮坡道与滚落碎屑",
+      "穿过石径，把目标带回出口",
+      "向前顶推，伤害低",
+      "贴地越过标记小坡，不起跳",
+      "缩壳防御：抵挡下一次正面伤害；冷却8秒",
+      "缩壳时无法移动；目标不能位于仅飞行可达区域"
+    ],
+    [
+      "蜘蛛",
+      "丝桥空隙：分层平台与游走影偶",
+      "打开出口机关并取回目标",
+      "近身两段推击",
+      "跃向相邻安全落点",
+      "拦路丝线：铺一道减速带4秒；冷却9秒",
+      "只控制影偶，不自动指定对任何现有角色捕食"
+    ],
+    [
+      "蝉",
+      "树皮回声厅：振动波与高低停靠点",
+      "激活3个回声机关",
+      "近身短推",
+      "短时飞到相邻停靠点",
+      "回声脉冲：打断附近一次蓄力；冷却12秒",
+      "成虫形态；回声技能为游戏设计，不将声音写成现实杀伤手段"
+    ],
+    [
+      "蟑螂",
+      "落叶夹道：低洞口与追赶影偶",
+      "绕过阻碍，先于追赶者到达出口",
+      "快速短推，单次伤害低",
+      "快速低位越障",
+      "疾行穿隙：沿标记窄道移动；冷却8秒",
+      "只能穿指定通道；不能穿越物品或其他角色"
+    ],
+    [
+      "西瓜虫",
+      "湿石坡：缓慢滚落的碎屑",
+      "护送目标穿过3段斜坡",
+      "短距离碰撞",
+      "贴地越过小台阶",
+      "团身防护：减伤50%持续3秒；冷却9秒",
+      "团身期间移动减半；用游戏角色设定表达，不推广到所有鼠妇"
+    ],
+    [
+      "霉菌",
+      "斑纹守区：边界不断被影偶侵入",
+      "维持至少2块区域45秒",
+      "在选区放一个阻挡标记",
+      "切换3块防区",
+      "暂时扩展：相邻区获得4秒缓冲；冷却12秒",
+      "仅表示抽象扩展，不写成感染、致病或真实菌类攻击"
+    ],
+    [
+      "靴耳",
+      "朽枝耳廊：附着点与晃动木片",
+      "守住附着点并接稳3次落物",
+      "选中一侧发出缓冲波",
+      "左右防区切换",
+      "耳廊护壁：抵挡一侧下一次冲击；冷却10秒",
+      "原档案名称未完成物种复核，采用抽象固定角色"
+    ],
+    [
+      "马陆",
+      "腐叶低廊：狭窄通路与连续碰撞",
+      "缓慢推进到出口，保住任务物",
+      "低位顶推，范围窄",
+      "沿低坡越障，不跳跃",
+      "卷曲守势：抵挡前两次命中；冷却12秒",
+      "守势最多4秒，期间不能攻击；不添加未经核实的化学武器"
+    ],
+    [
+      "鼻涕虫",
+      "湿润滑道：干燥区与移动遮蔽物",
+      "沿可通行路线抵达目标再返回",
+      "贴地推击",
+      "越过低槛，不跳跃",
+      "滑行脱离：沿当前安全路快速移动；冷却9秒",
+      "不能滑过干燥危险区；场景必须有完整地面通路"
+    ],
+    [
+      "蚜虫",
+      "叶背守望：三个叶柄节点",
+      "守住主节点45秒并发出一次求助",
+      "选点放置警示标记，不直接近战",
+      "切换叶柄节点",
+      "求助讯号：已有传递关系者确认后提供一次护盾；冷却15秒",
+      "没有合格传递玩家时改为自用弱护盾；不凭空召唤现实天敌"
+    ],
+    [
+      "灰蝶",
+      "叶间风道：侧风与高低停靠点",
+      "取回叶脉目标并飞回入口",
+      "短距气流推开影偶",
+      "短时升降飞行",
+      "顺风滑翔：2秒内降低飞行体力消耗；冷却10秒",
+      "本场用成虫外观；蚁蝶传递若要求幼虫阶段则不在成虫战斗启用"
+    ]
+  ],
+  "items": [
+    {
+      "name": "卷边落叶",
+      "type": "消耗",
+      "effect": "展开成一块持续6秒的临时踏板，可跨一处标记小缝",
+      "limits": "落点预览合法才消耗，平台消失前2秒闪烁；角色在上面则延迟消失",
+      "id": "卷边落叶",
+      "tier": "white",
+      "w": 1,
+      "h": 2,
+      "value": 120
+    },
+    {
+      "name": "树皮薄片",
+      "type": "消耗",
+      "effect": "抵挡下一次正面命中，持续上限5秒",
+      "limits": "使用时不能同时攻击；优先于普通减伤结算",
+      "id": "树皮薄片",
+      "tier": "white",
+      "w": 1,
+      "h": 2,
+      "value": 160
+    },
+    {
+      "name": "旧纽扣",
+      "type": "消耗",
+      "effect": "放置诱饵，使最近1个影偶转向3秒",
+      "limits": "只影响影偶，不改变真实角色之间的生态关系",
+      "id": "旧纽扣",
+      "tier": "white",
+      "w": 1,
+      "h": 1,
+      "value": 100
+    },
+    {
+      "name": "空种壳",
+      "type": "消耗",
+      "effect": "交给支持交换的守藏者，跳过一次争夺",
+      "limits": "对方接受的遭遇才显示使用按钮；不作所有生物通用食物",
+      "id": "空种壳",
+      "tier": "white",
+      "w": 1,
+      "h": 1,
+      "value": 150
+    },
+    {
+      "name": "细枝小叉",
+      "type": "工具",
+      "effect": "打开标记木闩；战斗时打断最近一个障碍物蓄力",
+      "limits": "不消耗，每场一次；不是通用高伤害武器",
+      "id": "细枝小叉",
+      "tier": "white",
+      "w": 1,
+      "h": 2,
+      "value": 200
+    },
+    {
+      "name": "半透明翅片",
+      "type": "消耗",
+      "effect": "产生一次侧向滑行，跨过地面冲击",
+      "limits": "持续1秒；无飞行角色表现为滑步，不赋予永久飞行",
+      "id": "半透明翅片",
+      "tier": "white",
+      "w": 2,
+      "h": 1,
+      "value": 220
+    },
+    {
+      "name": "雨后泥点",
+      "type": "消耗",
+      "effect": "在落点放置3秒缓冲区，影偶在其中减速30%",
+      "limits": "不影响玩家；不能与其他减速相乘叠加",
+      "id": "雨后泥点",
+      "tier": "white",
+      "w": 1,
+      "h": 1,
+      "value": 80
+    },
+    {
+      "name": "褪色纸角",
+      "type": "消耗",
+      "effect": "标记一个机关，使其下一次危险提前1秒预警",
+      "limits": "目标必须是可交互机关，没有目标不消耗",
+      "id": "褪色纸角",
+      "tier": "white",
+      "w": 1,
+      "h": 1,
+      "value": 110
+    },
+    {
+      "name": "磨圆小石",
+      "type": "消耗",
+      "effect": "投向选点，造成8点抵抗伤害并打断一次蓄力",
+      "limits": "瞄准前显示落点，投出后即消耗，挥空不返还",
+      "id": "磨圆小石",
+      "tier": "white",
+      "w": 1,
+      "h": 1,
+      "value": 90
+    },
+    {
+      "name": "蛛丝小结",
+      "type": "消耗",
+      "effect": "放置持续4秒的阻拦线，影偶首次经过停顿1秒",
+      "limits": "同一影偶同一根线仅生效一次；与穿堂风固定分支共用这一件",
+      "id": "蛛丝小结",
+      "tier": "white",
+      "w": 1,
+      "h": 1,
+      "value": 180
+    },
+    {
+      "name": "干草软垫",
+      "type": "消耗",
+      "effect": "落点放垫，抵挡一次坠落或落物伤害",
+      "limits": "保护一次后消失；不能清除积水或直接恢复体力",
+      "id": "干草软垫",
+      "tier": "white",
+      "w": 2,
+      "h": 1,
+      "value": 260
+    },
+    {
+      "name": "完整蝉蜕",
+      "type": "装备",
+      "effect": "外层护具：每场第一次受伤减半",
+      "limits": "只计算实际命中的第一次；不改变角色外观形态",
+      "id": "完整蝉蜕",
+      "tier": "blue",
+      "w": 1,
+      "h": 2,
+      "value": 1200
+    },
+    {
+      "name": "空蜗牛壳",
+      "type": "工具",
+      "effect": "放置单次遮蔽物，挡住下一次直线投射物",
+      "limits": "每场一次，不消耗；角色不会钻进不合体型的壳里",
+      "id": "空蜗牛壳",
+      "tier": "blue",
+      "w": 1,
+      "h": 1,
+      "value": 1000
+    },
+    {
+      "name": "蓝色玻璃珠",
+      "type": "工具",
+      "effect": "照亮一处隐藏落脚点或机关5秒",
+      "limits": "每场一次，不预先显示未搜索藏品的品质",
+      "id": "蓝色玻璃珠",
+      "tier": "blue",
+      "w": 1,
+      "h": 1,
+      "value": 900
+    },
+    {
+      "name": "叶脉书签",
+      "type": "装备",
+      "effect": "进入战斗时显示出口和已知安全通路",
+      "limits": "不自动解开机关，不保证未知区域没有危险",
+      "id": "叶脉书签",
+      "tier": "blue",
+      "w": 1,
+      "h": 2,
+      "value": 1100
+    },
+    {
+      "name": "雨滴透镜",
+      "type": "工具",
+      "effect": "显示场景机关弱点5秒，命中该点的下一击额外造成8伤害",
+      "limits": "每场一次；只增伤一次，不与其他额外伤害叠加",
+      "id": "雨滴透镜",
+      "tier": "blue",
+      "w": 1,
+      "h": 1,
+      "value": 1400
+    },
+    {
+      "name": "树脂小珠",
+      "type": "工具",
+      "effect": "在选点形成3秒减速区，影偶减速40%",
+      "limits": "每场一次，不消耗；与泥点、丝线取最高减速",
+      "id": "树脂小珠",
+      "tier": "blue",
+      "w": 1,
+      "h": 1,
+      "value": 1600
+    },
+    {
+      "name": "羽毛轻舟",
+      "type": "工具",
+      "effect": "在标记积水区召出一处持续8秒的可移动踏板",
+      "limits": "每场一次；无水场景不启用、不扣次数",
+      "id": "羽毛轻舟",
+      "tier": "blue",
+      "w": 1,
+      "h": 2,
+      "value": 1300
+    },
+    {
+      "name": "双生种子",
+      "type": "工具",
+      "effect": "生成两个可压住机关的标记物，持续6秒",
+      "limits": "每场一次；是虚构机关投影，不宣称真种子主动施法",
+      "id": "双生种子",
+      "tier": "blue",
+      "w": 2,
+      "h": 1,
+      "value": 1500
+    },
+    {
+      "name": "迷你菌伞",
+      "type": "工具",
+      "effect": "撑起持续4秒的落物遮挡区",
+      "limits": "每场一次，只挡落物，不能挡地面冲击",
+      "id": "迷你菌伞",
+      "tier": "blue",
+      "w": 1,
+      "h": 2,
+      "value": 1800
+    },
+    {
+      "name": "三重足迹",
+      "type": "情报",
+      "effect": "显示巡逻影偶未来3秒的移动路线，持续6秒",
+      "limits": "每场一次，不改变对方路径，不显示未出现的敌人",
+      "id": "三重足迹",
+      "tier": "purple",
+      "w": 1,
+      "h": 2,
+      "value": 6000
+    },
+    {
+      "name": "雨声琥珀",
+      "type": "工具",
+      "effect": "令环境机关暂停3秒",
+      "limits": "每场一次；不暂停敌人、不重置倒计时类通关目标",
+      "id": "雨声琥珀",
+      "tier": "purple",
+      "w": 1,
+      "h": 1,
+      "value": 8500
+    },
+    {
+      "name": "叶脉密信",
+      "type": "任务",
+      "effect": "揭示本洞一条支线目标；完成后开放一格事件奖励",
+      "limits": "每局一次；奖励固定叶脉书签，独立领取，不刷新普通掉落",
+      "id": "叶脉密信",
+      "tier": "purple",
+      "w": 1,
+      "h": 2,
+      "value": 9000
+    },
+    {
+      "name": "雨季水位尺",
+      "type": "装备",
+      "effect": "积水上升与退去提前2秒显示预告",
+      "limits": "无积水场景显示未适用；不改变积水伤害或物品价值",
+      "id": "雨季水位尺",
+      "tier": "purple",
+      "w": 1,
+      "h": 2,
+      "value": 6500
+    },
+    {
+      "name": "羽化之门",
+      "type": "工具",
+      "effect": "在已到达的安全点之间建立单次返回通路",
+      "limits": "每场一次；只能回到安全点，不能跳过未完成目标直接获胜",
+      "id": "羽化之门",
+      "tier": "purple",
+      "w": 2,
+      "h": 2,
+      "value": 11000
+    },
+    {
+      "name": "双层旧蛛网",
+      "type": "工具",
+      "effect": "选择一条通道，连续拦住两次影偶接近，每次0.8秒",
+      "limits": "每场一次；持续上限5秒，首领仅减速，不被完全定住",
+      "id": "双层旧蛛网",
+      "tier": "purple",
+      "w": 2,
+      "h": 2,
+      "value": 9500
+    },
+    {
+      "name": "蜜露星图",
+      "type": "情报",
+      "effect": "在有合格传递关系时，标记伙伴已确认的一个安全点",
+      "limits": "每局一次；无合格伙伴时仅查看自己的已知点，不新建传递关系",
+      "id": "蜜露星图",
+      "tier": "purple",
+      "w": 1,
+      "h": 2,
+      "value": 12000
+    },
+    {
+      "name": "蝶蛹留影",
+      "type": "工具",
+      "effect": "在原位放置3秒残影吸引影偶，玩家可移开",
+      "limits": "每场一次；是藏品幻影效果，不让成虫变成幼虫或蛹",
+      "id": "蝶蛹留影",
+      "tier": "purple",
+      "w": 1,
+      "h": 2,
+      "value": 10000
+    },
+    {
+      "name": "拟态双面牌",
+      "type": "工具",
+      "effect": "3秒内降低影偶关注；玩家攻击后立即失效",
+      "limits": "每场一次；不改变已触发的生态捕食结局",
+      "id": "拟态双面牌",
+      "tier": "purple",
+      "w": 2,
+      "h": 1,
+      "value": 7000
+    },
+    {
+      "name": "失物小匣",
+      "type": "容器",
+      "effect": "独立2格任务袋，只装本场任务物，出场时回到领取区",
+      "limits": "不扩大普通24格背包；每件物品仍有唯一归属，禁止套娃装匣子",
+      "id": "失物小匣",
+      "tier": "purple",
+      "w": 2,
+      "h": 2,
+      "value": 15000
+    },
+    {
+      "name": "树隙之心",
+      "type": "装备",
+      "effect": "每场可主动恢复20体力，最多一次",
+      "limits": "不超过100上限；已失败后不能使用，不消耗藏品",
+      "id": "树隙之心",
+      "tier": "gold",
+      "w": 2,
+      "h": 2,
+      "value": 80000
+    },
+    {
+      "name": "第一场雨",
+      "type": "工具",
+      "effect": "在选点恢复一个被环境暂时封闭的平台6秒",
+      "limits": "每场一次；只恢复原有平台，不新增真实树洞格子",
+      "id": "第一场雨",
+      "tier": "gold",
+      "w": 1,
+      "h": 2,
+      "value": 60000
+    },
+    {
+      "name": "无名住客的钥匙",
+      "type": "任务",
+      "effect": "开启一个指定的额外支线入口",
+      "limits": "每局一次，不消耗；不开最终出口、不重抽金色藏品",
+      "id": "无名住客的钥匙",
+      "tier": "gold",
+      "w": 1,
+      "h": 1,
+      "value": 30000
+    },
+    {
+      "name": "一棵树的年轮",
+      "type": "装备",
+      "effect": "本场首次连续两次受伤之间，提供2秒伤害减半窗口",
+      "limits": "只触发一次；不延长无敌，不逆转已经结算的失败",
+      "id": "一棵树的年轮",
+      "tier": "gold",
+      "w": 3,
+      "h": 3,
+      "value": 90000
+    },
+    {
+      "name": "蜕变冠冕",
+      "type": "装备",
+      "effect": "本场第一次主动技能释放后，返还一半该次冷却",
+      "limits": "不改变形态；召唤、护盾等技能不因此重复结算",
+      "id": "蜕变冠冕",
+      "tier": "gold",
+      "w": 2,
+      "h": 2,
+      "value": 75000
+    },
+    {
+      "name": "共居契约",
+      "type": "任务",
+      "effect": "最终栖息地选择时生成邀请，展示双方同意情况",
+      "limits": "不限次数查看；双方可拒绝，不能强制同住或绕过环境条件",
+      "id": "共居契约",
+      "tier": "gold",
+      "w": 1,
+      "h": 2,
+      "value": 65000
+    },
+    {
+      "name": "振动乐章",
+      "type": "装备",
+      "effect": "冲击类动作提前1秒预警，并同步显示视觉波纹",
+      "limits": "全场生效；与其他同类预警取最长，不叠加",
+      "id": "振动乐章",
+      "tier": "gold",
+      "w": 2,
+      "h": 2,
+      "value": 85000
+    },
+    {
+      "name": "四季洞藏",
+      "type": "工具",
+      "effect": "战前选择一种适应：防一次雨／风／落物伤害",
+      "limits": "每场选一种且只保护一次；入场后不能换型反复刷新",
+      "id": "四季洞藏",
+      "tier": "gold",
+      "w": 3,
+      "h": 3,
+      "value": 120000
+    },
+    {
+      "name": "校园遗失的星星",
+      "type": "工具",
+      "effect": "照亮全场可通行平台6秒，标出一个未开启机关",
+      "limits": "每场一次；不显示藏品品质、不修改任务目标",
+      "id": "校园遗失的星星",
+      "tier": "gold",
+      "w": 1,
+      "h": 2,
+      "value": 100000
+    },
+    {
+      "name": "生命回环",
+      "type": "装备",
+      "effect": "本场首次体力将归零时，保留1点并保护1秒",
+      "limits": "每局冒险一次；不作用于提交线索后的生态失败结局",
+      "id": "生命回环",
+      "tier": "gold",
+      "w": 2,
+      "h": 2,
+      "value": 110000
+    },
+    {
+      "name": "虹露棱晶",
+      "type": "工具",
+      "effect": "复制本场刚用过的一个蓝色工具效果，基础效果不增强",
+      "limits": "每局冒险一次；不复制任务奖励、容器、复活或任何消耗与生成物品",
+      "id": "虹露棱晶",
+      "tier": "rainbow",
+      "w": 1,
+      "h": 1,
+      "value": 250000
+    },
+    {
+      "name": "极光叶脉",
+      "type": "装备",
+      "effect": "战前选定的主技能冷却减少15%",
+      "limits": "全场生效，最多一件同名效果；固定守点角色同样适用",
+      "id": "极光叶脉",
+      "tier": "rainbow",
+      "w": 1,
+      "h": 2,
+      "value": 380000
+    },
+    {
+      "name": "万象树种",
+      "type": "工具",
+      "effect": "在已到达的安全点建立一次撤退门，保留当前背包返回洞口",
+      "limits": "每局冒险一次；撤退不算通关，不带走未拾取物，不新增藏品",
+      "id": "万象树种",
+      "tier": "rainbow",
+      "w": 2,
+      "h": 2,
+      "value": 600000
+    }
+  ]
+};
+const combatRoleData=Object.fromEntries(combatBlueprint.roles.map(r=>[r[0],r]));
+const liveSkills={
+ '举腹蚁':'警戒扇面：近前25点伤害，将守卫推开90距离',
+ '地衣':'附着屏障：当前节点恢复15，获得8秒一次护盾',
+ '大头蚁':'蓄力冲撞：0.8秒后冲出90距离，近前40点伤害',
+ '天牛':'木屑震落：近前22点伤害，打断蓄力并延后攻击2秒',
+ '弓背蚁':'疾行：移动速度由185升至310，持续2秒',
+ '弹尾虫':'弹射脱离：向前高跳并移动100距离，保护0.6秒',
+ '拟蚁蛛':'拟态通行证：隐藏3秒，攻击后解除',
+ '星天牛':'重角冲撞：前冲140距离，近前35点伤害',
+ '晶粒鬼伞':'菌幕：守卫移动速度降至24，持续4秒',
+ '白蚁':'临时支撑：6秒内免受地面冲击并跨过路障',
+ '真菌':'网络修复：当前守点恢复45，上限100',
+ '纯白微皮伞':'伞下庇护：当前节点恢复15，获得8秒一次护盾',
+ '细叶麦冬':'根际护栏：5秒内阻挡守卫对节点和角色的接触伤害',
+ '胶质真菌':'弹性缓冲：4秒内体力伤害减半，节点冲击减半',
+ '薜荔':'临时藤桥：当前节点恢复25，并生成6秒踏板',
+ '蚂蚁':'路线标记：显示安全出口6秒',
+ '蚊子':'轻身闪避：向前闪移150距离，保护0.6秒',
+ '蛾蚋':'贴壁躲避：移到最近的树皮落脚点，保护1.5秒',
+ '蜗牛':'缩壳防御：停止移动与攻击3秒，减伤一半，另获5秒一次护盾',
+ '蜘蛛':'拦路丝线：4秒内守卫移动减慢，并阻挡接触伤害',
+ '蝉':'振动脉冲：打断蓄力，延后3秒攻击，近前12点伤害',
+ '蟑螂':'疾行穿隙：向前闪移200距离，保护0.7秒',
+ '西瓜虫':'卷曲防御：3秒内停止移动与攻击，体力伤害减半',
+ '霉菌':'暂时扩展：其他两个节点恢复12，获得4秒减伤',
+ '靴耳':'层叠护壁：当前节点恢复15，获得8秒一次护盾',
+ '马陆':'卷曲守势：4秒内停止移动与攻击，减伤并抵挡两次命中',
+ '鼻涕虫':'滑行脱离：移速提升2秒，保护0.5秒',
+ '蚜虫':'蜜露讯号：有传递伙伴时获得8秒一次护盾，独自时3秒',
+ '灰蝶':'顺风滑翔：升空后降低下落速度，持续2秒'
+};
+for(const r of combatBlueprint.roles){const cd=r[5].match(/冷却(\d+)秒/)?.[1]||10,mode=HollowCombat.create(r[0],0).mode;r[1]=r[1].split('：')[0]+'：树皮高墙、根系道路与守卫';r[3]=mode==='guard'?'向守卫释放远程推力，命中10点伤害；间隔0.4秒':`面向近处推击，命中${['大头蚁','星天牛','天牛'].includes(r[0])?16:['蜗牛','鼻涕虫','弹尾虫'].includes(r[0])?7:10}点伤害；间隔0.4秒`;r[4]=mode==='guard'?'在三个守点间切换，间隔0.3秒':mode==='fly'?'扇动升空，自然缓慢落下；可连续扇动':['蜗牛','马陆','鼻涕虫','西瓜虫'].includes(r[0])?'贴地前移90距离，保护0.7秒；间隔2秒':r[0]==='弓背蚁'?'跳跃；空中可以再次跳跃一次':r[0]==='弹尾虫'?'强力高跳，越过地面冲击':'跳跃躲避地面冲击';r[5]=liveSkills[r[0]]+'；冷却'+cd+'秒';r[6]=mode==='guard'?'守点至少保留一个满45秒即可通关；K切换节点。':'橙色标记为落点预警。守卫退去后走到右侧出口。'}
+const combatItemData=Object.fromEntries(combatBlueprint.items.map(r=>[r.name,r]));
+// Describe the playable rules, including adaptations from the initial design document.
+const combatLiveText={
+ '卷边落叶':'展开6秒临时踏板，保护角色免受地面冲击并越过路障。消耗1件。',
+ '树皮薄片':'5秒内抵挡下一次命中。消耗1件。','旧纽扣':'在原位留下3秒诱饵，引开守卫的移动与落点预警。消耗1件。',
+ '空种壳':'巨蚁、巨蛛接受后让开道路；其他对手无法使用。成功交换消耗1件。','细枝小叉':'向前敲击18点伤害，优先破坏路障，并打断守卫蓄力。每场一次。',
+ '半透明翅片':'沿面向滑行140距离，保护1秒。消耗1件。','雨后泥点':'守卫移动减速3秒。消耗1件。','褪色纸角':'接下来30秒，守卫冲击预警提前1秒。消耗1件。',
+ '磨圆小石':'对守卫造成8点伤害并打断蓄力。消耗1件。','蛛丝小结':'4秒内减慢守卫并阻挡其接触伤害。消耗1件。','干草软垫':'抵挡下一次地面冲击，最多保留60秒。消耗1件。',
+ '完整蝉蜕':'装备后，本场第一次体力伤害减半。','空蜗牛壳':'抵挡下一次命中，上限60秒。每场一次，保留藏品。','蓝色玻璃珠':'显示安全通行方向5秒。每场一次。',
+ '叶脉书签':'装备后持续显示出口路线。','雨滴透镜':'5秒内显示路线，下一次命中守卫额外造成8伤害。每场一次。','树脂小珠':'守卫移动减速3秒。每场一次。',
+ '羽毛轻舟':'仅雨潮场景可用：踏板保护角色免受地面冲击8秒。每场一次。','双生种子':'点亮前两个路标，帮助完成支线收集。每场一次。','迷你菌伞':'4秒内遮挡环境冲击。每场一次。',
+ '三重足迹':'显示守卫接近路线6秒。每场一次。','雨声琥珀':'暂停守卫移动和攻击3秒，目标倒计时继续。每场一次。',
+ '叶脉密信':'本局接受一次支线：点亮三个路标并通关，追加一件叶脉书签。','雨季水位尺':'装备后，雨潮冲击预警提前2秒。',
+ '羽化之门':'回到已知入口并获得1秒保护，仍须完成目标。每场一次。','双层旧蛛网':'5秒内减慢守卫并阻挡接触伤害。每场一次。',
+ '蜜露星图':'显示自己的安全路线12秒；有传递伙伴时额外获得一次6秒护盾。本局一次。','蝶蛹留影':'在原位留下3秒残影，引开守卫。每场一次。',
+ '拟态双面牌':'3秒内躲过守卫追踪与地面冲击，攻击立即解除。每场一次。','失物小匣':'开启两格任务匣，记录前两份路标碎片；通关且收齐时追加旧纽扣，普通背包不扩容。',
+ '树隙之心':'恢复20体力，不超过100。每场一次。','第一场雨':'恢复6秒安全踏板并遮挡环境冲击。每场一次。',
+ '无名住客的钥匙':'本局开启一次支线：点亮中间路标并通关，追加蓝色玻璃珠。','一棵树的年轮':'首次受伤后，接下来2秒体力伤害减半。',
+ '蜕变冠冕':'本场首次主技能冷却减半。','共居契约':'有传递关系的存活伙伴在同机确认后，获得一次10秒护盾；不自动完成最终同住。每场一次。',
+ '振动乐章':'装备后，守卫冲击预警提前1秒，并显示橙色落点。','四季洞藏':'装备后抵挡本场第一次伤害。','校园遗失的星星':'显示出口方向与守卫接近路线6秒。每场一次。',
+ '生命回环':'装备后，本局首次致命伤保留1点体力并保护1秒；不能撤销线索阶段的失败结局。','虹露棱晶':'本局复制一次刚使用过的蓝色主动工具效果；不能复制装备或奖励。',
+ '极光叶脉':'装备后，主技能冷却缩短15%。','万象树种':'本局开启一次撤退门，保留背包返回整备；不算通关。'};
+const battle=document.createElement('section');battle.id='battle';battle.hidden=true;document.body.append(battle);
+let encounter=null,battleHole=null,battlePlayer=null,battleRAF=0,battleLast=0,battleSaved=0,battlePaused=false,battleKeys={},battleContext=null,battleLoadout=[],battleScreen='prep';
+function combatStore(){if(!encounter||!battleHole)return;battleHole.combat=encounter;battlePlayer.combatRunUses=encounter.runUses;save()}
+function combatStop(){cancelAnimationFrame(battleRAF);battleRAF=0;battleKeys={};forestAudio.stopSearch();combatStore()}
+function combatClose(){combatStop();battle.hidden=true;encounter=null;battleHole=null;battlePlayer=null;battleScreen='prep';if(currentHole){lootView();search()}else world()}
+function combatAlly(){return party.some(p=>p!==battlePlayer&&DATA.round2.some(r=>[r.生物A,r.生物B].includes(p.name)&&[r.生物A,r.生物B].includes(battlePlayer.name)))}
+function combatEquip(){encounter.loadout=battleLoadout.filter(uid=>battlePlayer.bag.some(i=>i.uid===uid)).slice(0,2);encounter.equipped=encounter.loadout.map(uid=>battlePlayer.bag.find(i=>i.uid===uid).name);combatStore()}
+function openCombat(){if(!currentHole)return;clearTimeout(searchTimer);searchTimer=null;searchingUid=null;forestAudio.stopSearch();battlePlayer=player();battleHole=battlePlayer.holes.find(h=>h.id===currentHole);const idx=battlePlayer.holes.indexOf(battleHole);
+ encounter=battleHole.combat||HollowCombat.create(battlePlayer.name,idx);encounter.runUses=battlePlayer.combatRunUses||{};encounter.skillCooldown=+(combatRoleData[battlePlayer.name][5].match(/冷却(\d+)秒/)?.[1]||10);encounter.rewards=encounter.rewards||[];battleLoadout=encounter.loadout||[];battle.hidden=false;battleScreen='prep';battlePaused=true;combatStore();combatPrep();
+}
+function battleHeader(sub){return `<header class="battle-head"><div><small>BETWIXT · HOLLOW ENCOUNTER</small><h2>树隙深处</h2><small>${escape(sub)}</small></div><div><button data-battle="codex">角色与物品图鉴</button> <button data-battle="close">返回搜索 ↗</button></div></header>`}
+function combatDesc(i){const kind=HollowCombat.itemKinds[i.name]||'工具';return `${kind} · ${combatLiveText[i.name]}`}
+function combatPrep(){const r=combatRoleData[battlePlayer.name],won=encounter.status==='won';battleScreen='prep';battle.innerHTML=battleHeader('树洞 '+battleHole.id+' · '+r[1].split('：')[0])+`<main class="battle-prep"><aside class="battle-panel"><div class="battle-kicker">YOUR CHARACTER</div><div class="silhouette" style="${sprite(battlePlayer.roleIndex)}"></div><h3>${escape(battlePlayer.nickname)}</h3><div>${escape(battlePlayer.name)} · ${encounter.mode==='guard'?'节点守望':encounter.mode==='fly'?'空中穿行':'地面探索'}</div><div class="battle-line"><b>普通动作 / J</b><p>${escape(r[3])}</p></div><div class="battle-line"><b>越障 / K</b><p>${escape(r[4])}</p></div><div class="battle-line"><b>主技能 / L</b><p>${escape(r[5])}</p></div><p class="battle-muted">${escape(r[6])}</p></aside><section class="battle-panel"><div class="battle-kicker">ENCOUNTER / ${String(battlePlayer.holes.indexOf(battleHole)+1).padStart(2,'0')}</div><h3>${escape(encounter.name)}</h3><div class="battle-enemies"><canvas id="enemy-preview" width="600" height="220" style="max-width:100%;height:220px" aria-label="${escape(encounter.name)}简笔画"></canvas></div><div class="battle-line">场景：${escape(r[1])}</div><div class="battle-line">本洞目标：${escape(encounter.goal)}</div><p class="battle-muted">巨蚁、巨蛛与蛛神是树隙世界的幻想守卫。橙色轮廓预告攻击范围，躲开后再反击。</p><div class="battle-hint">${won?'守卫已经退去。未领取的奖励仍在下方。':encounter.status==='lost'?'可重新挑战；道具消耗和使用次数仍保留。':'A／D 移动，J 攻击，K 越障，L 技能，1／2 道具，E 交互，P 暂停。'}</div><button class="battle-primary" data-battle="start" ${won?'disabled':''}>${encounter.status==='active'?'继续战斗':encounter.status==='lost'?'重新挑战':'进入战斗'} →</button> <button data-battle="close">这次先离开</button></section><aside class="battle-panel"><div class="battle-kicker">LOADOUT · 2 SLOTS</div><h3>从背包选择两件物品</h3><p class="battle-muted">物品仍占原背包格。消耗品会提示确认；装备在快捷栏内自动生效。</p><div class="battle-items">${battlePlayer.bag.map(i=>`<button class="battle-pick ${battleLoadout.includes(i.uid)?'active':''}" style="--tier:${colours[i.tier]}" data-equip="${escape(i.uid)}" title="${escape(combatDesc(i))}"><div class="battle-item-art">${art(i)}</div><b>${escape(i.name)}</b><small>${HollowCombat.itemKinds[i.name]||'工具'} · ${i.w}×${i.h}格 ${battleLoadout.includes(i.uid)?'✓':''}</small></button>`).join('')||'<p class="battle-muted">背包还没有藏品。可以先搜索收取，也可以直接用角色技能挑战。</p>'}</div><div class="battle-hint" id="loadout-detail">点击物品查看用途并装入快捷栏。</div><p class="battle-muted">任务与容器可在战斗暂停后独立使用；普通背包始终24格。</p></aside></main><div class="battle-rewards">${combatRewardCards()}</div>`;
+ const c=battle.querySelector('#enemy-preview').getContext('2d');drawEnemy(c,encounter.type,300,145,1.1,0,false);
+}
+function combatRewardCards(){return (encounter.rewards||[]).map(i=>`<article class="battle-reward" style="--tier:${colours[i.tier]}"><div class="battle-item-art">${art(i)}</div><b>${escape(i.name)}</b><p>${tierNames[i.tier]} · ${i.w}×${i.h}格 · ${i.value.toLocaleString()}</p><button data-reward="${escape(i.uid)}" ${i.claimed?'disabled':''}>${i.claimed?'已收入背包':'收入背包'}</button></article>`).join('')}
+function combatStart(){combatStop();if(encounter.status==='won')return;if(encounter.status==='lost'){
+ const old=encounter;encounter={...HollowCombat.create(battlePlayer.name,battlePlayer.holes.indexOf(battleHole)),used:old.used,runUses:old.runUses,loadout:old.loadout,rewards:old.rewards,skillCooldown:old.skillCooldown,letterTask:old.letterTask,keyTask:old.keyTask,taskBox:old.taskBox};
+ }encounter.status='active';combatEquip();battlePaused=false;battleScreen='arena';battleLast=0;combatArena();battleRAF=requestAnimationFrame(combatTick);}
+function combatArena(){const r=combatRoleData[battlePlayer.name];battle.innerHTML=battleHeader(battlePlayer.nickname+' · '+r[1].split('：')[0])+`<main class="battle-shell"><section><div class="battle-stage"><canvas id="battle-canvas" width="1100" height="540" tabindex="0" aria-label="战斗场景，使用A D移动，J攻击，K越障，L技能，P暂停"></canvas><div class="battle-hero"><div class="silhouette" style="${sprite(battlePlayer.roleIndex)}"></div></div><div class="battle-bars"><div class="battle-bar">${escape(battlePlayer.nickname)} <span id="battle-hp"></span><i><em id="battle-hp-fill"></em></i></div><div class="battle-bar enemy">${escape(encounter.name)} <span id="enemy-hp"></span><i><em id="enemy-hp-fill"></em></i></div></div><div class="battle-task" id="battle-goal"></div><div id="battle-state"></div></div><div class="battle-hint" id="battle-message">观察橙色预警，越障躲开冲击；按 P 可随时暂停。</div></section><aside class="battle-panel battle-sidebar"><div class="battle-kicker">OBJECTIVE</div><h3>${escape(encounter.goal)}</h3><p>${escape(r[1])}</p><div class="battle-line"><b>L · 主技能</b><p>${escape(r[5])}</p></div><div id="battle-equipment"></div><button data-battle="tasks">任务／容器</button> <button data-battle="pause">暂停 P</button><div class="battle-log" id="battle-log"></div></aside></main><footer class="battle-hotbar"><div class="battle-mobile"><button data-hold="left">←</button><button data-hold="right">→</button></div><button data-hold="attack"><kbd>J</kbd><strong>攻击</strong></button><button data-battle="jump"><kbd>K</kbd><strong>${encounter.mode==='guard'?'切换':'越障'}</strong></button><button data-battle="skill"><kbd>L</kbd><strong id="skill-label">技能</strong></button>${[0,1].map(k=>{const i=battlePlayer.bag.find(i=>i.uid===encounter.loadout[k]);return `<button class="battle-slot" data-slot="${k}" title="${i?escape(combatDesc(i)):''}"><kbd>${k+1}</kbd><b>${i?escape(i.name):'空槽'}</b><small>${i?HollowCombat.itemKinds[i.name]||'工具':'战前装备'}</small></button>`}).join('')}<button data-battle="interact"><kbd>E</kbd><strong>交互</strong></button><button data-battle="pause"><kbd>P</kbd><strong>暂停</strong></button><button data-battle="tasks"><kbd>背包</kbd><strong>任务</strong></button></footer>`;battleContext=battle.querySelector('canvas').getContext('2d');battle.querySelector('canvas').focus();combatPaint();}
+function drawEnemy(c,type,x,y,scale,t,wind){c.save();c.translate(x,y);c.scale(scale,scale);c.lineWidth=2;c.lineCap='round';c.lineJoin='round';c.strokeStyle=wind?'#f4b16d':'#d3d6c2';c.fillStyle='#19251f';c.shadowBlur=wind?12:2;c.shadowColor=wind?'#e47438':'#90aa8e';
+ const line=(pts)=>{c.beginPath();pts.forEach(([a,b],i)=>i?c.lineTo(a,b):c.moveTo(a,b));c.stroke()};
+ if(type===0){for(let i=0;i<5;i++){c.save();c.rotate((i-2)*.15);c.strokeRect(-65+i*20,-85,18,100);line([[-60+i*20,-65],[-53+i*20,-25],[-60+i*20,10]]);c.restore()}line([[-85,0],[0,-10],[85,3]]);}
+ else if(type===4){for(let i=0;i<5;i++){let xx=i*32-64,yy=-100+Math.sin(t*2+i)*20;line([[xx,yy],[xx-8,yy+28]]);}for(let i=0;i<3;i++)line([[-90,i*12],[0,-7+i*12],[90,i*12]]);}
+ else {const spider=type>=2,legs=spider?4:3;for(let side of [-1,1])for(let i=0;i<legs;i++){const sway=Math.sin(t*7+i)*7;line([[side*18,-35+i*8],[side*(55+i*10),-65+i*22+sway],[side*(80+i*9),i*7+sway]])}c.beginPath();c.ellipse(0,-45,spider?30:24,spider?37:30,0,0,Math.PI*2);c.fill();c.stroke();c.beginPath();c.ellipse(0,-8,spider?23:18,spider?24:18,0,0,Math.PI*2);c.fill();c.stroke();if(!spider){line([[-10,-18],[-38,-48],[-44,-62]]);line([[10,-18],[35,-50],[46,-58]])}for(let a of [-1,1]){c.beginPath();c.arc(a*9,-5,3,0,Math.PI*2);c.fillStyle='#e5b375';c.fill()}if(type===3){c.strokeStyle='#dac181';c.beginPath();c.ellipse(0,-45,78,78,0,0,Math.PI*2);c.stroke();line([[-25,-80],[-35,-115],[-10,-99],[0,-125],[12,-99],[35,-115],[25,-80]]);for(let i=0;i<8;i++){const a=i*Math.PI/4;c.beginPath();c.arc(Math.cos(a)*78,-45+Math.sin(a)*78,4,0,Math.PI*2);c.stroke()}}}
+ c.restore();}
+function combatPaint(){if(!battleContext||battleScreen!=='arena')return;const s=encounter,c=battleContext,t=s.t;c.clearRect(0,0,1100,540);const roleSeed=[...s.role].reduce((v,ch)=>v+ch.charCodeAt(0),0);const grad=c.createLinearGradient(0,0,0,540);grad.addColorStop(0,'#081514');grad.addColorStop(.65,['#26392e','#34372a','#1f3030','#252c33','#1b3440'][s.type]);grad.addColorStop(1,'#101a17');c.fillStyle=grad;c.fillRect(0,0,1100,540);
+ // Layered bark walls, hand-drawn roots and scattered shafts of light.
+ for(let i=0;i<14;i++){let x=i*90+Math.sin(i*4+roleSeed)*30;c.fillStyle=i%2?'#0b1418aa':'#14221bbb';c.beginPath();c.moveTo(x,0);c.lineTo(x+50,0);c.lineTo(x+10+Math.sin(i)*45,460);c.lineTo(x-50,460);c.fill();c.strokeStyle='#7c8a6230';c.lineWidth=1;c.beginPath();c.moveTo(x+20,0);c.bezierCurveTo(x-45,150,x+90,240,x-30,460);c.stroke()}
+ c.fillStyle='#15251d';c.beginPath();c.moveTo(0,460);for(let x=0;x<=1100;x+=20)c.lineTo(x,460+Math.sin(x*.07)*4);c.lineTo(1100,540);c.lineTo(0,540);c.fill();c.strokeStyle='#7c8d61';c.lineWidth=2;c.beginPath();c.moveTo(0,460);c.lineTo(1100,460);c.stroke();for(let i=0;i<65;i++){let x=i*19;c.strokeStyle='#53654666';c.beginPath();c.moveTo(x,460);c.lineTo(x-5,444-Math.sin(i)*8);c.lineTo(x+3,453);c.stroke()}
+ if(s.type===4){c.fillStyle='#6baca42a';c.fillRect(270,445,420,30);for(let i=0;i<45;i++){let x=(i*89+t*45)%1100,y=(i*33+t*120)%450;c.strokeStyle='#adccd64a';c.beginPath();c.moveTo(x,y);c.lineTo(x-4,y+15);c.stroke()}}
+ if(HollowCombat.has(s,'route')||s.equipped?.includes('叶脉书签')){c.strokeStyle='#b7d99b99';c.setLineDash([6,8]);c.beginPath();c.moveTo(60,435);c.lineTo(1040,435);c.stroke();c.setLineDash([])}
+ if(s.mode==='guard'){[180,500,820].forEach((x,i)=>{c.fillStyle=i===s.node?'#b9cf8e':'#6a8265';c.fillRect(x-50,480,100*(s.core[i]/100),6);c.strokeStyle=i===s.node?'#decf9e':'#718064';c.strokeRect(x-50,480,100,6);c.beginPath();c.arc(x,450,42,Math.PI,0);c.stroke();c.fillStyle='#c4cfb8';c.font='12px Microsoft YaHei';c.fillText('守点 '+(i+1),x-22,510)})}else [340,620,900].forEach((x,i)=>{c.strokeStyle=s.targets[i]?'#cfdb8d':'#7e976f';c.lineWidth=2;c.beginPath();c.moveTo(x,420);c.lineTo(x+12,435);c.lineTo(x,450);c.lineTo(x-12,435);c.closePath();c.stroke();if(s.targets[i]){c.fillStyle='#b8cc6a66';c.fill()}});
+ for(const b of s.barriers||[]){if(b.hp>0){c.fillStyle='#445441';c.fillRect(b.x-20,420,40,40);c.strokeStyle='#bcb88c';c.strokeRect(b.x-20,420,40,40);c.fillStyle='#d2cf9f';c.font='11px Microsoft YaHei';c.fillText('路障 '+b.hp,b.x-22,410)}}
+ if(HollowCombat.has(s,'bridge')){c.fillStyle='#b8b27b';c.fillRect(s.x-70,456,140,5)}
+ if(HollowCombat.has(s,'web')||HollowCombat.has(s,'slow')){c.strokeStyle='#bbc9b999';for(let i=0;i<6;i++){c.beginPath();c.moveTo(s.x-100+i*35,455);c.lineTo(s.x+80-i*25,407);c.stroke()}}
+ if(HollowCombat.has(s,'forecast')){c.strokeStyle='#c2cb8b88';c.setLineDash([3,5]);c.beginPath();c.moveTo(s.enemy.x,442);c.lineTo(s.x,442);c.stroke();c.setLineDash([])}
+ if(s.enemy.wind){c.fillStyle='#e39d4d26';c.fillRect(s.enemy.target-85,400,170,60);c.strokeStyle='#e9b270';c.strokeRect(s.enemy.target-85,400,170,60);c.fillStyle='#f4cb8c';c.font='16px Microsoft YaHei';c.fillText('冲击预警',s.enemy.target-34,390)}
+ s.hazards.forEach(h=>{c.fillStyle='#e79d5260';c.fillRect(h.x-h.w/2,400,h.w,60)});
+ if(s.enemy.hp>0)drawEnemy(c,s.type,s.enemy.x,453,s.type===3?1.25:1,t,!!s.enemy.wind);
+ c.strokeStyle='#c8c98a';c.lineWidth=2;c.strokeRect(1020,375,45,85);c.fillStyle='#acc28b';c.font='12px Microsoft YaHei';c.fillText('出口 E',1015,367);
+ if(HollowCombat.has(s,'shield')||HollowCombat.has(s,'guard')||HollowCombat.has(s,'safe')){c.strokeStyle='#bbdcae';c.beginPath();c.ellipse(s.x,s.y-35,42,55,0,0,Math.PI*2);c.stroke()}
+ if(HollowCombat.has(s,'attacking')){c.strokeStyle='#f6d89c';c.lineWidth=4;c.beginPath();c.arc(s.x+s.dir*35,s.y-40,48,s.dir===1?-1.1:2,s.dir===1?1.1:4.3);c.stroke()}
+ s.effects.forEach(f=>{c.strokeStyle='#c3e4b6';c.lineWidth=2;c.beginPath();c.arc(f.x,f.y,50*(1-(f.end-s.t)/.65)+20,0,Math.PI*2);c.stroke()});
+ c.fillStyle='#d4dbc3';c.font='12px Microsoft YaHei';c.textAlign='center';c.fillText(battlePlayer.nickname,s.x,s.y-90);c.textAlign='left';
+ const hero=battle.querySelector('.battle-hero');hero.style.left=s.x/11+'%';hero.style.top=s.y/5.4+'%';hero.style.opacity=HollowCombat.has(s,'stealth')?.35:s.inv>s.t?.55:1;hero.style.filter=s.dir<0?'none':'none';hero.querySelector('.silhouette').style.scale=s.dir<0?'-1 1':'1 1';
+ battle.querySelector('#battle-hp').textContent=Math.ceil(s.hp)+'/100';battle.querySelector('#battle-hp-fill').style.width=s.hp+'%';battle.querySelector('#enemy-hp').textContent=Math.ceil(s.enemy.hp)+'/'+s.enemy.max;battle.querySelector('#enemy-hp-fill').style.width=s.enemy.hp/s.enemy.max*100+'%';battle.querySelector('#skill-label').textContent=s.cool.skill>s.t?Math.ceil(s.cool.skill-s.t)+'s':'技能';battle.querySelector('#battle-goal').textContent=s.mode==='guard'?`守望 ${Math.min(45,Math.floor(s.t))}/45秒 · K 切换节点 · J 远程阻拦`:`${s.goal} · 路标 ${s.targets.filter(Boolean).length}/3`;
+ battle.querySelector('#battle-message').textContent=s.message||'观察橙色预警，越障躲开冲击；按 P 可暂停。';battle.querySelector('#battle-log').innerHTML=s.log.map(x=>`<div>${escape(x)}</div>`).join('');battle.querySelector('#battle-equipment').innerHTML='<b>装备效果</b><p>'+s.equipped.map(escape).join(' · ')+'</p>';
+ const state=battle.querySelector('#battle-state');if(battlePaused&&s.status==='active')state.innerHTML='<div class="battle-state"><div><h2>暂歇片刻</h2><p>战斗时间已暂停</p><button data-battle="pause">继续 P</button></div></div>';else if(s.status!=='active')state.innerHTML=`<div class="battle-state"><div><h2>${s.status==='won'?'守卫已退去':s.status==='lost'?'暂退洞口':'平安撤退'}</h2><p>${escape(s.message||'已保留本局进度和背包')}</p><button data-battle="settle">${s.status==='won'?'查看战利品':'返回整备'}</button></div></div>`;else state.innerHTML='';
+}
+function combatTick(time){if(!encounter||battle.hidden||battleScreen!=='arena')return;const dt=battleLast?Math.min(.05,(time-battleLast)/1000):0;battleLast=time;if(!battlePaused)HollowCombat.step(encounter,dt,battleKeys);combatPaint();if(time-battleSaved>1000){combatStore();battleSaved=time}if(encounter.status!=='active'){combatFinish();combatPaint();return}battleRAF=requestAnimationFrame(combatTick)}
+function combatFinish(){combatStop();if(encounter.status!=='won'||encounter.rewardCreated)return;encounter.rewardCreated=true;const names=[encounter.type===3?'雨声琥珀':encounter.type===2?'树脂小珠':'叶脉书签'];if(encounter.letterTask&&encounter.targets.every(Boolean))names.push('叶脉书签');if(encounter.keyTask&&encounter.targets[1])names.push('蓝色玻璃珠');if(encounter.taskBox&&encounter.targets.filter(Boolean).length>=2)names.push('旧纽扣');encounter.rewards=names.map((name,k)=>({...ITEMS.find(i=>i.name===name),uid:`battle-${battlePlayer.runId}-${battleHole.id}-${k}`,revealed:true,claimed:false,taken:false}));for(const i of encounter.rewards)if(!battleHole.bestFound||i.value>battleHole.bestFound.value)battleHole.bestFound={tier:i.tier,value:i.value};const profile=readProfile(battlePlayer.nickname);profile.relationshipAchievements=profile.relationshipAchievements||{};profile.relationshipAchievements['初入战阵']={at:new Date().toISOString()};if(encounter.type===3)profile.relationshipAchievements['蛛神的退让']={at:new Date().toISOString()};if(encounter.mode==='guard')profile.relationshipAchievements['守望树隙']={at:new Date().toISOString()};writeProfile(profile);combatStore()}
+function claimBattleReward(uid){const i=encounter.rewards.find(i=>i.uid===uid);if(!i||i.claimed)return;const m=Array.from({length:4},()=>Array(6).fill(true)),pos=fit(m,i.w,i.h,battlePlayer.bag)||fit(m,i.h,i.w,battlePlayer.bag);if(!pos){battle.querySelector('.battle-hint').textContent='背包放不下。返回搜索整理后再来，战利品会保留。';return}i.claimed=true;battlePlayer.bag.push({...i,...pos,origin:battleHole.id,taken:false});combatStore();combatPrep()}
+function applyBattleItem(uid,confirmed=false){const item=battlePlayer.bag.find(i=>i.uid===uid);if(!item)return;if((HollowCombat.itemKinds[item.name]||'工具')==='消耗'&&!confirmed){battlePaused=true;const d=document.createElement('div');d.className='battle-codex';d.id='battle-confirm';d.innerHTML=`<h2>使用${escape(item.name)}？</h2><p>${escape(combatDesc(item))}</p><p>将消耗背包中的这一件，价值 ${item.value}。原位置会腾空。</p><button data-consume="${escape(uid)}">确认消耗</button> <button data-cancel-consume>取消</button>`;battle.append(d);return}
+ if(item.name==='共居契约'&&combatAlly()&&!confirmed){battlePaused=true;const d=document.createElement('div');d.className='battle-codex';d.id='battle-confirm';const ally=party.find(p=>p!==battlePlayer&&DATA.round2.some(r=>[r.生物A,r.生物B].includes(p.name)&&[r.生物A,r.生物B].includes(battlePlayer.name)));d.innerHTML=`<h2>${escape(ally.nickname)}，愿意协助吗？</h2><p>这是同机玩家确认。接受后给${escape(battlePlayer.nickname)}一次护盾，最终栖息地仍需双方分别确认。</p><button data-consume="${escape(uid)}">我同意协助</button> <button data-cancel-consume>暂不协助</button>`;battle.append(d);return}
+ const result=HollowCombat.use(encounter,item.name,{tier:item.tier,ally:combatAlly()});encounter.message=result.message;if(result.ok&&result.consume){battlePlayer.bag=battlePlayer.bag.filter(i=>i.uid!==uid);for(const h of battlePlayer.holes)h.loot=h.loot.filter(i=>i.uid!==uid);battleLoadout=battleLoadout.filter(x=>x!==uid);combatEquip();combatArena()}if(result.ok)forestAudio.click();combatStore();combatPaint();}
+function combatCodex(tasks=false){battlePaused=true;const old=battle.querySelector('.battle-codex');if(old)old.remove();const d=document.createElement('div');d.className='battle-codex';d.innerHTML=`<button class="battle-codex-close" data-close-codex>关闭图鉴</button><h2>${tasks?'任务与容器':'角色与物品图鉴'}</h2><p class="battle-muted">场景和技能为树隙世界的幻想机制。战斗已暂停。</p><input placeholder="搜索名称" aria-label="搜索战斗图鉴"><div class="scroll"><table><tbody>${tasks?battlePlayer.bag.filter(i=>['任务','容器'].includes(HollowCombat.itemKinds[i.name])).map(i=>`<tr><td>${escape(i.name)}</td><td>${escape(combatDesc(i))}</td><td><button data-task-use="${escape(i.uid)}" ${battleScreen!=='arena'?'disabled':''}>使用</button></td></tr>`).join('')||'<tr><td>当前背包没有任务物或容器。</td></tr>':combatBlueprint.roles.map(r=>`<tr><td>${escape(r[0])}</td><td>${escape(r[1])}</td><td>${escape(r[3])}；${escape(r[4])}</td><td>${escape(r[5])}</td></tr>`).join('')+combatBlueprint.items.map(i=>`<tr><td style="color:${colours[i.tier]}">${escape(i.name)}</td><td>${HollowCombat.itemKinds[i.name]||'工具'} · ${i.w}×${i.h} · ${i.value}</td><td colspan="2">${escape(combatDesc(i))}</td></tr>`).join('')}</tbody></table></div>`;battle.append(d);d.querySelector('input').oninput=e=>d.querySelectorAll('tr').forEach(r=>r.hidden=!r.textContent.includes(e.target.value.trim()))}
+function combatInteract(){if(encounter.mode==='guard'){encounter.targets[encounter.node]=true;encounter.message='已收集当前守点的任务碎片'}else{[340,620,900].forEach((x,i)=>{if(Math.abs(encounter.x-x)<70)encounter.targets[i]=true});encounter.message=encounter.x>1000&&encounter.enemy.hp>0&&![0,4].includes(encounter.type)?'守卫仍挡住出口，先击退它':'路标已记录，向出口前进'}combatStore()}
+battle.addEventListener('click',e=>{const equip=e.target.closest('[data-equip]');if(equip){const uid=equip.dataset.equip,item=battlePlayer.bag.find(i=>i.uid===uid);if(battleLoadout.includes(uid))battleLoadout=battleLoadout.filter(x=>x!==uid);else if(battleLoadout.length<2)battleLoadout.push(uid);combatEquip();combatPrep();battle.querySelector('#loadout-detail').textContent=combatDesc(item);return}const reward=e.target.closest('[data-reward]');if(reward){claimBattleReward(reward.dataset.reward);return}const consume=e.target.closest('[data-consume]');if(consume){battle.querySelector('#battle-confirm')?.remove();battlePaused=false;applyBattleItem(consume.dataset.consume,true);return}if(e.target.closest('[data-cancel-consume]')){battle.querySelector('#battle-confirm')?.remove();battlePaused=false;return}if(e.target.closest('[data-close-codex]')){battle.querySelector('.battle-codex')?.remove();battlePaused=false;return}const task=e.target.closest('[data-task-use]');if(task){applyBattleItem(task.dataset.taskUse);return}const slot=e.target.closest('[data-slot]');if(slot&&encounter.status==='active'&&!battlePaused){applyBattleItem(encounter.loadout[+slot.dataset.slot]);return}const a=e.target.closest('[data-battle]')?.dataset.battle;if(a==='close')combatClose();if(a==='start')combatStart();if(a==='codex')combatCodex();if(a==='tasks')combatCodex(true);if(a==='pause'){battlePaused=!battlePaused;battleKeys={};combatPaint()}if(a==='skill'&&!battlePaused){HollowCombat.skill(encounter,combatAlly());combatStore()}if(a==='jump'&&!battlePaused)HollowCombat.jump(encounter);if(a==='interact'&&!battlePaused)combatInteract();if(a==='settle')combatPrep();});
+battle.addEventListener('pointerdown',e=>{const b=e.target.closest('[data-hold]');if(b){battleKeys[b.dataset.hold]=true;b.setPointerCapture(e.pointerId);if(b.dataset.hold==='attack'&&!battlePaused)HollowCombat.attack(encounter)}});['pointerup','pointercancel','lostpointercapture'].forEach(t=>battle.addEventListener(t,()=>battleKeys={}));
+document.addEventListener('keydown',e=>{if(battle.hidden||battleScreen!=='arena'||e.target.matches('input,textarea,select'))return;const key=e.key.toLowerCase();if(['a','d','j','k','l','1','2','p','e',' ','arrowleft','arrowright'].includes(key))e.preventDefault();if(key==='p'&&!e.repeat&&!battle.querySelector('.battle-codex')){battlePaused=!battlePaused;battleKeys={};combatPaint();return}if(battlePaused||encounter.status!=='active')return;if(key==='a'||key==='arrowleft')battleKeys.left=true;if(key==='d'||key==='arrowright')battleKeys.right=true;if(key==='j')battleKeys.attack=true;if(key==='k'||key===' ')HollowCombat.jump(encounter);if(key==='l'&&!e.repeat){HollowCombat.skill(encounter,combatAlly());combatStore()}if(['1','2'].includes(key)&&!e.repeat)applyBattleItem(encounter.loadout[+key-1]);if(key==='e'&&!e.repeat)combatInteract()});
+document.addEventListener('keyup',e=>{const m={a:'left',d:'right',j:'attack',arrowleft:'left',arrowright:'right'};delete battleKeys[m[e.key.toLowerCase()]]});
+window.addEventListener('blur',()=>{if(!battle.hidden){battlePaused=true;battleKeys={};combatStore();combatPaint()}});document.addEventListener('visibilitychange',()=>{if(document.hidden&&!battle.hidden){battlePaused=true;battleKeys={};combatStore()}});window.addEventListener('beforeunload',combatStore);
+const lootBeforeBattle=lootView;lootView=function(...args){lootBeforeBattle(...args);const h=player()?.holes.find(h=>h.id===currentHole),box=root.querySelector('.adv-loot-layout>section:last-child');if(box&&!box.querySelector('[data-open-battle]'))box.insertAdjacentHTML('afterbegin',`<div class="adv-controls"><button class="adv-btn" data-open-battle>⚔ ${h.combat?.status==='won'?'查看战利品':'进入树隙深处 · 战斗'}</button><span class="adv-muted">路障 · 巨蚁 · 巨蛛 · 蛛神 · 环境遭遇</span></div>`)};
+root.addEventListener('click',e=>{if(e.target.closest('[data-open-battle]'))openCombat()});
+achievementDefs.push(...['初入战阵','蛛神的退让','守望树隙'].map(name=>[name,p=>!!p.relationshipAchievements?.[name],p=>p.relationshipAchievements?.[name]?'1/1':'0/1']));
+window.hollowCombatQA={core:HollowCombat,open:openCombat,start:combatStart,close:combatClose,paint:combatPaint,finish:combatFinish,claim:claimBattleReward,use:applyBattleItem,get state(){return encounter},get paused(){return battlePaused},set paused(v){battlePaused=v},get definitions(){return combatBlueprint}};
 
 // Exposed only for deterministic QA, not part of the user interface.
 window.hollowAdventureQA={moveBag,putBack,get searchingUid(){return searchingUid},get searchDuration(){return searchDuration},get audioRunning(){return forestAudio.running},unlockDelay,get party(){return party},get items(){return ITEMS},get habitats(){return habitats},get currentHole(){return currentHole},start:startAdventure,world,chooseHabitat};
