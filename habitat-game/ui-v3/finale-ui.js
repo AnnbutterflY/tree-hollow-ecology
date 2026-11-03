@@ -1,0 +1,82 @@
+(function(){'use strict';
+const C=window.HollowCore,Store=C.Store,esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),NS='http://www.w3.org/2000/svg';
+const cover='assets/ui/scene-11.webp',paper='assets/ui/scene-12.webp',sealStates=new Map();let pendingOpen;
+const ui=()=>window.HollowUI,scene=()=>document.getElementById('scene'),art=()=>document.getElementById('art');
+function el(tag,cls='',html='',parent=scene()){const n=document.createElement(tag);n.className=cls;n.innerHTML=html;parent.append(n);return n;}
+function at(n,x,y,w,h){Object.assign(n.style,{position:'absolute',left:x+'px',top:y+'px',...(w?{width:w+'px'}:{}),...(h?{height:h+'px'}:{})});return n;}
+function hit(label,x,y,w,h,fn,parent=scene()){const n=at(el('button','finale-hit','',parent),x,y,w,h);n.setAttribute('aria-label',label);n.title=label;n.onclick=fn;return n;}
+function svg(markup,cls,parent=scene()){const n=el('div',cls,markup,parent);return n;}
+function sprite(source,view,x,y,w,h,parent=scene(),cls='original-fragment'){return at(svg(`<svg viewBox="${view.join(' ')}" preserveAspectRatio="none" aria-hidden="true"><image href="${source}" width="1888" height="1312" preserveAspectRatio="none"/></svg>`,cls,parent),x,y,w,h);}
+function sheetKey(j){return 'hollow-ui-v3-ending-'+j.id;}
+function journal(){return ui().ui.journeyPreview||(ui().me()?C.journey(ui().ui.view,ui().me()):null);}
+function entry(m,room){return Store.get(sheetKey({id:room.id+':journey:'+m.id}),{}).unsealed?12:11;}
+function saveSeal(j,patch){const s={...Store.get(sheetKey(j),{}),...patch};Store.set(sheetKey(j),s);return s;}
+function navigate(n){ui().ui.journeyPreview=null;ui().show(n);}
+function nav(n){hit('返回上一页',57,30,49,76,()=>n===12?ui().show(11):navigate(2));hit('返回首页',122,28,76,76,()=>navigate(1));hit('尾声操作说明',212,29,55,77,()=>ui().dialog('尾声',`<p>围绕下方圆扣移动鼠标，或按住圆扣拖动一圈，解开档案封线。也可以聚焦圆扣后按回车四次。</p><p>打开档案后，可点选藏品查看详情，点击成就章盖印。旅程记录与藏品都保存在当前昵称的本机存档中。</p>`,[['知道了',ui().closeModal]]));}
+function optics(root){root.onpointermove=e=>{const r=document.getElementById('board').getBoundingClientRect();root.style.setProperty('--fx',String((e.clientX-r.left)/r.width-.5));root.style.setProperty('--fy',String((e.clientY-r.top)/r.height-.5));};root.onpointerleave=()=>{root.style.setProperty('--fx','0');root.style.setProperty('--fy','0');};}
+function enemy(m){return window.HollowEncounterArt.bosses[m.encounter?.levels?.[2]?.bossId??0];}
+function renderEncounter(){
+ const m=ui().me();art().style.backgroundImage='url(assets/ui/scene-8.webp)';
+ if(!m)return;if(!m.encounter){at(el('p','encounter-loading-note','正在准备遭遇…'),500,650,700);return;}
+ const e=m.encounter,b=enemy(m),root=el('div','encounter-preview');optics(root);
+ // Original frames, title, buttons and halftone bands are kept in their exact coordinates.
+ const card=at(el('div','encounter-live-card','',root),168,390,1009,443);
+ sprite('assets/ui/scene-8.webp',[89,343,610,96],89,343,610,96,root,'encounter-original-heading');
+ const frame=b.frame,atlas=window.HollowEncounterArt.atlas;
+ const enemyArt=svg(`<svg viewBox="${frame.x} ${frame.y} ${frame.w} ${frame.h}" aria-label="${esc(b.name)}"><image href="../../hollow-toons/assets/bosses.png" width="${atlas.width}" height="${atlas.height}"/></svg>`,'encounter-boss-sprite',card);
+ el('h2','enemy-name',esc(b.name),card);el('div','enemy-stats',`攻击：${'★'.repeat(e.difficulty)}<br>防御：${'★'.repeat(Math.min(5,Math.ceil(e.levels[2].bossHp/210)))}`,card);
+ at(el('div','encounter-description',`${esc(e.category)} · ${e.difficulty===5?'困难':e.difficulty===3?'中等':'简单'}<br>连续穿过两段险路，再迎战 ${esc(b.name)}。任一关失败，本轮冒险结束。`,root),168,833,1009,118);
+ const identity=at(el('div','encounter-identity','',root),1348,470,434,629);
+ el('div','identity-disc',`<img src="assets/portraits/${esc(m.role)}.webp" alt="${esc(C.name(m))}">`,identity);el('h2','identity-species',esc(C.name(m)),identity);el('div','identity-nick',esc(m.nickname),identity);el('p','identity-stats','攻击：★<br>防御：★',identity);
+ hit('开始战斗',830,990,350,106,()=>ui().send({type:'encounter-start',encounterId:e.id}));
+ const flee=hit('金蝉脱壳',167,990,350,106,escapeDialog);if(!m.run.bag.length){flee.classList.add('unavailable');flee.title='背包为空，无法消耗藏品逃脱';}
+ hit('返回上一页',57,30,49,76,()=>ui().dialog('暂离不期之敌','<p>当前遭遇和背包已保存。回来后仍需作出选择。</p>',[['返回大厅',()=>{ui().closeModal();navigate(2)}],['继续',ui().closeModal]]));hit('返回首页',122,28,76,76,()=>navigate(1));hit('战斗与逃脱说明',212,29,55,77,()=>ui().dialog('不期之敌','<p>开始战斗：两个小关自动衔接大 Boss，失败结束本轮。</p><p>金蝉脱壳：消耗背包中的任意 1 件藏品，成功率 60%。成功进入尾声；失败立即开战，不能再次尝试。</p>',[['知道了',ui().closeModal]]));
+}
+function escapeDialog(){const m=ui().me(),e=m.encounter;if(!m.run.bag.length){ui().dialog('金蝉脱壳','<p>背包中没有可消耗的藏品，请选择开始战斗。</p>',[['关闭',ui().closeModal]]);return;}
+ let chosen=null;const content=ui().dialog('金蝉脱壳','<p>选择并消耗 1 件藏品。成功率 60%；成功进入尾声，失败立即开战。</p><div class="escape-items"></div><p class="escape-selection">尚未选择藏品</p>',[['消耗并尝试',()=>{if(!chosen){ui().toast('先选择一件要消耗的藏品。');return;}ui().closeModal();ui().send({type:'encounter-escape',encounterId:e.id,uid:chosen});}],['再想想',ui().closeModal]]);
+ const list=content.querySelector('.escape-items');for(const item of m.run.bag){const b=el('button','escape-item',`<img src="${esc(ui().imageItem(item))}" alt=""><span>${esc(item.name)}</span><small>${Number(item.value).toLocaleString()}</small>`,list);b.setAttribute('aria-label','消耗 '+item.name);b.onclick=()=>{chosen=item.uid;list.querySelectorAll('button').forEach(n=>n.classList.toggle('selected',n===b));content.querySelector('.escape-selection').textContent='将消耗：'+item.name;};}
+}
+function renderSeal(){const j=journal();if(!j){navigate(2);return;}nav(11);art().style.backgroundImage='none';
+ const root=el('div','ending-cover');optics(root);
+ svg(`<svg viewBox="0 0 1888 1312" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="seal-paper" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#5f5f54"/><stop offset=".58" stop-color="#6e6e62"/><stop offset="1" stop-color="#6e7061"/></linearGradient><mask id="cord-cut"><rect width="1888" height="1312" fill="white"/><path d="M925 352 L925 700 M1051 352 L1051 700 M925 352 L1045 700 M1048 352 L925 700" fill="none" stroke="black" stroke-width="21"/><circle cx="994" cy="356" r="64" fill="white"/><circle cx="991" cy="698" r="64" fill="white"/></mask></defs><rect x="907" y="335" width="161" height="388" fill="url(#seal-paper)"/><image href="${cover}" width="1888" height="1312" preserveAspectRatio="none" mask="url(#cord-cut)"/></svg>`,'cover-original',root);
+ const cords=svg('<svg viewBox="0 0 1888 1312" preserveAspectRatio="none" aria-hidden="true"><g class="live-cord" stroke="#d8d2c5" opacity=".42" stroke-width="10" fill="none" stroke-linecap="round"><path d="M925 355 Q922 522 925 698 M1051 355 Q1054 529 1051 698 M927 356 Q988 536 1047 698 M1048 356 Q988 529 925 698"/></g><circle class="seal-progress" cx="991" cy="698" r="77" fill="none" stroke="#ed4b05" stroke-width="5" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90 991 698)"/></svg>','seal-cords',root);
+ sprite(cover,[930,291,130,131],930,291,130,131,root,'seal-pin top');sprite(cover,[925,633,131,131],925,633,131,131,root,'seal-pin bottom');
+ let state=sealStates.get(j.id);if(!state){state={sum:Store.get(sheetKey(j),{}).unsealed?Math.PI*2:0,last:null,done:!!Store.get(sheetKey(j),{}).unsealed};sealStates.set(j.id,state)}
+ const zone=hit('旋转封扣拆封',811,518,360,360,()=>{},root);zone.className='seal-gesture';zone.setAttribute('role','slider');zone.setAttribute('aria-valuemin','0');zone.setAttribute('aria-valuemax','100');zone.setAttribute('aria-label','旋转封扣拆封，绕圆扣一圈或按回车四次');zone.setAttribute('aria-keyshortcuts','Enter ArrowRight ArrowLeft');
+ const file=hit('打开旅程档案',363,907,513,190,()=>state.done?ui().show(12):ui().toast('围绕下方圆扣移动一圈，或聚焦圆扣后按回车四次。'),root);file.classList.add('record-file');
+ const progress=at(el('div','seal-status','',root),1135,748,470,90);
+ function update(){const percent=Math.min(1,Math.abs(state.sum)/(Math.PI*2));zone.setAttribute('aria-valuenow',String(Math.round(percent*100)));cords.querySelector('.seal-progress').style.strokeDashoffset=String(100-percent*100);cords.querySelector('.live-cord').style.strokeDasharray='1600';cords.querySelector('.live-cord').style.strokeDashoffset=String(percent*1600);cords.querySelector('.live-cord').style.opacity=String(.42*(1-percent));root.style.setProperty('--seal-turn',state.sum+'rad');progress.textContent=state.done?'封线已解开 · 查看旅程档案':percent>.02?'拆封 '+Math.round(percent*100)+'%':'';file.classList.toggle('unsealed',state.done);if(percent>=1&&!state.done){state.done=true;saveSeal(j,{unsealed:true});ui().ui.sealDragging=false;window.HollowAudio.reveal({name:'纸质旅程档案'});progress.textContent='封线已解开';file.classList.add('unsealed');clearTimeout(pendingOpen);pendingOpen=setTimeout(()=>{if(ui().ui.scene===11&&journal()?.id===j.id)ui().show(12)},650);}}
+ function point(e){if(state.done)return;const rect=document.getElementById('board').getBoundingClientRect(),x=(e.clientX-rect.left)*1888/rect.width-991,y=(e.clientY-rect.top)*1312/rect.height-698,r=Math.hypot(x,y);if(r<65||r>177){state.last=null;return;}const a=Math.atan2(y,x);if(state.last!==null){let d=Math.atan2(Math.sin(a-state.last),Math.cos(a-state.last));if(Math.abs(d)<1.2)state.sum+=d;}state.last=a;update();}
+ zone.onpointerdown=e=>{ui().ui.sealDragging=true;state.last=null;try{zone.setPointerCapture(e.pointerId)}catch{}point(e);};zone.onpointermove=point;zone.onpointerup=zone.onpointercancel=()=>{ui().ui.sealDragging=false;state.last=null;};zone.onpointerleave=()=>{if(!ui().ui.sealDragging)state.last=null;};zone.onkeydown=e=>{if(['Enter',' ','ArrowRight','ArrowLeft'].includes(e.key)){e.preventDefault();state.sum+=(e.key==='ArrowLeft'?-1:1)*Math.PI/2;update();}};update();
+}
+function duration(ms){if(ms===null)return '时长未记录';const sec=Math.floor(ms/1000),h=Math.floor(sec/3600),m=Math.floor(sec%3600/60);return(h?h+' 小时 ':'')+m+' 分 '+sec%60+' 秒';}
+function outcome(j){return j.outcome==='won'?'战胜不期之敌，完成了这趟树洞旅程。':j.outcome==='escaped'?'金蝉脱壳，平安结束了这趟树洞旅程。':j.failure?.reason||'本轮冒险结束，未能完成入住。';}
+function openItem(item){ui().dialog(item.name,`<div class="row"><img src="${esc(ui().imageItem(item))}" alt="${esc(item.name)}" style="width:260px;height:260px;object-fit:contain"><div><p>本局带回的藏品</p><p>价值 ${Number(item.value).toLocaleString()} · 占 ${item.w} × ${item.h} 格</p></div></div>`,[['知道了',ui().closeModal]]);}
+function eventText(j){const names=[...new Set(j.events.map(e=>e.name).filter(Boolean))];return names.length?names.join('、'):'本局未触发随机事件';}
+function eventsDialog(j){ui().dialog('本局遭遇',`<div class="stack">${j.encounter?`<p>不期之敌：${esc(window.HollowEncounterArt.bosses[j.encounter.bossId]?.name||'巨虫')} · ${j.outcome==='won'?'三关全部通过':j.outcome==='escaped'?'消耗 '+esc(j.encounter.escape?.item.name||'藏品')+' 成功脱身':'通过 '+(j.encounter.completed?.length||0)+' 关'}</p>`:''}${j.events.map(e=>`<p>${esc(e.hole)} · ${esc(e.name||'树洞事件')}<br>${esc(e.outcome||(!e.resolved?'未能脱险':'已完成'))}</p>`).join('')||'<p>本局未触发随机事件。</p>'}</div>`,[['返回档案',ui().closeModal]]);}
+function download(j){const text=[`树隙之间 · 旅程档案`,`${j.nickname} · ${j.roleName}`,`历时：${duration(j.elapsed)}`,`结局：${outcome(j)}`,`最终居所：${j.home||'未能入住'}`,`原选择：${j.selectedHome||'未选择'}`,`随机事件：${eventText(j)}`,`带回藏品：${j.items.map(i=>i.name+'（'+i.value+'）').join('、')||'无'}`,`成就：${j.awards.map(a=>a.title).join('、')||'无'}`].join('\r\n');const url=URL.createObjectURL(new Blob(['\ufeff'+text],{type:'text/plain;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download='旅程档案-'+j.nickname.replace(/[<>:"/\\|?*]/g,'_')+'.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);}
+function renderDossier(){const j=journal();if(!j){navigate(2);return;}nav(12);art().style.backgroundImage='url('+cover+')';const root=el('div','ending-dossier');optics(root);
+ svg(`<svg viewBox="0 0 1888 1312" preserveAspectRatio="none" aria-hidden="true"><defs><mask id="paper-cut"><rect width="1888" height="1312" fill="white"/><rect x="265" y="110" width="1385" height="1202" fill="black"/></mask></defs><image href="${paper}" width="1888" height="1312" preserveAspectRatio="none" mask="url(#paper-cut)"/></svg>`,'dossier-back',root);
+ const sheet=at(el('section','dossier-sheet','',root),265,110,1385,1202);sheet.setAttribute('aria-label','旅程档案');
+ const top=at(el('div','journey-summary','',sheet),34,216,912,225);el('p','',`${esc(j.nickname)} 使用角色 ${esc(j.roleName)}<br>历时 ${duration(j.elapsed)}，探索了 ${j.searched} 处树洞。<br>${esc(outcome(j))}`,top);
+ const log=at(el('div','journey-log','',sheet),34,483,912,438);const boss=j.encounter?window.HollowEncounterArt.bosses[j.encounter.bossId]?.name:null;
+ el('p','journey-events',`遭遇：${esc(boss||j.failure?.actorLabel||'未遭遇最终敌人')}<br>偶遇：${esc(eventText(j))}<br>最终带回 ${j.items.length} 件藏品${j.lostCount?' · '+j.lostCount+' 件未能带回':''}`,log);
+ const detail=el('button','journal-link','查看事件记录',log);detail.onclick=()=>eventsDialog(j);
+ const items=el('div','journey-items','',log);items.setAttribute('aria-label','本局带回的藏品');if(!j.items.length)el('span','empty-items','本局没有带回藏品',items);for(const item of j.items){const n=el('button','journey-item',`<img src="${esc(ui().imageItem(item))}" alt=""><span>${esc(item.name)}</span>`,items);n.setAttribute('aria-label','查看藏品 '+item.name);n.onclick=()=>openItem(item);}
+ // A clean strip from the supplied paper replaces only the sample A1 and sample rubbing.
+ sprite(paper,[1268,385,16,655],1000,275,373,655,sheet,'paper-clean');
+ at(el('div','journey-home',j.home?'树洞 '+esc(j.home):'未能入住',sheet),1030,298,310,96);
+ if(j.rubbing){const r=at(el('img','journey-rubbing','',sheet),1020,390,300,500);r.src=j.rubbing;r.alt='最终居所 '+j.home+' 的拓片';}
+ else at(el('div','journey-no-home',j.selectedHome?'原选择：'+esc(j.selectedHome)+'<br>这一次，未能安家。':'这一次，尚未选定树洞。',sheet),1030,520,305,250);
+ const neighbors=j.companions.filter(p=>j.home&&p.home===j.home&&['won','escaped'].includes(p.outcome));if(neighbors.length)at(el('div','journey-neighbors','同住：'+neighbors.map(p=>esc(p.nickname)).join('、'),sheet),1020,925,330,90);
+ sprite(paper,[1268,1090,16,140],990,980,383,140,sheet,'paper-clean');
+ let stampIndex=0;const saved=Store.get(sheetKey(j),{}),chosen=j.awards.length?j.awards[stampIndex]:null;
+ const stamp=at(el('button','journey-stamp',chosen?esc(chosen.title):'尚无成就',sheet),1010,983,328,135);stamp.setAttribute('aria-label','为本局成就盖章');
+ function paintStamp(){const award=j.awards[stampIndex];stamp.textContent=award?.title||'尚无成就';const stamped=Store.get(sheetKey(j),{}).stamped||[];stamp.classList.toggle('stamped',!!award&&stamped.includes(award.id));stamp.title=award?'点击盖章：'+award.title:'本局尚无成就';}
+ stamp.onclick=()=>{const award=j.awards[stampIndex];if(!award)return;const old=Store.get(sheetKey(j),{});saveSeal(j,{stamped:[...new Set([...(old.stamped||[]),award.id])]});paintStamp();stamp.classList.remove('stamp-impact');void stamp.offsetWidth;stamp.classList.add('stamp-impact');window.HollowAudio.button();};paintStamp();
+ if(j.awards.length>1){const prev=at(el('button','stamp-arrow','‹',sheet),975,1025,35,60),next=at(el('button','stamp-arrow','›',sheet),1340,1025,35,60);prev.setAttribute('aria-label','上一枚成就');next.setAttribute('aria-label','下一枚成就');prev.onclick=()=>{stampIndex=(stampIndex+j.awards.length-1)%j.awards.length;paintStamp()};next.onclick=()=>{stampIndex=(stampIndex+1)%j.awards.length;paintStamp()};}
+ at(el('span','stamp-count',j.awards.length+' 枚成就 · 点击盖章',sheet),1020,1132,320,40);
+ const stash=at(el('button','paper-action','个人库',sheet),52,1043,160,62);stash.onclick=()=>ui().library('storage',j.nickname);const save=at(el('button','paper-action','保存档案',sheet),242,1043,190,62);save.onclick=()=>download(j);const all=at(el('button','paper-action','查看全部成就',sheet),52,1125,380,53);all.onclick=()=>ui().dialog('本局成就',j.awards.map(a=>`<p>${esc(a.title)}<br><small>${esc(a.detail)}</small></p>`).join('')||'<p>尚无成就。</p>',[['返回档案',ui().closeModal]]);
+}
+window.HollowFinalUI={entry,journal,render(n){if(n!==11)clearTimeout(pendingOpen);if(n===8)renderEncounter();else if(n===11)renderSeal();else renderDossier();},openArchived(j){ui().ui.journeyPreview=j;saveSeal(j,{unsealed:true});ui().closeModal();ui().show(12);}};
+})();
