@@ -20,8 +20,9 @@ function resolveClues(room){
 function duration(item){return Math.round(420+Math.log10(item.value+1)*240+Math.min(1800,item.value/100))}
 function placement(mask,item,x,y,occupied=[]){return Number.isInteger(x)&&Number.isInteger(y)&&x>=0&&y>=0&&y+item.h<=mask.length&&x+item.w<=mask[0].length&&Array.from({length:item.h},(_,dy)=>Array.from({length:item.w},(_,dx)=>mask[y+dy][x+dx]&&!occupied.some(p=>x+dx>=p.x&&x+dx<p.x+p.w&&y+dy>=p.y&&y+dy<p.y+p.h))).flat().every(Boolean)}
 const bagMask=Array.from({length:4},()=>Array(6).fill(true));
-function classify(m,h){const vals=m.run.holes.map(p=>p.originalValue).sort((a,b)=>a-b),lo=vals[Math.floor((vals.length-1)/3)],hi=vals[Math.ceil((vals.length-1)*2/3)];if(vals[0]===vals.at(-1))return '平平无奇';return h.originalValue>hi?'如获珍宝':h.originalValue<=lo?'不毛之地':'平平无奇'}
-function stars(m,h){const max=Math.max(...m.run.holes.map(x=>x.originalValue));return {resource:Math.max(1,Math.min(5,Math.ceil(h.originalValue/max*5))),protection:Math.min(5,h.events.filter(e=>e.resolved&&e.type==='hazard').length),danger:Math.min(5,h.events.filter(e=>e.type==='enemy'||e.type==='hazard').length)}}
+function valueOf(h){return (h.originalValue||0)+(h.eventValue||0)}
+function classify(m,h){const vals=m.run.holes.map(valueOf).sort((a,b)=>a-b),lo=vals[Math.floor((vals.length-1)/3)],hi=vals[Math.ceil((vals.length-1)*2/3)];if(vals[0]===vals.at(-1))return '平平无奇';return valueOf(h)>hi?'如获珍宝':valueOf(h)<=lo?'不毛之地':'平平无奇'}
+function stars(m,h){const max=Math.max(...m.run.holes.map(valueOf));return {resource:Math.max(1,Math.min(5,Math.ceil(valueOf(h)/max*5))),protection:Math.min(5,h.events.filter(e=>e.resolved&&e.type==='hazard').length),danger:Math.min(5,h.events.filter(e=>e.type==='enemy'||e.type==='hazard').length)}}
 function settleHomes(room){
  const live=Object.values(room.members).filter(m=>m.alive);if(!live.length||!live.every(m=>m.home))return;
  for(const m of live){const same=live.filter(p=>p.home===m.home);if(live.length===1&&Object.keys(room.members).length===1)award(room,m,'独自远行');else if(same.length===1)award(room,m,'独享树隙');
@@ -45,13 +46,17 @@ function roomAction(state,actor,action,now=Date.now()){
  }else if(a.type==='clue'){
   if(room.stage!=='clues')return error('当前不能提交线索。');if(a.ids?.some(id=>!points.has(id)))return error('编号必须是有拓片的树洞。');m.clue=true;m.clueIds=[...new Set(a.ids||[])];m.phase='waiting';resolveClues(room);
  }else if(!m.alive)return error('本轮冒险已结束。');
- else if(a.type==='signal'){
+ else if(String(a.type).startsWith('event-')||String(a.type).startsWith('battle-')){
+  const msg=window.HollowEvents.action(room,m,a,now);if(msg)return error(msg);
+ }else if(m.event)return error('请先处理当前随机事件。');
+ else if(a.type==='chest-open'||a.type==='chest-reveal'){if(m.phase!=='search')return error('请先进入树洞。');const msg=a.type==='chest-open'?window.HollowEvents.openChest(m,now):window.HollowEvents.revealChest(m,now);if(msg)return error(msg);
+ }else if(a.type==='signal'){
   if(m.phase!=='signal'||m.signalDone)return error('没有待传递的线索。');m.signalDone=true;const ids=[...new Set(m.signals.flatMap(r=>split(r.共同树洞考察编号)))];runFor(room,m,ids);
   for(const r of m.signals){const dirs=r.生物信息方向.split('；');if(dirs.some(d=>d.trim().startsWith(name(m))))award(room,m,'把线索交给你');if(dirs.some(d=>d.split('→')[1]?.trim()===name(m)))award(room,m,'接住你的信号')}
  }else if(a.type==='open'){
-  const h=m.run?.holes.find(x=>x.id===a.hole);if(!h||m.home)return error('这个树洞不在当前搜索范围。');m.run.active=h.id;m.phase='search';if(!h.searched&&!h.due){const i=h.loot.find(i=>i.uid===h.order[h.cursor]);h.due=now+duration(i)}
+  const h=m.run?.holes.find(x=>x.id===a.hole);if(!h||m.home||h.blocked)return error('这个树洞已封闭或不在当前搜索范围。');m.run.active=h.id;m.phase='search';if(window.HollowEvents?.enter(m,h,now)){room.revision++;return{state:room}}if(!h.searched&&!h.due){const i=h.loot.find(i=>i.uid===h.order[h.cursor]);h.due=now+duration(i)}
  }else if(a.type==='reveal'){
-  const h=m.run?.holes.find(x=>x.id===m.run.active);if(!h||h.searched)return error('没有正在搜索的树洞。');if(now<h.due)return error('正在搜索，请稍候。');const item=h.loot.find(i=>i.uid===h.order[h.cursor]);if(item)item.revealed=true;h.cursor++;if(h.cursor>=h.order.length){h.searched=true;h.due=0;award(room,m,'第一件洞藏')}else h.due=now+duration(h.loot.find(i=>i.uid===h.order[h.cursor]));
+  const h=m.run?.holes.find(x=>x.id===m.run.active);if(!h||h.searched||m.phase!=='search')return error('没有正在搜索的树洞。');if(now<h.due)return error('正在搜索，请稍候。');const item=h.loot.find(i=>i.uid===h.order[h.cursor]);if(item)item.revealed=true;h.cursor++;if(h.cursor>=h.order.length){h.searched=true;h.due=0;award(room,m,'第一件洞藏')}else h.due=now+duration(h.loot.find(i=>i.uid===h.order[h.cursor]));
  }else if(a.type==='close'){
   if(!m.run)return error('尚未进入搜索。');m.run.active=null;m.phase='map';
  }else if(['take','move','rotate','return'].includes(a.type)){
@@ -61,11 +66,11 @@ function roomAction(state,actor,action,now=Date.now()){
  }else if(a.type==='deposit'){
   if(!m.run||!m.run.bag.length)return error('背包中还没有藏品。');for(const i of m.run.bag){const claim=m.run.id+':'+i.uid;if(!m.deposits.some(x=>x.claim===claim))m.deposits.push({...i,claim,at:now})}m.run.bag=[];award(room,m,'第一件洞藏');
  }else if(a.type==='home'){
-  if(!m.run?.holes.every(h=>h.searched)||m.home)return error('请先搜索完所有候选树洞。');const h=m.run.holes.find(x=>x.id===a.hole);if(!h)return error('请选择范围内的树洞。');if(!a.confirmEnvironment)return error('请确认已在现场查看环境。');m.home=h.id;m.phase='battle';const c=classify(m,h);award(room,m,c==='如获珍宝'?'满载之选':c==='不毛之地'?'别有洞天':'恰好安家');award(room,m,'安家树隙','玩家已确认现场环境；不视为物种适居的科学鉴定。');settleHomes(room);
+  if(!m.run?.holes.every(h=>h.searched)||m.home)return error('请先搜索完所有候选树洞。');const h=m.run.holes.find(x=>x.id===a.hole);if(!h||h.blocked)return error('请选择范围内未封闭的树洞。');if(!a.confirmEnvironment)return error('请确认已在现场查看环境。');m.home=h.id;m.phase='battle';const c=classify(m,h);award(room,m,c==='如获珍宝'?'满载之选':c==='不毛之地'?'别有洞天':'恰好安家');award(room,m,'安家树隙','玩家已确认现场环境；不视为物种适居的科学鉴定。');settleHomes(room);
  }else return error('不支持的操作。');
  room.revision++;return{state:room};
 }
-function roomView(room,id){const r=clone(room);delete r.joinSecrets;r.self=id;r.serverTime=Date.now();for(const m of Object.values(r.members))if(m.id!==id&&m.run){m.run.bag=[];for(const h of m.run.holes)h.loot=h.loot.filter(i=>i.revealed).map(i=>({...i}));m.deposits=[]}return r}
+function roomView(room,id){const r=clone(room);delete r.joinSecrets;r.self=id;r.serverTime=Date.now();for(const m of Object.values(r.members))if(m.id!==id&&m.run){m.run.bag=[];for(const h of m.run.holes){h.loot=h.loot.filter(i=>i.revealed).map(i=>({...i}));if(h.chest&&!h.chest.visible)delete h.chest.reward}if(m.event)m.event={id:m.event.id,type:m.event.type,stage:m.event.stage};m.deposits=[]}return r}
 const Store={
  get(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}},
  set(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch{window.dispatchEvent(new CustomEvent('save-error'));return false}},
@@ -82,5 +87,6 @@ const Store={
  validateImport(obj){if(obj?.format!=='hollow-local-save'||obj.version!==1||!obj.data||typeof obj.data!=='object')throw Error('这不是树隙之间存档。');const entries=Object.entries(obj.data);if(entries.length>300)throw Error('存档内容过多。');for(const [k,v]of entries){if(!/^hollow-(personal-v1:|role-nicks-v1$|ui-v3-)/.test(k)||k.includes('host-')||typeof v!=='string'||v.length>8000000)throw Error('存档字段无效。');const p=JSON.parse(v);if(k.startsWith('hollow-personal-v1:')&&(!Array.isArray(p.storage)||!Array.isArray(p.claims)||!Number.isFinite(p.balance)||p.balance<0||typeof p.nickname!=='string'))throw Error('个人库数据不完整。')}return entries},
  import(obj){const entries=this.validateImport(obj),before=entries.map(([k])=>[k,localStorage.getItem(k)]);try{for(const[k,v]of entries)localStorage.setItem(k,v)}catch(e){for(const[k,v]of before){if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,v)}throw Error('空间不足，已恢复原存档。')}return entries.length}
 };
-window.HollowCore={D,L,roles,points,split,name,label,newRoom,roomAction,roomView,placement,bagMask,classify,stars,duration,Store};
+function roomTick(state,now=Date.now()){if(!window.HollowEvents||!Object.values(state.members).some(m=>m.event&&m.alive))return state;const room=clone(state);if(!window.HollowEvents.tick(room,now))return state;room.revision++;return room}
+window.HollowCore={valueOf,roomTick,D,L,roles,points,split,name,label,newRoom,roomAction,roomView,placement,bagMask,classify,stars,duration,Store};
 })();
