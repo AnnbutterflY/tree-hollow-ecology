@@ -7,3 +7,4 @@
 @media(max-width:700px){.mission-entry.bite-switch{min-height:38px;padding:8px 21px 8px 13px;font-size:11px}.journey-audio{font-size:11px;padding:4px 7px;right:5px;bottom:5px}}
 @media(prefers-reduced-motion:reduce){.bite-switch{transition:none}.map-marker[data-search-state="partial"] img{animation:none}}
 .map-marker{z-index:auto!important}.map-marker>span{z-index:40}.map-marker.selected>span{z-index:41}.map-marker img{pointer-events:none}.map-tooltip{z-index:50}
+.map-marker.blocked{filter:none!important}.map-marker.blocked img{filter:grayscale(1) brightness(.18)!important}
