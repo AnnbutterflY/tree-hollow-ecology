@@ -1,0 +1,29 @@
+/* Common optical stack: artwork / live content / controls / dialogs.
+   Every frame and its hit targets share the original reference coordinates. */
+#viewport{perspective:none}
+#art{z-index:0;overflow:hidden}
+#scene{z-index:1}
+.depth-host{overflow:hidden}
+.depth-surface{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none;opacity:0}
+.depth-ready>.depth-surface{opacity:1}
+.depth-layer{display:none!important}
+.role-list{transform:none;transition:none;box-shadow:none;contain:paint}
+.role-card:not(.original) img{transform:translate3d(calc(var(--look-x,0)*2px),calc(var(--look-y,0)*1.3px),0)}
+.role-card .original-card{transform:none}
+.map-window,.final-map,.inventory,.hole-grid,.nickname,.clue-ids{transform:none}
+.map-surface{transition:none}
+.bag-avatar img,.encounter-character img{transform:translate3d(calc(var(--look-x,0)*2px),calc(var(--look-y,0)*1.2px),0)}
+.final-rubbing{transform:translate3d(calc(var(--look-x,0)*1.5px),calc(var(--look-y,0)*1px),0)}
+.failure-art{transform:none;filter:none;animation:creature-reveal 3.4s cubic-bezier(.22,.6,.3,1) both}
+.failure-art>.depth-surface{z-index:0}
+.failure-art>img{z-index:1;transform:translate3d(calc(var(--look-x,0)*3px),calc(var(--look-y,0)*2px),0)}
+.failure-ui{z-index:4}
+.failure-ui .failure-continue{background-image:none;background:#73775b;color:#d9ddc3;font-size:36px;border:1px solid #b5c58366;border-radius:60px;box-shadow:0 0 28px #b3cb7455}
+.hotspot{z-index:5}
+.room-chip{z-index:12}
+@keyframes creature-reveal{from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){
+  .depth-surface{display:none}
+  .role-card img,.bag-avatar img,.encounter-character img,.final-rubbing,.failure-art>img{transform:none!important}
+  .failure-art,.failure-ui{animation:none;opacity:1}
+}
