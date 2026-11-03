@@ -32,7 +32,7 @@ function settleHomes(room){
  for(const h of room.history)h.achievements=[...new Set(live.filter(m=>m.home===h.hole).flatMap(m=>m.awards.map(a=>a.title)))];
 }
 function roomAction(state,actor,action,now=Date.now()){
- const room=clone(state),m=room.members[actor],a=action||{},error=message=>({state,error:message});
+ const room=clone(state),m=Object.hasOwn(room.members,actor)?room.members[actor]:null,a=action||{},error=message=>({state,error:message});
  if(a.type==='join'){if(m){m.online=true;return{state:room}}if(room.stage!=='lobby')return error('本轮已经开始，请等待下一轮。');if(Object.keys(room.members).length>=4)return error('房间已满，最多四人。');if(typeof actor!=='string'||actor.length>100)return error('无效身份');room.members[actor]=newMember(actor);return{state:room}}
  if(!m)return error('你不在这个房间中。');
  if(a.type==='presence'){m.online=!!a.online;return{state:room}}
@@ -65,7 +65,7 @@ function roomAction(state,actor,action,now=Date.now()){
  }else return error('不支持的操作。');
  room.revision++;return{state:room};
 }
-function roomView(room,id){const r=clone(room);r.self=id;r.serverTime=Date.now();for(const m of Object.values(r.members))if(m.id!==id&&m.run){m.run.bag=[];for(const h of m.run.holes)h.loot=h.loot.filter(i=>i.revealed).map(i=>({...i}));m.deposits=[]}return r}
+function roomView(room,id){const r=clone(room);delete r.joinSecrets;r.self=id;r.serverTime=Date.now();for(const m of Object.values(r.members))if(m.id!==id&&m.run){m.run.bag=[];for(const h of m.run.holes)h.loot=h.loot.filter(i=>i.revealed).map(i=>({...i}));m.deposits=[]}return r}
 const Store={
  get(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}},
  set(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch{window.dispatchEvent(new CustomEvent('save-error'));return false}},
