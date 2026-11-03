@@ -1204,4 +1204,9 @@ $('routes').addEventListener('click',event=>{
  $('continue-survivors').onclick=()=>{selected=result.survivors;mapResults()};
 },true);
 window.hollowConflictQA={resolveConflicts};
+</script><script id="hollow-character-bridge">/* Carry the selected habitat identity into the theatre without changing habitat saves. */
+document.addEventListener('click',event=>{
+ const entry=event.target.closest('.hollow-theatre-home-entry');if(!entry)return;
+ try{if(typeof selected==='undefined'||!selected.length)return;const i=selected.includes(focus)?focus:selected[0],role=roles[i];if(!role)return;const target=new URL(entry.href,location.href);target.searchParams.set('role',role.生物);entry.href=target.href}catch{}
+},true);
 </script></html>
