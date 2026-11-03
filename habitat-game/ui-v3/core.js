@@ -32,6 +32,41 @@ function settleHomes(room){
  }
  for(const h of room.history)h.achievements=[...new Set(live.filter(m=>m.home===h.hole).flatMap(m=>m.awards.map(a=>a.title)))];
 }
+// Final encounter: the host freezes the route when a home is confirmed.
+function createEncounter(m,now=Date.now()){
+ const h=m.run.holes.find(h=>h.id===m.home),category=classify(m,h),difficulty=category==='如获珍宝'?5:category==='不毛之地'?1:3;
+ const seed=crypto.getRandomValues(new Uint32Array(1))[0],pool=difficulty===1?[0,4,5]:difficulty===3?[1,2,3,6,7]:[8,9,10,11],bossId=pool[seed%pool.length],chapter=Math.floor(bossId/2);
+ return {id:crypto.randomUUID(),status:'active',category,difficulty,seed,stage:0,started:now,completed:[],checkpoint:null,levels:[0,1,2].map(i=>({index:i,chapter,boss:i===2,bossId:i===2?bossId:null,difficulty,length:i===2?1280:1600+difficulty*200+i*220,seed:(seed+i*2654435761)>>>0,bossHp:i===2?({1:360,3:620,5:940}[difficulty]+seed%41):null}))};
+}
+function encounterHistory(room){
+ for(const hole of new Set(Object.values(room.members).filter(m=>m.home).map(m=>m.home))){
+  const members=Object.values(room.members).filter(m=>m.home===hole),id=room.id+':home:'+hole;
+  let h=room.history.find(h=>h.id===id);if(!h){h={id,at:Date.now(),hole};room.history.push(h)}
+  h.actors=members.map(m=>({role:name(m),nickname:m.nickname,id:m.id}));h.achievements=[...new Set(members.flatMap(m=>m.awards.map(a=>a.title)))];
+  h.battles=members.map(m=>({id:m.id,nickname:m.nickname,status:m.encounter?.status||'active',stage:m.encounter?.stage||0}));
+  h.status=h.battles.some(b=>b.status==='active')?'pending-battle':h.battles.every(b=>b.status==='won')?'settled':h.battles.every(b=>b.status==='lost')?'failed':'mixed';
+ }
+}
+function encounterAction(room,m,a,now){
+ if(a.type==='encounter-init'){if(!m.alive||m.phase!=='battle'||!m.home)return '当前没有最终战斗。';if(!m.encounter)m.encounter=createEncounter(m,now);return;}
+ const e=m.encounter;if(!e||a.encounterId!==e.id)return '战斗已变化，请恢复当前冒险。';
+ if(a.type==='encounter-stage'&&e.completed.some(c=>c.stage===a.stage))return; // Re-delivery after a disconnected acknowledgement.
+ if(a.type==='encounter-loss'&&e.status==='lost')return;
+ if(!m.alive||e.status!=='active'||m.phase!=='battle')return '这轮战斗已经结束。';
+ if(a.stage!==e.stage)return '请依次完成当前关卡。';
+ if(a.type==='encounter-checkpoint'){
+  const s=a.snapshot;if(!s||![s.hp,s.energy,s.time,s.checkpoint,s.damage].every(Number.isFinite)||s.hp<1||s.hp>5||s.time<0||s.time>86400||s.checkpoint<100||s.checkpoint>e.levels[e.stage].length)return '战斗存档无效。';
+  if(s.time>=(e.checkpoint?.time||0))e.checkpoint={hp:Math.floor(s.hp),energy:Math.max(0,Math.min(5,s.energy)),time:s.time,checkpoint:s.checkpoint,damage:Math.max(0,Math.floor(s.damage))};
+ }else if(a.type==='encounter-stage'){
+  if(!Number.isFinite(a.time)||a.time<0||a.time>86400)return '战斗结果无效。';
+  e.completed.push({stage:e.stage,time:a.time,at:now});e.stage++;e.checkpoint=null;
+  if(e.stage===3){e.status='won';e.finished=now;m.phase='complete';award(room,m,'守住这一隙','连续通过两段险路，击退不期之敌。');for(const i of m.run.bag){const claim=m.run.id+':'+i.uid;if(!m.deposits.some(d=>d.claim===claim))m.deposits.push({...i,claim,at:now})}m.run.bag=[];}
+ }else if(a.type==='encounter-loss'){
+  e.status='lost';e.finished=now;m.alive=false;m.phase='ended';m.failure={event:'encounter',actorLabel:'不期之敌',reason:'在'+(e.stage===2?'大 Boss 战':'第 '+(e.stage+1)+' 个小关')+'中败下阵来，本轮冒险结束。',hole:m.home};
+  m.run.lostBag=m.run.bag.map(i=>({...i}));m.run.bag=[];award(room,m,'未竟的归途','不期之敌阻断了最后一程。');
+ }else return '不支持的战斗操作。';
+ encounterHistory(room);
+}
 function roomAction(state,actor,action,now=Date.now()){
  const room=clone(state),m=Object.hasOwn(room.members,actor)?room.members[actor]:null,a=action||{},error=message=>({state,error:message});
  if(a.type==='join'){if(m){m.online=true;return{state:room}}if(room.stage!=='lobby')return error('本轮已经开始，请等待下一轮。');if(Object.keys(room.members).length>=4)return error('房间已满，最多四人。');if(typeof actor!=='string'||actor.length>100)return error('无效身份');room.members[actor]=newMember(actor);return{state:room}}
@@ -45,7 +80,9 @@ function roomAction(state,actor,action,now=Date.now()){
   if(actor!==room.host||room.stage!=='lobby'||a.member===actor||!room.members[a.member])return error('只能在出发前移除同伴。');delete room.members[a.member];
  }else if(a.type==='clue'){
   if(room.stage!=='clues')return error('当前不能提交线索。');if(a.ids?.some(id=>!points.has(id)))return error('编号必须是有拓片的树洞。');m.clue=true;m.clueIds=[...new Set(a.ids||[])];m.phase='waiting';resolveClues(room);
+ }else if(String(a.type).startsWith('encounter-')){const msg=encounterAction(room,m,a,now);if(msg)return error(msg);
  }else if(!m.alive)return error('本轮冒险已结束。');
+ else if(m.home)return error('已进入最终战斗，无法返回搜索或提前带回藏品。');
  else if(String(a.type).startsWith('event-')||String(a.type).startsWith('battle-')){
   const msg=window.HollowEvents.action(room,m,a,now);if(msg)return error(msg);
  }else if(m.event)return error('请先处理当前随机事件。');
@@ -66,11 +103,11 @@ function roomAction(state,actor,action,now=Date.now()){
  }else if(a.type==='deposit'){
   if(!m.run||!m.run.bag.length)return error('背包中还没有藏品。');for(const i of m.run.bag){const claim=m.run.id+':'+i.uid;if(!m.deposits.some(x=>x.claim===claim))m.deposits.push({...i,claim,at:now})}m.run.bag=[];award(room,m,'第一件洞藏');
  }else if(a.type==='home'){
-  if(!m.run?.holes.every(h=>h.searched)||m.home)return error('请先搜索完所有候选树洞。');const h=m.run.holes.find(x=>x.id===a.hole);if(!h||h.blocked)return error('请选择范围内未封闭的树洞。');if(!a.confirmEnvironment)return error('请确认已在现场查看环境。');m.home=h.id;m.phase='battle';const c=classify(m,h);award(room,m,c==='如获珍宝'?'满载之选':c==='不毛之地'?'别有洞天':'恰好安家');award(room,m,'安家树隙','玩家已确认现场环境；不视为物种适居的科学鉴定。');settleHomes(room);
+  if(!m.run?.holes.every(h=>h.searched)||m.home)return error('请先搜索完所有候选树洞。');const h=m.run.holes.find(x=>x.id===a.hole);if(!h||h.blocked)return error('请选择范围内未封闭的树洞。');if(!a.confirmEnvironment)return error('请确认已在现场查看环境。');m.home=h.id;m.phase='battle';const c=classify(m,h);award(room,m,c==='如获珍宝'?'满载之选':c==='不毛之地'?'别有洞天':'恰好安家');award(room,m,'安家树隙','玩家已确认现场环境；不视为物种适居的科学鉴定。');m.encounter=createEncounter(m,now);settleHomes(room);encounterHistory(room);
  }else return error('不支持的操作。');
  room.revision++;return{state:room};
 }
-function roomView(room,id){const r=clone(room);delete r.joinSecrets;r.self=id;r.serverTime=Date.now();for(const m of Object.values(r.members))if(m.id!==id&&m.run){m.run.bag=[];for(const h of m.run.holes){h.loot=h.loot.filter(i=>i.revealed).map(i=>({...i}));if(h.chest&&!h.chest.visible)delete h.chest.reward}if(m.event)m.event={id:m.event.id,type:m.event.type,stage:m.event.stage};m.deposits=[]}return r}
+function roomView(room,id){const r=clone(room);delete r.joinSecrets;r.self=id;r.serverTime=Date.now();for(const m of Object.values(r.members))if(m.id!==id&&m.run){m.run.bag=[];for(const h of m.run.holes){h.loot=h.loot.filter(i=>i.revealed).map(i=>({...i}));if(h.chest&&!h.chest.visible)delete h.chest.reward}if(m.event)m.event={id:m.event.id,type:m.event.type,stage:m.event.stage};if(m.encounter){delete m.encounter.checkpoint;delete m.encounter.levels;delete m.encounter.seed}m.deposits=[]}return r}
 const Store={
  get(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}},
  set(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch{window.dispatchEvent(new CustomEvent('save-error'));return false}},
@@ -88,5 +125,5 @@ const Store={
  import(obj){const entries=this.validateImport(obj),before=entries.map(([k])=>[k,localStorage.getItem(k)]);try{for(const[k,v]of entries)localStorage.setItem(k,v)}catch(e){for(const[k,v]of before){if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,v)}throw Error('空间不足，已恢复原存档。')}return entries.length}
 };
 function roomTick(state,now=Date.now()){if(!window.HollowEvents||!Object.values(state.members).some(m=>m.event&&m.alive))return state;const room=clone(state);if(!window.HollowEvents.tick(room,now))return state;room.revision++;return room}
-window.HollowCore={valueOf,roomTick,D,L,roles,points,split,name,label,newRoom,roomAction,roomView,placement,bagMask,classify,stars,duration,Store};
+window.HollowCore={createEncounter,valueOf,roomTick,D,L,roles,points,split,name,label,newRoom,roomAction,roomView,placement,bagMask,classify,stars,duration,Store};
 })();
