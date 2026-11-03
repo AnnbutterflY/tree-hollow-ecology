@@ -1,0 +1,5 @@
+/* Reserve the name line so a one-cell prop stays visible. Full details remain
+   available through the existing title, accessible name and expanded hover. */
+.grid-item[data-from]{padding:5px 5px 27px}
+.grid-item[data-from] .item-label{height:24px;padding:2px 4px;font-size:15px;line-height:20px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.grid-item[data-from]:hover .item-label,.grid-item[data-from]:focus-visible .item-label{height:auto;white-space:normal;background:#11180df2}

@@ -10,7 +10,7 @@ function toast(text){$('#toast').textContent=text;$('#toast').classList.add('sho
 addEventListener('save-error',()=>toast('本机存储空间不足，请导出存档后清理浏览器空间。'));
 function me(){return ui.view?.members[ui.identity]}function peers(){return Object.values(ui.view?.members||{}).filter(m=>m.id!==ui.identity)}function current(){return ui.peerPreview?ui.view?.members[ui.peerPreview]||me():me()}
 function memberArt(m){return 'assets/portraits/'+(m?.role||'acrobat-ant')+'.webp'}
-function imageItem(i){return 'assets/items/'+encodeURIComponent(i.name)+'.webp'}
+function imageItem(i){return 'assets/items-retro/'+encodeURIComponent(i.name)+'.webp'}
 function xy(el,x,y,w,h){Object.assign(el.style,{left:x+'px',top:y+'px',...(w!=null?{width:w+'px'}:{}),...(h!=null?{height:h+'px'}:{})});return el}
 function element(tag,cls,html='',parent=scene){const e=document.createElement(tag);e.className=cls;if(html)e.innerHTML=html;parent.append(e);return e}
 function hot(label,x,y,w,h,fn,opts={}){const b=xy(element('button','hotspot '+(opts.cls||'')),x,y,w,h);b.setAttribute('aria-label',label);b.title=label;b.disabled=!!opts.disabled;b.onclick=fn;if(opts.id)b.dataset.action=opts.id;return b}
