@@ -32,7 +32,7 @@ function chest(room,m,kind,now){const h=hole(m),e=m.event,r=random(e);let reward
  if(kind==='hidden')reward=r<.4?limitedItem(e,1):normal(e,random(e)<.012?'rainbow':random(e)<.3?'gold':'purple');
  else reward=r<.30?limitedItem(e,2):r<.50?limitedItem(e,3):r<.512?normal(e,'rainbow'):normal(e,'gold');
  h.chest={id:e.id+':chest',kind,opened:false,reward,created:now};e.outcome=kind==='hidden'?'隐藏夹层':'守藏者的收藏';resume(room,m,now)}
-function choice(e,now){setStage(e,'choice',now);e.countdownAt=now+650;e.deadline=e.countdownAt+10000}
+function choice(e,now){setStage(e,'choice',now);e.countdownAt=e.type==='human'?0:now+650;e.deadline=e.type==='human'?0:e.countdownAt+10000}
 function eligible(m,route){const e=m.event;return m.run.bag.filter(i=>e.type==='human'||(e.type==='rain'&&route==='rescue')||defs[e.type].allowed.includes(i.name))}
 function submit(room,m,a,now){const e=m.event;if(e.stage!=='choice')return '当前不能提交物品。';const count=e.type==='rain'&&a.route==='rescue'?3:1,ids=a.uids;
  if(!Array.isArray(ids)||ids.length!==count||new Set(ids).size!==count)return '请选择 '+count+' 件不同的物品。';const candidates=eligible(m,a.route),items=ids.map(id=>candidates.find(i=>i.uid===id));if(items.some(i=>!i))return '物品不在背包中，或不符合这条路线。';m.run.bag=m.run.bag.filter(i=>!ids.includes(i.uid));e.spent=(e.spent||[]).concat(items.map(i=>({uid:i.uid,name:i.name})));const r=random(e);
@@ -44,13 +44,13 @@ function submit(room,m,a,now){const e=m.event;if(e.stage!=='choice')return '当�
  return ''}
 function startBattle(m,now){const e=m.event,items=[...new Map([...m.run.holes.flatMap(h=>h.loot.filter(i=>i.revealed)),...m.run.bag].map(i=>[i.uid,i])).values()];e.battle=window.HollowBattle.create(items,e.type==='bark'?'guardian':'tremor',()=>random(e),now);setStage(e,'battle',now)}
 function action(room,m,a,now){const e=m.event;if(!e)return '没有进行中的随机事件。';if(a.eventId!==e.id)return '事件已经变化，请重试。';
- if(e.stage==='choice'&&now>=e.deadline){e.type==='rain'?flood(room,m,now):die(room,m,defs[e.type].name+'：未在倒计时内作出回应',now);return ''}
+ if(e.type!=='human'&&e.stage==='choice'&&now>=e.deadline){e.type==='rain'?flood(room,m,now):die(room,m,defs[e.type].name+'：未在倒计时内作出回应',now);return ''}
  if(a.type==='event-ready'){if(e.stage!=='intro')return '';if(now<e.started+3200)return '事件正在出现。';choice(e,now)}
  else if(a.type==='event-submit')return submit(room,m,a,now);
  else if(a.type==='event-fight'){if(!((e.type==='tremor'&&e.stage==='choice')||(e.type==='bark'&&e.stage==='guardian')))return '这里不能发起战斗。';startBattle(m,now)}
  else if(a.type==='event-claim'){if(!['reward','friend','tradeOffer'].includes(e.stage)||!e.reward)return '没有可领取的物品。';const item=e.reward;e.delivery=putReward(m,item)?'bag':'hole';e.reward=null;record(room,m,item.eventOnly?'树隙奇遇':'交换所得',item.name,now);if(e.type==='human')setStage(e,'tradeAgain',now);else setStage(e,'clearing',now)}
  else if(a.type==='event-again'){if(e.stage!=='tradeAgain')return '当前不能再次交换。';e.cycle++;choice(e,now)}
- else if(a.type==='event-leave'){if(e.stage==='tradeAgain')setStage(e,'clearing',now);else if(e.type==='rain'&&e.stage==='choice')flood(room,m,now);else return '请先处理眼前的事件。'}
+ else if(a.type==='event-leave'){if(e.stage==='tradeAgain'||(e.type==='human'&&e.stage==='choice'))setStage(e,'clearing',now);else if(e.type==='rain'&&e.stage==='choice')flood(room,m,now);else return '请先处理眼前的事件。'}
  else if(a.type==='battle-place'){if(e.stage!=='battle')return '当前没有战斗。';return window.HollowBattle.place(e.battle,a,now)}
  else if(a.type==='battle-start'){if(e.stage!=='battle')return '当前没有战斗。';return window.HollowBattle.start(e.battle,now)}
  else if(a.type==='battle-pulse'){if(e.stage!=='battle')return '当前没有战斗。';return window.HollowBattle.pulse(e.battle,now)}
@@ -60,7 +60,8 @@ function action(room,m,a,now){const e=m.event;if(!e)return '没有进行中的�
 function tick(room,now){let changed=false;for(const m of Object.values(room.members)){const e=m.event;if(!e||!m.alive)continue;
  // The countdown is armed by event-ready only after artwork has decoded and revealed.
 
- if(e.stage==='choice'&&now>=e.deadline){e.type==='rain'?flood(room,m,now):die(room,m,defs[e.type].name+'：未在倒计时内作出回应',now);changed=true;continue}
+ if(e.type==='human'&&(e.deadline||e.countdownAt)){e.deadline=0;e.countdownAt=0;changed=true}
+ if(e.type!=='human'&&e.stage==='choice'&&now>=e.deadline){e.type==='rain'?flood(room,m,now):die(room,m,defs[e.type].name+'：未在倒计时内作出回应',now);changed=true;continue}
  const durations={clearing:1600,bridge:3200,windloss:4500,rumbling:5000,robbed:7500};if(durations[e.stage]&&now-e.stageAt>=durations[e.stage]){resume(room,m,now);changed=true;continue}
  if(e.stage==='battle'){const b=e.battle;if(window.HollowBattle.tick(b,now))changed=true;if(b.status==='won'){record(room,m,e.type==='bark'?'守藏者的试炼':'巨影之下',e.type==='bark'?'击退全部15只守卫虫':'守住了树洞',now);if(e.type==='bark')chest(room,m,'guardian',now);else{e.outcome='巨影退却';setStage(e,'battleWon',now)}changed=true}else if(b.status==='lost'){die(room,m,e.type==='bark'?'守藏者的守卫突破了防线':'巨影冲破了树洞防线',now);changed=true}}
  if(e.stage==='battleWon'&&now-e.stageAt>2500){resume(room,m,now);changed=true}

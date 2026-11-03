@@ -23,8 +23,9 @@ function sync(){if(U()?.ui.scene!==6)clearTimeout(chestTimer);const e=EV();if(!r
  if(e.stage==='battleWon')node('div','event-battle-win',stage,'巨影退却<br><small>防线守住了</small>');
  window.HollowEventAudio.start(e.type);animate();
 }
-function makeChoice(){const e=EV();const count=node('div','event-countdown',stage,'10');count.setAttribute('aria-label','剩余时间');const instruction=node('div','event-instruction');instruction.textContent=e.type==='human'?'选择一件藏品与这位住客交换。':e.type==='rain'?'交出三件藏品抢救雨珠，或用指定物品渡过积水。':'从背包选择可用的物品。';
+function makeChoice(){const e=EV();if(e.type!=='human'){const count=node('div','event-countdown',stage,'10');count.setAttribute('aria-label','剩余时间')}const instruction=node('div','event-instruction');instruction.textContent=e.type==='human'?'选择一件藏品与这位住客交换。':e.type==='rain'?'交出三件藏品抢救雨珠，或用指定物品渡过积水。':'从背包选择可用的物品。';
  if(e.type==='rain'){const routes=node('div','event-route');btn('指定 1 件 · 渡过积水',()=>{route='single';selected.clear();page=0;updateChoice()},'event-action active',routes).dataset.route='single';btn('任意 3 件 · 抢救雨珠',()=>{route='rescue';selected.clear();page=0;updateChoice()},'event-action',routes).dataset.route='rescue';btn('放弃此洞',()=>send('event-leave'),'event-action',routes)}
+ if(e.type==='human'){const routes=node('div','event-route');btn('暂不交换，离开',()=>send('event-leave'),'event-action',routes)}
  const panel=node('div','event-ui');image('panel-submit.webp','',panel);const submit=btn('',()=>send('event-submit',{uids:[...selected],route}),'event-submit',panel);submit.dataset.eventSubmit='';node('div','event-slots',panel);const empty=node('div','event-empty',panel);empty.textContent='背包内没有可以提交的物品';const pages=node('div','event-pages',panel);btn('‹',()=>{page=Math.max(0,page-1);updateChoice()},'event-action',pages);node('span','page-label',pages);btn('›',()=>{page++;updateChoice()},'event-action',pages);
  if(e.type==='tremor'){const fight=btn('',()=>send('event-fight'),'event-fight');fight.setAttribute('aria-label','进入战斗');image('fight-icon.webp','',fight);node('span','',fight,'进入战斗')}
  updateChoice();setTimeout(()=>submit.focus({preventScroll:true}),80)}
