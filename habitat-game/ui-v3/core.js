@@ -3,6 +3,7 @@ const D=window.UI_DATA,L=window.UI_LOOT,clone=x=>JSON.parse(JSON.stringify(x));
 const roles=new Map(D.roles.map(r=>[r.id,r])),points=new Map(D.points.map(p=>[p.id,p]));
 const split=s=>String(s||'').split('、').filter(Boolean),name=m=>roles.get(m.role)?.生物||'',label=m=>name(m)+'——'+m.nickname;
 const ranks={white:0,blue:1,purple:2,gold:3,rainbow:4};
+function cluePlan(role){const ids=[...new Set(split(roles.get(role).第一轮候选编号).filter(id=>/^A\d+$/.test(id)))];for(let i=ids.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[ids[i],ids[j]]=[ids[j],ids[i]]}return {ids:ids.slice(0,ids.length>1&&Math.random()<.4?2:1),index:0}}
 function newMember(id){return {id,role:'',nickname:'',ready:false,online:true,clue:false,alive:true,phase:'role',signals:[],signalDone:false,run:null,home:null,awards:[],deposits:[]}}
 function newRoom(code,host){return {protocol:3,id:crypto.randomUUID(),code,host,stage:'lobby',created:Date.now(),members:{[host]:newMember(host)},events:[],history:[],revision:0}}
 function award(room,m,title,detail=''){const id=room.id+':'+title+':'+m.id;if(!m.awards.some(a=>a.id===id))m.awards.push({id,title,detail,at:Date.now()})}
@@ -92,11 +93,11 @@ function roomAction(state,actor,action,now=Date.now()){
  if(a.type==='role'){
   if(room.stage!=='lobby')return error('本轮角色已确定。');if(!roles.has(a.role))return error('请选择角色。');const nick=String(a.nickname||'').trim().slice(0,20);if(!nick)return error('请给自己取一个名字。');if(Object.values(room.members).some(p=>p.id!==actor&&p.role===a.role))return error('这个角色已被同伴选择。');Object.assign(m,{role:a.role,nickname:nick,ready:true});
  }else if(a.type==='begin'){
-  if(actor!==room.host)return error('由房主开启本轮。');if(room.stage!=='lobby')return error('本轮已开始。');if(!Object.values(room.members).every(p=>p.ready&&p.online))return error('等所有同伴选好角色并在线后再出发。');room.stage='clues';room.startedAt=now;for(const p of Object.values(room.members)){p.phase='clue';p.beganAt=now;}
+  if(actor!==room.host)return error('由房主开启本轮。');if(room.stage!=='lobby')return error('本轮已开始。');if(!Object.values(room.members).every(p=>p.ready&&p.online))return error('等所有同伴选好角色并在线后再出发。');room.stage='clues';room.startedAt=now;for(const p of Object.values(room.members)){p.phase='clue';p.beganAt=now;p.clueTask=cluePlan(p.role);}
  }else if(a.type==='remove'){
   if(actor!==room.host||room.stage!=='lobby'||a.member===actor||!room.members[a.member])return error('只能在出发前移除同伴。');delete room.members[a.member];
  }else if(a.type==='clue'){
-  if(room.stage!=='clues')return error('当前不能提交线索。');if(a.ids?.some(id=>!points.has(id)))return error('编号必须是有拓片的树洞。');m.clue=true;m.clueIds=[...new Set(a.ids||[])];m.phase='waiting';resolveClues(room);
+  if(room.stage!=='clues')return error('当前不能提交线索。');if(a.ids?.some(id=>!points.has(id)))return error('编号必须是有拓片的树洞。');if(m.clue)return error('线索已完成，请等待同伴。');if(!m.clueTask)m.clueTask={ids:split(roles.get(m.role).第一轮候选编号).filter(id=>/^A\d+$/.test(id)).slice(0,1),index:0};const task=m.clueTask;if(a.ids?.length!==1||String(a.ids[0]).trim().toUpperCase()!==task.ids[task.index])return error('编号不正确，请重新观察线索。');m.clueIds=[...(m.clueIds||[]),task.ids[task.index]];task.index++;if(task.index<task.ids.length){m.phase='clue';}else{m.clue=true;m.phase='waiting';resolveClues(room);}
  }else if(String(a.type).startsWith('encounter-')){const msg=encounterAction(room,m,a,now);if(msg)return error(msg);
  }else if(!m.alive)return error('本轮冒险已结束。');
  else if(m.home)return error('已进入最终战斗，无法返回搜索或提前带回藏品。');
