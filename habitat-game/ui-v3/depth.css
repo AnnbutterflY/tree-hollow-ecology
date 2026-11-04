@@ -28,3 +28,11 @@
   .failure-art,.failure-ui{animation:none;opacity:1}
 }
 .cutout-depth,.cutout-plane{position:absolute;inset:0;pointer-events:none}.cutout-plane{will-change:transform}.cutout-plane svg{width:100%;height:100%;display:block}.clue-ids{background:transparent!important;box-shadow:none!important;border:0!important;scrollbar-width:none}.clue-ids::-webkit-scrollbar{display:none}.cave-panel{background:#151711 url('assets/ui/search-right-original.webp') center/100% 100% no-repeat!important}@media(prefers-reduced-motion:reduce){.cutout-plane{transform:none!important}}
+
+/* Printed character portraits and foreground controls retain original artwork. */
+.role-arrow-art{position:absolute;inset:0;z-index:25;pointer-events:none}.role-arrow-art svg{width:100%;height:100%}[data-action="next-role"]{z-index:26}
+.role-print{position:absolute;left:15px;top:0;width:60%;height:100%;isolation:isolate;transform:translate3d(calc(var(--look-x,0)*2px),calc(var(--look-y,0)*1.3px),0)}
+.role-card:nth-child(even) .role-print{left:auto;right:0}
+.role-card:not(.original) .role-print img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;transform:none;filter:sepia(.85) hue-rotate(35deg) saturate(.85) contrast(1.45) brightness(.9) drop-shadow(0 0 7px #b9cf75)}
+.role-print:after{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle,#14271de6 1px,#edf0d4b3 1.5px,transparent 2px) 0 0/5px 5px;mask-image:var(--portrait);mask-size:contain;mask-repeat:no-repeat;mask-position:center;mix-blend-mode:normal;opacity:.72}
+.clue-cords{position:absolute;inset:0;z-index:20;pointer-events:none}.clue-cords svg{width:100%;height:100%;display:block}.clue-success-card{border-color:#9eaf6b;box-shadow:0 0 70px #a5c35c40;animation:fade-in .3s ease-out}.clue-success-card h2{color:#d8e8a5}
