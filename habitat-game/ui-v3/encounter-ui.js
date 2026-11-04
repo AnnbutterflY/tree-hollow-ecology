@@ -10,7 +10,7 @@ function sync(){
  if(root?.dataset.encounter!==m.encounter.id){
   dispose();root=document.createElement('section');root.id='encounter-root';root.dataset.encounter=m.encounter.id;root.setAttribute('aria-label','不期之敌');
   const loading=document.createElement('div');loading.className='encounter-loading';loading.setAttribute('role','status');loading.setAttribute('aria-label','正在加载战斗');loading.innerHTML='<span class="insect-loader"><i></i><i></i><i></i></span><small>LOADING</small>';root.append(loading);
-  channel=crypto.randomUUID();const url=new URL('../../hollow-toons/index.html',document.baseURI);url.searchParams.set('encounter',m.encounter.id);url.searchParams.set('channel',channel);url.searchParams.set('role',m.role);url.searchParams.set('v','20261103-relics1');if(new URLSearchParams(location.search).has('qa'))url.searchParams.set('qa','1');
+  channel=crypto.randomUUID();const url=new URL('../../hollow-toons/index.html',document.baseURI);url.searchParams.set('encounter',m.encounter.id);url.searchParams.set('channel',channel);url.searchParams.set('role',m.role);url.searchParams.set('v','20261104-perf1');if(new URLSearchParams(location.search).has('qa'))url.searchParams.set('qa','1');
   frame=document.createElement('iframe');frame.title='不期之敌战斗';frame.allow='autoplay; fullscreen; gamepad';frame.src=url.href;frame.onload=()=>{frame?.contentWindow.focus()};root.append(frame);document.body.append(root);board().inert=true;window.HollowAudio.duck(true);
  }
  config();

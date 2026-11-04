@@ -36,3 +36,5 @@
 .save-ring-repair{position:absolute;left:94px;top:916px;width:148px;height:148px;background:url(assets/ui/scene-2.webp) -267px -918px/1888px 1312px;mask-image:radial-gradient(circle at center,transparent 61px,#000 63px,#000 72px,transparent 74px);pointer-events:none}.save-slot[aria-current]{box-shadow:none!important}
 .save-ring-repair{left:105px;top:922px;width:148px;height:148px;background-position:-266px -922px;mask-image:radial-gradient(circle at center,transparent 61px,#000 63px,#000 73px,transparent 74px)}
 .save-ring-repair{left:87px;top:907px;width:160px;height:160px;background-position:-258px -907px;mask-image:radial-gradient(circle,transparent 55px,#000 57px,#000 78px,transparent 80px)}
+
+@media(pointer:coarse){.glass{backdrop-filter:none!important}.map-image{transition:none!important}}

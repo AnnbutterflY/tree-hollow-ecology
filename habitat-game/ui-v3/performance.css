@@ -1,0 +1,15 @@
+#viewport{height:100vh;height:100dvh}
+.mobile-play-hint{display:none}
+.page-hidden *,.page-hidden *:before,.page-hidden *:after{animation-play-state:paused!important}
+@media(pointer:coarse){
+ .modal-shade{backdrop-filter:none;background:#0d100ce8}
+ .map-marker img{animation:none}
+ .role-print,.role-card:not(.original) .role-print img,.bag-avatar img,.final-rubbing{transform:none!important}
+ .role-card{content-visibility:auto;contain-intrinsic-size:734px 347px}
+ .cutout-depth{display:none}
+ .dialog{box-shadow:none}
+}
+@media(pointer:coarse) and (orientation:portrait){
+ .mobile-play-hint{display:flex;position:fixed;left:12px;right:12px;bottom:max(12px,env(safe-area-inset-bottom));z-index:110;gap:12px;align-items:center;background:#252c1ef2;border:1px solid #9ca66d;border-radius:12px;color:#e1e5cc;padding:12px;font:14px/1.6 'Microsoft YaHei',sans-serif}
+ .mobile-play-hint button{flex-shrink:0;background:#68764d;border:0;color:white;padding:9px 12px;border-radius:8px}
+}

@@ -151,5 +151,5 @@ function showCast(){
 }
 castButton.onclick=showCast;$('#castClose').onclick=()=>{if(!castLoading)menu()};updateCastLabel();
 
-let loaded=0;Promise.all(['backdrop','amber','silk','bosses','hero'].map(name=>new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>{images[name]=img;$('#loadProgress').textContent=`布置舞台 ${++loaded} / 5`;resolve()};img.onerror=()=>reject(new Error(name));img.src=name==='hero'?currentCharacter().src:`assets/${name}.png`}))).then(()=>{$('#loading').classList.add('hidden');if(embedded){encounterAssetsReady=true;encounterReady();}else menu();requestAnimationFrame(loop)}).catch(e=>{$('#loadProgress').textContent='舞台图片未载入，请保留 assets 文件夹并重新打开。';console.error(e)});
+let loaded=0;Promise.all(['backdrop','amber','silk','bosses','hero'].map(name=>new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>{images[name]=img;$('#loadProgress').textContent=`布置舞台 ${++loaded} / 5`;resolve()};img.onerror=()=>reject(new Error(name));img.src=name==='hero'?currentCharacter().src:`assets/${name}.webp`}))).then(()=>{$('#loading').classList.add('hidden');if(embedded){encounterAssetsReady=true;encounterReady();}else menu();requestAnimationFrame(loop)}).catch(e=>{$('#loadProgress').textContent='舞台图片未载入，请保留 assets 文件夹并重新打开。';console.error(e)});
 })();

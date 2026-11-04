@@ -5,7 +5,7 @@ const tierColors={white:'#ececda',blue:'#67afff',purple:'#bf84eb',gold:'#f4ca4e'
 const originals=['aphid','blue-butterfly','carpenter-ant'],ordered=[...originals.map(id=>C.roles.get(id)),...D.roles.filter(r=>!originals.includes(r.id))];
 const ui={scene:1,slot:Store.get('hollow-ui-v3-slot','A'),selectedRole:'aphid',nickname:'',selectedHole:null,peerPreview:null,zoom:1,selectedItem:null,clues:new Set(),view:null,solo:false,identity:'',previousPhase:'',failureSeen:new Set(),scanPending:false,drag:null,modal:null};
 let toastTimer,renderTimer,scanTimer,lastRevealed=new Set(),roomClient;
-function resize(){const scale=Math.min(innerWidth/1888,innerHeight/1312);board.style.transform=`translate(-50%,-50%) scale(${scale})`;ui.scale=scale}addEventListener('resize',resize);resize();
+function resize(){const scale=Math.min((window.visualViewport?.width||innerWidth)/1888,(window.visualViewport?.height||innerHeight)/1312);board.style.transform=`translate(-50%,-50%) scale(${scale})`;ui.scale=scale}addEventListener('resize',resize);window.visualViewport?.addEventListener('resize',resize);resize();
 function toast(text){$('#toast').textContent=text;$('#toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),4200)}
 addEventListener('save-error',()=>toast('本机存储空间不足，请导出存档后清理浏览器空间。'));
 function me(){return ui.view?.members[ui.identity]}function peers(){return Object.values(ui.view?.members||{}).filter(m=>m.id!==ui.identity)}function current(){return ui.peerPreview?ui.view?.members[ui.peerPreview]||me():me()}
@@ -120,7 +120,6 @@ function render(skipDepth=false){clearTimeout(scanTimer);scene.innerHTML='';cons
 }
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(ui.modal)closeModal();else back();return}if(e.target.matches('input,textarea,select'))return;if(ui.scene===6&&ui.selectedItem){const i=me().run.bag.find(i=>i.uid===ui.selectedItem);if(!i)return;if(e.key.toLowerCase()==='r'){e.preventDefault();send({type:'rotate',uid:i.uid})}else if(e.key==='Delete'){send({type:'return',uid:i.uid});ui.selectedItem=null}else if(e.key.startsWith('Arrow')){e.preventDefault();send({type:'move',uid:i.uid,x:i.x+(e.key==='ArrowRight'?1:e.key==='ArrowLeft'?-1:0),y:i.y+(e.key==='ArrowDown'?1:e.key==='ArrowUp'?-1:0)})}}});
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)scheduleScan()});
-window.HollowUI={ui,show,send,dialog:modal,closeModal,me,current,render,roomDialog,createDialog,startSolo,library,historyText,toast,imageItem};setInterval(()=>{if(!ui.solo||!ui.view)return;const next=C.roomTick(ui.view);if(next!==ui.view)setView(next)},100);ensureClient();render();
-// Load the already supplied artwork in the background; the first screen stays immediate.
-setTimeout(()=>{for(let n=2;n<=10;n++){const i=new Image();i.src=`assets/ui/scene-${n}.webp`}},800);
+window.HollowUI={ui,show,send,dialog:modal,closeModal,me,current,render,roomDialog,createDialog,startSolo,library,historyText,toast,imageItem};setInterval(()=>{if(document.hidden||!ui.solo||!ui.view)return;const next=C.roomTick(ui.view);if(next!==ui.view)setView(next)},100);ensureClient();render();
+// Artwork loads on entering its scene; avoid nine simultaneous full-page decodes.
 })();
