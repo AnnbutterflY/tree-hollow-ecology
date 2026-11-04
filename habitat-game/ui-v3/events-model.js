@@ -33,7 +33,7 @@ function chest(room,m,kind,now){const h=hole(m),e=m.event,r=random(e);let reward
  else reward=r<.30?limitedItem(e,2):r<.50?limitedItem(e,3):r<.512?normal(e,'rainbow'):normal(e,'gold');
  h.chest={id:e.id+':chest',kind,opened:false,reward,created:now};e.outcome=kind==='hidden'?'隐藏夹层':'守藏者的收藏';resume(room,m,now)}
 function choice(e,now){setStage(e,'choice',now);e.countdownAt=e.type==='human'?0:now+650;e.deadline=e.type==='human'?0:e.countdownAt+10000}
-function eligible(m,route){const e=m.event;return m.run.bag.filter(i=>e.type==='human'||(e.type==='rain'&&route==='rescue')||defs[e.type].allowed.includes(i.name))}
+function eligible(m,route){const e=m.event;return m.run.bag.filter(i=>e.type==='human'||defs[e.type].allowed.includes(i.name))}
 function submit(room,m,a,now){const e=m.event;if(e.stage!=='choice')return '当前不能提交物品。';const count=e.type==='rain'&&a.route==='rescue'?3:1,ids=a.uids;
  if(!Array.isArray(ids)||ids.length!==count||new Set(ids).size!==count)return '请选择 '+count+' 件不同的物品。';const candidates=eligible(m,a.route),items=ids.map(id=>candidates.find(i=>i.uid===id));if(items.some(i=>!i))return '物品不在背包中，或不符合这条路线。';m.run.bag=m.run.bag.filter(i=>!ids.includes(i.uid));e.spent=(e.spent||[]).concat(items.map(i=>({uid:i.uid,name:i.name})));const r=random(e);
  if(e.type==='rain'){if(a.route==='rescue'){e.reward=limitedItem(e,0);e.outcome='抢救藏品';setStage(e,'reward',now)}else if(r<.5){e.outcome='浮桥搭成';setStage(e,'bridge',now)}else{e.outcome='雨中脱险';setStage(e,'clearing',now)}}
