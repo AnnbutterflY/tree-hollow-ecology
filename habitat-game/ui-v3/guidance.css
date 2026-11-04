@@ -13,3 +13,19 @@
 
 /* The entry is the original bite artwork only; its accessible name stays on the button. */
 .mission-entry.bite-switch{font-size:0!important}
+/* Original transparent crack artwork, separated into radial pieces for opening motion. */
+.mission-entry.crack-entry{width:150px!important;height:170px!important;padding:0!important;display:flex!important;flex-direction:column;align-items:center;justify-content:flex-end;overflow:visible!important}
+.mission-entry.crack-entry::before{display:none!important}
+.crack-art{position:absolute;width:150px;height:150px;bottom:30px;left:0;pointer-events:none;filter:drop-shadow(0 0 7px #eb4c1844)}
+.crack-art i{position:absolute;inset:0;background:url('assets/ui/crack-entry.webp') center/contain no-repeat;animation:crack-open 5s infinite;--x:0px;--y:0px;transform-origin:50% 50%}
+.crack-art i:nth-child(1){clip-path:polygon(50% 50%,0 0,50% 0);--x:-3px;--y:-5px}
+.crack-art i:nth-child(2){clip-path:polygon(50% 50%,50% 0,100% 0,100% 30%);--x:4px;--y:-4px}
+.crack-art i:nth-child(3){clip-path:polygon(50% 50%,100% 30%,100% 75%);--x:6px;--y:1px}
+.crack-art i:nth-child(4){clip-path:polygon(50% 50%,100% 75%,100% 100%,50% 100%);--x:4px;--y:5px}
+.crack-art i:nth-child(5){clip-path:polygon(50% 50%,50% 100%,0 100%,0 70%);--x:-4px;--y:5px}
+.crack-art i:nth-child(6){clip-path:polygon(50% 50%,0 70%,0 0);--x:-6px;--y:-1px}
+.mission-entry.crack-entry .crack-label{font-size:20px!important;line-height:30px;font-weight:800;letter-spacing:3px;color:#d8e3a4;text-shadow:0 2px 4px #10180b,0 0 8px #10180b;white-space:nowrap}
+@keyframes crack-open{0%,16%,100%{transform:translate(0,0)}22%{transform:translate(calc(var(--x)*.3),calc(var(--y)*.3))}25%{transform:translate(0,0)}32%,65%{transform:translate(var(--x),var(--y))}76%{transform:translate(calc(var(--x)*.7),calc(var(--y)*.7))}}
+.mission-entry.crack-entry:hover .crack-art{filter:drop-shadow(0 0 12px #ff6418aa)}
+@media(max-width:700px){.mission-entry.crack-entry{width:110px!important;height:135px!important}.crack-art{width:110px;height:110px}.mission-entry.crack-entry .crack-label{font-size:16px!important}}
+@media(prefers-reduced-motion:reduce){.crack-art i{animation:none}}
