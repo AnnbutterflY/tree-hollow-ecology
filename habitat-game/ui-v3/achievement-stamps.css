@@ -1,5 +1,5 @@
 .journey-stamp.art-stamp{background:none!important;border:0!important;box-shadow:none!important;transform:none!important;overflow:visible;isolation:isolate;font-size:19px;color:#555749}
-.art-stamp>img{width:250px;height:250px;object-fit:contain;opacity:0;transition:opacity .05s;mix-blend-mode:multiply;position:absolute;left:39px;bottom:0}
+.art-stamp>img{width:600px;height:600px;object-fit:contain;opacity:0;transition:opacity .05s;mix-blend-mode:multiply;position:absolute;left:-136px;bottom:-45px}
 .art-stamp.stamped>img{opacity:1;transform:rotate(-7deg)}
 .art-stamp.ink-impact>img{animation:ink-press .5s ease-out}
 .brass-stamp{position:absolute;left:-106px;bottom:10px;width:540px;height:690px;z-index:10;pointer-events:none;transform-origin:50% 100%;animation:brass-strike 2.4s linear forwards;filter:drop-shadow(18px 25px 13px #20170888)}
