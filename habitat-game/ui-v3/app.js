@@ -28,7 +28,7 @@ function setView(view){const old=ui.view,oldMe=me();ui.view=view;if(ui.solo)ui.c
  if(m.event?.stage==='windloss')ui.scene=6;
  if(ui.sealDragging&&ui.scene===11){updateRoomChip();return;}
  // A companion's search updates must not recreate the paper or interrupt unsealing.
- if([11,12].includes(ui.scene)&&oldMe?.phase===m.phase&&(ui.journeyPreview||JSON.stringify(C.journey(old,oldMe))===JSON.stringify(C.journey(view,m)))){updateRoomChip();return;}
+ if([11,12].includes(ui.scene)&&window.HollowAchievements.settled(view)&&window.HollowAchievements.settled(old)&&oldMe?.phase===m.phase&&(ui.journeyPreview||JSON.stringify(C.journey(old,oldMe))===JSON.stringify(C.journey(view,m)))){updateRoomChip();return;}
  if(oldMe?.event&&m.event&&oldMe.event.id===m.event.id&&oldMe.event.stage===m.event.stage&&oldMe.event.cycle===m.event.cycle){window.HollowEventUI?.sync();return}if(ui.drag){ui.pendingRender=true;return}if(!m.alive&&oldMe?.failure&&ui.scene===9){updateRoomChip();return}render();if(ui.modal==='房间成员')roomDialog();
 }
 function send(action){if(ui.solo){const r=C.roomAction(ui.view,ui.identity,action);if(r.error){toast(r.error);if(action.type==='clue')A.failure();return false}r.state.self=ui.identity;setView(r.state);return true}if(!roomClient||roomClient.info.status!=='connected'){toast('正在等待房间连接，请稍后重试。');return false}roomClient.send(action);return true}

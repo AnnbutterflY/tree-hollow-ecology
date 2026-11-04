@@ -19,3 +19,5 @@
 .stamp-paper-impact{animation:paper-impact .28s ease-out}
 @keyframes paper-impact{0%,100%{margin-top:0}20%{margin-top:6px}50%{margin-top:-3px}75%{margin-top:1px}}
 @media(prefers-reduced-motion:reduce){.brass-stamp{animation:none;display:none}.art-stamp.ink-impact>img,.stamp-paper-impact{animation:none}}
+
+.brass-stamp img{filter:grayscale(1) brightness(.38) contrast(1.65)}
