@@ -27,3 +27,4 @@
   .role-card img,.bag-avatar img,.encounter-character img,.final-rubbing,.failure-art>img{transform:none!important}
   .failure-art,.failure-ui{animation:none;opacity:1}
 }
+.cutout-depth,.cutout-plane{position:absolute;inset:0;pointer-events:none}.cutout-plane{will-change:transform}.cutout-plane svg{width:100%;height:100%;display:block}.clue-ids{background:transparent!important;box-shadow:none!important;border:0!important;scrollbar-width:none}.clue-ids::-webkit-scrollbar{display:none}.cave-panel{background:#151711 url('assets/ui/search-right-original.webp') center/100% 100% no-repeat!important}@media(prefers-reduced-motion:reduce){.cutout-plane{transform:none!important}}
