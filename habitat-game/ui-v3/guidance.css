@@ -30,3 +30,4 @@
 @media(max-width:700px){.mission-entry.crack-entry{width:110px!important;height:135px!important}.crack-art{width:110px;height:110px}.mission-entry.crack-entry .crack-label{font-size:16px!important}}
 @media(prefers-reduced-motion:reduce){.crack-art i{animation:none}}
 .mission-entry.crack-entry{transform:translateY(65px)!important}.mission-entry.crack-entry:hover{transform:translateY(63px)!important}
+.mission-entry.crack-entry,.mission-entry.crack-entry:hover{position:fixed!important;transform:none!important;width:120px!important;height:120px!important;z-index:100!important;margin:0!important}.mission-entry.crack-entry .crack-art{width:120px;height:120px;inset:0}.crack-label{display:none!important}

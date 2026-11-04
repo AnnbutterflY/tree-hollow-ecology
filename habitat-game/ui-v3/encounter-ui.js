@@ -9,7 +9,7 @@ function sync(){
  if(m.encounter.status!=='active'){dispose();return;}
  if(root?.dataset.encounter!==m.encounter.id){
   dispose();root=document.createElement('section');root.id='encounter-root';root.dataset.encounter=m.encounter.id;root.setAttribute('aria-label','不期之敌');
-  const loading=document.createElement('div');loading.className='encounter-loading';loading.textContent=m.encounter.escape&&!m.encounter.escape.success?'金蝉脱壳失败 · 战斗即将开始':'不期之敌 · 即将遭遇';root.append(loading);
+  const loading=document.createElement('div');loading.className='encounter-loading';loading.setAttribute('role','status');loading.setAttribute('aria-label','正在加载战斗');loading.innerHTML='<span class="insect-loader"><i></i><i></i><i></i></span><small>LOADING</small>';root.append(loading);
   channel=crypto.randomUUID();const url=new URL('../../hollow-toons/index.html',document.baseURI);url.searchParams.set('encounter',m.encounter.id);url.searchParams.set('channel',channel);url.searchParams.set('role',m.role);url.searchParams.set('v','20261103-relics1');if(new URLSearchParams(location.search).has('qa'))url.searchParams.set('qa','1');
   frame=document.createElement('iframe');frame.title='不期之敌战斗';frame.allow='autoplay; fullscreen; gamepad';frame.src=url.href;frame.onload=()=>{frame?.contentWindow.focus()};root.append(frame);document.body.append(root);board().inert=true;window.HollowAudio.duck(true);
  }
@@ -21,7 +21,7 @@ addEventListener('message',ev=>{
  const U=window.HollowUI,m=U.me();if(!m?.encounter||d.encounterId!==m.encounter.id)return;
  if(d.type==='hollow-encounter:audio'&&typeof d.enabled==='boolean'){if(window.HollowAudio.enabled!==d.enabled)window.HollowAudio.setEnabled(d.enabled);return;}
  if(d.type==='hollow-encounter:ready'){ready=true;config();return;}
- if(d.type==='hollow-encounter:loaded'){root?.querySelector('.encounter-loading')?.remove();return;}
+ if(d.type==='hollow-encounter:loaded'){root?.querySelector('.encounter-loading')?.remove();root?.classList.add('battle-loaded');return;}
  if(d.type==='hollow-encounter:result'){U.send({type:d.won?'encounter-stage':'encounter-loss',encounterId:m.encounter.id,stage:d.stage,time:d.time});config();}
  if(d.type==='hollow-encounter:checkpoint')U.send({type:'encounter-checkpoint',encounterId:m.encounter.id,stage:d.stage,snapshot:d.snapshot});
 });
