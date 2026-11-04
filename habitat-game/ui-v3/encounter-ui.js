@@ -10,7 +10,7 @@ function sync(){
  if(root?.dataset.encounter!==m.encounter.id){
   dispose();root=document.createElement('section');root.id='encounter-root';root.dataset.encounter=m.encounter.id;root.setAttribute('aria-label','不期之敌');
   const loading=document.createElement('div');loading.className='encounter-loading';loading.setAttribute('role','status');loading.setAttribute('aria-label','正在加载战斗');loading.innerHTML='<span class="insect-loader"><i></i><i></i><i></i></span><small>LOADING</small>';root.append(loading);
-  channel=crypto.randomUUID();const url=new URL('../../hollow-toons/index.html',document.baseURI);url.searchParams.set('encounter',m.encounter.id);url.searchParams.set('channel',channel);url.searchParams.set('role',m.role);url.searchParams.set('v','20261104-perf1');if(new URLSearchParams(location.search).has('qa'))url.searchParams.set('qa','1');
+  channel=crypto.randomUUID();const url=new URL('../../hollow-toons/index.html',document.baseURI);url.searchParams.set('encounter',m.encounter.id);url.searchParams.set('channel',channel);url.searchParams.set('role',m.role);url.searchParams.set('v','20261104-soundseal3');if(new URLSearchParams(location.search).has('qa'))url.searchParams.set('qa','1');
   frame=document.createElement('iframe');frame.title='不期之敌战斗';frame.allow='autoplay; fullscreen; gamepad';frame.src=url.href;frame.onload=()=>{frame?.contentWindow.focus()};root.append(frame);document.body.append(root);board().inert=true;window.HollowAudio.duck(true);
  }
  config();
@@ -22,7 +22,7 @@ addEventListener('message',ev=>{
  if(d.type==='hollow-encounter:audio'&&typeof d.enabled==='boolean'){if(window.HollowAudio.enabled!==d.enabled)window.HollowAudio.setEnabled(d.enabled);return;}
  if(d.type==='hollow-encounter:ready'){ready=true;config();return;}
  if(d.type==='hollow-encounter:loaded'){root?.querySelector('.encounter-loading')?.remove();root?.classList.add('battle-loaded');return;}
- if(d.type==='hollow-encounter:result'){U.send({type:d.won?'encounter-stage':'encounter-loss',encounterId:m.encounter.id,stage:d.stage,time:d.time});config();}
+ if(d.type==='hollow-encounter:result'){const finalResult=!d.won||d.stage===2;if(finalResult&&window.HollowAudio.enabled)window.HollowAudio.start().then(()=>{const a=window.HollowAudio.engine(),notes=d.won?[262,330,392,523,659,784]:[294,262,220,147];notes.forEach((n,i)=>setTimeout(()=>{if(window.HollowAudio.enabled)a.tone(n,d.won?.8:.9,d.won?.23:.2,'triangle');},i*(d.won?140:240)));if(!d.won)a.noise({duration:.45,volume:.18,color:'brown',frequency:180});});U.send({type:d.won?'encounter-stage':'encounter-loss',encounterId:m.encounter.id,stage:d.stage,time:d.time});config();}
  if(d.type==='hollow-encounter:checkpoint')U.send({type:'encounter-checkpoint',encounterId:m.encounter.id,stage:d.stage,snapshot:d.snapshot});
 });
 addEventListener('hollow:audio-change',config);

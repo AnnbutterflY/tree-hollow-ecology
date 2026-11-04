@@ -56,3 +56,11 @@ body:has(#board:is([data-scene="3"],[data-scene="4"],[data-scene="6"])) .mobile-
 @keyframes original-glitch{0%,61%,100%{opacity:1;filter:brightness(1);translate:0}65%,76%{opacity:1;filter:brightness(.35);translate:0}70%,80%{opacity:1;filter:brightness(1.5);translate:2px 0}85%{opacity:1;filter:brightness(.7);translate:-2px 0}}
 
 @media(pointer:coarse) and (orientation:portrait){#board[data-scene="6"] #art{background-image:url('assets/ui/texture.webp')!important}#board[data-scene="6"] .ecology-clip{position:absolute;inset:auto 0 0;height:135px}#board[data-scene="6"] .search-ecology,#board[data-scene="6"] .search-ecology.collapsed{top:0;width:100%;height:130px;padding:18px 85px 14px 15px}#board[data-scene="6"] .search-ecology strong{font-size:15px}#board[data-scene="6"] .search-ecology span{font-size:13px}#board[data-scene="6"] .search-ecology.collapsed{transform:translateX(calc(-100% + 48px))}#board[data-scene="6"] #scene{padding-bottom:155px}}
+
+/* The artwork, content and foreground cords share exactly one optical plane. */
+#board[data-scene="4"]{background:#090b08}
+#board[data-scene="4"] #art,#board[data-scene="4"] .clue-board-content,#board[data-scene="4"] .clue-cords{transform-origin:center center;transition:none;will-change:transform}
+[data-action="submit-clue"].answer-selected{opacity:1!important;background:#f43a06!important;color:#eee6ce!important;border:0;border-radius:65px;font-size:63px;font-weight:800;box-shadow:0 0 28px #f43a0644}
+@media(pointer:coarse) and (orientation:portrait){[data-action="submit-clue"]{font-size:23px!important}[data-action="submit-clue"]:after{content:none!important}}
+
+.journey-record{display:flex;align-items:center;gap:28px}.journey-record-art{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;flex:0 0 180px;gap:6px}.journey-record-art img{width:170px;height:170px;object-fit:contain}.journey-record-art:empty{display:none}.journey-record-details{min-width:0;flex:1}.journey-record-awards{color:#b1ce72;font-size:34px;font-weight:700;margin:14px 0;overflow-wrap:anywhere}.journey-record-details .btn{margin-top:8px}@media(max-width:600px){.journey-record{gap:12px}.journey-record-art{flex-basis:80px}.journey-record-art img{width:80px;height:80px}.journey-record-awards{font-size:22px}}

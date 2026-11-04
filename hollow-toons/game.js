@@ -15,7 +15,7 @@ if(embedded){
   if(ev.source!==parent||ev.origin!==(location.protocol==='file:'?'null':location.origin))return;const d=ev.data;
   if(d?.type!=='hollow-encounter:state'||d.channel!==encounterChannel||d.encounter?.id!==encounterId||!encounterAssetsReady)return;
   const e=d.encounter;if(!Array.isArray(e.levels)||e.levels.length!==3||e.levels.filter(l=>l.boss).length!==1||!e.levels[2].boss)return;
-  encounterNickname=String(d.nickname||'').slice(0,20);if(Sound.mute!==!d.audio){Sound.mute=!d.audio;Sound.update();}
+  encounterNickname=String(d.nickname||'').slice(0,20);Sound.music=true;if(Sound.mute!==!d.audio){Sound.mute=!d.audio;Sound.update();}
   encounterConfig=e;relics.configure(d.relics);
   if(e.status!=='active'){mode='result';pendingResult=null;try{localStorage.removeItem(encounterKey)}catch{}return;}
   let saved;try{saved=JSON.parse(localStorage.getItem(encounterKey))}catch{}
