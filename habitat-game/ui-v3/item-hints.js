@@ -1,0 +1,9 @@
+(function(){
+const battle={'树隙之心':'能抵挡一次伤害，暂时不受伤后护盾会恢复。','第一场雨':'成功闪避后，能让敌人短暂迟滞。','无名住客的钥匙':'会召来一只小虫，陪你一起战斗。','一棵树的年轮':'拥有让敌人迟滞的能力，累计成功闪避后触发。','蜕变冠冕':'受伤后，能让你短暂跑得更快。','共居契约':'同伴会出现，为你吸引敌人并挡下伤害。','振动乐章':'受伤时，有机会反弹敌人的攻击球。','四季洞藏':'战斗开始时，会随机获得一种短暂帮助。','校园遗失的星星':'能够指引攻击，自动瞄准敌人。','生命回环':'在 Boss 战中，能提供三次濒死续命机会。','虹露棱晶':'让普通攻击化作威力更强的棱晶弹。','极光叶脉':'形成护盾，两次命中才消耗一次生命。','万象树种':'播下树种，让敌人的移动和攻击变慢。'};
+const groups=[['可能会在雨天发挥作用。',['雨季水位尺','雨滴水位尺','雨滴透镜','雨后泥点','树皮薄片']],['可能帮你应对穿堂风。',['羽毛轻舟','卷边落叶','半透明翅片','褪色纸角','蛛丝小结']],['可能打开松动树皮后的秘密。',['树皮薄片','细枝小叉','失物小匣']],['可能帮你应对远处的震动。',['三重足迹','振动乐章','完整蝉蜕','干草软垫']]];
+function description(name){return [...groups.filter(g=>g[1].includes(name)).map(g=>g[0]),...(battle[name]?[battle[name],'战斗能力仅在本局获得并携带时生效。']:[]),'可用于与陌生人类交换，也可用于雨水事件的三件物资提交。'].join('\n')}
+let tip;
+function hide(){tip?.remove();tip=null}
+function show(b){hide();const name=b.dataset.itemName;if(!name)return;tip=document.createElement('div');tip.className='item-use-tip';tip.setAttribute('role','tooltip');const title=document.createElement('strong');title.textContent=name;const text=document.createElement('p');text.textContent=description(name);tip.append(title,text);document.body.append(tip);const r=b.getBoundingClientRect();tip.style.left=Math.max(10,Math.min(innerWidth-tip.offsetWidth-10,r.right+12))+'px';tip.style.top=Math.max(10,Math.min(innerHeight-tip.offsetHeight-10,r.top))+'px'}
+document.addEventListener('pointerover',e=>{const b=e.target.closest('.grid-item');if(b&&!b.contains(e.relatedTarget))show(b)});document.addEventListener('pointerout',e=>{const b=e.target.closest('.grid-item');if(b&&!b.contains(e.relatedTarget))hide()});document.addEventListener('focusin',e=>{if(e.target.matches('.grid-item'))show(e.target)});document.addEventListener('focusout',hide);document.addEventListener('pointerdown',hide);document.addEventListener('scroll',hide,true);window.HollowItemHints={description};
+})();
