@@ -10,3 +10,5 @@
 @keyframes achievement-pen-write{0%{clip-path:inset(0 100% 0 0);opacity:.25}35%{clip-path:inset(0 65% 0 0);opacity:.9}65%{clip-path:inset(0 35% 0 0);opacity:1}100%{clip-path:inset(0 0 0 0);opacity:1}}
 @media(prefers-reduced-motion:reduce){.handwritten-letter{animation:none;clip-path:none}}
 .achievement-handwriting{font-family:'KaiTi','楷体','STKaiti','STXingkai','华文行楷',cursive}
+
+.achievement-handwriting{display:none!important}.achievement-name{font-family:"Source Han Sans SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;font-size:32px;font-weight:600;line-height:1.35;text-align:center;color:#454c36;z-index:16;pointer-events:none;overflow-wrap:anywhere}
