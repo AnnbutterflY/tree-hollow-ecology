@@ -68,7 +68,7 @@ function encounterAction(room,m,a,now){
  if(a.stage!==e.stage)return '请依次完成当前关卡。';
  if(a.type==='encounter-checkpoint'){
   const s=a.snapshot;if(!s||![s.hp,s.energy,s.time,s.checkpoint,s.damage].every(Number.isFinite)||s.hp<1||s.hp>5||s.time<0||s.time>86400||s.checkpoint<100||s.checkpoint>e.levels[e.stage].length)return '战斗存档无效。';
-  if(s.time>=(e.checkpoint?.time||0))e.checkpoint={hp:Math.floor(s.hp),energy:Math.max(0,Math.min(5,s.energy)),time:s.time,checkpoint:s.checkpoint,damage:Math.max(0,Math.floor(s.damage))};
+  if(s.time>=(e.checkpoint?.time||0))e.checkpoint={hp:Math.floor(s.hp),energy:Math.max(0,Math.min(5,s.energy)),time:s.time,checkpoint:s.checkpoint,damage:Math.max(0,Math.floor(s.damage)),relics:s.relics&&typeof s.relics==='object'?clone(s.relics):null};
  }else if(a.type==='encounter-stage'){
   if(!Number.isFinite(a.time)||a.time<0||a.time>86400)return '战斗结果无效。';
   e.completed.push({stage:e.stage,time:a.time,at:now});e.stage++;e.checkpoint=null;

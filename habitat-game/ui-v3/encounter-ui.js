@@ -2,7 +2,7 @@
 let frame,root,channel='',ready=false,initializing=false;
 const board=()=>document.getElementById('board');
 function dispose(){if(!root)return;root.remove();root=frame=null;ready=false;channel='';board().inert=false;window.HollowAudio.duck(false);}
-function config(){const U=window.HollowUI,m=U.me();if(!frame||!ready||!m?.encounter)return;frame.contentWindow.postMessage({type:'hollow-encounter:state',channel,encounter:m.encounter,nickname:m.nickname,role:m.role,audio:window.HollowAudio.enabled},location.protocol==='file:'?'*':location.origin);}
+function config(){const U=window.HollowUI,m=U.me();if(!frame||!ready||!m?.encounter)return;frame.contentWindow.postMessage({type:'hollow-encounter:state',channel,encounter:m.encounter,nickname:m.nickname,role:m.role,relics:(m.run?.bag||[]).filter(i=>['gold','rainbow'].includes(i.tier)).map(i=>({name:i.name,tier:i.tier})),audio:window.HollowAudio.enabled},location.protocol==='file:'?'*':location.origin);}
 function sync(){
  const U=window.HollowUI,m=U?.me();if(!m||U.ui.scene!==8||m.phase!=='battle'||!m.alive){dispose();return;}
  if(!m.encounter){if(!initializing){initializing=true;queueMicrotask(()=>{U.send({type:'encounter-init'});initializing=false;})}return;}
@@ -10,7 +10,7 @@ function sync(){
  if(root?.dataset.encounter!==m.encounter.id){
   dispose();root=document.createElement('section');root.id='encounter-root';root.dataset.encounter=m.encounter.id;root.setAttribute('aria-label','不期之敌');
   const loading=document.createElement('div');loading.className='encounter-loading';loading.textContent=m.encounter.escape&&!m.encounter.escape.success?'金蝉脱壳失败 · 战斗即将开始':'不期之敌 · 即将遭遇';root.append(loading);
-  channel=crypto.randomUUID();const url=new URL('../../hollow-toons/index.html',document.baseURI);url.searchParams.set('encounter',m.encounter.id);url.searchParams.set('channel',channel);url.searchParams.set('role',m.role);url.searchParams.set('v','20261103-guidance2');if(new URLSearchParams(location.search).has('qa'))url.searchParams.set('qa','1');
+  channel=crypto.randomUUID();const url=new URL('../../hollow-toons/index.html',document.baseURI);url.searchParams.set('encounter',m.encounter.id);url.searchParams.set('channel',channel);url.searchParams.set('role',m.role);url.searchParams.set('v','20261103-relics1');if(new URLSearchParams(location.search).has('qa'))url.searchParams.set('qa','1');
   frame=document.createElement('iframe');frame.title='不期之敌战斗';frame.allow='autoplay; fullscreen; gamepad';frame.src=url.href;frame.onload=()=>{frame?.contentWindow.focus()};root.append(frame);document.body.append(root);board().inert=true;window.HollowAudio.duck(true);
  }
  config();
